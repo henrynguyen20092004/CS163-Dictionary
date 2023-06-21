@@ -10,8 +10,8 @@
 
 # Github rules
 
-1. Most branches should be named like this: **feat/CSD-(task-name-with-hyphen)**.
-    - For example, the branch for the task **Search for definition** should be named **feat/CSD-search-for-definition**.
+1. Most branches should be named like this: **feat/CSD-(task number)-(task-name-with-hyphen)**.
+    - For example, the branch for the task **Search for definition** with the number **5** should be named **feat/CSD-5-search-for-definition**.
     - The only exception are **hotfix/CSD- and refactor/CSD-** branches opened by me :d
 2. **Please, write sensible commit message.**
 3. Please resolve all errors and warnings before commiting.
