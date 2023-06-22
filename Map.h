@@ -1,4 +1,4 @@
-#ifdef MAP_H
+#ifndef MAP_H
 #define MAP_H
 
 #include <algorithm>
@@ -15,6 +15,19 @@ class Map {
     size_t numElements;
     std::vector<List> lists;
     Hash HashFunc;
+
+    Val &insertDefault(const Key &key) {
+        size_t index = HashFunc(key) % lists.size();
+        auto &list = lists[index];
+        list.emplace_back(key, Val{});
+        ++numElements;
+        return list.back().second;
+    }
+
+   public:
+    explicit Map(size_t size = DEFAULT_SIZE) : lists(size), numElements(0) {}
+
+    ~Map() { clear(); }
 
     bool isEmpty() const { return numElements == 0; }
 
@@ -59,7 +72,7 @@ class Map {
         }
     }
 
-    void remove(const Key &key, const Val &val) {
+    void remove(const Key &key) {
         size_t index = HashFunc(key) % lists.size();
         auto &list = lists[index];
         const auto &iter =
@@ -79,7 +92,16 @@ class Map {
         numElements = 0;
     }
 
-    Val &value(const Key &key, const Val &val) {
+    std::vector<Key> listKeys() const {
+        std::vector<Key> result;
+        for(const auto &list: lists) {
+            for(const auto &ele: list) {
+                result.push_back(ele.first);
+            }
+        }
+        return result;
+    }
+    Val &value(const Key &key) {
         size_t index = HashFunc(key) % lists.size();
         auto &list = lists[index];
         const auto &iter =
@@ -87,8 +109,7 @@ class Map {
                 return pair.first == key;
             });
         if (iter != list.end()) {
-            iter->second = val;
-            return;
+            return iter->second;
         } else {
             return this->insertDefault(key);
         }
@@ -96,18 +117,6 @@ class Map {
 
     Val &operator[](const Key &key) { return this->value(key); }
 
-    Val &insertDefault(const Key &key) {
-        size_t index = HashFunc(key) % lists.size();
-        auto &list = lists[index];
-        list.emplace_back(key, Val{});
-        ++numElements;
-        return list.back().second;
-    }
-
-   public:
-    explicit Map(size_t size = DEFAULT_SIZE) : lists(size), numElements(0) {}
-
-    ~Map() { clear(); }
 };
 
 #endif  // MAP_H
