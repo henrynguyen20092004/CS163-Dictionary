@@ -1,19 +1,19 @@
 #include "Map.h"
 
-unsigned int Map::hashFunc(const std::string& s) {
-    unsigned int hash = 0;
+unsigned int Map::hashFunction(const std::string& s) {
+    unsigned int sum = 0;
     for (const char c : s) {
-        hash += static_cast<unsigned int>(c);
+        sum += static_cast<unsigned int>(c);
     }
-    return hash;
+    return sum;
 }
 
-bool Map::empty() { return numElements == 0; }
+bool Map::isEmpty() { return numElements == 0; }
 
 unsigned int Map::size() { return numElements; }
 
 Map::Node* Map::find(const std::string& key) {
-    unsigned int index = hashFunc(key) % table.size();
+    unsigned int index = hashFunction(key) % table.size();
     Node* list = table[index];
 
     while (list) {
@@ -23,10 +23,10 @@ Map::Node* Map::find(const std::string& key) {
         list = list->next;
     }
 
-    return table[index];
+    return nullptr;
 }
 
-bool Map::contains(const std::string& key) {
+bool Map::isContains(const std::string& key) {
     Node* res = find(key);
 
     if (!res) {
@@ -39,7 +39,7 @@ bool Map::contains(const std::string& key) {
 Map::Node* Map::insert(
     const std::string& key, const std::vector<std::string>& val
 ) {
-    unsigned int index = hashFunc(key) % table.size();
+    unsigned int index = hashFunction(key) % table.size();
     if (!table[index]) {
         table[index] = new Node(key, val);
         ++numElements;
@@ -61,7 +61,7 @@ Map::Node* Map::insert(
 }
 
 void Map::remove(const std::string& key) {
-    unsigned int index = hashFunc(key) % table.size();
+    unsigned int index = hashFunction(key) % table.size();
     Node* list = table[index];
     Node* prev = nullptr;
 

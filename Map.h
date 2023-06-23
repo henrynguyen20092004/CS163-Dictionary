@@ -4,7 +4,7 @@
 #include <iostream>
 #include <vector>
 
-#define DEFAULT_SIZE 13
+#define DEFAULT_SIZE 10007
 
 class Map {
    private:
@@ -22,15 +22,15 @@ class Map {
     };
     std::vector<Node*> table;
     unsigned int numElements;
-    unsigned int hashFunc(const std::string& s);
+    unsigned int hashFunction(const std::string& s);
 
    public:
     Map() : table(DEFAULT_SIZE, nullptr), numElements(0) {}
     ~Map() { clear(); }
-    bool empty();
+    bool isEmpty();
     unsigned int size();
     Node* find(const std::string& key);
-    bool contains(const std::string& key);
+    bool isContains(const std::string& key);
     Node* insert(const std::string& key, const std::vector<std::string>& val);
     void remove(const std::string& key);
     void clear();
