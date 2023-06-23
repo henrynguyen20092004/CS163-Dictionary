@@ -21,21 +21,20 @@ class Map {
             : key(key), val(val), next(next) {}
     };
     std::vector<Node*> table;
-    unsigned int numElements;
-    unsigned int hashFunction(const std::string& s);
+    int numElements;
+    int hashFunction(const std::string& s);
+    std::vector<std::string>& value(const std::string& key);
 
    public:
-    Map() : table(DEFAULT_SIZE, nullptr), numElements(0) {}
-    ~Map() { clear(); }
+    Map();
+    ~Map();
     bool isEmpty();
-    unsigned int size();
+    int size();
     Node* find(const std::string& key);
-    bool isContains(const std::string& key);
+    bool contain(const std::string& key);
     Node* insert(const std::string& key, const std::vector<std::string>& val);
     void remove(const std::string& key);
     void clear();
-    std::vector<std::string> listKeys();
-    std::vector<std::string>& value(const std::string& key);
     std::vector<std::string>& operator[](const std::string& key);
 };
 
