@@ -1,122 +1,42 @@
 #ifndef MAP_H
 #define MAP_H
 
-#include <algorithm>
 #include <iostream>
-#include <list>
 #include <vector>
 
-template <typename Key, typename Val, typename Hash = std::hash<Key>>
+#define DEFAULT_SIZE 13
+
 class Map {
    private:
-    static constexpr size_t DEFAULT_SIZE = 1000;
-    using KeyValPair = std::pair<Key, Val>;
-    using List = std::list<KeyValPair>;
-    size_t numElements;
-    std::vector<List> lists;
-    Hash HashFunc;
-
-    Val &insertDefault(const Key &key) {
-        size_t index = HashFunc(key) % lists.size();
-        auto &list = lists[index];
-        list.emplace_back(key, Val{});
-        ++numElements;
-        return list.back().second;
-    }
+    struct Node {
+        std::string key;
+        std::vector<std::string> val;
+        Node* next = nullptr;
+        Node(const std::string& key, const std::vector<std::string>& val)
+            : key(key), val(val) {}
+        Node(
+            const std::string& key, const std::vector<std::string>& val,
+            Node* next
+        )
+            : key(key), val(val), next(next) {}
+    };
+    std::vector<Node*> table;
+    unsigned int numElements;
+    unsigned int hashFunc(const std::string& s);
 
    public:
-    explicit Map(size_t size = DEFAULT_SIZE) : lists(size), numElements(0) {}
-
+    Map() : table(DEFAULT_SIZE, nullptr), numElements(0) {}
     ~Map() { clear(); }
-
-    bool isEmpty() const { return numElements == 0; }
-
-    size_t size() const { return numElements; }
-
-    bool contains(const Key &key) const {
-        size_t index = HashFunc(key) % lists.size();
-        auto &list = lists[index];
-        return std::find_if(list.begin(), list.end(), [&key](const auto &pair) {
-                   return pair.first == key;
-               }) != list.end();
-    }
-
-    void insert(const Key &key, const Val &val) {
-        size_t index = HashFunc(key) % lists.size();
-        auto &list = lists[index];
-        const auto &iter =
-            std::find_if(list.begin(), list.end(), [&key](const auto &pair) {
-                return pair.first == key;
-            });
-        if (iter != list.end()) {
-            return;
-        } else {
-            list.emplace_back(key, val);
-            ++numElements;
-        }
-    }
-
-    void update(const Key &key, const Val &val) {
-        size_t index = HashFunc(key) % lists.size();
-        auto &list = lists[index];
-        const auto &iter =
-            std::find_if(list.begin(), list.end(), [&key](const auto &pair) {
-                return pair.first == key;
-            });
-        if (iter != list.end()) {
-            iter->second = val;
-            return;
-        } else {
-            list.emplace_back(key, val);
-            ++numElements;
-        }
-    }
-
-    void remove(const Key &key) {
-        size_t index = HashFunc(key) % lists.size();
-        auto &list = lists[index];
-        const auto &iter =
-            std::find_if(list.begin(), list.end(), [&key](const auto &pair) {
-                return pair.first == key;
-            });
-        if (iter != list.end()) {
-            list.erase(iter);
-            --numElements;
-        }
-    }
-
-    void clear() {
-        for (auto &list : lists) {
-            list.clear();
-        }
-        numElements = 0;
-    }
-
-    std::vector<Key> listKeys() const {
-        std::vector<Key> result;
-        for(const auto &list: lists) {
-            for(const auto &ele: list) {
-                result.push_back(ele.first);
-            }
-        }
-        return result;
-    }
-    Val &value(const Key &key) {
-        size_t index = HashFunc(key) % lists.size();
-        auto &list = lists[index];
-        const auto &iter =
-            std::find_if(list.begin(), list.end(), [&key](const auto &pair) {
-                return pair.first == key;
-            });
-        if (iter != list.end()) {
-            return iter->second;
-        } else {
-            return this->insertDefault(key);
-        }
-    }
-
-    Val &operator[](const Key &key) { return this->value(key); }
-
+    bool empty();
+    unsigned int size();
+    Node* find(const std::string& key);
+    bool contains(const std::string& key);
+    Node* insert(const std::string& key, const std::vector<std::string>& val);
+    void remove(const std::string& key);
+    void clear();
+    std::vector<std::string> listKeys();
+    std::vector<std::string>& value(const std::string& key);
+    std::vector<std::string>& operator[](const std::string& key);
 };
 
-#endif  // MAP_H
+#endif
