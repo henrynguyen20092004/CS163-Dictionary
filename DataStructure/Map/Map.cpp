@@ -1,5 +1,15 @@
 #include "Map.h"
 
+#define DEFAULT_SIZE 10007
+
+Map::Node::Node(const std::string& key, const std::vector<std::string>& val)
+    : key(key), val(val) {}
+
+Map::Node::Node(
+    const std::string& key, const std::vector<std::string>& val, Node* next
+)
+    : key(key), val(val), next(next) {}
+
 int Map::hashFunction(const std::string& s) {
     int sum = 0;
 
@@ -14,9 +24,11 @@ Map::Map() : table(DEFAULT_SIZE, nullptr), numElements(0) {}
 
 Map::~Map() { clear(); }
 
+int Map::size() { return numElements; }
+
 bool Map::isEmpty() { return !numElements; }
 
-int Map::size() { return numElements; }
+bool Map::contain(const std::string& key) { return !find(key); }
 
 Map::Node* Map::find(const std::string& key) {
     int index = hashFunction(key) % table.size();
@@ -29,8 +41,6 @@ Map::Node* Map::find(const std::string& key) {
 
     return nullptr;
 }
-
-bool Map::contain(const std::string& key) { return !find(key); }
 
 Map::Node* Map::insert(
     const std::string& key, const std::vector<std::string>& val
@@ -94,11 +104,7 @@ void Map::clear() {
     numElements = 0;
 }
 
-std::vector<std::string>& Map::value(const std::string& key) {
+std::vector<std::string>& Map::operator[](const std::string& key) {
     Node* result = find(key);
     return (result ? result : insert(key, std::vector<std::string>{}))->val;
-}
-
-std::vector<std::string>& Map::operator[](const std::string& key) {
-    return value(key);
 }
