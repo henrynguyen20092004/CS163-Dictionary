@@ -1,229 +1,6 @@
 #1
 Number one
 
-$
-Dollar
-money
-
-$_$
-Has money
-
-%)
-Drunk
-giddy
-
-&
-And
-
-&APOS;S
-Wrongly displayed 's
-
-><
-Frustration
-
->,<
-Angry
-annoyed
-
->.>
-Suspicious
-wary
-
->.<
-Frustrated
-angry
-upset
-in pain
-
->//<
-Embarrassed
-blushing
-
->3
-Evil but happy
-Hate
-
->:(
-Angry
-
->:)
-Evil Grin
-
->:D
-Scheming
-Maniacal
-
->:D<
-Hug
-
->:O
-Angry
-
->O<
-Yelling
-
->_>
-Looking left
-shifty look
-
->_<
-Frustrated
-
-&HEARTS;
-HTML code for a heart
-
-<#
-Misspelling of <3
-
-<>
-Not equal
-No comment
-
-<><
-Fish
-
-<.<
-Shifty look
-
-</3
-Broken Hearted
-
-<2
-Not quite love (<3)
-
-<3
-Love (heart shape)
-
-<333
-Multiple hearts
-
-<3U
-Love You
-
-<4
-More than love (<3)
-
-<B
-Hate
-
-<G>
-Grin
-
-<_<
-Sarcasm
-look left
-
-'EM
-Them
-
-(!)
-Sarcasm
-
-('_')
-Emoticon Representing Boredom
-
-(.)(.)
-Female Breasts
-
-(8)
-Musical note (MSN)
-
-(:
-Happy
-
-(A)
-Angel (MSN)
-
-(H)
-Cool dude emoticon (MSN)
-
-(K)
-Kiss (MSN)
-
-(L)
-Love heart (MSN)
-
-(N)
-Thumbs down (MSN)
-
-(S)
-Seriously
-
-(U)
-Heartbroken
-
-(Y)
-Thumbs up (MSN)
-
-(YN)
-Fingers crossed (MSN)
-
-(^^^)
-Shark
-
-(_8^(I)
-Homer Simpson
-
-({)(})
-Two People Hugging
-
-*
-Indicating a spelling correction
-
-*$
-Starbucks
-
-*$$
-Starbucks
-
-*<:-)
-Clown
-
-*.*
-Every file on a computer
-
-*G*
-Grin
-
-*HUG*
-A Cyberhug
-
-*O*
-Confused
-surprised
-shocked
-
-*S*
-Salute
-
-*\O/*
-Cheerleader
-
-*_*
-In love
-dazed
-
-+1
-Partner 
-Me too
-
-+REP
-Boost reputation
-
-+_+
-Dead man
-
--.-
-Annoyance
-
--_-
-Annoyed
- tired
-
-.-.
-Sad
- unhappy
-
 ...
 Silence
 A Trailing Thought
@@ -235,547 +12,22 @@ Top level domain for business
 Alternative to .COM
 
 .COM
-commerce
+Commerce
 
 .EDU
-education
+Education
 
 .GOV
-governments
+Governments
 
 .MIL
-military
+Military
 
 .NET
-network providers
+Network providers
 
 .ORG
-non-profit organizations
-
-._.
-Emoticon Representing Apathy
-
-/.\
-Shy
- Ashamed
-
-//
-Love
- I love you
-
-/:)
-Flirtation 
-Sign Of Suspicion
-
-/B/
-4chan's random image board
-
-/O/
-Happy
-arms in the air
-
-/O\
-Frustrated
-hands on head
-
-/R/
-Requesting
-
-/S
-Sarcasm
-
-/THREAD
-End of a thread on a forum
-
-/W
-Whisper
-
-0.0
-Surprise
-
-0.O
-Raised eyebrow
-
-0/
-Waving
-
-0_0
-Shocked
-
-10-1
-Radio code for 'Receiving poorly'
-
-10-2
-Radio code for 'Receiving well'
-
-10-4
-Understood, OK
-
-10CHAR
-Padding where at least 10 characters are required
-
-10Q
-Thank you
-
-10X
-Thanks
-
-1AAT
-One At A Time
-
-1D
-One Direction (band)
-
-1UP
-Extra life in a game
-
-2
-To
-
-.22
-A handgun
-
-24/7
-Twenty-four hours a day, seven days a week
-
-2B
-To Be
-
-2BH
-To Be Honest
-
-2DAY
-Today
-
-2EZ
-Too Easy
-
-2G
-Too Good
-
-2G2BT
-Too Good To Be True
-
-2K10
-2010
-
-2K4U
-To Cool For You
-
-2K9
-2009
-
-2L8
-Too late
-
-2M
-Tomorrow
-
-2MI
-Too Much Information
-
-2MM
-Tomorrow
-
-2MORO
-Tomorrow
-
-2MOZ
-Tomorrow
-
-2MRO
-Tomorrow
-
-2MRW
-Tomorrow
-
-2NITE
-Tonight
-
-2NYT
-Tonight
-
-2U
-To You
-
-2U2
-To You Too
-
-3>
-Hate
-
-30STM
-30 Seconds To Mars (band)
-
-3DG
-Three Days Grace (band)
-
-3G
-Third Generation mobile phone network
-
-3Q
-Thank You
-
-4/20
-April 20th
- WEED smoking day
-
-401K
-Retirement investment plan
-
-.44
-.44 Magnum
-
-4CHAN
-Internet message/image board
-
-4COL
-For Crying Out Loud
-
-4E4
-Forever
-
-4EVA
-Forever
-
-4EVER
-Forever
-
-4G
-4th Generation
-
-4GET
-Forget
-
-4GM
-Forgive me
-
-4M
-Forum
-
-4RL?
-For Real?
-
-4SHO
-For Sure
-
-4SRS
-For Serious?
-
-4TW
-For The Win
-
-4U
-For You
-
-4WD
-Four-Wheel Drive
-
-4X4
-Four wheel drive vehicle
-
-4YEO
-For Your Eyes Only
-
-5 BY 5
-Loud and clear, fine
-
-5 HOLE
-Gap between goalie's legs in hockey
-
-5EVER
-Because Forever Isn't Long Enough
-Longer Than 4ever
-
-5N
-Fine
-
-5X5
-Loud and Clear
-
-6_6
-Looking down
- Suspicious
-
-7DAW
-Seven Days A Week
-
-8)
-Cool
-
-8*
-Kiss
-
-8-)
-Cool
-
-8-|
-Nerdy
-
-80S
-The Eighties
- 1980s
-
-8====D
-Penis
-
-8===D
-A Penis
-
-8BALL
-1/8 ounce of cocaine
-
-8D
-Manic
-
-8|
-Balls To The Wall
-
-9JA
-Nigeria
-
-9_9
-Rolling the eyes
-
-:$
-Embarrassed
-
-:&
-Tongue tied
-speechless
-
-:>
-Mischievous smile
-
-:<
-Sad
-frowning
-
-:'(
-Crying
-
-:')
-Crying with joy
-
-:(
-Unhappy
-sad
-
-:(:)
-Pig
-
-:(|)
-Monkey
-
-:)
-Happy
-
-:*
-Kiss
-
-:-(
-Sad
-
-:-)
-Smile
-
-:-*
-Kiss
-
-:-D
-Laughing
- Big Smile
-
-:-P
-Sticking Their Tongue Out
-
-:/
-Sarcasm
-
-:0
-Surprised
-shocked
-
-:3
-Cute
- goofy face
-
-:9
-Yum
- licking
-
-:?
-Confused
-
-:@
-Angry
-
-:B
-Buck teeth
-
-:C
-Very Sad
-
-:D
-Happy
-
-:DD
-Very happy
-
-:F
-Drooling
-
-:J
-Smirk
-
-:K
-Vampire teeth
- Snake's tongue
-
-:L
-Laughing
-
-:O
-Surprised
-
-:O)
-Clown nose smiley face
-
-:P
-Sticking tongue out
-
-:Q
-Smoking
-
-:S
-Confused
-
-:T
-Side smile
-
-:X
-Zipped lips
-
-:[
-Sad
- Vampire
-
-:\
-Emoticon Meaning Confusion
-
-:]
-Happy
-
-:{)
-Happy with a moustache
-
-:|
-Disgust
- disapproval
- not funny
-
-;(
-Crying
-
-;)
-Wink
-
-;-)
-Wink
-
-;;
-Sad
- Confused
-
-;O
-Joking
-
-;D
-Wink
-
-;P
-Winking and sticking tongue out
-
-;P;
-Misspelling of LOL
-
-=
-Equals
- Complete Transformation
-
-=)
-Happy
-
-=*
-Kiss
-
-=.=
-Tired
-
-=/=
-Not equal to
-
-=0
-Surprised
- shocked
-
-=3
-Cute
- goofy face
-
-=D
-:D
-
-=F
-Vampire
-
-=I
-Indifference
-
-=P
-Sticking tongue out
-
-=S
-Confused
-
-=W=
-Weezer (band)
-
-=X
-No Comment
-
-=[
-Sad
-
-=]
-Happy
-
-?4U
-Question For You
-
-??
-What?
-
-?_?
-Confused
- lost
-
-@
-At
-
-@.@
-Confused
- surprised
-
-@@@
-Warning of parents nearby
-
-@_@
-Hypnotized
- dazed
-
-@}--->----
-A rose
+Non-profit organizations
 
 A&E
 Accident & Emergency
@@ -911,14 +163,14 @@ Account
 
 ACE
 Excellent
-great
+Great
 
 ACID
 LSD
 
 ACK
 Disgust
-frustration
+Frustration
 Acknowledgement
 
 ACLU
@@ -945,7 +197,7 @@ Anno Domini
 AD HOC
 For the specific purpose
 Improvised
-impromptu
+Impromptu
 
 ADAD
 Another Day Another Dollar
@@ -1099,8 +351,8 @@ AGW
 All Going Well
 
 AHA
-discovery
- realization
+Discovery
+Realization
 
 AHEM
 Throat clearing sound
@@ -1153,23 +405,23 @@ Idiot
 
 AIN'T
 Am not
- are not
- is not
+Are not
+Is not
 
 AINEC
 And It's Not Even Close
 
 AINT
 Am not
- are not
- is not
+Are not
+Is not
 
 AIO
 All In One
 
 AIR
 Blanked
- ignored
+Ignored
 
 AIRHEAD
 Stupid person
@@ -1206,7 +458,7 @@ Apple Juice
 
 AK
 AK-47 Assault Rifle
- Alaska
+Alaska
 
 AK47
 Assault rifle
@@ -1216,7 +468,7 @@ Also Known As
 
 AKI
 Autumn
- fall
+Fall
 
 AKML
 Avada Kedavra My Life (Harry Potter)
@@ -1237,8 +489,8 @@ ALAP
 As Long As Possible
 
 ALAS
-regret
- sorrow
+Regret
+Sorrow
 
 ALCHY
 Alcoholic
@@ -1272,7 +524,7 @@ Stay Up All Night
 
 ALLOW
 Let it be
- forget it
+Forget it
 
 ALOL
 Actually Laughing Out Loud
@@ -1294,7 +546,7 @@ Arithmetic Logic Unit
 
 ALV
 Asta La Vista
- goodbye
+Goodbye
 
 ALWP
 Actual Laughter Was Produced
@@ -1340,11 +592,11 @@ Alpha Male Of Group
 
 AMP
 Amplifier
- Ampere
+Ampere
 
 AMPED
 Excited
- fired up
+Fired up
 
 AMT
 Alpha-Methyltryptamine
@@ -1417,7 +669,7 @@ Area Of Effect
 
 AOK
 Age of Kings (game)
- All OK
+All OK
 
 AOL
 American Online
@@ -1427,14 +679,14 @@ Age of Mythology (game)
 
 AON
 All Or Nothing
- As Of Now
+As Of Now
 
 AOS
 Ahead Of Schedule
 
 AOT
 As Opposed To
- Among Other Things
+Among Other Things
 
 AOTA
 All Of The Above
@@ -1459,7 +711,7 @@ Armoured Personnel Carrier
 
 APE
 Mad
- crazy
+Crazy
 
 API
 Application Programming Interface
@@ -1502,7 +754,7 @@ As Quickly As Possible
 
 AQF
 Ay Que Funny
- LOL
+LOL
 
 AR
 Assault Rifle
@@ -1520,8 +772,8 @@ ARG
 Alternate Reality Gaming
 
 ARGH
-frustration
- anger
+Frustration
+Anger
 
 ARIGATO
 Thank You
@@ -1576,22 +828,22 @@ Sequence of letters on many keyboards
 
 ASDFGHJKL
 Excitement
- Frustration
- Boredom
+Frustration
+Boredom
 
 ASDFGHJKL;
 I'm bored
 
 ASDFGHJKL;'
 When A Feeling Cannot Be Expressed In Words
- Home Keys On Standard Keyboard
+Home Keys On Standard Keyboard
 
 ASF
 And So Forth
 
 ASG
 Asgarv
- LOL
+LOL
 
 ASIC
 Application Specific Integrated Circuit
@@ -1658,7 +910,7 @@ Atlanta, Georgia
 
 ATM
 At The Moment
- Automated Teller Machine
+Automated Teller Machine
 
 ATMO
 According To My Opinion
@@ -1677,7 +929,7 @@ At The Same Time
 
 ATT
 At This Time
- All The Time
+All The Time
 
 ATTN
 Attention
@@ -1699,7 +951,7 @@ All The Way
 
 ATWA
 Air, Trees, Water, Animals
- All The Way Alive
+All The Way Alive
 
 ATX
 Austin, Texas
@@ -1709,7 +961,7 @@ Anything You Say
 
 AU
 Alternate Universe
- Gold
+Gold
 
 AUD
 Australian Dollar
@@ -1719,7 +971,7 @@ I don't know
 
 AUP
 Another Useless Post
- Acceptable Use Policy
+Acceptable Use Policy
 
 AUS
 Are You Serious?
@@ -1729,8 +981,8 @@ A Person From Australia
 
 AV
 Anti-Virus
- Audio/Video
- Adult Video
+Audio/Video
+Adult Video
 
 AVA
 Angels and Airwaves (Band)
@@ -1758,8 +1010,8 @@ All Wheel Drive
 
 AWESOME
 Amazing
- wonderful
- cool
+Wonderful
+Cool
 
 AWHFY
 Are We Having Fun Yet
@@ -1847,7 +1099,7 @@ Are You Ready?
 
 AYRTON
 Tenner
- ten pounds
+Ten pounds
 
 AYS
 Are You Serious?
@@ -1872,14 +1124,14 @@ Be
 
 B&
 Banned
- Band
+Band
 
 B&B
 Bed & Breakfast
 
 B&D
 Bondage And Discipline
- Bondage And Domination
+Bondage And Domination
 
 B&E
 Breaking And Entering
@@ -1901,11 +1153,11 @@ Because
 
 B/W
 Between
- Black and White
+Black and White
 
 B2B
 Back To Back
- Business To Business
+Business To Business
 
 B2C
 Business To Consumer
@@ -1939,8 +1191,8 @@ Holding the weed too long
 
 BAC
 Back At Computer
- Blood Alcohol Content
- By Any Chance
+Blood Alcohol Content
+By Any Chance
 
 BACS
 Bankers Automated Clearing System
@@ -1950,7 +1202,7 @@ Good
 
 BADASS
 Cool
- confident person
+Confident person
 
 BADMAN
 Gangster
@@ -1981,40 +1233,40 @@ Leave
 
 BAIRN
 Child
- baby
+Baby
 
 BAIT
 Blatant
- obvious
+Obvious
 
 BAK
 Back At Keyboard
 
 BAKA
 Fool
- idiot
+Idiot
 
 BAKE
 Smoke marijuana
 
 BAKED
 Stoned
- Wasted
+Wasted
 
 BALLER
 Successful ball player
 
 BALLIN
 Playing basketball
- Living the good life
+Living the good life
 
 BALLSY
 Courageous
- manly
+Manly
 
 BAM
 Below Average Mentality
- Exclamation of happiness
+Exclamation of happiness
 
 BAMA
 Person lacking style
@@ -2027,24 +1279,24 @@ Amount of data through an interface over time
 
 BANGER
 Great party
- Old car
- Sausage
+Old car
+Sausage
 
 BANGING
 Very beautifu
- sexy
+Sexy
 
 BANGTIDY
 Sexy
- fit
+Fit
 
 BANJAX
 Break
- destroy
+Destroy
 
 BANTER
 Playful
- witty chat
+Witty chat
 
 BAO
 Be Aware Of
@@ -2054,29 +1306,29 @@ Barbecue
 
 BARE
 Lots of
- very
+Very
 
 BARE BACK
 Unprotected Sex
 
 BARF
 Throw up
- vomit
+Vomit
 
 BARKING
 Mad
- crazy
+Crazy
 
 BARN
 Barnacle
- person who latches on
+Person who latches on
 
 BASER
 Drug user
 
 BASIC
 Uncool
- boring
+Boring
 
 BATE
 Obvious
@@ -2092,7 +1344,7 @@ Baby
 
 BB
 Big Brother
- Be Back
+Be Back
 
 BB4N
 Bye-Bye For Now
@@ -2162,14 +1414,14 @@ Being Bored Online
 
 BBQ
 Barbecue
- Better Be Quick
+Better Be Quick
 
 BBR
 Blonde, Brunette, Redhead
 
 BBS
 Be Back Soon
- Bulletin Board System
+Bulletin Board System
 
 BBT
 Be Back Tomorrow
@@ -2242,12 +1494,12 @@ Blu-ray Disc RIP
 
 BDU
 Brain Dead User
- Battle Dress Uniform
+Battle Dress Uniform
 
 BEAK
 Nose
- Insult
- To Steal
+Insult
+To Steal
 
 BEANS
 Ecstacy
@@ -2260,7 +1512,7 @@ Person/thing that is good, awesome
 
 BEASTLY
 Being good at something
- cool
+Cool
 
 BEB
 Babe
@@ -2273,19 +1525,19 @@ A social networking site
 
 BEEF
 Problem
- fight
- argument
+Fight
+Argument
 
 BEF
 Best Enemies Forever
- Best Email Friend
+Best Email Friend
 
 BEG
 Big Evil Grin
 
 BEH
-disinterest
- IDC
+Disinterest
+IDC
 
 BELF
 Blood Elf
@@ -2298,14 +1550,14 @@ $100 bill
 
 BENT
 Dishonest
- corrupt
+Corrupt
 
 BER
 Beyond Economical Repair
 
 BERK
 Idiot
- fool
+Fool
 
 BESITOS
 Little kisses
@@ -2327,11 +1579,11 @@ Black Entertainment Television
 
 BETA
 Pre-release version
- Better
+Better
 
 BF
 Boyfriend
- Best Friend
+Best Friend
 
 BF2
 Battlefield 2 (game)
@@ -2344,7 +1596,7 @@ Best Friends Always
 
 BFAB
 Born From A Boombox
- Back For A Bit
+Back For A Bit
 
 BFAM
 Brother From Another Mother
@@ -2360,7 +1612,7 @@ Best Friend Forever For Life
 
 BFFAE
 Best Friends Forever And Ever
- Best Friends For All Eternity
+Best Friends For All Eternity
 
 BFFE
 Best Friends Forever
@@ -2406,7 +1658,7 @@ Best Friend With Benefits
 
 BG
 Bad Game
- Baby Gangster
+Baby Gangster
 
 BGD
 Black Gangster Disciples
@@ -2416,7 +1668,7 @@ Best Girl/Guy Friend
 
 BGL
 Big Game License
- likes fat people
+Likes fat people
 
 BGM
 Background Music
@@ -2426,8 +1678,8 @@ Britain's Got Talent (TV show)
 
 BH
 Be Happy
- Bloody Hell
- Big Head
+Bloody Hell
+Big Head
 
 BHD
 Bad Hair Day
@@ -2449,7 +1701,7 @@ Be Home Soon
 
 BHUM
 Sexy
- fit
+Fit
 
 BIAB
 Back In A Bit
@@ -2465,14 +1717,14 @@ Good looking girl
 
 BIDDY
 Girl
- woman
+Woman
 
 BIEH
 Best I Ever Had
 
 BIFF
 Best Friend
- BFF
+BFF
 
 BIFFL
 Best Internet Friend For Life
@@ -2482,13 +1734,13 @@ BFFL
 
 BIG
 Great
- really good
+Really good
 
 BIG TIME
 More than usual
 
 BIG UP
-respect
+Respect
 
 BIL
 Brother In-Law
@@ -2501,7 +1753,7 @@ Barbados
 
 BIMBO
 Stupid girl
- usually pretty
+Usually pretty
 
 BIN
 Buy It Now
@@ -2511,15 +1763,15 @@ But It's Not Google
 
 BINGO
 Here it is
- Voila
+Voila
 
 BINS
 Glasses
- binoculars
+Binoculars
 
 BIO
 Biological break
- toilet
+Toilet
 
 BION
 Believe It Or Not
@@ -2529,14 +1781,14 @@ Basic Input Output System
 
 BIRD
 Cocaine
- Young woman
+Young woman
 
 BIS
 Best In Slot
 
 BISCUIT
 Attractive person
- Cookie
+Cookie
 
 BISLY
 But I Still Love You
@@ -2570,11 +1822,11 @@ Better Known As
 
 BL
 Bad Luck
- Bottom Line
+Bottom Line
 
 BLAD
 Brother
- friend
+Friend
 
 BLAH
 Nothing to say
@@ -2583,15 +1835,15 @@ BLANK
 Ignore
 
 BLAR
-boredom
- BLAH
+Boredom
+BLAH
 
 BLARG
-boredom
+Boredom
 
 BLAST
 Damn
- Good time
+Good time
 
 BLATES
 Blatently
@@ -2612,7 +1864,7 @@ BLEEZY
 BLUNT
 
 BLEH
-boredom
+Boredom
 
 BLEM
 High on marijuana
@@ -2627,8 +1879,8 @@ BLIM
 Small piece of HASH
 
 BLIMEY
-surprise
- OMG
+Surprise
+OMG
 
 BLIND
 In love
@@ -2650,22 +1902,22 @@ Better Luck Next Time
 
 BLOG
 Weblog
- online diary
+Online diary
 
 BLOKE
 Guy
- man
+Man
 
 BLOL
 Big Laugh Out Loud
 
 BLOOD
 Gang member
- Close friend
+Close friend
 
 BLOOPER
 Mistake
- embarrassing moment
+Embarrassing moment
 
 BLOTTO
 Drunk
@@ -2690,7 +1942,7 @@ Sad
 
 BLUE CHIP
 High-quality
- low-risk
+Low-risk
 
 BLUEBERRY
 Form of marijuana
@@ -2703,8 +1955,8 @@ Marijuana cigar
 
 BM
 Bowel Movement
- Black Man
- BMW
+Black Man
+BMW
 
 BM4L
 Best Mates For Life
@@ -2747,7 +1999,7 @@ Bitchy Men Syndrome
 
 BMT
 Before My Time
- Basic Military Training
+Basic Military Training
 
 BMTH
 Bring Me The Horizon (Band)
@@ -2769,8 +2021,8 @@ Bicycle Motocross
 
 BNB
 Bad News Bears
- Bed 'N' Breakfast
- Bread 'N' Butter
+Bed 'N' Breakfast
+Bread 'N' Butter
 
 BNF
 Big Name Fan
@@ -2810,12 +2062,12 @@ Replacement swear word
 
 BOBFOC
 Body Off Baywatch
- Face Off Crimewatch
+Face Off Crimewatch
 
 BOD
 Beginning Of Day
- Person
- DUDE
+Person
+DUDE
 
 BOED
 Book of Exalted Deeds (MMORPG)
@@ -2831,7 +2083,7 @@ Toilet
 
 BOGAN
 Poorly educated
- vulgar person
+Vulgar person
 
 BOGART
 To Hold Onto Something For Oneself When It Is Supposed To Be Shared
@@ -2862,7 +2114,7 @@ Ugly woman
 
 BOKE
 Gag
- almost vomit
+Almost vomit
 
 BOL
 Best Of Luck
@@ -2872,16 +2124,16 @@ Be On The Lookout
 
 BOLSHY
 Bolshevik
- communist
- Argumentative
+Communist
+Argumentative
 
 BOLTOP
 Better On Lips Than On Paper
 
 BOM
 Bro
- dude
- friend
+Dude
+Friend
 
 BOMB
 Something really bad
@@ -2894,7 +2146,7 @@ BOOMM
 
 BONE UP
 Learn about
- revise
+Revise
 
 BONG
 Water pipe for smoking dope
@@ -2904,7 +2156,7 @@ Crazy
 
 BONZA
 Brilliant
- excellent
+Excellent
 
 BOO
 Boyfriend/Girlfriend
@@ -2920,7 +2172,7 @@ Cool (predictive text )
 
 BOOM
 Great
- amazing
+Amazing
 
 BOOMERS
 Psilocybin (magic) mushrooms
@@ -2939,21 +2191,21 @@ Someone who has been a NOOB for ages
 
 BOOT
 Vomit
- Inexperienced person
+Inexperienced person
 
 BOOZE
 Alcoholic beverages
 
 BOOZER
 Public House
- bar
+Bar
 
 BOS
 Boyfriend Over Shoulder
 
 BOSS
 Cool
- awesome
+Awesome
 
 BOT
 Back On Topic
@@ -2972,7 +2224,7 @@ But On The Other Hand
 
 BOTS
 Robots
- automated processes
+Automated processes
 
 BOTTS
 Back On To The Subject
@@ -2997,11 +2249,11 @@ Boxers
 
 BOYO
 Friend
- mate
+Mate
 
 BOZO
 Incompetent person
- idiot
+Idiot
 
 BPM
 Beats Per Minute
@@ -3017,11 +2269,11 @@ Best Regards
 
 BRAH
 Bro
- friend
+Friend
 
 BRAT
 Annoying
- spoilt child
+Spoilt child
 
 BRAVO
 Well done
@@ -3043,27 +2295,27 @@ Money
 
 BREDA
 Boy
- man
- dude
+Man
+Dude
 
 BREDRIN
 Friend
 
 BREDRINS
 Close friends
- brothers
+Brothers
 
 BREH
 Brethren
- brothers
+Brothers
 
 BREKKIE
 Breakfast
 
 BREW
 Beer
- Tea
- Brother
+Tea
+Brother
 
 BRGDS
 Best Regards
@@ -3073,24 +2325,24 @@ Be Right Here
 
 BRICK
 1 kilogram of a drug
- Very cold
+Very cold
 
 BRICKS
 Drugs
- dope
+Dope
 
 BRILL
 Brilliant
- cool
+Cool
 
 BRITCHES
 Pants
- trousers
+Trousers
 
 BRO
 Brother
- buddy
- friend
+Buddy
+Friend
 
 BROAD
 Woman
@@ -3133,7 +2385,7 @@ Brother
 
 BRUH BRUH
 Brother
- friend
+Friend
 
 BRUK
 Broken
@@ -3191,7 +2443,7 @@ Boring Status Update
 
 BT
 BitTorrent
- British Telecom
+British Telecom
 
 BT DUBS
 BTW
@@ -3288,8 +2540,8 @@ Been Up To Much?
 
 BUB
 Buddy
- friend
- Champange
+Friend
+Champange
 
 BUBS
 Babe
@@ -3299,11 +2551,11 @@ Pet name for BF or GF
 
 BUCK
 Fight
- Money
+Money
 
 BUCKS
 Dollars
- money
+Money
 
 BUD
 Marijuana
@@ -3312,14 +2564,14 @@ BUDDY
 Friend
 
 BUEY
-similar to DUDE
+Similar to DUDE
 
 BUFF
 Good Looking
 
 BUG
 Bother
- annoy
+Annoy
 
 BUGGER OFF
 Go Away
@@ -3328,20 +2580,20 @@ BUGLE
 Cocaine
 
 BUH
-dismay
- disgust
+Dismay
+Disgust
 
 BUKU
 A lot of
 
 BUL
 Man
- dude
- boy
+Dude
+Boy
 
 BUMMED
 Disappointed
- upset
+Upset
 
 BUMMER
 Bad Luck
@@ -3351,7 +2603,7 @@ Bring Up My Post
 
 BUN
 Smoke marijuana
- Ugly
+Ugly
 
 BUN IN THE OVEN
 Pregnant
@@ -3367,15 +2619,15 @@ LOL
 
 BURD
 Bird
- girlfriend
+Girlfriend
 
 BURE
 Girl
- woman
+Woman
 
 BURK
 Idiot
- fool
+Fool
 
 BURMA
 Be Upstairs Ready My Angel
@@ -3385,7 +2637,7 @@ Insulted
 
 BURNT
 Out of it
- having smoked too much pot
+Having smoked too much pot
 
 BURR
 Cold
@@ -3395,7 +2647,7 @@ Playing music in public for money
 
 BUSTED
 Very Ugly
- Caught
+Caught
 
 BUTCH
 Masculine
@@ -3405,7 +2657,7 @@ Accidentally call from a phone in your pocket
 
 BUTT HURT
 Offended
- upset
+Upset
 
 BUTTER FACE
 Girl who is good looking except for her face
@@ -3421,7 +2673,7 @@ Ugly
 
 BUZZ
 Excitement
- Feeling when high
+Feeling when high
 
 BUZZ KILL
 Ruin a special moment
@@ -3431,7 +2683,7 @@ Go away
 
 BUZZED
 Tipsy
- slightly drunk
+Slightly drunk
 
 BV
 Bad Vibe
@@ -3444,7 +2696,7 @@ Blessed Virgin Mary
 
 BW 
 Beautiful Woman
- Black and White
+Black and White
 
 BWC
 But Who Cares?
@@ -3460,11 +2712,11 @@ Bursting With Laughter
 
 BWM
 Bisexual White Male
- Bear With Me
+Bear With Me
 
 BWOI
 Friend
- buddy
+Buddy
 
 BWT
 Misspelling of BTW
@@ -3495,22 +2747,22 @@ BYO Computer
 
 BYOM
 BYO Music
- BYO Meat
+BYO Meat
 
 BYP
 Beg Your Pardon
 
 BYT
 Bright Young Thing
- Before Your Time
+Before Your Time
 
 BYTM
 Better You Than Me
 
 C
 See
- Computer language
- Speed of light
+Computer language
+Speed of light
 
 C#
 Microsoft programming language
@@ -3535,11 +2787,11 @@ Class Of ...
 
 C1
 Affirmative
- Roger that
+Roger that
 
 C2C
 Consumer to Consumer
- Cam to Cam
+Cam to Cam
 
 C4
 Plastic explosive
@@ -3564,7 +2816,7 @@ Store for temporary computer files
 
 CACTUS
 Broken
- dead
+Dead
 
 CAD
 Computer Aided Design
@@ -3607,7 +2859,7 @@ Drug Dealer
 
 CANON
 Original
- official
+Official
 
 CANTO
 Cantonese
@@ -3620,7 +2872,7 @@ Do you understand?
 
 CAPO
 Captain
- Mafia boss
+Mafia boss
 
 CAPS
 Bullets
@@ -3631,7 +2883,7 @@ Completely Automated Public Turing Test To Tell Computers and Humans Apart
 
 CARD
 Amusing
- eccentric person
+Eccentric person
 
 CARDY
 Cardigan
@@ -3641,26 +2893,26 @@ I don't care
 
 CARPE
 Vomit
- throw up
+Throw up
 
 CARRIED
 Told off
- DISSed
+DISSed
 
 CARTY
 Party in a car
 
 CAS
 Close Air Support
- Confidence, Appearance, Swagger
- Creativity, Action, Service
+Confidence, Appearance, Swagger
+Creativity, Action, Service
 
 CASJ
 Casual
 
 CAT
 Cool person
- Computed Axial Tomography
+Computed Axial Tomography
 
 CATFISH
 Individual Who Creates a False Online Identity
@@ -3670,7 +2922,7 @@ Because
 
 CAVE
 Give up
- give in
+Give in
 
 CAZ
 Crazy in a nice way
@@ -3695,7 +2947,7 @@ Child Bearing Hips
 
 CBI
 Californian Bureau of Investigation
- Confederation of British Industry
+Confederation of British Industry
 
 CBLTH
 Can't Breathe Laughing Too Hard
@@ -3711,9 +2963,9 @@ Cognitive Behavioural Therapy
 
 CC
 Credit Card
- Carbon Copy
- Crowd Control
- Country Code
+Carbon Copy
+Crowd Control
+Country Code
 
 CCC
 Coricidin Cough & Cold
@@ -3738,18 +2990,18 @@ Closed-Circuit Television
 
 CCW
 Counterclockwise
- Carrying a Concealed Weapon
+Carrying a Concealed Weapon
 
 CD
 Compact Disc
- Cross Dresser
+Cross Dresser
 
 CD-RW
 Compact Disk Rewritable
 
 CDC
 Cult of the Dead Cow
- Crudely Drawn Cock
+Crudely Drawn Cock
 
 CDMA
 Code Division Multiple Access
@@ -3783,7 +3035,7 @@ Cellphone
 
 CELLY
 Cellphone
- Prison cell mate
+Prison cell mate
 
 CEO
 Chief Executive Officer
@@ -3838,7 +3090,7 @@ Uncool
 
 CHAMPION
 Good
- great
+Great
 
 CHAO
 Goodbye
@@ -3848,7 +3100,7 @@ Man
 
 CHAV
 Poorly educated
- vulgar youth
+Vulgar youth
 
 CHAW
 Chewing tobacco
@@ -3858,11 +3110,11 @@ Yeah
 
 CHEAP SKATE
 Mean
- stingy person
+Stingy person
 
 CHEDDA
 Cash
- money
+Money
 
 CHEDDAR
 Money
@@ -3872,21 +3124,21 @@ Goodbye
 
 CHEERS
 Thanks
- Goodbye
+Goodbye
 
 CHEESE
 Drug
- starter heroin
- Money
+Starter heroin
+Money
 
 CHEESE
 Drug
- starter heroin
- Money
+Starter heroin
+Money
 
 CHEESY
 Corny
- lame
+Lame
 
 CHEEZ
 Cheese
@@ -3902,7 +3154,7 @@ Chevrolet
 
 CHI
 Chicago Life force
- energy
+Energy
 
 CHIB
 Stab
@@ -3918,7 +3170,7 @@ Chilling and relaxing
 
 CHILL
 Relax
- hang out
+Hang out
 
 CHILL OUT
 CHILL
@@ -3934,7 +3186,7 @@ Chat
 
 CHIO
 Sexy
- good looking, girl
+Good looking, girl
 
 CHIPOTLE
 Mexican-style restaurant
@@ -3944,8 +3196,8 @@ Fish and chip shop
 
 CHIPS
 Money
- Weak
- corny
+Weak
+Corny
 
 CHIRP
 Insult
@@ -3955,22 +3207,22 @@ Flirt
 
 CHIZ
 Swiz
- swindle
+Swindle
 
 CHIZZ
 Chill out
- relax
+Relax
 
 CHOICE
 Nice
- great
+Great
 
 CHOLO
 Mexican Gangster
 
 CHONG
 Good looking
- attractive, cute
+Attractive, cute
 
 CHOO
 You
@@ -3980,7 +3232,7 @@ High level player who acts like a noob
 
 CHOONG
 Good looking
- buff
+Buff
 
 CHOP IT UP
 Talk
@@ -3993,11 +3245,11 @@ Chuckle and Snort
 
 CHOUT
 Chill Out
- Watch Out
+Watch Out
 
 CHOW
 Bye
- Food
+Food
 
 CHP
 California Highway Patrol
@@ -4010,30 +3262,30 @@ You
 
 CHUG
 Drink
- Offensive term for a Native American
+Offensive term for a Native American
 
 CHULA
 Cute
- sexy
+Sexy
 
 CHUNDER
 Be sick
- vomit
+Vomit
 
 CHUNG
 Good looking
- buff
+Buff
 
 CHUTIYA
 Mild Indian expletive
 
 CHYA
 Yes
- yeah
+Yeah
 
 CHYEA
 Yes
- yeah
+Yeah
 
 CI
 Confidential Informant
@@ -4052,7 +3304,7 @@ CIC
 
 CID
 Acid
- LSD
+LSD
 
 CIG
 Cigarette
@@ -4095,11 +3347,11 @@ Chuckle
 
 CL
 Chain Letter
- Craig's List
+Craig's List
 
 CLAP
 Gonorrhea
- STD
+STD
 
 CLAPPED
 Shot
@@ -4109,7 +3361,7 @@ Blood
 
 CLASS
 Cool
- excellent
+Excellent
 
 CLEO
 Chief Law Enforcement Officer
@@ -4128,14 +3380,14 @@ Career Limiting Move
 
 CLOCK
 Look at
- Hit
+Hit
 
 CLOUD
 The Internet
 
 CLOUD 9
 Feeling of euphoria
- high
+High
 
 CLT
 Currently Listening To
@@ -4232,9 +3484,9 @@ Chinese New Year
 
 CO
 Commanding Officer
- Corrections Officer
- Company
- Counter Offer
+Corrections Officer
+Company
+Counter Offer
 
 CO2
 Carbon Dioxide
@@ -4247,21 +3499,21 @@ White woman that dates black men
 
 COCK UP
 Mistake
- mess
+Mess
 
 COCKY
 Thinking too highly of yourself
 
 COD
 Cash On Delivery
- Call Of Duty
+Call Of Duty
 
 COD4
 Call Of Duty 4 (Game)
 
 CODE
 Computer program
- Write a computer program
+Write a computer program
 
 CODEC
 Coder-Decoder (usually for audio/video data)
@@ -4274,7 +3526,7 @@ Coalition of Gears (game)
 
 COKE
 Cocaine
- Coca Cola
+Coca Cola
 
 COL
 Crying Out Loud
@@ -4311,19 +3563,19 @@ Small file relating to a website
 
 COOL BEANS
 Cool
- awesome
- great
+Awesome
+Great
 
 COOLIN
 CHILLing
 
 COP
 Officer of the law
- Close of Play
+Close of Play
 
 COPACETIC
 Cool
- OK, excellent
+OK, excellent
 
 COPY THAT
 I understand
@@ -4339,7 +3591,7 @@ God
 
 CORNY
 Uncool
- overused
+Overused
 
 COS
 Because
@@ -4349,7 +3601,7 @@ Costume Play
 
 COTCH
 Relax
- chill
+Chill
 
 COTD
 Comment Of The Day
@@ -4365,7 +3617,7 @@ Older woman looking for a younger man
 
 COUGH
 Confess
- come clean
+Come clean
 
 COUPLE
 Two people in a relationship
@@ -4408,7 +3660,7 @@ Cost Per Thousand
 
 CPP
 C Plus Plus
- C++ (programming language)
+C++ (programming language)
 
 CPR
 Cardiopulmonary Resuscitation
@@ -4430,8 +3682,8 @@ Chuckle Quietly To Myself
 
 CR
 Credit
- Copyright
- Carriage Return
+Copyright
+Carriage Return
 
 CRAB
 Derogatory word for a CRIP
@@ -4444,9 +3696,9 @@ Offensive term for a white person
 
 CRAIC
 Good times
- gossip
- music
- drinking
+Gossip
+Music
+Drinking
 
 CRAY
 Crazy
@@ -4462,14 +3714,14 @@ Crying Real Big Tears
 
 CRC
 Cyclic Redundency Check
- Chat Room Chuckle
+Chat Room Chuckle
 
 CREASING
 Laughing
 
 CREEP
 Weird
- undesirable person
+Undesirable person
 
 CREEPER
 Someone who views your profile but doesn't make contact
@@ -4482,7 +3734,7 @@ Cry
 
 CRIB
 House
- residence
+Residence
 
 CRICKETS
 Said after a lame joke to break the silence
@@ -4492,7 +3744,7 @@ Christmas
 
 CRIP
 Community Restoration in Progress
- Gang member
+Gang member
 
 CRIT
 Critical hit (gaming)
@@ -4514,11 +3766,11 @@ Crazy and drunk
 
 CRUSH
 Infatuation
- attraction
+Attraction
 
 CRUSTY
 Dirty
- unwashed person
+Unwashed person
 
 CRV
 Compact Recreational Vehicle
@@ -4546,7 +3798,7 @@ Customer Service Representative
 
 CSS
 Counter Strike: Source
- Cascading Style Sheet
+Cascading Style Sheet
 
 CST
 Central Standard Time
@@ -4565,7 +3817,7 @@ Crash To Desktop
 
 CTF
 Capture The Flag
- Claim To Fame
+Claim To Fame
 
 CTHU
 Crack The Hell Up
@@ -4602,28 +3854,28 @@ Curl Up And Die
 
 CUCKOO
 Mad
- bonkers
- crazy
+Bonkers
+Crazy
 
 CUDDY
 Buddy
- friend
+Friend
 
 CUFF
 Overprotect
- smother
+Smother
 
 CUFFED
 Taken
- has a BF or GF
+Has a BF or GF
 
 CUG
 Closed User Group
 
 CUH
 Cousin
- homie
- bro
+Homie
+Bro
 
 CUIAB
 See You In A Bit
@@ -4660,15 +3912,15 @@ High grade marijuana
 
 CUSHTI
 Good
- great
+Great
 
 CUSS
 Curse
- swear
+Swear
 
 CUT
 See You Tomorrow
- See You There
+See You There
 
 CUTCH
 Snuggle up
@@ -4678,7 +3930,7 @@ Someone/thing that is attrative in an innocent way
 
 CUTIE
 Cute
- attractive person
+Attractive person
 
 CUTY
 Cutie
@@ -4691,30 +3943,30 @@ Because
 
 CUZZ
 Friend
- cousin
+Cousin
 
 CUZZO
 Friend
 
 CV
 Curriculum Vitae
- resume
+Resume
 
 CVV
 Card Verification Value
 
 CW
 Clockwise
- Continuous Wave
+Continuous Wave
 
 CWB
 Crazy White Boys
 
 CWD
 Comment When Done
- Cringe, Wither, Die
- Chronic Wasting Disease
- Chicks With Dicks
+Cringe, Wither, Die
+Chronic Wasting Disease
+Chicks With Dicks
 
 CWOT
 Complete Waste Of Time
@@ -4793,11 +4045,11 @@ Dayton rims
 
 D(M)V
 DC, Maryland, Virginia
- Department of Motor Vehicles
+Department of Motor Vehicles
 
 D-DAY
 6th June 1944
- Designated day when operations are due to commence
+Designated day when operations are due to commence
 
 D/C
 Disconnected
@@ -4819,7 +4071,7 @@ Date
 
 D:
 Suprised
- shocked
+Shocked
 
 D:<
 Angry
@@ -4829,11 +4081,11 @@ Crying
 
 DA
 The District Attorney
- Dad
+Dad
 
 DA BOMB
 Excellent
- the best
+The best
 
 DAB
 Digital Audio Broadcasting
@@ -4849,12 +4101,12 @@ Does Anybody Else
 
 DAG
 Damn
- Unfashionable person
+Unfashionable person
 
 DAGGY
 Uncool
- not trendy
- untidy
+Not trendy
+Untidy
 
 DAGO
 Offensive term for an Italian
@@ -4876,8 +4128,8 @@ Damn
 
 DANK
 Very potent marijuana
- Incredibly good
- awesome
+Incredibly good
+Awesome
 
 DAP
 Touching of fists greeting
@@ -4926,7 +4178,7 @@ Dime By Comparison
 
 DBD
 Don't Be Dumb
- Death Before Dishonor
+Death Before Dishonor
 
 DBEYR
 Don't Believe Everything You Read
@@ -4936,7 +4188,7 @@ Dat Be Fair
 
 DBI
 Douche Bag Index
- Don't Beg It
+Don't Beg It
 
 DBJ
 Don't Be Jealous
@@ -4958,8 +4210,8 @@ Damaged Beyond Repair
 
 DBS
 Don't Be Stupid
- Don't Be Sad
- Don't Be Scared
+Don't Be Sad
+Don't Be Scared
 
 DBT
 Doing Big Things
@@ -5023,7 +4275,7 @@ Serious
 
 DEALING
 Acting like boyfriend/girlfriend
- Selling drugs
+Selling drugs
 
 DEAR
 Drop Everything And Read
@@ -5039,23 +4291,23 @@ Decent
 
 DECENT
 Good
- awesome
+Awesome
 
 DECK
 Cool
- Punch hard
+Punch hard
 
 DED
 Dead from joy
- hilarity etc
+Hilarity etc
 
 DEEC
 Decent
 
 DEECE
 Decent
- cool
- great
+Cool
+Great
 
 DEETS
 Details
@@ -5065,8 +4317,8 @@ These
 
 DEF
 Cool
- great
- excellent
+Great
+Excellent
 
 DEFF
 Definitely
@@ -5082,15 +4334,15 @@ Definitely
 
 DEGT
 Don't Even Go There
- I don't want to talk about it
+I don't want to talk about it
 
 DEH
 DOH
 
 DEKE
 Avoid
- fake
- decoy
+Fake
+Decoy
 
 DELISH
 Delicious
@@ -5100,11 +4352,11 @@ Them
 
 DEN
 Then
- Private room
+Private room
 
 DENCH
 Awesome
- cool
+Cool
 
 DEPT
 Department
@@ -5117,7 +4369,7 @@ There
 
 DERO
 Derelict
- loser
+Loser
 
 DEROB
 Very bored
@@ -5157,7 +4409,7 @@ They
 
 DF
 Dumbass Frankenstein
- WTF
+WTF
 
 DFE
 Dead Fish Experience
@@ -5203,7 +4455,7 @@ Don't Go
 
 DGI
 Don't Get Involved
- Don't Get It
+Don't Get It
 
 DGK
 Dirty Ghetto Kids (skateboards)
@@ -5231,7 +4483,7 @@ Don't Hit Me Up
 
 DHS
 Department of Homeland Security
- Department of Health Services
+Department of Health Services
 
 DHTML
 Dynamic HTML
@@ -5247,7 +4499,7 @@ Die In A Fire
 
 DIAO
 Cool
- hip
+Hip
 
 DIBS
 A claim
@@ -5263,8 +4515,8 @@ DIDDO
 
 DIG
 Understand
- Enjoy
- like
+Enjoy
+Like
 
 DIGG
 Social bookmarking website
@@ -5274,7 +4526,7 @@ Telephone number
 
 DIGS
 Home
- lodgings
+Lodgings
 
 DIKU
 Do I Know You?
@@ -5293,7 +4545,7 @@ Do I Look Like I Give A Darn?
 
 DIME
 $10 of a drug
- Very attractive person
+Very attractive person
 
 DIMER
 10
@@ -5315,7 +4567,7 @@ Just hit new level in RPG
 
 DINGBAT
 Stupid person
- idiot
+Idiot
 
 DINGY
 Ignore
@@ -5325,15 +4577,15 @@ Dual Income No Kids
 
 DINKY
 Tiny
- small
- Dual Income No Kids Yuppie
+Small
+Dual Income No Kids Yuppie
 
 DINLO
 Stupid person
 
 DINT
 Did not
- didn't
+Didn't
 
 DIP
 Leave
@@ -5346,7 +4598,7 @@ Supposedly
 
 DIRT
 Low grade marijuana
- Gossip
+Gossip
 
 DIS
 Did I Say
@@ -5368,12 +4620,12 @@ Details In Thread
 
 DITD
 Down In The Dumps
- sad
+Sad
 
 DITTO
 The same
- me too
- I agree
+Me too
+I agree
 
 DITZY
 Acting dumb and innocent
@@ -5392,12 +4644,12 @@ Do It Yourself
 
 DIZZY
 Crazy
- mad
+Mad
 
 DJ
 Disc Jockey
- Dow Jones
- Dinner Jacket
+Dow Jones
+Dinner Jacket
 
 DJM
 Don't Judge Me
@@ -5422,11 +4674,11 @@ Dragon Kill Points
 
 DKY
 Don't Know Yet
- Don't Kid Yourself
+Don't Kid Yourself
 
 DL
 Down Low
- Download
+Download
 
 DLAM
 Don't Laugh At Me
@@ -5460,8 +4712,8 @@ Demonstration of Lower Value
 
 DM
 Don't Mind
- Doesn't Matter
- Direct Message
+Doesn't Matter
+Direct Message
 
 DMAF
 Don't Make A Fuss
@@ -5525,8 +4777,8 @@ Doing Nothing
 
 DNA
 Deoxyribonucleic Acid
- Did Not Attend
- Does Not Apply
+Did Not Attend
+Does Not Apply
 
 DNB
 Drum And Bass
@@ -5542,7 +4794,7 @@ Don't Know, Don't Care
 
 DNE
 Do Not Erase
- Does Not Exist
+Does Not Exist
 
 DNF
 Did Not Finish
@@ -5555,7 +4807,7 @@ Do Not Know
 
 DNM
 Does Not Matter
- Deep and Meaningful
+Deep and Meaningful
 
 DNO
 Don't Know
@@ -5568,7 +4820,7 @@ Do Not Resuscitate
 
 DNS
 Domain Name Service
- Did Not Start
+Did Not Start
 
 DNT
 Don't
@@ -5581,7 +4833,7 @@ Do Not Want
 
 DOA
 Dead On Arrival
- Deteriorate On Approach
+Deteriorate On Approach
 
 DOB
 Date Of Birth
@@ -5591,7 +4843,7 @@ Idiot
 
 DOC
 Doctor
- Drug of Choice
+Drug of Choice
 
 DOD
 Day of Defeat
@@ -5610,18 +4862,18 @@ Dying On Floor Laughing
 
 DOG
 Telephone
- Ugly person
+Ugly person
 
 DOG FOOD
 Heroin
 
 DOGG
 Friend
- buddy
+Buddy
 
 DOH
-frustration
- realization
+Frustration
+Realization
 
 DOHC
 Dual Overhead Cam
@@ -5631,7 +4883,7 @@ Duh
 
 DOJA
 Marijuana
- weed
+Weed
 
 DOKE
 Diet Coke
@@ -5641,7 +4893,7 @@ Dying Of Laughter
 
 DOLO
 Alone
- solo
+Solo
 
 DOMA
 Defense Of Marriage Act
@@ -5654,19 +4906,19 @@ Delayed Onset Muscular Soreness
 
 DON
 Top man
- Mafia boss
+Mafia boss
 
 DONE
 Finished
- Drunk
- intoxicated
+Drunk
+Intoxicated
 
 DONNO
 I don't know
 
 DOOBIE
 Marijuana cigarette
- joint
+Joint
 
 DOOD
 Dude
@@ -5682,20 +4934,20 @@ Classic FPS
 
 DOPE
 Heroin
- Cool
- awesome
+Cool
+Awesome
 
 DORB
 Adorable
 
 DORK
 Silly
- socially inept person
+Socially inept person
 
 DOS
 Disk Operating System
- Denial Of Service
- Dad Over Shoulder
+Denial Of Service
+Dad Over Shoulder
 
 DOSH
 Money
@@ -5705,8 +4957,8 @@ Marijuana
 
 DOSSER
 Lazy person
- Vagrant
- Tramp
+Vagrant
+Tramp
 
 DOT
 Damage Over Time
@@ -5719,15 +4971,15 @@ Idiot
 
 DOUGH
 Money
- cash
+Cash
 
 DOUGIE
 Swagger
- Dance style
+Dance style
 
 DOW
 Dawn Of War (game)
- Dow Jones Industrial Average
+Dow Jones Industrial Average
 
 DOWNER
 Someone or something that brings the mood down
@@ -5770,21 +5022,21 @@ Double Rainbow
 
 DRAG
 Inhale smoke from cigarette or joint
- Dressed as a woman
+Dressed as a woman
 
 DRAW
 Cannabis
 
 DRED
 Cruel
- bad
+Bad
 
 DRINKY POO
 Alcoholic drink
 
 DRIVE BY
 Recce
- check out
+Check out
 
 DRM
 Digital Rights Management
@@ -5794,7 +5046,7 @@ HyDROponically grown marijuana
 
 DROVE
 Mad
- angry
+Angry
 
 DRT
 Dead Right There
@@ -5810,7 +5062,7 @@ Digital Subscriber Line
 
 DSLR
 Digital Single Lens Reflex
- Camera
+Camera
 
 DSP
 Digital Signal Processing
@@ -5838,7 +5090,7 @@ Down To Cuddle
 
 DTD
 Drunk Till Dawn
- Drunk Till Death
+Drunk Till Death
 
 DTE
 Down To Earth
@@ -5851,7 +5103,7 @@ Does The Look
 
 DTM
 Doing Too Much
- Dead To Me
+Dead To Me
 
 DTMS
 Does That Make Sense?
@@ -5870,7 +5122,7 @@ Do The Right Thing
 
 DTS
 Down The Shore
- Down To Snuggle
+Down To Snuggle
 
 DTT
 Don't Touch That
@@ -5892,7 +5144,7 @@ Twenty dollars
 
 DUB DUB DUB
 WWW
- World Wide Web
+World Wide Web
 
 DUB SACK
 A $20 bag of marijuana
@@ -5938,7 +5190,7 @@ Do You Love Me?
 
 DUM
 Dumb
- stupid
+Stupid
 
 DUN
 Son
@@ -5948,8 +5200,8 @@ Don't Know
 
 DUNZO
 Done
- over
- finished
+Over
+Finished
 
 DUO
 Do Unto Others
@@ -5974,14 +5226,14 @@ Run away
 
 DUST
 Angel dust
- PCP
+PCP
 
 DUSTY
 Ugly
 
 DUTCH
 Joint
- Split the cost
+Split the cost
 
 DUTTY
 Dirty
@@ -6027,7 +5279,7 @@ Don't Worry 'Bout It
 
 DWEEB
 Dork
- nerd
+Nerd
 
 DWEET
 Do it
@@ -6112,7 +5364,7 @@ Do You Love/Like Me?
 
 DYM
 Do You Mind
- Do You Mean
+Do You Mean
 
 DYOR
 Do Your Own Research
@@ -6173,10 +5425,10 @@ Electrocardiogram
 
 ECO
 Ecological
- Enconomical
+Enconomical
 
 ECT
-etc
+Etc
 
 ECU
 Electronic Control Unit
@@ -6204,20 +5456,20 @@ Electronic Dance Music
 
 EDT
 Eastern Daylight Time
- Estimated Delivery Time
+Estimated Delivery Time
 
 EEC
 European Economic Community
 
 EEE
-excitement
+Excitement
 
 EEG
 Extremely Evil Grin
 
 EEK
-surprise
- distress
+Surprise
+Distress
 
 EEPROM
 Erasable EPROM
@@ -6239,7 +5491,7 @@ Electronic Funds Transfer at Point Of Sale
 
 EG
 For example
- Evil Grin
+Evil Grin
 
 EGL
 Elegant Gothic Lolita
@@ -6273,8 +5525,8 @@ Explain Like I'm 5
 
 ELITE
 Skillful
- quality
- professional
+Quality
+Professional
 
 ELLO
 Hello
@@ -6293,7 +5545,7 @@ Emerson, Lake, and Palmer (band)
 
 EM
 E-Mail
- Them
+Them
 
 EMA
 E-mail Address
@@ -6335,11 +5587,11 @@ ENIAC
 Electronic Numerical Integrator and Computer
 
 ENNIT
-agreement
+Agreement
 
 ENO
 Awesome
- cool
+Cool
 
 ENT
 Isn't
@@ -6352,7 +5604,7 @@ End Of Conversion
 
 EOD
 End Of Discussion
- End of Day
+End of Day
 
 EOE
 Equal Opportunity Employer
@@ -6377,7 +5629,7 @@ End Of Show
 
 EOT
 End Of Thread 
-end of discussion
+End of discussion
 
 EOTD
 End Of The Day
@@ -6423,11 +5675,11 @@ Emergency Room
 
 ERB
 Herb
- Marijuana
+Marijuana
 
 ERK
 Irk
- annoy
+Annoy
 
 ERM
 Awkward conversation filler
@@ -6452,7 +5704,7 @@ Electro-Static Discharge
 
 ESE
 Friend
- homeboy
+Homeboy
 
 ESH
 Donkey
@@ -6480,7 +5732,7 @@ Entertainment Software Rating Board
 
 EST
 Eastern Standard Time
- Established
+Established
 
 ESTD
 Easier Said Than Done
@@ -6490,11 +5742,11 @@ Extra Terrestrial
 
 ETA
 Estimated Time of Arrival
- Edited to Add
+Edited to Add
 
 ETC
 Et Cetera
- and so on
+And so on
 
 ETD
 Estimated Time of Departure
@@ -6551,7 +5803,7 @@ EWE
 Epilogue, What Epilogue? (Harry Potter)
 
 EWW
-disgust
+Disgust
 
 EX
 Former
@@ -6564,21 +5816,21 @@ Experience points in games
 
 EXPO
 Exposition
- large-scale public exhibition
+Large-scale public exhibition
 
 EXT
 Extension
 
 EXTRA
 Over the top
- excessive
+Excessive
 
 EY
 Hey
 
 EYEBALL
 Look at
- Estimate measurement by looking
+Estimate measurement by looking
 
 EYO
 Hey, you
@@ -6588,11 +5840,11 @@ Easy
 
 EZPZ
 Easy peasy
- very easy
+Very easy
 
 E_E
 Tired
- exhausted
+Exhausted
 
 F1
 Formula One
@@ -6602,7 +5854,7 @@ Face To Face
 
 F2P
 Free To Play
- Files To Peers
+Files To Peers
 
 F2T
 Free To Talk
@@ -6639,12 +5891,12 @@ Slap forehead with the palm of your hand
 
 FADE
 Kill
- disgrace
+Disgrace
 
 FADED
 High
- stoned
- drunk
+Stoned
+Drunk
 
 FAE
 From
@@ -6669,16 +5921,16 @@ Family
 
 FAMALAM
 Family
- close friend
+Close friend
 
 FAMBO
 Family
- close friend
+Close friend
 
 FAMO
 Friend
- dude
- family member etc
+Dude
+Family member etc
 
 FAMS
 Family
@@ -6688,7 +5940,7 @@ Fanfiction
 
 FANNYING
 Wasting time
- messing about
+Messing about
 
 FANTABULOUS
 Fantastic and fabulous
@@ -6743,7 +5995,7 @@ Fly by wire
 
 FC
 Fingers Crossed
- Full Combo
+Full Combo
 
 FCFS
 First Come First Served
@@ -6774,7 +6026,7 @@ Federal Express
 
 FEDS
 FBI agents
- police
+Police
 
 FEDZ
 Police
@@ -6793,22 +6045,22 @@ An Intense Craving Or Yearning
 
 FEENING
 Craving
- wanting really badly
+Wanting really badly
 
 FEH
-dismissal
- disgust
+Dismissal
+Disgust
 
 FELLA
 Man
- boyfriend
+Boyfriend
 
 FELLAS
 Close friends
 
 FELLER
 Fellow
- man
+Man
 
 FER
 For
@@ -6818,8 +6070,8 @@ Confess
 
 FETCH
 Cool
- trendy
- awesome
+Trendy
+Awesome
 
 FF
 Final Fantasy
@@ -6844,7 +6096,7 @@ Farewell For Now
 
 FFR
 Flash Flash Revolution
- For Future Reference
+For Future Reference
 
 FFTL
 From First To Last (band)
@@ -6857,7 +6109,7 @@ Final Fantasy 10 (game)
 
 FG
 Fat Girl
- Family Guy
+Family Guy
 
 FGJ
 For Great Justice
@@ -6918,7 +6170,7 @@ About to do
 
 FINK
 Snitch
- informer
+Informer
 
 FINNA
 Going To
@@ -6931,20 +6183,20 @@ Figure It Out
 
 FIRM
 Gang of soccer hooligans
- Organised criminal gang
+Organised criminal gang
 
 FIRME
 Cool
- good
- nice
+Good
+Nice
 
 FISH
 First In Still Here
 
 FIT
 Good lokking
- hot
- sexy
+Hot
+Sexy
 
 FITB
 Fill In The Blanks
@@ -6954,7 +6206,7 @@ Fight
 
 FITTIN TO
 About to
- getting ready to
+Getting ready to
 
 FITY
 Fifty
@@ -6967,11 +6219,11 @@ A dose of drugs
 
 FIXIN TO
 About to
- getting ready to
+Getting ready to
 
 FIYA
 Fire
- The Greatest
+The Greatest
 
 FIZZLE
 Fool
@@ -7050,8 +6302,8 @@ Famous Last Words
 
 FLY
 Zipper
- Awesome
- cool
+Awesome
+Cool
 
 FLYFF
 Fly For Fun
@@ -7100,7 +6352,7 @@ For Necessary Action
 
 FNAR
 For No Apparent Reason
- Snigger
+Snigger
 
 FNB
 Football And Beer
@@ -7158,7 +6410,7 @@ Freedom of Information Act
 
 FOLDED
 Drunk
- wasted
+Wasted
 
 FOM
 Far Out Man
@@ -7183,14 +6435,14 @@ Fat in belly area
 
 FOOTY
 Football
- soccer
+Soccer
 
 FOPS
 Fake cops (security guards etc)
 
 FORTE
 Area of expertise
- strength
+Strength
 
 FOSHO
 For Sure
@@ -7224,7 +6476,7 @@ Field Of View
 
 FOX
 Sexy
- attractive woman
+Attractive woman
 
 FP
 Fair Play
@@ -7258,7 +6510,7 @@ Free Berkeley Software Distribution (Unix like OS)
 
 FRESH
 Very good
- cool
+Cool
 
 FRESHIE
 Imigrant
@@ -7283,7 +6535,7 @@ Offensive word for a French person
 
 FRONT
 Pretend
- falsely represent
+Falsely represent
 
 FRONTING
 Misrepresenting oneself
@@ -7342,7 +6594,7 @@ From The Bottom Of My Heart
 FTC
 Favorite
 Thumbs up
- Comment
+Comment
 
 FTD
 Fresh To Death
@@ -7364,11 +6616,11 @@ Fuel The Jet
 
 FTK
 For The Kids
- For The Kill
+For The Kill
 
 FTL
 For The Loss
- Faster Than Light
+Faster Than Light
 
 FTLOG
 For The Love Of God
@@ -7405,7 +6657,7 @@ Fouled Up Beyond Belief
 
 FUBU
 Fouled Up Beyond Use
- Clothing brand
+Clothing brand
 
 FUD
 Fear, Uncertainty, and Doubt
@@ -7415,7 +6667,7 @@ Farmers Union Iced Coffee
 
 FULL MONTY
 Whole way
- whole thing
+Whole thing
 
 FUMA
 Fake Puma shoes
@@ -7458,7 +6710,7 @@ For Your Amusement
 
 FYC
 For Your Convenience
- For Your Consideration
+For Your Consideration
 
 FYE
 For Your Entertainment
@@ -7483,7 +6735,7 @@ Fixed Your Post
 
 FYR
 For Your Review
- For Your Records
+For Your Records
 
 FYT
 For Your Time
@@ -7502,7 +6754,7 @@ Good Day, hello
 
 G1
 Good One
- Gone
+Gone
 
 G2B
 Go To Bed
@@ -7548,7 +6800,7 @@ Go Ahead
 
 GAC
 Guilty As Charged
- Get A Clue
+Get A Clue
 
 GAFF
 House
@@ -7561,21 +6813,21 @@ Get Away From Me
 
 GAG
 About to throw up
- Joke
+Joke
 
 GAGA
 Crazy
- infatuated
+Infatuated
 
 GAH
-frustration
+Frustration
 
 GAJ
 Get A Job
 
 GAL
 Girl
- Get A Life
+Get A Life
 
 GAL PAL
 Man who hangs around with girls
@@ -7597,24 +6849,24 @@ Relating to wealth and class
 
 GANJ
 Ganja
- marijuana
+Marijuana
 
 GANJA
 Marijuana
- pot
- cannabis
- weed
+Pot
+Cannabis
+Weed
 
 GANK
 Steal
- Gang kill
+Gang kill
 
 GARMS
 Clothes
 
 GAS
 Flatulence
- Guitar Acquisition Syndrome
+Guitar Acquisition Syndrome
 
 GASSED
 Have a high opinion of yourself
@@ -7636,7 +6888,7 @@ Gorgeous
 
 GB
 Great Britain
- Gigabyte
+Gigabyte
 
 GBA
 God Bless America
@@ -7712,8 +6964,8 @@ Jesus
 
 GEEZER
 A guy
- a bloke
- a person
+A bloke
+A person
 
 GEG
 Interrupt a conversation
@@ -7722,22 +6974,22 @@ GEN
 Information
 
 GENIOUS
-genius
+Genius
 
 GEOCACHE
 Scavenger hunt destination point
 
 GET DOWN
 Party
- dance
+Dance
 
 GET LAID
 To Have Sexual Intercourse
 
 GETCHA
 Get You
- understand
- Get Your
+Understand
+Get Your
 
 GETTO
 Ghetto
@@ -7840,8 +7092,8 @@ Gigahertz
 
 GI
 Government Issue
- American Solider
- Good Idea
+American Solider
+Good Idea
 
 GIEF
 Give
@@ -7851,8 +7103,8 @@ Graphics Interchange Format - Picture Format
 
 GIG
 Live performance
- Gigabyte
- Job
+Gigabyte
+Job
 
 GIGO
 Garbage In, Garbage Out
@@ -7862,7 +7114,7 @@ Give me
 
 GIMP
 Uncool
- Stupid person
+Stupid person
 
 GINGE
 Person with red hair
@@ -7875,7 +7127,7 @@ Hypocrite
 
 GINNEL
 Alley
- passageway
+Passageway
 
 GIS
 Google Image Search
@@ -7912,7 +7164,7 @@ Go Kill Yourself
 
 GL
 Good Luck
- Good Looking
+Good Looking
 
 GL HF
 Good Luck, Have Fun
@@ -7946,7 +7198,7 @@ Good Luck In Real Life
 
 GLITCH
 Error
- mistake
+Mistake
 
 GLOCK
 Semi-automatic pistol
@@ -7965,7 +7217,7 @@ Good Luck To You
 
 GLU
 Guys
- Girls Like Us
+Girls Like Us
 
 GLUCK
 Good Luck
@@ -7978,9 +7230,9 @@ Good Luck With That
 
 GM
 General Motors
- Good Morning
- Genetically Modified
- Good Move
+Good Morning
+Genetically Modified
+Good Move
 
 GMA
 Good Morning, America
@@ -8056,7 +7308,7 @@ Good Night Sleep Tight Don't Let the Bed Bugs Bite
 
 GNU
 GNU's Not Unix
- Linux OS
+Linux OS
 
 GOAT
 Greatest Of All Time
@@ -8090,7 +7342,7 @@ Person who loves someone just for their money
 
 GOM
 Idiot
- fool
+Fool
 
 GOMB
 Get Off My Back
@@ -8103,7 +7355,7 @@ Sorry
 
 GOMER
 Get Out of My Emergency Room
- unwelcome patient
+Unwelcome patient
 
 GOMF
 Get Outta My Face
@@ -8113,7 +7365,7 @@ Get On My Level
 
 GON
 Go on
- Going to
+Going to
 
 GONNA
 Going to
@@ -8138,7 +7390,7 @@ Get Out Of My Life
 
 GOON
 Stupid
- Tough guy
+Tough guy
 
 GOONER
 Supporter of Arsenal Football Club
@@ -8154,7 +7406,7 @@ Gormless person
 
 GOS
 Girlfriend Over Shoulder
- Game Of Soldiers
+Game Of Soldiers
 
 GOSH
 Exclamation of suprise or shock
@@ -8164,11 +7416,11 @@ Skillful person (Korean)
 
 GOTCHA
 I got you
- I understand
+I understand
 
 GOTTA
 Got to ...
- Have you got a ...?
+Have you got a ...?
 
 GOTY
 Game Of The Year
@@ -8178,7 +7430,7 @@ Good On You
 
 GOW
 God of War (Game)
- Gears of War (Game)
+Gears of War (Game)
 
 GOWM
 Go Out With Me
@@ -8194,7 +7446,7 @@ Grade-Point Average
 
 GPC
 Generic Pack of Cigarettes
- Get/Post/Cookie
+Get/Post/Cookie
 
 GPL
 General Public License
@@ -8216,8 +7468,8 @@ Graphics Processing Unit
 
 GQ
 Gentlemen Quarterly
- Suave
- well dressed man
+Suave
+Well dressed man
 
 GR
 Gotta Run
@@ -8233,7 +7485,7 @@ Better than GR8
 
 GRAF
 Graffiti
- Paragraph
+Paragraph
 
 GRATZ
 Congratulations
@@ -8252,57 +7504,57 @@ Guest Relations Officer
 
 GRODY
 Disgusting
- nasty
- gross
+Nasty
+Gross
 
 GROK
 Fully understand
 
 GROM
 Grommet
- young surfer
+Young surfer
 
 GRONK
 Idiot
- fool
+Fool
 
 GROOL
 Great and Cool
 
 GROOVY
 Cool
- awesome
+Awesome
 
 GROSS
 Unpleasant
- disgusting
+Disgusting
 
 GROUSE
 Great
- amazing
+Amazing
 
 GRR
 Anger
- frustration
+Frustration
 
 GRRL
 Girl
 
 GRRR
 Anger
- Frustration
- Intimacy
+Frustration
+Intimacy
 
 GRUB
 Food
 
 GRULE
 Hard work
- nuisance
+Nuisance
 
 GRX
 Gracias
- Merci
+Merci
 
 GSD
 Getting Stuff Done
@@ -8327,7 +7579,7 @@ Gun Shot Wound
 
 GT
 Grand Touring
- Gran Turismo
+Gran Turismo
 
 GTA
 Grand Theft Auto
@@ -8412,8 +7664,8 @@ Money
 
 GUCCI
 Good
- awesome
- high quality
+Awesome
+High quality
 
 GUD
 Good
@@ -8423,15 +7675,15 @@ Grounded Until Further Notice
 
 GUH
 Annoyed
- angry
+Angry
 
 GUI
 Graphical User Interface
 
 GULLY
 Rough
- raw
- unpolished
+Raw
+Unpolished
 
 GURL
 Girl
@@ -8447,7 +7699,7 @@ Good
 
 GUV
 Guvnor
- boss
+Boss
 
 GV
 Good Vibes
@@ -8523,7 +7775,7 @@ Get Your Own
 
 GYP
 Swindle
- rip off
+Rip off
 
 GYPO
 Gypsy
@@ -8548,7 +7800,7 @@ Hat Tip
 
 H/U
 Hook Up
- Make Out
+Make Out
 
 H1B
 US employment visa
@@ -8561,11 +7813,11 @@ Hope To See You Soon
 
 H2G
 Had to Go
- Honest To God
+Honest To God
 
 H2H
 Heart To Heart
- Head To Head
+Head To Head
 
 H2IK
 Hell If I Know
@@ -8581,7 +7833,7 @@ Halo 3 (Game)
 
 H4X
 Hacks
- cheats
+Cheats
 
 H4X0R
 Hacker
@@ -8648,7 +7900,7 @@ Have A Great Time
 
 HAI
 Hey, hi
- Yes
+Yes
 
 HAISTK
 How Am I Supposed To Know?
@@ -8670,15 +7922,15 @@ Have A Nice Day
 
 HANDLE
 Nickname
- alias
+Alias
 
 HANG
 Hang out
- spend time with
+Spend time with
 
 HANG UP
 Inhibition
- emotional difficulty
+Emotional difficulty
 
 HANL
 Have A Nice Life
@@ -8694,7 +7946,7 @@ Bad luck
 
 HARF
 Vomit
- throw up
+Throw up
 
 HASH
 Marijuana
@@ -8713,15 +7965,15 @@ Knife
 
 HAWT
 Hot
- Having A Wonderful Time
+Having A Wonderful Time
 
 HAWTSOME
 Hot and awesome
 
 HAX
 Hacking
- Hackers
- hacks
+Hackers
+Hacks
 
 HAXOR
 Hacker
@@ -8812,11 +8064,11 @@ Hard Disk Drive
 
 HDF
 Halt Die Fresse
- Shut up
+Shut up
 
 HDL
 Hab Dich Lieb
- I love you
+I love you
 
 HDMI
 High Definition Multimedia Interface
@@ -8856,16 +8108,16 @@ Gun(s)
 
 HEAVY
 Awesome
- good
- Serious
- intense
+Good
+Serious
+Intense
 
 HECK
 Mild expletive
 
 HECTIC
 Cool
- good
+Good
 
 HEH
 Cynical laugh
@@ -8878,16 +8130,16 @@ Hell Yeah
 
 HENCH
 Strong
- muscular
- well built
+Muscular
+Well built
 
 HENRY
 High Earner
- Not Rich Yet
+Not Rich Yet
 
 HEP
 Hip
- cool
+Cool
 
 HERB
 Stupid person
@@ -8897,7 +8149,7 @@ Person of unidentifiable gender
 
 HEX
 Hexadecimal
- Curse
+Curse
 
 HEY
 Hello, hi
@@ -8922,7 +8174,7 @@ Have Fun, Good Luck
 
 HFY
 Here For You
- Happy for You
+Happy for You
 
 HG
 Holy Grail
@@ -8974,7 +8226,7 @@ Social networking site
 
 HIATUS
 A Pause
- A Break
+A Break
 
 HICKEY
 Love bite
@@ -8993,12 +8245,12 @@ How I Met Your Mother (TV show)
 
 HINKEY
 Strange
- unusual
+Unusual
 
 HIP
 Cool
- stylish
- contemporary
+Stylish
+Contemporary
 
 HIPSTER
 Person who is HIP
@@ -9029,7 +8281,7 @@ He's Just Not That Into You
 
 HK
 Hong Kong
- Hostile Kids
+Hostile Kids
 
 HL
 Half Life (game)
@@ -9065,8 +8317,8 @@ HMPF
 Sound made when irritated
 
 HMPH
-apathy
- disagreement
+Apathy
+Disagreement
 
 HMS
 Her Majesty's Ship (UK)
@@ -9100,7 +8352,7 @@ Happy New Year
 
 HO
 Hold On
- Head Office
+Head Office
 
 HOA
 Home Owners Association
@@ -9116,14 +8368,14 @@ Itinerant worker
 
 HOF
 Hall Of Fame
- Heavy on Flag
+Heavy on Flag
 
 HOG
 Harley Owner Group
 
 HOH
 Head Over Heels
- Hard Of Hearing
+Hard Of Hearing
 
 HOLA
 Hello
@@ -9148,7 +8400,7 @@ Shout
 
 HOLS
 Holidays
- vacation
+Vacation
 
 HOMEBOY
 Closest friend
@@ -9200,7 +8452,7 @@ Dressed Provocatively
 
 HOOD
 Neighborhood
- ghetto
+Ghetto
 
 HOODIE
 Hooded sweatshirt
@@ -9219,7 +8471,7 @@ Goodbye
 
 HOOT
 Good time
- Funny person
+Funny person
 
 HOP
 Heroin
@@ -9238,7 +8490,7 @@ Husband Over Shoulder
 
 HOT
 Very good looking
- sexy
+Sexy
 
 HOTTIE
 Attractive person
@@ -9248,7 +8500,7 @@ High Occupancy Vehicle
 
 HOVA
 Jehovah
- God
+God
 
 HOWDY
 How Do You Do?
@@ -9309,9 +8561,9 @@ Herpes Simplex Virus 2
 
 HT
 Hat Tip
- Thanks
- Home Time
- Handheld Transceiver
+Thanks
+Home Time
+Handheld Transceiver
 
 HTBT
 Had To Be There
@@ -9327,7 +8579,7 @@ Hard To Get
 
 HTH
 Hope That Helps
- How The Hell
+How The Hell
 
 HTHFYS
 Hope To Hear From You Soon
@@ -9394,11 +8646,11 @@ Hundred dollars
 
 HUR
 Here
- Hair
+Hair
 
 HURT
 Ugly
- unattractive
+Unattractive
 
 HUS
 Hustler
@@ -9407,8 +8659,8 @@ HUSPAZ
 Hurray
 
 HUZZAH
-triumph
- joy
+Triumph
+Joy
 
 HVAC
 Heating, Ventilating, Air Conditioning
@@ -9445,7 +8697,7 @@ Hardcore (music)
 
 HY
 Hell Yes
- Hi
+Hi
 
 HYB
 How You Been?
@@ -9464,7 +8716,7 @@ Here You Go
 
 HYH
 Have You Heard
- Hold Your Horses
+Hold Your Horses
 
 HYIP
 High Yield Investment Program
@@ -9480,7 +8732,7 @@ Over energetic
 
 HYPH
 Hyperactive
- crazy
+Crazy
 
 HYPO
 Hypodermic needle/syringe
@@ -9493,7 +8745,7 @@ Hit You Up
 
 HYUK
 Lose
- despite having a good lead
+Despite having a good lead
 
 HZ
 Hertz
@@ -9512,8 +8764,8 @@ Internationalization
 
 I8
 Aight
- aite
- alright
+Aite
+Alright
 
 IA
 I Agree
@@ -9541,7 +8793,7 @@ I Already Know
 
 IAL
 I Ain't Laughing
- I Actually Laughed
+I Actually Laughed
 
 IALTO
 I Always Love That One
@@ -9563,7 +8815,7 @@ I Adore You
 
 IAW
 In Accordance With
- I Agree With
+I Agree With
 
 IAWTC
 I Agree With That/This Comment
@@ -9594,7 +8846,7 @@ I'll Be Back
 
 IBID
 Ibidem
- In the same place
+In the same place
 
 IBK
 Idiot Behind Keyboard
@@ -9613,7 +8865,7 @@ Irritable Bowel Syndrome
 
 IBTD
 In Before The Delete
- I Beg To Differ
+I Beg To Differ
 
 IBTL
 In Before the Lock
@@ -9668,8 +8920,8 @@ I Couldn't Care Less
 
 ICE
 Diamonds
- Crystal meth
- Kill
+Crystal meth
+Kill
 
 ICK
 UGH
@@ -9697,11 +8949,11 @@ Information and Communication Technology
 
 ICU
 Intensive Care Unit
- I See You
+I See You
 
 ICW
 In Connection With
- I Can't Wait
+I Can't Wait
 
 ICWUDT
 I See What You Did There
@@ -9735,7 +8987,7 @@ Cheat code for Doom
 
 IDE
 Integrated Development Environment
- Integrated Device Electronics
+Integrated Device Electronics
 
 IDEC
 I Don't Even Care
@@ -9814,7 +9066,7 @@ I Don't Love/Like You
 
 IDM
 It Doesn't Matter
- Intelligent Dance Music
+Intelligent Dance Music
 
 IDN
 I Don't kNow
@@ -9863,7 +9115,7 @@ I Don't Want to Know
 
 IE
 Internet Explorer
- Id Est
+Id Est
 
 IED
 Improvised Explosive Device
@@ -9876,12 +9128,12 @@ Individualized Education Program
 
 IFF
 If and only if
- Identification: Friend or Foe
- Internet Friends Forever
+Identification: Friend or Foe
+Internet Friends Forever
 
 IFFY
 Dodgy
- unreliable
+Unreliable
 
 IFM
 In Fond Memory
@@ -9891,7 +9143,7 @@ Ignorant
 
 IGG
 Ignore
- I Gotta Go
+I Gotta Go
 
 IGGY
 Ignore
@@ -9991,7 +9243,7 @@ If It Fits Your Macros
 
 IIGHT
 Alright
- OK
+OK
 
 IIH
 If I'm Honest
@@ -10070,7 +9322,7 @@ I Know
 
 IKE
 DUDE
- I Know, Eh
+I Know, Eh
 
 IKEA
 Swedish furniture store
@@ -10392,11 +9644,11 @@ Information
 
 INIT
 Isn't it?
- Initialization
+Initialization
 
 INK
 I Never Knew
- Tattoo
+Tattoo
 
 INKED
 Tattooed
@@ -10409,7 +9661,7 @@ I Know
 
 INOP
 Inoperative
- In Need Of Practice
+In Need Of Practice
 
 INORITE
 I Know, Right?
@@ -10422,7 +9674,7 @@ IKR
 
 INRI
 Iesus Nazarenus Rex Iudaeorum
- Jesus of Nazareth King of the Jews
+Jesus of Nazareth King of the Jews
 
 INRS
 It's Not Rocket Science
@@ -10438,7 +9690,7 @@ Isn't it
 
 INTEL
 Intelligence
- CPU manufacturer
+CPU manufacturer
 
 INTK
 I Need To Know
@@ -10466,7 +9718,7 @@ I'm Outta Here
 
 IOI
 Indication of Interest
- I'm Over It
+I'm Over It
 
 IOIC
 If Only I Could
@@ -10497,11 +9749,11 @@ If Only You Knew
 
 IP
 Internet Protocol
- Intellectual Property
+Intellectual Property
 
 IPA
 India Pale Ale
- Internet Protocol Address
+Internet Protocol Address
 
 IPC
 Ignore Post Count
@@ -10520,7 +9772,7 @@ Intelligence Quotient
 
 IR
 Infrared
- Injured Reserve
+Injured Reserve
 
 IRA
 Irish Republican Army
@@ -10557,7 +9809,7 @@ Internal Revenue Service
 
 ISA
 Inshaa Allah
- OK
+OK
 
 ISB
 I'm So Bored
@@ -10576,7 +9828,7 @@ Integrated Services Digital Network
 
 ISH
 Shit
- -vagueness
+-vagueness
 
 ISHK
 I Should Have Known
@@ -10592,7 +9844,7 @@ Internet Service Provider
 
 ISS
 International Space Station
- I'm So Sorry
+I'm So Sorry
 
 ISSN
 International Standard Serial Number
@@ -10626,7 +9878,7 @@ I Trust And Love You
 
 ITC
 In That Case
- In This Channel
+In This Channel
 
 ITE
 Alright?
@@ -10702,14 +9954,14 @@ I Told You So
 
 ITZ
 It's
- In The Zone
+In The Zone
 
 IUSS
 If You Say So
 
 IV
 Four
- Intravenous
+Intravenous
 
 IVF
 In Vitro Fertilization
@@ -10755,7 +10007,7 @@ I Want You
 
 IYA
 Hiya
- hello
+Hello
 
 IYAM
 If You Ask Me
@@ -10786,7 +10038,7 @@ If You Know What I Mean
 
 IYL
 If You're Lucky
- It's Your Life
+It's Your Life
 
 IYO
 In Your Opinion
@@ -10817,13 +10069,13 @@ If You Were Wondering
 
 IZ
 Is
- it's
+It's
 
 J
 Joking
 
 J CAT
-mentally unstable person
+Mentally unstable person
 
 J DUB
 Jehovah's Witness
@@ -10851,7 +10103,7 @@ Loser
 
 JACKASS
 Stupid person
- idiot
+Idiot
 
 JAF
 Just A Friend
@@ -10864,7 +10116,7 @@ Socially inept person
 
 JAH
 God
- Jehovah
+Jehovah
 
 JAILBREAK
 Crack an iPhone
@@ -10883,14 +10135,14 @@ England
 
 JANK
 Worthless
- useless
+Useless
 
 JANOE
 I Know
 
 JAP
 Jewish American Princess
- Person from Japan
+Person from Japan
 
 JAPAN
 Just Always Pray At Night
@@ -10912,18 +10164,18 @@ Just Answer The Question
 
 JAVA
 Programming language
- Coffee
+Coffee
 
 JAWN
 Thing
 
 JAWOHL
 Yes
- affirmative
+Affirmative
 
 JB
 Jail Bait
- Jonas Brothers
+Jonas Brothers
 
 JBH
 Just Being Honest
@@ -10939,12 +10191,12 @@ Just Be Yourself
 
 JC
 Jesus Christ
- Just Curious
- Just Chilling
+Just Curious
+Just Chilling
 
 JCB
 J C Bamford 
- excavator manufacturer
+Excavator manufacturer
 
 JD
 Jack Daniel's
@@ -10965,8 +10217,8 @@ JEET
 Did you eat?
 
 JEEZ
-annoyance
- Jesus
+Annoyance
+Jesus
 
 JEJE
 Hispanic LOL
@@ -10997,8 +10249,8 @@ Just For Fun
 
 JFK
 John Fitzgerald Kennedy
- New York airport
- Just For Kicks
+New York airport
+Just For Kicks
 
 JFN
 Just For Now
@@ -11041,14 +10293,14 @@ Jesus H Christ
 
 JHEEZE
 OMG
- wow
+Wow
 
 JHP
 Jacketed Hollow Point (bullet)
 
 JI
 Very
- sort of
+Sort of
 
 JIC
 Just In Case
@@ -11064,11 +10316,11 @@ Short period of time
 
 JIP
 Rob
- rip-off
+Rip-off
 
 JIT
 Young gangster
- Just In Time
+Just In Time
 
 JJ
 Just Joking
@@ -11081,11 +10333,11 @@ Just Kidding
 
 JKD
 Jeet Kune Do
- Martial Art
+Martial Art
 
 JKL
 Just Kidding Loser
- Just Kidding, LOL
+Just Kidding, LOL
 
 JKN
 Joking
@@ -11146,10 +10398,10 @@ Yo
 
 JOANING
 Putting someone down
- making fun of
+Making fun of
 
 JOCKER
-copies another's style
+Copies another's style
 
 JOHN DOE
 General term for a man
@@ -11159,11 +10411,11 @@ Rolled marijuana cigarette
 
 JONES
 Craving
- desire
+Desire
 
 JONESING
 Craving
- wanting really badly
+Wanting really badly
 
 JOOC
 Just Out Of Curiosity
@@ -11179,7 +10431,7 @@ Just Playing Around
 
 JPEG
 Joint Photographic Experts Group
- Image file format
+Image file format
 
 JPG
 Image file format
@@ -11225,7 +10477,7 @@ Just To Let You Know
 
 JTM
 Je t'aime
- I love you
+I love you
 
 JTOL
 Just Thinking Out Loud
@@ -11247,15 +10499,15 @@ Fan of ICP
 
 JUICE
 Respect
- power
+Power
 
 JUICED
 Happy
- excited
+Excited
 
 JUJU
 Magic
- luck
+Luck
 
 JUNGLE FEVER
 Attraction between people of different race
@@ -11268,7 +10520,7 @@ Just
 
 JV
 Junior Varsity
- amateur
+Amateur
 
 JW
 Just Wondering
@@ -11302,7 +10554,7 @@ OK
 
 K1
 The best
- awesome
+Awesome
 
 K33L
 Kill
@@ -11315,18 +10567,18 @@ Keep Away From Me
 
 KAM
 Gorgeous
- sexy
+Sexy
 
 KAWAII
 Cute
- pretty
+Pretty
 
 KAY
 Okay
 
 KB
 Kind Bud
- Kilobytes
+Kilobytes
 
 KBPS
 KiloBytes per second
@@ -11411,11 +10663,11 @@ Kilogram
 
 KIA
 Killed In Action
- Know It All
+Know It All
 
 KICKS
 Shoes
- Thrills
+Thrills
 
 KIFF
 Cool
@@ -11425,7 +10677,7 @@ Keep It Gangsta
 
 KIK
 LOL
- Smartphone app for free chat
+Smartphone app for free chat
 
 KIKE
 Offensive term for a Jew
@@ -11450,7 +10702,7 @@ Knock it off
 
 KIP
 Sleep
- Bed
+Bed
 
 KIR
 Keepin' It Real
@@ -11484,8 +10736,8 @@ Keep In View
 
 KIWI
 A person from New Zealand
- A small brown bird from New Zealand
- Kiwifruit
+A small brown bird from New Zealand
+Kiwifruit
 
 KJ
 Killjoy
@@ -11507,14 +10759,14 @@ Cool
 
 KLK
 Que lo que?
- What's Up?
+What's Up?
 
 KLKL
 Cool Cool
 
 KLM
 Koninklijke Luchtvaart Maatschappij
- Royal Dutch Airlines
+Royal Dutch Airlines
 
 KLUTZ
 Clumsy or stupid person
@@ -11572,14 +10824,14 @@ OK, No Problem
 
 KO
 Knock Out
- OK
+OK
 
 KOD
 Kiss Of Death
 
 KOI
 Koibito
- lover
+Lover
 
 KOKO
 Most important thing
@@ -11706,7 +10958,7 @@ KWIM
 
 KWAN
 Love and Respect
- Extraordinary
+Extraordinary
 
 KWEL
 Cool
@@ -11791,7 +11043,7 @@ Cantonese Exclamation
 
 LAA
 Lad
- mate
+Mate
 
 LABTOP
 Laptop
@@ -11813,7 +11065,7 @@ Slow response
 
 LAGG
 Defeat
- PWN
+PWN
 
 LAK
 Love And Kisses
@@ -11826,14 +11078,14 @@ Laughing A Little Bit
 
 LAM
 Leave A Message
- Run
+Run
 
 LAMBO
 Lamborghini
 
 LAME
 Stupid
- Unoriginal
+Unoriginal
 
 LAMEO
 Lame Person
@@ -11855,7 +11107,7 @@ Local Area Network
 
 LAND MINE
 Ugly
- skinny girl
+Skinny girl
 
 LANK
 Very
@@ -11883,7 +11135,7 @@ LATERS
 
 LATE
 Missed a period
- possibly pregnant
+Possibly pregnant
 Dead
 
 LATERS
@@ -11900,8 +11152,8 @@ Laughing At You
 
 LAV
 Lavatory
- toilet
- Love
+Toilet
+Love
 
 LAWD
 Lord
@@ -11929,7 +11181,7 @@ Look Busy Doing Nothing
 
 LBH
 Let's Be Honest
- Loser Back Home
+Loser Back Home
 
 LBM
 Little Big Man
@@ -11945,7 +11197,7 @@ Lower Blackrock Spire
 
 LBS
 Laughing But Serious
- Weight
+Weight
 
 LBVS
 Laughing But Very Serious
@@ -11964,7 +11216,7 @@ Let's Change The Subject
 
 LD
 Link Dead
- Disconnection From Internet
+Disconnection From Internet
 
 LDA
 Long Distance Affair
@@ -11983,7 +11235,7 @@ London
 
 LDO
 Like Duh
- Obviously
+Obviously
 
 LDR
 Long Distance Relationship
@@ -11993,7 +11245,7 @@ Latter Day Saint
 
 LE
 Limited Edition
- Law Enforcement
+Law Enforcement
 
 LEAF
 Marijuana
@@ -12006,14 +11258,14 @@ Light Emiting Diode
 
 LEDGE
 Legend
- legendary
+Legendary
 
 LEES
 Very Attractive Man/Woman
 
 LEET
 Chat room language
- Elite
+Elite
 
 LEG IT
 Run away
@@ -12023,11 +11275,11 @@ Let's Go
 
 LEGIT
 Real
- legal
+Legal
 
 LEKKER
 Cool
- sexy
+Sexy
 
 LEL
 LOL
@@ -12037,7 +11289,7 @@ Let Me
 
 LENG
 Weapon
- gun
+Gun
 
 LEO
 Law Enforcement Officer
@@ -12119,7 +11371,7 @@ Love, Hugs and Kisses
 
 LHM
 Lord Have Mercy
- Lord Help Me
+Lord Help Me
 
 LHR
 London Heathrow airport
@@ -12143,7 +11395,7 @@ LID
 Ounce of marijuana
 
 LIEING
-lying
+Lying
 
 LIEK
 Like
@@ -12183,7 +11435,7 @@ Laughing In My Brain
 
 LIME
 Hang out
- socialise
+Socialise
 
 LIMH
 Laughing In My Head
@@ -12193,7 +11445,7 @@ Laughing In My Mind
 
 LIMO
 Limousine
- luxury car
+Luxury car
 
 LINE
 A line of a powdered drug
@@ -12215,7 +11467,7 @@ Laughing In Silence
 
 LIT
 Intoxicated
- stoned
+Stoned
 
 LITE
 Light
@@ -12237,7 +11489,7 @@ LOLK
 
 LL
 Laugh Loudly
- LOL
+LOL
 
 LLAP
 Live Long and Prosper
@@ -12283,7 +11535,7 @@ Laughing my ass off
 
 LMC
 Let Me Check
- Let Me See
+Let Me See
 
 LMCO
 Laughing My Cats Off
@@ -12320,7 +11572,7 @@ Last Minute Resistance
 
 LMS
 Like My Status
- Last Man Standing
+Last Man Standing
 
 LMSO
 Laughing My Socks Off
@@ -12345,29 +11597,29 @@ Leave No Trace
 
 LO
 Hello
- Little One
+Little One
 
 LOA
 Leave of Absence
 
 LOADED
 Drunk
- intoxicated
- Rich
+Intoxicated
+Rich
 
 LOAF
 Head
 
 LOB
 Throw
- Line Of Business
+Line Of Business
 
 LOC
 Library Of Congress
 
 LOCAL
 Local public house
- bar
+Bar
 
 LOI
 Laughing On the Inside
@@ -12407,7 +11659,7 @@ LOL, Not
 
 LOLO
 Lowrider
- Crazy
+Crazy
 
 LOLOL
 Lots Of Laughing Out Loud
@@ -12486,19 +11738,19 @@ Laughing Out Very Loud
 
 LOW
 Unfair
- immoral
+Immoral
 
 LOW IT
 Allow It
- don't worry
+Don't worry
 
 LOW KEY
 Quiet
- Don't tell anyone
+Don't tell anyone
 
 LOWE
 Don't bother
- forget it
+Forget it
 
 LOWRIDER
 Vehicle with modified suspension often hydraulically controlled
@@ -12523,7 +11775,7 @@ Life Pro Tip
 
 LQ
 Liquor
- Lover's Quarrel
+Lover's Quarrel
 
 LQI
 Laughing Quietly Inside
@@ -12542,7 +11794,7 @@ Laughing Quietly To Yourself
 
 LRF
 Low Resolution Fox
- attractive at a distance
+Attractive at a distance
 
 LRG
 Lifted Research Group (clothing)
@@ -12555,7 +11807,7 @@ Last ReTweet
 
 LS
 Lovesick
- Life Story
+Life Story
 
 LSA
 D-Lysergic Acid Amide similar to LSD
@@ -12568,7 +11820,7 @@ D-Lysergic Acid Diethylamide
 
 LSE
 London School of Economics
- Low Self-Esteem
+Low Self-Esteem
 
 LSH
 Laughing So Hard
@@ -12719,8 +11971,8 @@ Love
 
 LUSH
 Drunk person
- Great
- brilliant
+Great
+Brilliant
 
 LUSM
 Love You So Much
@@ -12739,8 +11991,8 @@ Luxury
 
 LV
 Louis Vuitton
- Las Vegas
- Level
+Las Vegas
+Level
 
 LVL
 Level
@@ -12786,7 +12038,7 @@ Love You Always
 
 LYAAF
 Love You As A Friend
- Love You Always And Forever
+Love You Always And Forever
 
 LYB
 Love You, Bye
@@ -12892,14 +12144,14 @@ Mate
 
 MA
 Mom alert
- Master of Arts
+Master of Arts
 
 MAAB
 Male-Assigned At Birth
 
 MAC
 Media Access Control
- Macintosh
+Macintosh
 
 MACHING
 Going at maximum Speed
@@ -12909,7 +12161,7 @@ Flirt
 
 MAD
 Really
- extremely
+Extremely
 
 MADD
 Mothers Against Drunk Driving
@@ -12943,21 +12195,21 @@ Person from Manchester
 
 MANDEM
 Group of men
- boys
+Boys
 
 MANDO
 Mandatory
 
 MANDY
 MDMA
- ecstasy
+Ecstasy
 
 MANG
 Man
 
 MANKY
 Nasty
- dirty
+Dirty
 
 MANU
 MAN U
@@ -12970,7 +12222,7 @@ Most Annoying People On The Internet
 
 MARK
 Target
- sucker
+Sucker
 
 MARY JANE
 Marijuana
@@ -12992,7 +12244,7 @@ Kiss
 
 MAUI WOWIE
 Marijuana
- weed from Hawaii
+Weed from Hawaii
 
 MAW
 Might As Well
@@ -13008,7 +12260,7 @@ Megabyte
 
 MBA
 Masters of Business Association
- Married But Available
+Married But Available
 
 MBD
 My Bad Dudes
@@ -13027,7 +12279,7 @@ Must Be Nice
 
 MBO
 Must Be Off
- Management Buy-Out
+Management Buy-Out
 
 MBPS
 MegaBits/Bytes Per Second
@@ -13061,14 +12313,14 @@ My Chemical Romance (band)
 
 MD
 Doctor of Medicine
- Managing Director
+Managing Director
 
 MCR
 My Chemical Romance (band)
 
 MD
 Doctor of Medicine
- Managing Director
+Managing Director
 
 MDA
 Drug related to Ecstasy (MDMA)
@@ -13084,7 +12336,7 @@ MDMA
 
 MDR
 Mort De Rire
- LOL
+LOL
 
 MDW
 Memorial Day Weekend
@@ -13124,7 +12376,7 @@ My Eyes Glazed Over
 
 MEH
 Indifference
- equivalent to shoulder shrug
+Equivalent to shoulder shrug
 
 MELT
 Idiot
@@ -13139,12 +12391,12 @@ MEP
 Member of the European Parliament
 
 MER
-boredom
- nonchalance
+Boredom
+Nonchalance
 
 MERC
 Mercenary
- Injure or kill
+Injure or kill
 
 MERK
 Kill
@@ -13160,7 +12412,7 @@ Currency in the game Maple Story
 
 MESSRS
 Messieurs
- Mister
+Mister
 
 METH
 Methamphetamine
@@ -13170,7 +12422,7 @@ Low grade marijuana from Mexico
 
 MFC
 Mildly Fat Chick
- Microsoft Foundation Classes
+Microsoft Foundation Classes
 
 MFEO
 Made For Each Other
@@ -13186,7 +12438,7 @@ My Face When ...
 
 MG
 Machine Gun
- Milligram
+Milligram
 
 MGBY
 May God Bless You
@@ -13241,14 +12493,14 @@ Missing In Action
 
 MIB
 Men In Black
- Mint In Box
+Mint In Box
 
 MIC
 Microphone
 
 MID
 Mid grade marijuana
- Mobile Internet Device
+Mobile Internet Device
 
 MIDI
 Musical Instrument Digital Interface
@@ -13288,27 +12540,27 @@ Mine
 
 MINGA
 Minger
- ugly person
+Ugly person
 
 MINGER
 Ugly person
 
 MINGING
 Dirty
- disgusting
- ugly
+Disgusting
+Ugly
 
 MINT
 Nice
- cool
+Cool
 
 MINTED
 Rich
- wealthy
+Wealthy
 
 MINX
 Cheeky
- mischievous girl
+Mischievous girl
 
 MIP
 Minor In Possession
@@ -13351,8 +12603,8 @@ Miserable
 
 MJ
 Michael Jackson
- Michael Jordan
- Marijuana
+Michael Jordan
+Marijuana
 
 MK
 Mm OK
@@ -13442,8 +12694,8 @@ MML
 Made Me Laugh
 
 MMM
-pleasure
- contentment
+Pleasure
+Contentment
 
 MMO
 Short for MMORPG
@@ -13477,14 +12729,14 @@ Maybe Next Time
 
 MO
 Modus Operandi
- method of operation
+Method of operation
 
 MO PO
 Mounted Police
 
 MOAB
 Mother of All Bombs
- Massive Ordnance Air Blast
+Massive Ordnance Air Blast
 
 MOAM
 Man On A Mission
@@ -13506,19 +12758,19 @@ Motherboard
 
 MOC
 Marriage Of Convenience
- My Own Creation
+My Own Creation
 
 MOD
 Modification
- 1960s youth culture
+1960s youth culture
 
 MODEM
 Modulator-Demodulator
 
 MOE
 Fetish
- mania
- taste
+Mania
+Taste
 
 MOH
 My Other Half
@@ -13528,8 +12780,8 @@ Me
 
 MOJO
 Sex appeal
- Charm
- spell
+Charm
+Spell
 
 MOL
 More Or Less
@@ -13539,11 +12791,11 @@ Gangster's GF
 
 MOLLY
 MDMA
- ecstasy
+Ecstasy
 
 MOMO
 Annoying person
- idiot
+Idiot
 
 MON
 Man
@@ -13556,11 +12808,11 @@ Piercing between nose and upper lip
 
 MOO
 Matter of Opinion
- My Own Opinion
+My Own Opinion
 
 MOOK
 Idiot
- JERK
+JERK
 
 MOOLA
 Money
@@ -13588,21 +12840,21 @@ Push/shove at rock/punk concert
 
 MOSS
 Relax
- chill
+Chill
 
 MOT
 Ministry Of Transport test for car safety
 
 MOTA
 Marijuana
- weed
+Weed
 
 MOTB
 Mother Of The Bride
 
 MOTD
 Message Of The Day
- Match Of The Day
+Match Of The Day
 
 MOTKU
 Master Of The Known Universe
@@ -13624,11 +12876,11 @@ Eat very fast
 
 MOXY
 Courage
- confidence
+Confidence
 
 MP
 Military Police
- Member of Parliament
+Member of Parliament
 
 MP3
 Music file
@@ -13650,7 +12902,7 @@ My Point Exactly
 
 MPEG
 Moving Picture Experts Group
- Audio/visual file format
+Audio/visual file format
 
 MPG
 Miles Per Gallon
@@ -13696,7 +12948,7 @@ My Reaction When...
 
 MS
 Microsoft
- Maple Story
+Maple Story
 
 MS-DOS
 Microsoft Disk Operating System
@@ -13718,7 +12970,7 @@ Microsoft (stock symbol)
 
 MSG
 Message
- Monosodium Glutamate
+Monosodium Glutamate
 
 MSI
 Mindless Self Indulgence (band)
@@ -13818,7 +13070,7 @@ MUAH
 
 MUCHO
 Much
- very
+Very
 
 MUCK
 Ugly
@@ -13843,15 +13095,15 @@ Fat spilling out over the top of pants
 
 MUG
 Rob somebody
- Face
- Idiot
+Face
+Idiot
 
 MUGSHOT
 Head and shoulders picture
 
 MUH
 Me
- My
+My
 
 MULA
 Money
@@ -13876,26 +13128,26 @@ Mash Until No Good
 
 MUNTED
 Drunk
- intoxicated
+Intoxicated
 
 MUNTER
 Ugly woman
 
 MUPPET
 Stupid person
- idiot
+Idiot
 
 MURK
 Kill
- murder
+Murder
 
 MURKED
 Badly defeated
- killed
+Killed
 
 MURSE
 Man purse
- Male nurse
+Male nurse
 
 MUSH
 Friend
@@ -13955,14 +13207,14 @@ MY B
 My Bad
 
 MY BAD
-apology
+Apology
 
 MY BOO
 My Boyfriend
- My girlfriend
+My girlfriend
 
 MY FOOT
-disbelief
+Disbelief
 
 MY SIZE
 My type of girl
@@ -14029,7 +13281,7 @@ Need To Go
 
 N2K
 Nice To Know
- Need To Know
+Need To Know
 
 N2M
 Not Too Much
@@ -14039,7 +13291,7 @@ Nice To Meet You
 
 N2S
 Needless To Say
- Note To Self
+Note To Self
 
 N3
 No Name Noob
@@ -14052,8 +13304,8 @@ Night
 
 NA
 Not Available
- Not Applicable
- Not Announced
+Not Applicable
+Not Announced
 
 NAA
 Not At All
@@ -14069,15 +13321,15 @@ Not A Big Deal
 
 NAC
 Not A Chance
- Not A Chain
+Not A Chain
 
 NACKER
 Irish gypsy
- traveller
+Traveller
 
 NACKERED
 Tired
- worn out
+Worn out
 
 NADA
 Nothing
@@ -14093,8 +13345,8 @@ No
 
 NAFF
 Poor quality
- uncool
- Substitute swear word
+Uncool
+Substitute swear word
 
 NAGL
 Not A Good Look
@@ -14110,7 +13362,7 @@ Nigerian
 
 NAIL IT
 Complete
- get right
+Get right
 
 NAK
 Nursing At Keyboard
@@ -14141,8 +13393,8 @@ Grandmother
 
 NANG
 Cool
- wicked
- good
+Wicked
+Good
 
 NAO
 Now
@@ -14194,11 +13446,11 @@ Not At The Moment
 
 NATO
 North Atlantic Treaty Organization
- No Action Talk Only
+No Action Talk Only
 
 NATTY
 Natural Light beer
- Smart, good, cool
+Smart, good, cool
 
 NATTY LIGHT
 Natural Light beer
@@ -14223,8 +13475,8 @@ No
 
 NB
 Not Bad
- Nota Bene
- Please Note
+Nota Bene
+Please Note
 
 NBA
 National Basketball Association
@@ -14249,11 +13501,11 @@ No Basis In Fact
 
 NBK
 Natural Born Killers
- Never Been Kissed
+Never Been Kissed
 
 NBM
 Nil By Mouth
- Not Before Midnight
+Not Before Midnight
 
 NBSB
 No Boyfriend Since Birth
@@ -14269,7 +13521,7 @@ Now Back To Work
 
 NC
 No Comment
- No Choice
+No Choice
 
 NC-17
 No Children under 17 (movie rating)
@@ -14468,14 +13720,14 @@ Never Give Up
 
 NGUNS
 Never Give Up
- Never Surrender
+Never Surrender
 
 NH
 Nice hand
 
 NHB
 No Holding Back
- No Holds Barred
+No Holds Barred
 
 NHD
 No Harm Done
@@ -14518,11 +13770,11 @@ National Institute of Clinical Excellence
 
 NICKED
 Stolen
- Arrested
+Arrested
 
 NICKER
 Pound
- quid
+Quid
 
 NICU
 Neonatal Intensive Care Unit
@@ -14541,7 +13793,7 @@ American sportswear company
 
 NIL
 Zero
- Nothing
+Nothing
 
 NILF
 Nerd I'd Like To F***
@@ -14551,11 +13803,11 @@ Not In My Back Yard
 
 NIML
 Never In My Life
- Not In My Lifetime
+Not In My Lifetime
 
 NIMROD
 Stupid person
- idiot
+Idiot
 
 NIN
 Nine Inch Nails
@@ -14574,8 +13826,8 @@ Need I Say More?
 
 NIT
 New In Town
- Idiot
- nitwit
+Idiot
+Nitwit
 
 NITE
 Good Night
@@ -14588,19 +13840,19 @@ Not In That Way
 
 NIX
 Destroy
- kill
- Nothing
+Kill
+Nothing
 
 NIZZ
 No
 
 NJ
 Not Joking
- Nice Job
+Nice Job
 
 NK
 No Kidding
- Not Known
+Not Known
 
 NKA
 No Known Allergies
@@ -14609,14 +13861,14 @@ NKOTB
 New Kid On The Block
 
 NKT
-annoyance
+Annoyance
 
 NKZ
 No Kill Zone
 
 NL
 Netherlands
- No Limit
+No Limit
 
 NLA
 No Longer Available
@@ -14638,8 +13890,8 @@ Never Let You Go
 
 NM
 Never Mind
- Nothing Much
- No Message
+Nothing Much
+No Message
 
 NME
 New Musical Express (magazine)
@@ -14697,8 +13949,8 @@ Nice Meeting You
 
 NN
 Night Night
- No Need
- Not Nice
+No Need
+Not Nice
 
 NNITO
 Not Necessarily In That Order
@@ -14722,7 +13974,7 @@ NO WORRIES
 OK, no problem
 
 NO-BRAINER
-no thought before deciding
+No thought before deciding
 
 NO1
 No-One
@@ -14747,7 +13999,7 @@ No Offense Intended
 
 NOK
 Not Okay
- No One Knows
+No One Knows
 
 NOKD
 Not Our Kind, Dear
@@ -14766,7 +14018,7 @@ None Of My Business
 
 NOMMY
 Good
- delicious
+Delicious
 
 NOMNOM
 Sound of eating
@@ -14779,7 +14031,7 @@ Now Or Never
 
 NONG
 Idiot
- twit
+Twit
 
 NONY
 Anonymous person
@@ -14801,7 +14053,7 @@ Backward spoon
 
 NOP
 Not Our Problem
- No Problem
+No Problem
 
 NOPE
 No
@@ -14829,7 +14081,7 @@ None Of Their Business
 
 NOTTIE
 Unattractive person
- not a HOTTIE
+Not a HOTTIE
 
 NOTW
 Not Of This World
@@ -14854,7 +14106,7 @@ None Of Your Damn Business
 
 NOZ
 Nitrous oxide
- laughing gas
+Laughing gas
 
 NP
 No Problem
@@ -14876,7 +14128,7 @@ Never Pull Out
 
 NPR
 National Public Radio
- No Purchase Required
+No Purchase Required
 
 NPS
 No Problems
@@ -14895,7 +14147,7 @@ Not Quite Right
 
 NR
 No Reply
- No Reserve
+No Reserve
 
 NRA
 National Rifle Association
@@ -14911,7 +14163,7 @@ Energy
 
 NRI
 Non-Resident Indian
- Non-Repairable Item
+Non-Repairable Item
 
 NRL
 National Rugby League
@@ -14930,7 +14182,7 @@ Never Say Die
 
 NSF
 Not Sufficient Funds
- Not So Fast
+Not So Fast
 
 NSFA
 Not Safe For Anyone
@@ -14964,7 +14216,7 @@ No Thanks
 
 NTB
 Not That Bothered
- Not Too Bad
+Not Too Bad
 
 NTBCW
 Not To Be Confused With
@@ -14986,7 +14238,7 @@ NeverTheLess
 
 NTM
 Not Too Much
- Nothing Much
+Nothing Much
 
 NTMU
 Nice To Meet You
@@ -15002,7 +14254,7 @@ Nothing To Report
 
 NTS
 Nothing To Say
- Note To Self
+Note To Self
 
 NTSC
 National Television System Committee video standard
@@ -15012,7 +14264,7 @@ Nothing To See Here
 
 NTT
 Name That Tune
- Not Touching That!
+Not Touching That!
 
 NTTAWWT
 Not That There's Anything Wrong With That
@@ -15040,7 +14292,7 @@ NOOB
 
 NUF
 Enough
- Nothing
+Nothing
 
 NUFF
 Enough
@@ -15077,8 +14329,8 @@ Crazy person
 
 NUTZ
 Nuts
- crazy
- insane
+Crazy
+Insane
 
 NUU
 No
@@ -15160,7 +14412,7 @@ Not Your Fault
 
 NYK
 Not Yet Known
- Now You Know
+Now You Know
 
 NYOB
 Not Your Own Business
@@ -15176,7 +14428,7 @@ New York Stock Exchange
 
 NYT
 Not Your Type
- New York Times
+New York Times
 
 NYU
 New York University
@@ -15207,15 +14459,15 @@ Salute
 
 O:)
 Innocent
- angelic
+Angelic
 
 O:-)
 Innocent
- angelic
+Angelic
 
 OA
 Over Acting
- Over Achiever
+Over Achiever
 
 OAN
 On Another Note
@@ -15240,8 +14492,8 @@ Oh, Baby
 
 OBE
 Overcome By Events
- Out of Body Experience
- Order of the British Empire
+Out of Body Experience
+Order of the British Empire
 
 OBGYN
 Gynecologist
@@ -15281,8 +14533,8 @@ Outer Banks North Carolina
 
 OC
 Of Course
- Original Character
- Orange County
+Original Character
+Orange County
 
 OCD
 Obsessive Compulsive Disorder
@@ -15304,7 +14556,7 @@ On Company Time
 
 OD
 Overdose
- Over Doing it
+Over Doing it
 
 ODAAT
 One Day At A Time
@@ -15329,7 +14581,7 @@ On Dis Ting
 
 OE
 Outlook Express
- Operator Error
+Operator Error
 
 OED
 Oxford English Dictionary
@@ -15357,7 +14609,7 @@ Odd Future Wolf Gang Kill Them All
 
 OG
 Original Gangster
- Old Git
+Old Git
 
 OGIM
 Oh God It's Monday
@@ -15366,7 +14618,7 @@ OGK
 Only God Knows
 
 OGM
-misspelling of OMG
+Misspelling of OMG
 
 OGN
 Online Gaming Network
@@ -15409,7 +14661,7 @@ Oh, I See
 
 OIK
 Unpleasant
- unpopular person
+Unpopular person
 
 OIY
 Hey
@@ -15434,7 +14686,7 @@ OK
 
 OKI
 Okey Dokey
- OK
+OK
 
 OKIES
 Okay
@@ -15444,14 +14696,14 @@ OK What-Ever
 
 OL
 Online
- Office Lady
+Office Lady
 
 OLD BAG
 Grumpy old woman
 
 OLD LADY
 Wife
- GF
+GF
 
 OLDFAG
 Long established member of an online community
@@ -15548,14 +14800,14 @@ Under the influence of drugs
 
 ON9
 Stupid
- Online
+Online
 
 ONCO
 Or Nearest Cash Offer
 
 ONE
 One Love
- goodbye
+Goodbye
 
 ONE OFF
 Happened Once
@@ -15598,7 +14850,7 @@ Oh No You Didn't
 
 OO
 Object Orientated
- Suprised
+Suprised
 
 OOA
 Out Of Ammo
@@ -15662,7 +14914,7 @@ Obligatory On-Topic Comment
 
 OOTD
 Offer Of The Day
- Outfit Of The Day
+Outfit Of The Day
 
 OOTO
 Out Of The Office
@@ -15695,11 +14947,11 @@ OPPA
 Older brother, male friend
 
 OPPS
-oops
+Oops
 
 OPS
 Operations
- Oops
+Oops
 
 OPSEC
 Operations Security
@@ -15709,7 +14961,7 @@ Black on the outside, white on the inside
 
 ORG
 Online Reality Games
- Organization
+Organization
 
 ORITE
 Alright, hello
@@ -15724,11 +14976,11 @@ ORN
 Oh Really Now
 
 ORO
-confusion
+Confusion
 
 ORZ
 Frustration
- despair
+Despair
 
 OS
 Operating System
@@ -15777,7 +15029,7 @@ Over The Counter
 
 OTD
 On The Dot
- Out The Door
+Out The Door
 
 OTE
 Over The Edge
@@ -15790,7 +15042,7 @@ On The Floor Laughing
 
 OTG
 On The Go
- Off The Ground
+Off The Ground
 
 OTH
 Off The Hook
@@ -15799,15 +15051,15 @@ OTK
 Over The Knee
 
 OTL
-like ORZ stick figure on hands and knees
- Out To Lunch
+Like ORZ stick figure on hands and knees
+Out To Lunch
 
 OTLTA
 One Thing Led To Another
 
 OTM
 Of The Moment
- One Track Mind
+One Track Mind
 
 OTN
 On That Note
@@ -15883,8 +15135,8 @@ Obviously
 
 OW
 Ouch
- Other Woman
- Oh, Well
+Other Woman
+Oh, Well
 
 OWK
 Other World Kingdom
@@ -15894,7 +15146,7 @@ Crouching and staring like an owl
 
 OWN
 Beat
- dominate
+Dominate
 
 OWNED
 Dominated
@@ -15919,7 +15171,7 @@ Sharp blade
 
 OXY
 OxyContin
- painkiller
+Painkiller
 
 OY
 Oh Yeah
@@ -15938,14 +15190,14 @@ On Your Own
 
 OZ
 Australia
- Ounce
+Ounce
 
 O_O
 Confused
 
 P
 Penny
- pence
+Pence
 
 P!ATD
 Panic! At The Disco (band)
@@ -15955,11 +15207,11 @@ Point and Click
 
 P&L
 Profit And Loss
- Peace And Love
+Peace And Love
 
 P&P
 Party And Play
- Postage And Packaging
+Postage And Packaging
 
 P)
 Pirate
@@ -15981,7 +15233,7 @@ Process Too Complicated To Explain
 
 P2P
 Peer To Peer
- Pay To Play
+Pay To Play
 
 P2W
 Pay To Win
@@ -16009,7 +15261,7 @@ Gangsta rapper Tupac Shakur
 
 PAD
 House
- room
+Room
 
 PADDY
 Offensive term for an Irishman
@@ -16025,15 +15277,15 @@ Personal Area Network
 
 PANSY
 Sissy
- unmanly person
+Unmanly person
 
 PANTHER
 Woman who likes older men
 
 PANTS
 Rubbish
- Trousers
- Underpants
+Trousers
+Underpants
 
 PAP
 Post A Picture
@@ -16049,11 +15301,11 @@ Disrespect
 
 PARA
 Paralytic
- very drunk
+Very drunk
 
 PARE
 Friend
- pal
+Pal
 
 PARTY POOPER
 A person who ruins the mood with their attitude
@@ -16069,7 +15321,7 @@ Party All The Time
 
 PAU
 Finished
- done
+Done
 
 PAW
 Parents are watching
@@ -16127,7 +15379,7 @@ Peace Be With You
 
 PC
 Politically Correct
- Personal Computer
+Personal Computer
 
 PC 4 PC
 Picture Comment For Picture Comment
@@ -16137,14 +15389,14 @@ Picture Comment For Picture Comment.
 
 PCB
 Printed Circuit Board
- Please Come Back
+Please Come Back
 
 PCD
 Pussycat Dolls
 
 PCE
 Peace
- Goodbye
+Goodbye
 
 PCI
 Peripheral Component Interconnect
@@ -16160,7 +15412,7 @@ Personal Computer Manufacturer Interface Adaptor
 
 PCP
 Phencyclidine
- Angel dust
+Angel dust
 
 PD
 Public Domain
@@ -16209,7 +15461,7 @@ Pet name for BF or GF
 
 PEAR
 Pear shaped
- wrong
+Wrong
 
 PEBCAC
 Problem Exists Between Chair And Computer
@@ -16237,22 +15489,22 @@ Parenthesis, Exponents, Multiply, Divide, Add, Subtract
 
 PEN
 Penitentiary
- jail
- prison
+Jail
+Prison
 
 PEN15
 Penis
 
 PENDEJO
 Idiot
- fool
+Fool
 
 PENG
 Good looking person
 
 PENG A LENG
 Really sexy
- very fit
+Very fit
 
 PEON
 Low ranking person
@@ -16262,7 +15514,7 @@ People
 
 PER SE
 By or in itself
- intrinsically
+Intrinsically
 
 PERF
 Perfect
@@ -16278,7 +15530,7 @@ Flirting in a creepy way
 
 PERVY
 Perverted
- creepy
+Creepy
 
 PETA
 People for the Ethical Treatment of Animals
@@ -16299,10 +15551,10 @@ PFC
 Private First Class
 
 PFF
-disagreement
+Disagreement
 
 PFFT
-dismissal
+Dismissal
 
 PFP
 Picture For Proof
@@ -16344,14 +15596,14 @@ PHD
 Doctor of Philosphy
 
 PHEW
-relief
+Relief
 
 PHISHING
 Scamming method used to get personal information
 
 PHOAR
-lust
- physical attraction
+Lust
+Physical attraction
 
 PHONY
 Fake object or person
@@ -16366,20 +15618,20 @@ PHU
 Potential Hook Up
 
 PHWOAR
-fit
- sexy
- hot
+Fit
+Sexy
+Hot
 
 PI
 Greek letter
- number
+Number
 
 PIBE
 Play It By Ear
 
 PIC
 Picture
- Partner In Crime
+Partner In Crime
 
 PICNIC
 Problem In Chair Not In Computer
@@ -16389,9 +15641,9 @@ Stupid
 
 PIECE
 Gun
- weapon
- Work of graffiti
- Pipe for smoking drugs
+Weapon
+Work of graffiti
+Pipe for smoking drugs
 
 PIF
 Marijuana
@@ -16413,7 +15665,7 @@ Offensive term for a Gypsy/traveller
 
 PILLOCK
 Idiot
- fool
+Fool
 
 PIMPL
 Pee In My Pants Laughing
@@ -16423,7 +15675,7 @@ Personal Identification Number
 
 PINCHED
 Caught
- arrested
+Arrested
 
 PING
 Send a packet to a computer and wait for its return (Packet INternet Groper)
@@ -16442,7 +15694,7 @@ Protect IP Act
 
 PIPS
 Easy
- not difficult
+Not difficult
 
 PIQ
 Person In Question
@@ -16452,11 +15704,11 @@ Parent In Room
 
 PISSED
 Angry
- Drunk
+Drunk
 
 PISSED OFF
 Mad
- angry
+Angry
 
 PITCH
 Contribute money
@@ -16475,11 +15727,11 @@ Pictures
 
 PJ
 Poor Joke
- Cheap alcoholic beverage
+Cheap alcoholic beverage
 
 PJ'S
 Pyjamas
- night wear
+Night wear
 
 PJS
 Pajamas
@@ -16513,7 +15765,7 @@ People's Liberation Army
 
 PLANK
 Idiot
- stupid person
+Stupid person
 
 PLANKING
 Lying face down in an unusual place
@@ -16529,7 +15781,7 @@ Poor Life Decision
 
 PLEB
 Commoner
- inferior person
+Inferior person
 
 PLH
 Peace, Love and Happiness
@@ -16620,7 +15872,7 @@ Pardon Me, You Must Have Mistaken Me For Someone Who Gives A Damn
 
 PNC
 Point and Click
- Partner in Crime
+Partner in Crime
 
 PNG
 Image file format
@@ -16654,7 +15906,7 @@ Plenty of Fish
 
 POI
 Point(s) Of Interest
- Person of Interest
+Person of Interest
 
 POIDH
 Pics Or It Didn't Happen
@@ -16667,7 +15919,7 @@ Prison
 
 POLY
 Polyamory
- loving more than one person at a time
+Loving more than one person at a time
 
 POM
 Australian name for an English person
@@ -16677,16 +15929,16 @@ Oh My God
 
 POMO
 Permanent Open Market Operations
- Post Modern
- A Group Of Native American People In California
+Post Modern
+A Group Of Native American People In California
 
 PON
 On
- PWN
+PWN
 
 PONED
 Powerfully owned
- dominated
+Dominated
 
 PONR
 Point Of No Return
@@ -16714,7 +15966,7 @@ Amyl nitrate (recreational drug)
 
 POPPIN
 Going on
- happening
+Happening
 
 POPPING
 Dance style
@@ -16723,7 +15975,7 @@ POPS
 Father
 
 PORCH MONKEY
-lazy person
+Lazy person
 
 POSE
 Suppose
@@ -16751,7 +16003,7 @@ Phantom Of The Opera
 
 POTS
 Parents Over The Shoulder
- parents watching, I can't really talk
+Parents watching, I can't really talk
 
 POTUS
 President of the United States
@@ -16833,7 +16085,7 @@ People's Republic of China
 
 PREE
 Watch
- stare at
+Stare at
 
 PREGGERS
 Pregnant
@@ -16849,12 +16101,12 @@ Prepare
 
 PRESH
 Precious
- Awesome
- cool
+Awesome
+Cool
 
 PRESSIE
 Present
- gift
+Gift
 
 PRI
 Pretty
@@ -16882,7 +16134,7 @@ Protestant
 
 PROG
 Progressive rock music
- Program
+Program
 
 PROJECT
 HOOD
@@ -16895,11 +16147,11 @@ Promotional material
 
 PROPS
 Respect
- recognition
+Recognition
 
 PROXY
 Agent
- middle man
+Middle man
 
 PROZZIE
 Prostitute
@@ -16912,12 +16164,12 @@ Probably
 
 PS
 PhotoShop
- Play Station
- Post Script
+Play Station
+Post Script
 
 PS & QS
 Pints and Quarts
- Please and Thank Yous
+Please and Thank Yous
 
 PS/2
 Computer port for keyboard or mouse
@@ -16944,8 +16196,8 @@ PSH
 Dismissive expression
 
 PSHAW
-disbelief
- scepticism
+Disbelief
+Scepticism
 
 PSI
 Pounds per Square Inch (pressure)
@@ -16965,7 +16217,7 @@ Pretty Standard, Really
 
 PST
 Please Send Tell
- Pacific Standard Time
+Pacific Standard Time
 
 PSTN
 Public Switched Telephone Network
@@ -16978,23 +16230,23 @@ Playstation X
 
 PSYCHED
 Excited
- pumped up
+Pumped up
 
 PT
 Phantasy Tour
- Physical Training
+Physical Training
 
 PTB
 Powers That Be
- Pass The Buck
- Please Text Back
+Pass The Buck
+Please Text Back
 
 PTC
 Popping The Collar
 
 PTDR
 Pete De Rire
- LOL
+LOL
 
 PTE
 Private
@@ -17013,7 +16265,7 @@ Paid Time Off
 
 PTP
 Pay To Play
- Peer To Peer
+Peer To Peer
 
 PTSD
 Post Traumatic Stress Disorder
@@ -17023,7 +16275,7 @@ Push-To-Talk
 
 PTW
 Play To Win
- Professional Time Waster
+Professional Time Waster
 
 PTZ
 Pan-Tilt-Zoom
@@ -17032,7 +16284,7 @@ PUA
 Pick Up Artist
 
 PUB
-bar
+Bar
 
 PUFF
 Marijuana
@@ -17042,7 +16294,7 @@ Pick Up Group
 
 PUKKA
 Genuine
- top quality
+Top quality
 
 PULL
 Make out with
@@ -17052,7 +16304,7 @@ Woman who dates younger men
 
 PUMPED
 Exhilarated
- fired up
+Fired up
 
 PUNK
 Music genre
@@ -17080,7 +16332,7 @@ Promotional Video
 
 PVC
 Polyvinyl Chloride
- vinyl
+Vinyl
 
 PVE
 Player versus Environment
@@ -17108,7 +16360,7 @@ Professional White Male
 
 PWN
 Own
- dominate
+Dominate
 
 PWN3D
 Owned
@@ -17121,8 +16373,8 @@ PWNED
 
 PWNED
 Owned
- dominated
- Perfectly Owned
+Dominated
+Perfectly Owned
 
 PWNT
 PWNED
@@ -17141,7 +16393,7 @@ Poor White Trash
 
 PX
 Post Exchange
- Part Exchange
+Part Exchange
 
 PYP
 Play Your Position
@@ -17169,7 +16421,7 @@ Question and Answer
 
 Q1
 First Quarter
- Quake 1
+Quake 1
 
 Q4U
 Question For You
@@ -17179,14 +16431,14 @@ Kuwait
 
 QA
 Quality Assurance
- Question and Answer
+Question and Answer
 
 QANTAS
 Queensland and Northern Territory Aerial Service
 
 QAP
 Quick As Possible
- Quickly As Possible
+Quickly As Possible
 
 QB
 Quarter Back
@@ -17196,7 +16448,7 @@ Quality Control
 
 QED
 Quod Erat Demonstrandum
- it has been proved
+It has been proved
 
 QFE
 Quoted For Emphasis
@@ -17218,7 +16470,7 @@ Ninja
 
 QL
 Cool
- Quietly Laughing
+Quietly Laughing
 
 QLD
 Queensland
@@ -17246,7 +16498,7 @@ Quarter Pound (of weed)
 
 QQ
 Crying
- Quit
+Quit
 
 QQ4U
 Quick Question For You
@@ -17298,7 +16550,7 @@ Rhythm And Blues
 
 R&D
 Research and Development
- Replicate and Duplicate
+Replicate and Duplicate
 
 R&R
 Rest and Relaxation
@@ -17308,21 +16560,21 @@ Region 5 (DVD region)
 
 RA
 Resident Advisor
- Resident Assistant
+Resident Assistant
 
 RAC
 Rock Against Communism
 
 RACHET
 Crazy
- nasty
+Nasty
 
 RACKS
 Money
 
 RAD
 Radical
- cool
+Cool
 
 RADAR
 Radio Detection And Ranging
@@ -17332,7 +16584,7 @@ ROFL
 
 RAGE
 Party very hard
- get wasted
+Get wasted
 
 RAGO
 Whatever, OK
@@ -17357,14 +16609,14 @@ Random Access Memory
 
 RANDOM
 Unexpected
- unpredictable
+Unpredictable
 
 RANGA
 Redhead derogatory
 
 RANK
 Disgusting
- gross
+Gross
 
 RAOK
 Random Act Of Kindness
@@ -17374,7 +16626,7 @@ Music genre
 
 RAPID
 Cool
- excellent
+Excellent
 
 RAPPER
 Urban poet
@@ -17390,11 +16642,11 @@ Rastafarian
 
 RAT
 Snitch
- telltale
+Telltale
 
 RATCHET
 Undesirable
- coarse woman
+Coarse woman
 
 RATM
 Rage Against the Machine (band)
@@ -17416,7 +16668,7 @@ Right Answer, Wrong Reason
 
 RAZZ
 Make fun of
- Get drunk
+Get drunk
 
 RBAU
 Right Back At You
@@ -17435,7 +16687,7 @@ Red Bull and Vodka
 
 RC
 Random Chat
- Radio Controlled
+Radio Controlled
 
 RCH
 A very small unit of measurement
@@ -17487,11 +16739,11 @@ Recreation
 
 RED BONE
 Light Skinned Colored Person
- Red Undertones In Skin and Hair
+Red Undertones In Skin and Hair
 
 RED COAT
 British soldier
- Holiday camp worker
+Holiday camp worker
 
 REDBONE
 Light skinned colored person
@@ -17510,8 +16762,8 @@ Marijuana
 
 REEM
 Gorgeous
- sexy
- nice
+Sexy
+Nice
 
 REF
 Refugee
@@ -17524,33 +16776,33 @@ Regular weed
 
 REGS
 Regular
- Low quality marijuana
+Low quality marijuana
 
 REKT
 Wrecked
 
 REL
 Relative
- Irrelevant
+Irrelevant
 
 RELLIES
 Relatives
 
 REM
 Rapid Eye Movement
- Rock band
+Rock band
 
 RENTS
 Parents
 
 REP
 Represent
- Reputation
- Repetition
+Reputation
+Repetition
 
 REQ
 Request
- Required
+Required
 
 RES
 Resin
@@ -17566,7 +16818,7 @@ Old fashioned style
 
 REV
 Make an engine go faster
- Reverend
+Reverend
 
 REZ
 Indian reservation
@@ -17642,7 +16894,7 @@ Reduction In Force
 
 RIFRAF
 Common people
- trailer trash
+Trailer trash
 
 RIH
 Rot In Hell
@@ -17655,18 +16907,18 @@ Republican In Name Only
 
 RIP
 Convert music/video on CD to MP3s
- Rest In Peace
+Rest In Peace
 
 RIPPED
 Well defined muscles
- Stoned
+Stoned
 
 RIS
 Received In Swap
 
 RITE
 Right
- Write
+Write
 
 RIYL
 Recommended If You Like
@@ -17715,7 +16967,7 @@ Results May Vary
 
 RN
 Right Now
- Registered Nurse
+Registered Nurse
 
 RNA
 Ribonucleic Acid
@@ -17752,7 +17004,7 @@ Rules Of Engagement
 
 ROF
 Rate Of Fire
- ROFL
+ROFL
 
 ROFC
 Rolling On Floor Crying
@@ -17792,7 +17044,7 @@ Experience the effects of Ecstasy
 
 ROLLED
 Robbed
- beaten
+Beaten
 
 ROLLIN
 High on drugs
@@ -17850,7 +17102,7 @@ Rocks
 
 ROXOR
 Rocks
- Awesome
+Awesome
 
 ROXORZ
 Rocks
@@ -17872,7 +17124,7 @@ Real Person Fiction
 
 RPG
 Rocket Propelled Grenade
- Role Playing Game
+Role Playing Game
 
 RPM
 Revolutions Per Minute
@@ -17921,14 +17173,14 @@ LOL
 
 RSS
 Rich Site Summary
- Really Simple Syndication
+Really Simple Syndication
 
 RSVP
 Repondez s'il vous plait (Please reply)
 
 RT
 Retweet
- Real Time
+Real Time
 
 RTA
 Road Traffic Accident
@@ -17959,7 +17211,7 @@ Read The Flipping Manual
 
 RTFT
 Read The F***ing Thread
- Read The F***ing Topic
+Read The F***ing Topic
 
 RTG
 Ready To Go
@@ -17984,7 +17236,7 @@ Rock The Vote
 
 RTW
 Ready To Wear
- Round The World
+Round The World
 
 RU
 Are You?
@@ -17997,7 +17249,7 @@ Girlfriend
 
 RUDEBOY
 Gangster
- Ska fan
+Ska fan
 
 RUGGER
 Rugby
@@ -18007,14 +17259,14 @@ Uh Oh, Scooby Doo style
 
 RUKA
 Gangster girl
- MOLL
+MOLL
 
 RUKM
 Are You Kidding Me?
 
 RUMBLE
 Brawl
- fight
+Fight
 
 RUO
 Weak
@@ -18063,14 +17315,14 @@ Regarding Your Comment
 
 RYN
 Read Your Note
- Regarding Your Note
+Regarding Your Note
 
 RYO
 Roll Your Own
 
 RYT
 Right
- alright
+Alright
 
 S&D
 Search and Destroy
@@ -18092,7 +17344,7 @@ Serial Number
 
 S/O
 Shout Out
- Significant Other
+Significant Other
 
 S/T
 Self Titled
@@ -18108,7 +17360,7 @@ Send To Receive
 
 S2S
 Sorry To Say
- Safe To Say
+Safe To Say
 
 S2U
 Same To You
@@ -18127,7 +17379,7 @@ Bed
 
 SAD
 Pathetic
- Seasonal Adjustment Disorder
+Seasonal Adjustment Disorder
 
 SAE
 Stamped/Self Addressed Envelope
@@ -18161,7 +17413,7 @@ Stay At Home Wife
 
 SALA
 Idiot
- moron
+Moron
 
 SALAM
 Peace
@@ -18192,7 +17444,7 @@ Without
 
 SAP
 Sad And Pathetic
- Fool
+Fool
 
 SARCY
 Sarcastic
@@ -18222,7 +17474,7 @@ SATS
 Standard Attainment Tests
 
 SAUCE
-source
+Source
 
 SAUCED
 Drunk
@@ -18232,8 +17484,8 @@ Brutal but awesome
 
 SAVVY
 Do you understand?
- Knowledgeable
- well informed
+Knowledgeable
+Well informed
 
 SAWP
 SUP
@@ -18273,18 +17525,18 @@ Starbucks
 
 SC
 StarCraft (game)
- Silent Chuckle
+Silent Chuckle
 
 SCA
 Scandal
 
 SCALLY
 Low life
- trailer trash
+Trailer trash
 
 SCAM
 Rip off
- Make out
+Make out
 
 SCART
 Audio/Video TV connector
@@ -18306,8 +17558,8 @@ San Fransisco
 
 SCOFF
 Food
- Eat fast
- Sneer
+Eat fast
+Sneer
 
 SCOTUS
 Supreme Court Of The United States
@@ -18329,11 +17581,11 @@ Fight
 
 SCREB
 Dirty
- scruffy person
+Scruffy person
 
 SCRILLA
 Money
- cash
+Cash
 
 SCRIM
 Practice game
@@ -18349,8 +17601,8 @@ Self-Contained Underwater Breathing Apparatus
 
 SD
 Sweet Dreams
- Secure Digital
- So Drunk
+Secure Digital
+So Drunk
 
 SDA
 Seventh-Day Adventist
@@ -18360,7 +17612,7 @@ Software Development Kit
 
 SDMF
 Strength, Determination, Merciless, Forever
- Society Dwelling Mother F***er
+Society Dwelling Mother F***er
 
 SDRAM
 Synchronous Dynamic Random Access Memory
@@ -18379,7 +17631,7 @@ Said
 
 SEEDS
 Marijuana seeds
- Children
+Children
 
 SEEN
 I see, understood
@@ -18404,7 +17656,7 @@ Search Engine Marketing
 
 SENIOR MOMENT
 Lapse of memory
- logic or mental function
+Logic or mental function
 
 SEO
 Search Engine Optimization
@@ -18441,7 +17693,7 @@ Send suggestive text messages
 
 SF
 Science Fiction
- San Francisco
+San Francisco
 
 SFAM
 Sister From Another Mister
@@ -18490,23 +17742,23 @@ Shut up
 
 SHADE
 Casual
- disrespectful
+Disrespectful
 
 SHADES
 Sunglasses
 
 SHADY
 Shifty
- sly
- sneaky
+Sly
+Sneaky
 
 SHAFT
 Screw
- rip off
+Rip off
 
 SHANK
 Homemade knife
- Stab
+Stab
 
 SHAWN
 Attractive man
@@ -18537,14 +17789,14 @@ Be quiet, shut up
 
 SHILL
 Decoy
- person in on a scam
+Person in on a scam
 
 SHINNY
 Informal game of hockey
 
 SHIOK
-happiness
- pleasure
+Happiness
+Pleasure
 
 SHIP
 Romantic relationship
@@ -18569,34 +17821,34 @@ See How Much I Love You
 
 SHO
 Sure
- Super High Output
+Super High Output
 
 SHOOK
 Scared
- frightened
+Frightened
 
 SHOOP
 Photoshop
 
 SHOOTER
 Gun
- Person who fires a gun
+Person who fires a gun
 
 SHOPPED
 Photoshopped
- manipulated
+Manipulated
 
 SHORTY
 Girlfriend
- attractive girl
+Attractive girl
 
 SHOTGUN
 Front passenger seat
 
 SHOTTA
 Thug
- gangster
- Drug dealer
+Gangster
+Drug dealer
 
 SHOULDA
 Should have
@@ -18609,11 +17861,11 @@ Secure Housing Unit
 
 SHUBZ
 House party
- rave
+Rave
 
 SHUCKS
-modesty
- disappointment
+Modesty
+Disappointment
 
 SHUG
 Sugar
@@ -18626,18 +17878,18 @@ Shut Up
 
 SHUSH
 Shut up
- be quiet
+Be quiet
 
 SHUX
 Shucks
- modesty
+Modesty
 
 SHWE
 Should We
 
 SI
 Stop It
- Stupid Idiot
+Stupid Idiot
 
 SIA
 Sorry I Asked
@@ -18650,18 +17902,18 @@ Say It Ain't So
 
 SIC
 Latin sicut
- apparent mistake
+Apparent mistake
 
 SICK
 Awesome
- cool
+Cool
 
 SICS
 Sitting In Chair Snickering
 
 SID
 Acid
- LSD
+LSD
 
 SIDK
 Sorry, I Didn't Know
@@ -18701,7 +17953,7 @@ Subscriber Identity Module for a mobile phone
 
 SIMMER
 Relax
- chill
+Chill
 
 SIO
 Bye
@@ -18723,7 +17975,7 @@ Situation Report
 
 SITTING DUCK
 Vulnerable
- helpless target
+Helpless target
 
 SITU
 Situation
@@ -18739,11 +17991,11 @@ Someone Is Wrong On The Internet
 
 SIZZLE
 Drug OC
- oxycontin
+Oxycontin
 
 SJ
 Society of Jesus
- San Jose
+San Jose
 
 SJGR
 Shit Just Got Real
@@ -18762,24 +18014,24 @@ High
 
 SKEEN
 I See
- Seen
+Seen
 
 SKENG
 Knife
- blade
- Gun
- firearm
+Blade
+Gun
+Firearm
 
 SKETCH
 Unusual
- dubious
+Dubious
 
 SKEWL
 School
 
 SKI
 Spend Kids' Inheritance
- Snort cocaine
+Snort cocaine
 
 SKI INSTRUCTOR
 Cocaine dealer
@@ -18789,12 +18041,12 @@ Go away
 
 SKINNY
 Information
- gossip
- Thin
+Gossip
+Thin
 
 SKINT
 Broke
- having no money
+Having no money
 
 SKITTLES
 Drugs
@@ -18834,7 +18086,7 @@ Service Level Agreement
 
 SLAB
 Slow Low/Loud And Bangin'
- customized car
+Customized car
 
 SLAN
 Goodbye
@@ -18850,7 +18102,7 @@ Second Level Domain
 
 SLEW
 Cut down
- kill
+Kill
 
 SLF
 Sounds Like Fun
@@ -18869,17 +18121,17 @@ Eighth of an ounce of marijuana
 
 SLICK
 Sharp
- cool
- smooth
+Cool
+Smooth
 
 SLM
 Salaam
- hello
+Hello
 
 SLOB
 Lazy
- untidy
- dirty person
+Untidy
+Dirty person
 
 SLOL
 Seriously Laughing Out Loud
@@ -18889,11 +18141,11 @@ Drunk
 
 SLR
 Single Lens Reflex
- Camera
+Camera
 
 SLT
 Salut
- hello
+Hello
 
 SLUGS
 Bullets
@@ -18963,7 +18215,7 @@ Smile with your eyes
 
 SML
 Screw My Life
- Story of My Life
+Story of My Life
 
 SMN
 Shoot Me Now
@@ -18976,7 +18228,7 @@ Kiss
 
 SMOOSH
 Hug
- squeeze
+Squeeze
 
 SMOP
 Simple Matter Of Programming
@@ -18998,7 +18250,7 @@ Experienced gamer posing as a newbie
 
 SN
 Screen Name
- Side Note
+Side Note
 
 SN1
 Spare No One
@@ -19008,14 +18260,14 @@ Situation Normal, All Fouled Up
 
 SNAG
 Sensitive New Age Guy
- Sausage
+Sausage
 
 SNAIL MAIL
 Regular postal service
 
 SNAKE
 Snitch
- back stabber
+Back stabber
 
 SNAKE OIL
 Fake medicine
@@ -19024,8 +18276,8 @@ SNAKING
 Flirting
 
 SNAP
-dismay
- surprise
+Dismay
+Surprise
 
 SNC
 Social Network Check
@@ -19086,7 +18338,7 @@ So Now You Know
 
 SO SO
 Neither good nor bad
- average
+Average
 
 SOA
 State Of Alert (band)
@@ -19105,7 +18357,7 @@ Special Operations Command
 
 SOD OFF
 Go away
- get lost
+Get lost
 
 SOE
 Sony Online Entertainment
@@ -19118,7 +18370,7 @@ Powdered cocaine
 
 SOG
 Sea Of Green
- cannabis growing
+Cannabis growing
 
 SOH
 Sense Of Humor
@@ -19137,7 +18389,7 @@ That's OK
 
 SOLID
 Cool
- awesome
+Awesome
 
 SOMD
 Sh*t On My Dick
@@ -19159,7 +18411,7 @@ So
 
 SOOC
 Straight Out Of Camera 
-not Photoshopped
+Not Photoshopped
 
 SOOD
 Cool
@@ -19196,8 +18448,8 @@ State of the Union
 
 SOUND
 Cool
- awesome
- good
+Awesome
+Good
 
 SOUR
 Strong WEED
@@ -19234,15 +18486,15 @@ Unsolicted email
 
 SPANNER
 Idiot
- fool
+Fool
 
 SPARK
 Set light to
 
 SPAT
 Fight
- argument
- tiff
+Argument
+Tiff
 
 SPAZ
 Spastic
@@ -19312,18 +18564,18 @@ Lend money
 
 SPOT ON
 Absolutely correct
- perfect
+Perfect
 
 SPQR
 Senatus Populusque Romanus
- the Senate and the people of Rome
+The Senate and the people of Rome
 
 SPROG
 Child
 
 SPRUNG
 Obsessed with someone
- in love
+In love
 
 SPST
 Same Place, Same Time
@@ -19333,7 +18585,7 @@ Under the influence of methamphetamine
 
 SPURS
 US Basketball team
- UK football team
+UK football team
 
 SQ
 Sound Quality
@@ -19397,7 +18649,7 @@ Service Set Identifier
 
 SSL
 Secure Socket Layer
- See Subject Line
+See Subject Line
 
 SSTS
 Snickering Softly To Self
@@ -19428,14 +18680,14 @@ Stalker Fan
 
 STANDARD
 Of course
- goes without saying
+Goes without saying
 
 STANG
 Ford Mustang
 
 STAR
 Friend
- buddy
+Buddy
 
 STAT
 Immediately
@@ -19454,7 +18706,7 @@ Soon-To-Be Ex
 
 STBY
 Sucks To Be You
- Sorry To Bother You
+Sorry To Bother You
 
 STC
 Subject to Change
@@ -19464,7 +18716,7 @@ Punch
 
 STEAMING
 Drunk
- intoxicated
+Intoxicated
 
 STEEZ
 Style with ease
@@ -19480,7 +18732,7 @@ Flirty girl
 
 STELLAR
 Awesome
- excellent
+Excellent
 
 STEM
 Mix of STUD and FEM
@@ -19526,15 +18778,15 @@ Same Time Next Year
 
 STOKED
 Very happy
- excited
+Excited
 
 STOPE
 Awesome
- cool
+Cool
 
 STR
 Strength
- Short Term Relationship
+Short Term Relationship
 
 STR8
 Straight
@@ -19544,7 +18796,7 @@ Gun
 
 STROP
 Sulk
- tantrum
+Tantrum
 
 STS
 Smirk To Self
@@ -19578,7 +18830,7 @@ Subwoofers
 
 SUCKS
 Is bad
- is rubbish
+Is rubbish
 
 SUFI
 Super Finger
@@ -19591,7 +18843,7 @@ Sir
 
 SUIT
 Businessman
- boss
+Boss
 
 SUL
 See You Later
@@ -19619,12 +18871,12 @@ Very, really
 
 SUS
 Suspect
- suspicious
+Suspicious
 
 SUSS
 Discover
- understand
- Suspicious
+Understand
+Suspicious
 
 SUV
 Sport Utility Vehicle
@@ -19634,7 +18886,7 @@ Sucks
 
 SVP
 S'il Vous Plait
- please
+Please
 
 SVS
 Someone Very Special
@@ -19644,13 +18896,13 @@ Special Victims Unit
 
 SW
 So What?
- Star Wars
- Street Worker
+Star Wars
+Street Worker
 
 SWAGG 
 Style
- coolness
- confidence
+Coolness
+Confidence
 
 SWAGGA
 Style or personality
@@ -19669,9 +18921,9 @@ She Who Always Must Be Obeyed
 
 SWANK
 Cool
- classy
- Single Woman And No Kids
- Second Wife And No Kids
+Classy
+Single Woman And No Kids
+Second Wife And No Kids
 
 SWAT
 Special Weapons And Tactics
@@ -19723,7 +18975,7 @@ Someone Who Isn't You
 
 SWIZ
 Con
- rip-off
+Rip-off
 
 SWIZZLE
 Sweet
@@ -19742,15 +18994,15 @@ Sound
 
 SWOG
 Uncoolness
- opposite of SWAGG
+Opposite of SWAGG
 
 SWOL
 Well built
- muscular
+Muscular
 
 SWOLE
 Muscular
- in good shape
+In good shape
 
 SWOT
 Person who is always studying
@@ -19766,7 +19018,7 @@ Single White Professional Male
 
 SWT
 Sweat
- Sweet
+Sweet
 
 SWTOR
 Star Wars: The Old Republic (game)
@@ -19776,7 +19028,7 @@ Slippery When Wet
 
 SWY
 Sowwy
- sorry
+Sorry
 
 SWYD
 Sleep When You're Dead
@@ -19816,7 +19068,7 @@ See You Later Alligator
 
 SYM
 Shut Your Mouth
- So You Mad?
+So You Mad?
 
 SYMBIAN
 Mobile phone OS
@@ -19841,7 +19093,7 @@ System Operator
 
 SYT
 See You Tomorrow
- See You There
+See You There
 
 SYTYCD
 So You Think You Can Dance
@@ -19875,19 +19127,19 @@ Thanks For Posting
 
 T4T
 Tit For Tat
- Thanks For Trade
+Thanks For Trade
 
 TA
 Thank you
 
 TAB
 Acid
- LSD
- Cigarette
+LSD
+Cigarette
 
 TABOO
 Forbidden
- not talked about
+Not talked about
 
 TAC
 Cannabis resin
@@ -19897,8 +19149,8 @@ In bad taste
 
 TACO
 A Mexican Food Dish
- Vagina
- Derogatory Term For Spanish Person
+Vagina
+Derogatory Term For Spanish Person
 
 TACP
 Take A Chill Pill
@@ -19941,7 +19193,7 @@ Texas Assessment of Knowledge and Skills
 
 TAL
 Thanks A Lot
- Try Again Later
+Try Again Later
 
 TAMW
 That Awkward Moment When ...
@@ -19951,7 +19203,7 @@ There Ain't No Justice
 
 TANK
 Large person
- heavily built
+Heavily built
 
 TANSTAAFL
 There Ain't No Such Thing as a Free Lunch
@@ -19973,13 +19225,13 @@ Things Are Really Fouled Up
 
 TASTY
 Good looking
- Cool
- awesome
+Cool
+Awesome
 
 TAT
 Tattoo
- Rubbish
- junk
+Rubbish
+Junk
 
 TATA
 Goodbye
@@ -20001,7 +19253,7 @@ Thinking About You
 
 TAZE
 Annoy
- irritate
+Irritate
 
 TB
 Text Back
@@ -20062,7 +19314,7 @@ To Be Real
 
 TBS
 Tablespoon
- To Be Specified
+To Be Specified
 
 TBSS
 Too Bad, So Sad
@@ -20119,8 +19371,8 @@ TCGB
 Take Care, God Bless
 
 TCH
-disagreement
- frustration
+Disagreement
+Frustration
 
 TCK
 Third Culture Kid
@@ -20157,14 +19409,14 @@ To Die For
 
 TDG
 Too Damn Good
- Three Days Grace (band)
+Three Days Grace (band)
 
 TDH
 Tall, Dark, and Handsome
 
 TDI
 Turbo Direct Injection
- Turbo Diesel Injection
+Turbo Diesel Injection
 
 TDL
 To Do List
@@ -20198,29 +19450,29 @@ Tec 9 handgun
 
 TECH
 Technician
- Technology
+Technology
 
 TEE
 T-shirt
 
 TEEF
 Steal
- Teeth
+Teeth
 
 TEEN
 Teenager
- teenage
+Teenage
 
 TEH
 The
- Used to emphasise the next word
+Used to emphasise the next word
 
 TEHO
 To Each His/Her Own
 
 TEK
 Tek-9 machine pistol
- Technique
+Technique
 
 TEKKERS
 Technique
@@ -20269,7 +19521,7 @@ Thanks For the Information
 
 TFL
 Tip For Life
- Transport For London
+Transport For London
 
 TFLMK
 Thanks For Letting Me Know
@@ -20300,7 +19552,7 @@ Thanks For Sharing
 
 TFT
 The Frozen Throne
- Thin Film Transistor
+Thin Film Transistor
 
 TFTA
 Thanks For The Add
@@ -20319,14 +19571,14 @@ Thanks for the Link
 
 TG
 Thank God
- Transgender
- Too Good
+Transgender
+Too Good
 
 TGAL
 Think Globally, Act Locally
 
 TGE
-the
+The
 
 TGFG
 Thank God For Google
@@ -20390,7 +19642,7 @@ There
 
 THC
 Tetrahydrocannabinol
- active ingredient in marijuana
+Active ingredient in marijuana
 
 THE BOMB
 Really cool
@@ -20400,7 +19652,7 @@ Prison
 
 THICK
 Well proportioned
- not fat or skinny
+Not fat or skinny
 
 THIZZ
 Ecstasy
@@ -20431,7 +19683,7 @@ Thrash metal
 
 THREAD
 Topic On A Message Board
- Clothes
+Clothes
 
 THRU
 Through
@@ -20444,7 +19696,7 @@ To Hot to Handle
 
 THUG
 Violent criminal
- Person struggling to make something of their life
+Person struggling to make something of their life
 
 THUMBNAIL
 Small version of a picture
@@ -20466,7 +19718,7 @@ Thanks
 
 TI
 Texas Instruments
- Rapper from Atlanta
+Rapper from Atlanta
 
 TI AMO
 I Love You
@@ -20485,38 +19737,38 @@ Take It Down
 
 TIDY
 Cool
- good
+Good
 
 TIE
 Take It Easy
 
 TIEF
 Thief
- thieve
+Thieve
 
 TIEM
-time
+Time
 
 TIF
 That Is Funny
 
 TIFF
 Argument
- disagreement
+Disagreement
 
 TIFN
 That's It For Now
 
 TIGHT
 Close
- Miserly
+Miserly
 
 TIIC
 The Idiots In Charge
 
 TIL
 Until
- Today I Learned
+Today I Learned
 
 TILII
 Tell It Like It Is
@@ -20574,7 +19826,7 @@ Take It Too Far
 
 TITT
 Throw In The Towel
- give up
+Give up
 
 TIX
 Tickets
@@ -20590,7 +19842,7 @@ Taekwondo
 
 TKM
 Te Quiero Mucho
- I love you
+I love you
 
 TKO
 Technical Knock Out
@@ -20603,8 +19855,8 @@ Don't worry
 
 TL
 Talk Later
- True Love
- Team Leader
+True Love
+Team Leader
 
 TL;DR
 TLDR
@@ -20653,8 +19905,8 @@ To Let You Know
 
 TM
 Text Message
- Text Me
- Trademark
+Text Me
+Trademark
 
 TMA
 Take My Advice
@@ -20673,7 +19925,7 @@ Tell Me about It
 
 TMD
 Damn in Chinese
- Too Much Detail
+Too Much Detail
 
 TME
 Too Much Effort
@@ -20692,7 +19944,7 @@ To My Knowledge
 
 TML
 Thank Me Later
- Text Me Later
+Text Me Later
 
 TMLT
 To My Last Tweet
@@ -20813,7 +20065,7 @@ Table Of Contents
 
 TOD
 Time Of Death
- Time Of Day
+Time Of Day
 
 TOEFL
 Test Of English as a Foreign Language
@@ -20841,7 +20093,7 @@ Someone who smokes marijuana
 
 TOL
 Thinking Out Loud
- Thinking Of Laughing
+Thinking Of Laughing
 
 TOM
 Time Of Month
@@ -20866,36 +20118,36 @@ Asian gangster
 
 TONK
 Strong
- muscular
+Muscular
 
 TOOC
 Totally Out Of Control
 
 TOODLE
 Goodbye
- toodle-pip
+Toodle-pip
 
 TOOL
 Person of low intelligence
- a fool
+A fool
 
 TOON
 Online character in RPG
 
 TOOTLES
 See you later
- goodbye
+Goodbye
 
 TOOTSIES
 Toes
- feet
+Feet
 
 TOPPER
 Person who always has a better story
 
 TOPS
 Wonderful
- fantastic
+Fantastic
 
 TOS
 Terms Of Service
@@ -20908,7 +20160,7 @@ Think Outside the Box
 
 TOTD
 Tip Of The Day
- Tweet Of The Day
+Tweet Of The Day
 
 TOTE
 Carry
@@ -20942,8 +20194,8 @@ Totally
 
 TOUCH
 Beat
- kill
- rob
+Kill
+Rob
 
 TOUCHE
 Said when admitting opponent has made a good point
@@ -20959,7 +20211,7 @@ Thinking Of You
 
 TP
 Toilet Paper
- Town Portal
+Town Portal
 
 TPAM
 The Person Above Me
@@ -20990,14 +20242,14 @@ Thank You
 
 TQM
 Te Quiero Mucho
- I Like You A Lot
+I Like You A Lot
 
 TR
 Triple Rainbow
 
 TR00
 True
- loyal
+Loyal
 
 TRA
 Bye
@@ -21022,7 +20274,7 @@ Spending money on a girl
 
 TRIFE
 Trifling
- unimportant
+Unimportant
 
 TRILL
 True and Real
@@ -21059,7 +20311,7 @@ True
 
 TRU DAT
 That is True
- I agree
+I agree
 
 TRUFAX
 True Fact
@@ -21075,7 +20327,7 @@ True Story Bro
 
 TSBT
 Truth Should Be Told
- They Suck Big Time
+They Suck Big Time
 
 TSF
 That's So Funny
@@ -21109,7 +20361,7 @@ SUP
 
 TT
 Telegrahic Transfer
- Till tomorrow
+Till tomorrow
 
 TT4N
 Ta Ta For Now
@@ -21158,7 +20410,7 @@ Take This Job And Shove It
 
 TTL
 Thank The Lord
- Time To Live
+Time To Live
 
 TTLY
 Totally
@@ -21186,7 +20438,7 @@ Time To Relax
 
 TTT
 Third Tier Toilet
- bad school
+Bad school
 
 TTTE
 Thomas The Tank Engine
@@ -21259,32 +20511,32 @@ Rugged
 
 TUL
 Tell You Later
- Text You Later
+Text You Later
 
 TUNE
 Flirt
 
 TURF
 Area
- part of the neighborhood
+Part of the neighborhood
 
 TURN UP
 Get Hyped
- Excited
- Wild
+Excited
+Wild
 
 TURNT
 Hyped Up
- Drunk
- High
- Horny
+Drunk
+High
+Horny
 
 TUVM
 Thank You Very Much
 
 TUX
 The penguin Linux mascot
- Tuxedo
+Tuxedo
 
 TVD
 The Vampire Diaries
@@ -21339,7 +20591,7 @@ High and drunk
 
 TWIT
 Foolish person
- That's What I Thought
+That's What I Thought
 
 TWITA
 That's What I'm Talking About
@@ -21361,7 +20613,7 @@ Taken Without Owner's Consent
 
 TWONK
 Idiot
- fool
+Fool
 
 TWOP
 Television Without Pity
@@ -21500,15 +20752,15 @@ You Be Too
 
 UB3R
 Uber
- very
+Very
 
 UBD
 User Brain Damage
 
 UBER 
 Ultimate
- best
- above
+Best
+Above
 
 UBRS
 Upper Black Rock Spire
@@ -21547,7 +20799,7 @@ UFC
 Ultimate Fighting Championship
 
 UFF
-annoyance
+Annoyance
 
 UFG
 Up For Grabs
@@ -21574,17 +20826,17 @@ UGGS
 Brand of boots
 
 UGH
-disappointment or disgust
+Disappointment or disgust
 
 UH
-hesitation
+Hesitation
 
 UHF
 Ultra High Frequency
 
 UHM
 UH
- UM
+UM
 
 UHQ
 Ultra High Quality
@@ -21606,7 +20858,7 @@ Unique Identification Number
 
 UK
 Are You OK?
- United Kingdom
+United Kingdom
 
 UKT
 You Know That
@@ -21627,7 +20879,7 @@ ULT
 Last month
 
 UM
-hesitation
+Hesitation
 
 UMAD
 Are You Mad?
@@ -21685,14 +20937,14 @@ Upgrade
 
 UPS
 United Parcel Service
- Uninterruptible Power Supply
+Uninterruptible Power Supply
 
 UPT
 Uptown
 
 UR
 Your
- You Are
+You Are
 
 URA
 You Are A ...
@@ -21701,23 +20953,23 @@ URAQT
 You Are A Cutie
 
 URGH
-annoyance
- displeasure
+Annoyance
+Displeasure
 
 URI
 Uniform Resource Indicator
- URL
+URL
 
 URL
 Uniform Resource Locator
- internet address
+Internet address
 
 URM
 You Are Mad
 
 URP
 Vomit
- throw up
+Throw up
 
 URW
 You Are Welcome
@@ -21772,21 +21024,21 @@ Union of Soviet Socialist Republics
 
 USW
 Und So Weiter
- ETC
+ETC
 
 UT
 Unreal Tournament
 
 UTC
 Coordinated Universal Time
- Under The Counter
+Under The Counter
 
 UTD
 Up To Date
 
 UTE
 Utility vehicle
- pickup truck
+Pickup truck
 
 UTF
 Unicode Transformation Format
@@ -21850,7 +21102,7 @@ Vote For Vote
 
 V8
 Engine type
- Vegetable drink
+Vegetable drink
 
 VA
 Various Artists
@@ -21872,7 +21124,7 @@ Very
 
 VANILLA
 Unexciting
- conventional
+Conventional
 
 VAPE
 Inhale vapor from E-cigarettes
@@ -21915,7 +21167,7 @@ Visual Display Unit
 
 VEEP
 VP
- Vice President
+Vice President
 
 VEETA
 Money
@@ -21940,7 +21192,7 @@ Veteran
 
 VEXED
 Angry
- annoyed
+Annoyed
 
 VF
 Vampire Freaks
@@ -21953,7 +21205,7 @@ Visual Effects
 
 VG
 Video Game
- Very Good
+Very Good
 
 VGA
 Video Graphics Array/Adaptor
@@ -21981,11 +21233,11 @@ Video Home System
 
 VIBE
 Atmosphere
- ambience
+Ambience
 
 VIBIN
 Hanging
- chilling
+Chilling
 
 VID
 Video
@@ -22076,7 +21328,7 @@ Virtual Reality
 
 VS
 Versus
- against
+Against
 
 VT
 Video Tape
@@ -22107,7 +21359,7 @@ Volkswagen
 
 VWP
 Very Well Played
- Very Well Put
+Very Well Put
 
 W'EVER
 Whatever
@@ -22159,14 +21411,14 @@ Crying
 
 WAAM
 What's going on
- what's up
+What's up
 
 WAAN
 Want
 
 WACK
 Low quailty
- lame
+Lame
 
 WADR
 With All Due Respect
@@ -22209,7 +21461,7 @@ What A Joke
 
 WAK
 Weird
- awful
+Awful
 
 WAL
 What A Loser
@@ -22222,7 +21474,7 @@ Rapper
 
 WALLA
 Voila
- here it is
+Here it is
 
 WALLAH
 I swear to God in Arabic
@@ -22235,7 +21487,7 @@ Stupid person
 
 WAM
 Wait A Minute
- What A Mess
+What A Mess
 
 WAMH
 With All My Heart
@@ -22275,11 +21527,11 @@ Someone who is a waste of time and space
 
 WASTED
 Drunk
- stoned
+Stoned
 
 WASTEMAN
 Worthless person
- waste of space
+Waste of space
 
 WAT
 What
@@ -22295,15 +21547,15 @@ What Are You Doing?
 
 WAVEY
 Drunk
- high
+High
 
 WAVY
 Well dressed
- Very nice
+Very nice
 
 WAW
 What A Wanker
- What A Waste
+What A Waste
 
 WAWA
 Convenience store
@@ -22337,7 +21589,7 @@ What's Up?
 
 WB
 Welcome Back
- Write Back
+Write Back
 
 WBB
 Will Be Back
@@ -22368,8 +21620,8 @@ What about You?
 
 WC
 Welcome
- Water Closet
- toilet
+Water Closet
+Toilet
 
 WCB 
 Will Call Back
@@ -22487,7 +21739,7 @@ Whatever
 
 WEB
 World wide web
- internet
+Internet
 
 WEBA
 Welcome Back
@@ -22509,7 +21761,7 @@ With Effect From
 
 WEG
 Wicked Evil Grin
- Wide Evil Grin
+Wide Evil Grin
 
 WEHT
 What Ever Happened To?
@@ -22540,14 +21792,14 @@ Wireless Encryption Protocol
 
 WEPA
 All right
- cool, yeah!
+Cool, yeah!
 
 WERD
-agreement
+Agreement
 
 WERK
-approval
- praise
+Approval
+Praise
 
 WET BACK
 Illegal immigrant
@@ -22560,7 +21812,7 @@ Alternative spelling of WOOT
 
 WEY
 Dude
- buddy
+Buddy
 
 WFH
 Working From Home
@@ -22575,7 +21827,7 @@ WFYB
 Whatever Floats Your Boat
 
 WGAT
-what
+What
 
 WGC
 Wild Goose Chase
@@ -22600,21 +21852,21 @@ Bad
 
 WHALE
 Punch
- beat
+Beat
 
 WHATCHA
 What are/do you ...
 
 WHEEL
 Chat up
- pick up
+Pick up
 
 WHEELING
 Picking up women
 
 WHEW
-relief
- amazement
+Relief
+Amazement
 
 WHIP
 Expensive car
@@ -22624,7 +21876,7 @@ Controlled by girlfriend/wife
 
 WHISKEY TANGO
 WT
- White Trash
+White Trash
 
 WHITEWASH
 Act like a white person
@@ -22633,8 +21885,8 @@ WHIZ
 Talented person
 
 WHOA
-surprise
- Slow down
+Surprise
+Slow down
 
 WHPH
 Work Hard, Play Hard
@@ -22662,13 +21914,13 @@ Wouldn't It Be Nice If
 
 WIC
 Women, Infants and Children
- World in Conflict
+World in Conflict
 
 WICKED
 Very
- extremely
- Cool
- great
+Extremely
+Cool
+Great
 
 WID
 With
@@ -22681,14 +21933,14 @@ With
 
 WIFEY
 Serious girlfriend
- wife material
+Wife material
 
 WIFF
 With
 
 WIFI
 Wireless Fidelity
- wireless internet
+Wireless internet
 
 WIGGER
 White person pretending to be black
@@ -22716,7 +21968,7 @@ What I Learned This Week
 
 WIMP
 Weak
- cowardly person
+Cowardly person
 
 WING MAN
 Person who looks out for you
@@ -22732,7 +21984,7 @@ When It's Ready
 
 WIRED
 High on stimulants
- Online
+Online
 
 WIT
 With
@@ -22748,7 +22000,7 @@ With
 
 WIWT
 What I Wore Today
- Wish I Was There
+Wish I Was There
 
 WIWWU
 Wish I Was With You
@@ -22815,7 +22067,7 @@ Warner Music Group
 
 WMJ
 Wat maak jy?
- what are you doing?
+What are you doing?
 
 WML
 Wish Me Luck
@@ -22825,7 +22077,7 @@ Wash My Mouth Out With Soap!
 
 WMP
 Windows Media Player
- With Much Pleasure
+With Much Pleasure
 
 WMV
 Windows Media Video
@@ -22835,7 +22087,7 @@ What Makes You Beautiful
 
 WN
 Why Not?
- What's New?
+What's New?
 
 WNDITWB
 We Never Did It This Way Before
@@ -22872,7 +22124,7 @@ While On Fire
 
 WOG
 Offensive term for a black person
- A foreigner
+A foreigner
 
 WOLS
 Slow
@@ -22894,10 +22146,10 @@ Expert
 
 WONKY
 Weird
- not right
+Not right
 
 WOO HOO
-excitement
+Excitement
 
 WOOK
 Dirty hippy
@@ -22910,7 +22162,7 @@ WUSS
 
 WOOT
 Hurrah
- Want One Of Those
+Want One Of Those
 
 WOP
 Offensive term for an Italian
@@ -22926,7 +22178,7 @@ Malicious computer program
 
 WOS
 Waste Of Space
- Wife Over Shoulder
+Wife Over Shoulder
 
 WOT
 What
@@ -22954,7 +22206,7 @@ Was
 
 WP
 Wrong Person
- Well Played
+Well Played
 
 WPA
 Wi-Fi Protected Access
@@ -22963,7 +22215,7 @@ WPM
 Words Per Minute
 
 WPW
-wow
+Wow
 
 WPWW
 White Pride World Wide
@@ -23030,7 +22282,7 @@ With That Being Said
 
 WTC
 World Trade Center
- What The Crap
+What The Crap
 
 WTD
 What The Deuce?
@@ -23043,7 +22295,7 @@ Where They Do That At?
 
 WTFT
 What The French Toast
- polite WTF
+Polite WTF
 
 WTG
 Way To Go
@@ -23128,7 +22380,7 @@ Whatever
 
 WTW
 Walk Through Walls
- Walk this Way
+Walk this Way
 
 WTY
 Why, Thank You
@@ -23181,7 +22433,7 @@ Wishing You Long Life And Prosperity
 
 WUM
 Woman
- Wind-Up Merchant
+Wind-Up Merchant
 
 WUN
 Bye
@@ -23194,7 +22446,7 @@ Wimp
 
 WUSS
 Wimp
- coward
+Coward
 
 WUT
 What
@@ -23240,7 +22492,7 @@ Was
 
 WW
 White Widow
- White Woman
+White Woman
 
 WW1
 World War One
@@ -23262,7 +22514,7 @@ World Wrestling Entertainment
 
 WWF
 World Wildlife Fund
- World Wrestling Federation
+World Wrestling Federation
 
 WWIC
 Why Would I Care?
@@ -23305,7 +22557,7 @@ Why Would You Do That?
 
 WY
 Why
- Would You
+Would You
 
 WYA
 Where You At?
@@ -23363,7 +22615,7 @@ What You Listening To?
 
 WYM
 Watch Your Mouth
- What You Mean?
+What You Mean?
 
 WYMM
 Will You Marry Me?
@@ -23373,7 +22625,7 @@ What's Your Name?
 
 WYP
 What's Your Problem?
- What's Your Point?
+What's Your Point?
 
 WYR
 Would You Rather
@@ -23407,12 +22659,12 @@ Kiss
 
 X)
 Happy
- mischevious
+Mischevious
 
 X.X
 Exasperated
- irritated
- annoyed
+Irritated
+Annoyed
 
 X3
 Cute face
@@ -23436,7 +22688,7 @@ XD
 LOL
 
 XGA
-eXtended Graphics Array/Adaptor
+EXtended Graphics Array/Adaptor
 
 XHTML
 Extensible Hyper-Text Markup Language
@@ -23460,7 +22712,7 @@ XM
 Extreme
 
 XML
-eXtensible Markup Language
+EXtensible Markup Language
 
 XO
 Hugs & Kisses
@@ -23479,7 +22731,7 @@ Windows operating system
 
 XS
 Excess
- Extra Small
+Extra Small
 
 XT
 Cross Training
@@ -23492,7 +22744,7 @@ Video format
 
 XVX
 Straightedge Vegetarian
- Straightedge Vegan
+Straightedge Vegan
 
 XX
 Kisses
@@ -23526,12 +22778,12 @@ Year 2000
 
 YA
 You
- Yes
- Young Adult
+Yes
+Young Adult
 
 YAAR
 Dude
- mate
+Mate
 
 YACC
 Yet Another Compiler-Compiler
@@ -23558,7 +22810,7 @@ YALA
 You Always Live Again
 
 YALDI
-excitement
+Excitement
 
 YALL
 You All
@@ -23589,8 +22841,8 @@ You Know
 
 YAP
 Steal
- rob
- Young Asian Professional
+Rob
+Young Asian Professional
 
 YAR
 Yes
@@ -23599,22 +22851,22 @@ YARD
 Home
 
 YARDIE
-gang member
+Gang member
 
 YARLY
 Yeah Really
 
 YAS
 Emphatic Yes
- You are Sexy
+You are Sexy
 
 YASNY
 You Ain't Seen Nothing Yet
 
 YAT
 Girl
- woman
- Where You At?
+Woman
+Where You At?
 
 YATB
 You Are The Best
@@ -23639,7 +22891,7 @@ Boring
 
 YAY
 Cocaine
- Exclamation of approval
+Exclamation of approval
 
 YAYO
 Cocaine
@@ -23700,12 +22952,12 @@ You Don't Want to Know
 
 YE
 Yes
- yeah
- You
+Yeah
+You
 
 YEA
 Yeah
- yes
+Yes
 
 YEAP
 Yes
@@ -23727,12 +22979,12 @@ Yes
 
 YER
 Your
- Yes
+Yes
 
 YERP
 Yes
- what's up
- ok
+What's up
+Ok
 
 YESH
 Yes
@@ -23769,7 +23021,7 @@ You're Gonna Love This
 
 YGM
 You Get Me?
- You've Got Mail
+You've Got Mail
 
 YGP
 You Got PWNED!
@@ -23821,7 +23073,7 @@ You
 
 YHWH
 Yahweh
- God
+God
 
 YID
 Yes I Do
@@ -23830,15 +23082,15 @@ YIK
 Yes, I Know
 
 YIKES
-shock
- surprise
+Shock
+Surprise
 
 YIM
 Yahoo! Instant Messenger
 
 YINS
 You guys
- you all
+You all
 
 YITB
 Yours In The Bond
@@ -23860,7 +23112,7 @@ You Know It Makes Sense
 
 YKK
 Yoshida Kogyo Kabushikikaisha
- zipper manufacturer
+Zipper manufacturer
 
 YKTR
 You Know the Rest
@@ -23894,7 +23146,7 @@ You Laugh You Lose
 
 YM
 Yahoo Messenger
- Your Mom
+Your Mom
 
 YMBJ
 You Must Be Joking
@@ -23937,20 +23189,20 @@ You'll Never Walk Alone
 
 YO
 Your
- Hi
- Years Old
+Hi
+Years Old
 
 YOB
 Hooligan
- thug
+Thug
 
 YODO
 You Only Die Once
 
 YOKED
 Well built
- muscular
- ripped
+Muscular
+Ripped
 
 YOLA
 Cocaine
@@ -23972,11 +23224,11 @@ You
 
 YOUNS
 You guys
- you all
+You all
 
 YOUS
 You
- you guys
+You guys
 
 YOUSE
 You
@@ -23986,10 +23238,10 @@ You're On Your Own
 
 YP
 Your Problem
- Yes, Please
+Yes, Please
 
 YPU
-you
+You
 
 YQ
 I Like You
@@ -24068,18 +23320,18 @@ YouTube Poop
 
 YTTM
 You Talk Too Much
- You Talking To Me?
+You Talking To Me?
 
 YUCK
-disgust
+Disgust
 
 YUCKY
 Disgusting
- gross
+Gross
 
 YUH
 Yes
- You
+You
 
 YUM
 Said when something tastes good or is attractive
@@ -24088,7 +23340,7 @@ YUMMY MUMMY
 Attractive mother
 
 YUO
-you
+You
 
 YUP
 Yes
@@ -24134,7 +23386,7 @@ Beautiful
 
 ZECH
 Energy
- life
+Life
 
 ZED
 Zombie
@@ -24147,7 +23399,7 @@ Cigarette paper
 
 ZILCH
 Nothing
- zero
+Zero
 
 ZIMBO
 Person from Zimbabwe
@@ -24160,7 +23412,7 @@ Ounce of marijauna
 
 ZIT
 Spot
- pimple
+Pimple
 
 ZOMB
 Zombie
@@ -24176,11 +23428,11 @@ BONG
 
 ZONKED
 Very tired
- inebriated
+Inebriated
 
 ZOOT
 Spliff
- joint
+Joint
 
 ZOOTED
 High on drugs
@@ -24196,70 +23448,5 @@ Damn it
 
 ZZZ
 Sleepy
- bored
- tired
-
-\M/
-Horns
- metal salute
-
-\O
-Waving
-
-\O/
-Happy
- arms in the air
-
-\\//
-Peace
- Vulcan salute
-
-^
-Refer To The Above Posted In The Chat
-
-^.^
-Happy
-
-^.~
-Wink
-
-^5
-High five
-
-^O^
-Hurrah
-
-^W^
-Happy
-
-^^
-Happy
-
-^^^
-Reference to line above
-
-^_^
-Happiness
- satisfied
-
-^_~
-Wink
-
-^~^
-Mischievous Smile
-
-|O|
-LOL
-
-}:-)
-Devilish smile
-
-~
-Denotes Sarcasm
- Put At The End Of A Word To Make It Longer
-
-Æ
-Registered Trademark Symbol
-
-ô
-Trademark
+Bored
+Tired
