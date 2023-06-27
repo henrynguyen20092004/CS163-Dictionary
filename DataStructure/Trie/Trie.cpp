@@ -28,7 +28,9 @@ Trie::Node* Trie::removeHelper(Node* root, const std::string& word, int depth) {
         return nullptr;
     }
 
-    if (depth == (int)word.size()) {
+    int size = word.size();
+
+    if (depth == size) {
         if (root->isEndOfWord) {
             root->isEndOfWord = false;
             root->meaning.clear();
@@ -98,10 +100,11 @@ std::vector<std::string> Trie::getMeaning(const std::string& word) {
     }
 
     Node* cur = root;
-    int size = word.length();
+    int size = word.size();
 
     for (int i = 0; i < size; i++) {
-        cur = cur->children[i];
+        int idx = convertCharToIndex(word[i]);
+        cur = cur->children[idx];
 
         if (!cur) {
             return emptyList;
