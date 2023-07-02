@@ -2,18 +2,18 @@
 
 #include <QtCore>
 
-void loadOriginalDict(const std::string& originalDictPath, HashTable& dict) {
-    QFile file(originalDictPath.c_str());
+void loadOriginalDictionary(const std::string& originalDictionaryPath, HashTable& dictionary) {
+    QFile file(originalDictionaryPath.c_str());
 
     if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
-        throw std::runtime_error(originalDictPath + " can't be loaded");
+        throw std::runtime_error(originalDictionaryPath + " can't be loaded");
     }
 
     QTextStream fin(&file);
     QString line;
 
     while (!fin.atEnd()) {
-        std::wstring key = fin.readLine().toStdWString();
+        std::wstring key = fin.readLine().toLower().toStdWString();
         std::vector<std::wstring> val;
         fin.readLineInto(&line);
 
@@ -22,15 +22,15 @@ void loadOriginalDict(const std::string& originalDictPath, HashTable& dict) {
             fin.readLineInto(&line);
         }
 
-        dict[key] = val;
+        dictionary[key] = val;
     }
 }
 
-void loadNewDict(const std::string& newDictPath, HashTable& dict) {
-    QFile file(newDictPath.c_str());
+void loadNewDictionary(const std::string& newDictionaryPath, HashTable& dictionary) {
+    QFile file(newDictionaryPath.c_str());
 
     if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
-        throw std::runtime_error(newDictPath + " can't be loaded");
+        throw std::runtime_error(newDictionaryPath + " can't be loaded");
     }
 
     QTextStream fin(&file);
@@ -38,10 +38,10 @@ void loadNewDict(const std::string& newDictPath, HashTable& dict) {
 
     while (!fin.atEnd()) {
         fin.readLineInto(&line);
-        std::wstring key = fin.readLine().toStdWString();
+        std::wstring key = fin.readLine().toLower().toStdWString();
 
         if (line == 'r') {
-            dict.remove(key);
+            dictionary.remove(key);
         } else {
             std::vector<std::wstring> val;
             fin.readLineInto(&line);
@@ -51,17 +51,17 @@ void loadNewDict(const std::string& newDictPath, HashTable& dict) {
                 fin.readLineInto(&line);
             }
 
-            dict[key] = val;
+            dictionary[key] = val;
         }
     }
 }
 
 HashTable loadData(
     int size,
-    const std::string& originalDictPath, const std::string& newDictPath
+    const std::string& originalDictionaryPath, const std::string& newDictionaryPath
 ) {
-    HashTable dict(size);
-    loadOriginalDict(originalDictPath, dict);
-    loadNewDict(newDictPath, dict);
-    return dict;
+    HashTable dictionary(size);
+    loadOriginalDictionary(originalDictionaryPath, dictionary);
+    loadNewDictionary(newDictionaryPath, dictionary);
+    return dictionary;
 }

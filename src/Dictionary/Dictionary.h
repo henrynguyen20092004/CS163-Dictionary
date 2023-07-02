@@ -1,9 +1,9 @@
-#ifndef DICT_H
-#define DICT_H
+#ifndef DICTIONARY_H
+#define DICTIONARY_H
 
 #include "../HashTable/HashTable.h"
 
-struct Dict {
+struct Dictionary {
     static HashTable EE, EV, VE, Slang, Emoji;
 };
 
