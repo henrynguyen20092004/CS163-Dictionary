@@ -2694,7 +2694,7 @@ Black Veil Brides (band)
 BVM
 Blessed Virgin Mary
 
-BW 
+BW
 Beautiful Woman
 Black and White
 
@@ -5628,7 +5628,7 @@ EOS
 End Of Show
 
 EOT
-End Of Thread 
+End Of Thread
 End of discussion
 
 EOTD
@@ -8053,7 +8053,7 @@ How Cool Is That?
 HCO
 Hollister
 
-HD 
+HD
 High-Definition
 
 HDCP
@@ -8638,7 +8638,7 @@ Hundred dollars
 HUNDOS
 Hundreds
 
-HUNNED 
+HUNNED
 Hundred dollars
 
 HUNNIT
@@ -10195,7 +10195,7 @@ Just Curious
 Just Chilling
 
 JCB
-J C Bamford 
+J C Bamford
 Excavator manufacturer
 
 JD
@@ -12268,7 +12268,7 @@ My Bad Dudes
 MBF
 My Best Friend
 
-MBFAM 
+MBFAM
 My Brother From Another Mother
 
 MBM
@@ -13170,7 +13170,7 @@ Motor Vehicle Accident
 MVP
 Most Valuable Player
 
-MW2 
+MW2
 Modern Warfare 2 (game)
 
 MW3
@@ -14812,7 +14812,7 @@ Goodbye
 ONE OFF
 Happened Once
 
-ONG 
+ONG
 OMG
 
 ONION
@@ -18410,7 +18410,7 @@ SOO
 So
 
 SOOC
-Straight Out Of Camera 
+Straight Out Of Camera
 Not Photoshopped
 
 SOOD
@@ -18899,7 +18899,7 @@ So What?
 Star Wars
 Street Worker
 
-SWAGG 
+SWAGG
 Style
 Coolness
 Confidence
@@ -18989,7 +18989,7 @@ Single White Male
 SWMBO
 She Who Must Be Obeyed
 
-SWND 
+SWND
 Sound
 
 SWOG
@@ -19631,7 +19631,7 @@ Two Heads Are Better Than One
 THANG
 Thing
 
-THANQ 
+THANQ
 Thank You
 
 THANX
@@ -19688,7 +19688,7 @@ Clothes
 THRU
 Through
 
-THT 
+THT
 That
 
 THTH
@@ -20757,7 +20757,7 @@ Very
 UBD
 User Brain Damage
 
-UBER 
+UBER
 Ultimate
 Best
 Above
@@ -21623,7 +21623,7 @@ Welcome
 Water Closet
 Toilet
 
-WCB 
+WCB
 Will Call Back
 
 WCD
