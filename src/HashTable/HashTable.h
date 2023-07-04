@@ -19,15 +19,14 @@ class HashTable {
     std::vector<Node*> table;
     int numElements;
     int hashFunction(const std::wstring& s);
+    Node* insert(const std::wstring& key, const std::vector<std::wstring>& val);
 
    public:
     HashTable(int size);
     ~HashTable();
     int size();
-    bool isEmpty();
     bool contain(const std::wstring& key);
     Node* find(const std::wstring& key);
-    Node* insert(const std::wstring& key, const std::vector<std::wstring>& val);
     void remove(const std::wstring& key);
     void clear();
     std::vector<std::wstring>& operator[](const std::wstring& key);

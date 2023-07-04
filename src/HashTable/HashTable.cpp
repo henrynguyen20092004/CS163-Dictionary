@@ -13,24 +13,22 @@ HashTable::Node::Node(
 HashTable::HashTable(int size) : table(size, nullptr), numElements(0) {}
 
 int HashTable::hashFunction(const std::wstring& s) {
-    int hash = 0, p = 29791, m = table.size(), pow = 1;
+    int hash = 0, p = 29791, pow = 1, tableSize = table.size();
 
-    for (char c : s) {
-        hash = (hash + (c - 'a' + 1) * pow) % m;
-        pow = (pow * p) % m;
+    for (int c : s) {
+        hash = (hash + c * pow) % tableSize;
+        pow = (pow * p) % tableSize;
     }
 
-    return hash;
+    return hash % tableSize;
 }
 
 int HashTable::size() { return numElements; }
 
-bool HashTable::isEmpty() { return !numElements; }
-
 bool HashTable::contain(const std::wstring& key) { return !find(key); }
 
 HashTable::Node* HashTable::find(const std::wstring& key) {
-    int index = hashFunction(key) % table.size();
+    int index = hashFunction(key);
 
     for (Node* cur = table[index]; cur; cur = cur->next) {
         if (cur->key == key) {
@@ -44,33 +42,20 @@ HashTable::Node* HashTable::find(const std::wstring& key) {
 HashTable::Node* HashTable::insert(
     const std::wstring& key, const std::vector<std::wstring>& val
 ) {
-    int index = hashFunction(key) % table.size();
+    int index = hashFunction(key);
+    Node* newHead = new Node(key, val);
 
-    if (!table[index]) {
-        table[index] = new Node(key, val);
-        ++numElements;
-        return table[index];
-    } else {
-        if (table[index]->key == key) {
-            return table[index];
-        }
-
-        Node* cur = table[index];
-
-        for (; cur->next; cur = cur->next) {
-            if (cur->key == key) {
-                return cur;
-            }
-        }
-
-        cur->next = new Node(key, val);
-        ++numElements;
-        return cur->next;
+    if (table[index]) {
+        newHead->next = table[index];
     }
+
+    table[index] = newHead;
+    ++numElements;
+    return newHead;
 }
 
 void HashTable::remove(const std::wstring& key) {
-    int index = hashFunction(key) % table.size();
+    int index = hashFunction(key);
     Node *cur = table[index], *prev = nullptr;
 
     while (cur) {

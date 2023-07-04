@@ -2,7 +2,9 @@
 
 #include <QtCore>
 
-void loadOriginalDictionary(const std::string& originalDictionaryPath, HashTable& dictionary) {
+void loadOriginalDictionary(
+    const std::string& originalDictionaryPath, HashTable& dictionary
+) {
     QFile file(originalDictionaryPath.c_str());
 
     if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
@@ -26,7 +28,9 @@ void loadOriginalDictionary(const std::string& originalDictionaryPath, HashTable
     }
 }
 
-void loadNewDictionary(const std::string& newDictionaryPath, HashTable& dictionary) {
+void loadNewDictionary(
+    const std::string& newDictionaryPath, HashTable& dictionary
+) {
     QFile file(newDictionaryPath.c_str());
 
     if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
@@ -57,8 +61,8 @@ void loadNewDictionary(const std::string& newDictionaryPath, HashTable& dictiona
 }
 
 HashTable loadData(
-    int size,
-    const std::string& originalDictionaryPath, const std::string& newDictionaryPath
+    int size, const std::string& originalDictionaryPath,
+    const std::string& newDictionaryPath
 ) {
     HashTable dictionary(size);
     loadOriginalDictionary(originalDictionaryPath, dictionary);
