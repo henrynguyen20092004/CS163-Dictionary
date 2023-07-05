@@ -69,3 +69,31 @@ HashTable loadData(
     loadNewDictionary(newDictionaryPath, dictionary);
     return dictionary;
 }
+
+Node* loadFavoriteList(const std::string& path) {
+    QFile file(path.c_str());
+
+    if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+        throw std::runtime_error(path + " can't be loaded");
+    }
+
+    QTextStream fin(&file);
+    QString line;
+
+    Node *favoriteList = nullptr, *cur, *newNode;
+
+    while (!fin.atEnd()) {
+        std::wstring key = fin.readLine().toLower().toStdWString();
+        newNode = new Node(key);
+
+        if (!favoriteList) {
+            favoriteList = newNode;
+        } else {
+            cur->next = newNode;
+        }
+
+        cur = newNode;
+    }
+
+    return favoriteList;
+}
