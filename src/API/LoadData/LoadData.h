@@ -4,7 +4,8 @@
 #include "../../HashTable/HashTable.h"
 
 HashTable loadData(
-    int size, const std::string& originalDictionaryPath, const std::string& newDictionaryPath
+    int size, const std::string& originalDictionaryPath,
+    const std::string& newDictionaryPath
 );
 
 #endif
