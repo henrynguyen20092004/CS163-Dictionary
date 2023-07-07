@@ -1,8 +1,8 @@
-#include "src/GUI/MainWindow/MainWindow.h"
+#include "src/GlobalVar/GlobalVar.h"
 
 int main(int argc, char** argv) {
-    QApplication app(argc, argv);
-    MainWindow mainWindow;
-    mainWindow.show();
-    return app.exec();
+    FavoriteList test = GlobalVar::data.favoriteList;
+    test.addWord("ngài");
+    test.removeWord("hello");
+    return 0;
 }
