@@ -1,8 +1,6 @@
 #include "HashTable.h"
 
-HashTable::Node::Node(
-    const QString& key, const std::vector<QString>& val
-)
+HashTable::Node::Node(const QString& key, const std::vector<QString>& val)
     : key(key), val(val) {}
 
 HashTable::Node::Node(
@@ -10,7 +8,7 @@ HashTable::Node::Node(
 )
     : key(key), val(val), next(next) {}
 
-HashTable::HashTable(int size) : table(size, nullptr), numElements(0) {}
+HashTable::HashTable(int size) : table(size, nullptr) {}
 
 int HashTable::hashFunction(const QString& s) {
     int hash = 0, p = 29791, pow = 1, tableSize = table.size();
@@ -22,10 +20,6 @@ int HashTable::hashFunction(const QString& s) {
 
     return hash % tableSize;
 }
-
-int HashTable::size() { return numElements; }
-
-bool HashTable::contain(const QString& key) { return !find(key); }
 
 HashTable::Node* HashTable::find(const QString& key) {
     int index = hashFunction(key);
@@ -50,9 +44,10 @@ HashTable::Node* HashTable::insert(
     }
 
     table[index] = newHead;
-    ++numElements;
     return newHead;
 }
+
+bool HashTable::contain(const QString& key) { return find(key) != nullptr; }
 
 void HashTable::remove(const QString& key) {
     int index = hashFunction(key);
@@ -66,7 +61,6 @@ void HashTable::remove(const QString& key) {
                 table[index] = table[index]->next;
             }
 
-            --numElements;
             delete cur;
             return;
         }
@@ -84,8 +78,6 @@ void HashTable::clear() {
             delete tmp;
         }
     }
-
-    numElements = 0;
 }
 
 std::vector<QString>& HashTable::operator[](const QString& key) {

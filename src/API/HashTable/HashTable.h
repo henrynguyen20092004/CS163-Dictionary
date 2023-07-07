@@ -1,5 +1,5 @@
-#ifndef MAP_H
-#define MAP_H
+#ifndef HASH_TABLE_H
+#define HASH_TABLE_H
 
 #include <QtCore>
 #include <vector>
@@ -11,22 +11,18 @@ class HashTable {
         std::vector<QString> val;
         Node* next = nullptr;
         Node(const QString& key, const std::vector<QString>& val);
-        Node(
-            const QString& key, const std::vector<QString>& val,
-            Node* next
-        );
+        Node(const QString& key, const std::vector<QString>& val, Node* next);
     };
+
     std::vector<Node*> table;
-    int numElements;
     int hashFunction(const QString& s);
+    Node* find(const QString& key);
     Node* insert(const QString& key, const std::vector<QString>& val);
 
    public:
     HashTable(int size);
     ~HashTable();
-    int size();
     bool contain(const QString& key);
-    Node* find(const QString& key);
     void remove(const QString& key);
     void clear();
     std::vector<QString>& operator[](const QString& key);
