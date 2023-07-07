@@ -1,8 +1,6 @@
 #include "HashTable.h"
 
-HashTable::Node::Node(
-    const QString& key, const std::vector<QString>& val
-)
+HashTable::Node::Node(const QString& key, const std::vector<QString>& val)
     : key(key), val(val) {}
 
 HashTable::Node::Node(
@@ -10,7 +8,7 @@ HashTable::Node::Node(
 )
     : key(key), val(val), next(next) {}
 
-HashTable::HashTable(int size) : table(size, nullptr), numElements(0) {}
+HashTable::HashTable() : numElements(0) {}
 
 int HashTable::hashFunction(const QString& s) {
     int hash = 0, p = 29791, pow = 1, tableSize = table.size();

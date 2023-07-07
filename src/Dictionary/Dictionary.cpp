@@ -1,6 +1,18 @@
-#include "LoadDictionary.h"
+#include "Dictionary.h"
 
-void loadOriginalDictionary(
+Dictionary::Dictionary(
+    int size, const std::string& originalDictionaryPath,
+    const std::string& newDictionaryPath
+)
+    : originalDictionaryPath(originalDictionaryPath),
+      newDictionaryPath(newDictionaryPath) {
+    dictionary.table.resize(size, nullptr);
+    loadNewDictionary(newDictionaryPath, dictionary);
+}
+
+Dictionary::~Dictionary() {}
+
+void Dictionary::loadOriginalDictionary(
     const std::string& originalDictionaryPath, HashTable& dictionary
 ) {
     QFile file(originalDictionaryPath.c_str());
@@ -26,7 +38,7 @@ void loadOriginalDictionary(
     }
 }
 
-void loadNewDictionary(
+void Dictionary::loadNewDictionary(
     const std::string& newDictionaryPath, HashTable& dictionary
 ) {
     QFile file(newDictionaryPath.c_str());
@@ -58,12 +70,15 @@ void loadNewDictionary(
     }
 }
 
-HashTable loadDictionary(
-    int size, const std::string& originalDictionaryPath,
-    const std::string& newDictionaryPath
-) {
-    HashTable dictionary(size);
-    loadOriginalDictionary(originalDictionaryPath, dictionary);
-    loadNewDictionary(newDictionaryPath, dictionary);
-    return dictionary;
+HashTable::Node* Dictionary::search(QString& key, bool addFavorite) {
+    HashTable::Node* isFind = dictionary.find(key);
+
+    if (isFind) {
+        if (addFavorite) {
+            // Favorite
+        }
+        // History
+    }
+
+    return isFind;
 }
