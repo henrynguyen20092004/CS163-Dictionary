@@ -1,22 +1,22 @@
 #include "HashTable.h"
 
 HashTable::Node::Node(
-    const std::wstring& key, const std::vector<std::wstring>& val
+    const QString& key, const std::vector<QString>& val
 )
     : key(key), val(val) {}
 
 HashTable::Node::Node(
-    const std::wstring& key, const std::vector<std::wstring>& val, Node* next
+    const QString& key, const std::vector<QString>& val, Node* next
 )
     : key(key), val(val), next(next) {}
 
 HashTable::HashTable(int size) : table(size, nullptr), numElements(0) {}
 
-int HashTable::hashFunction(const std::wstring& s) {
+int HashTable::hashFunction(const QString& s) {
     int hash = 0, p = 29791, pow = 1, tableSize = table.size();
 
-    for (int c : s) {
-        hash = (hash + c * pow) % tableSize;
+    for (QChar c : s) {
+        hash = (hash + (c.unicode()) * pow) % tableSize;
         pow = (pow * p) % tableSize;
     }
 
@@ -25,9 +25,9 @@ int HashTable::hashFunction(const std::wstring& s) {
 
 int HashTable::size() { return numElements; }
 
-bool HashTable::contain(const std::wstring& key) { return !find(key); }
+bool HashTable::contain(const QString& key) { return !find(key); }
 
-HashTable::Node* HashTable::find(const std::wstring& key) {
+HashTable::Node* HashTable::find(const QString& key) {
     int index = hashFunction(key);
 
     for (Node* cur = table[index]; cur; cur = cur->next) {
@@ -40,7 +40,7 @@ HashTable::Node* HashTable::find(const std::wstring& key) {
 }
 
 HashTable::Node* HashTable::insert(
-    const std::wstring& key, const std::vector<std::wstring>& val
+    const QString& key, const std::vector<QString>& val
 ) {
     int index = hashFunction(key);
     Node* newHead = new Node(key, val);
@@ -54,7 +54,7 @@ HashTable::Node* HashTable::insert(
     return newHead;
 }
 
-void HashTable::remove(const std::wstring& key) {
+void HashTable::remove(const QString& key) {
     int index = hashFunction(key);
     Node *cur = table[index], *prev = nullptr;
 
@@ -88,9 +88,9 @@ void HashTable::clear() {
     numElements = 0;
 }
 
-std::vector<std::wstring>& HashTable::operator[](const std::wstring& key) {
+std::vector<QString>& HashTable::operator[](const QString& key) {
     Node* result = find(key);
-    return (result ? result : insert(key, std::vector<std::wstring>{}))->val;
+    return (result ? result : insert(key, std::vector<QString>{}))->val;
 }
 
 HashTable::~HashTable() { clear(); }

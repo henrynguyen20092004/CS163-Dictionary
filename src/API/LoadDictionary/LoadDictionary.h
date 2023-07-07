@@ -1,13 +1,11 @@
-#ifndef LOAD_DATA_H
-#define LOAD_DATA_H
+#ifndef LOAD_DICTIONARY_H
+#define LOAD_DICTIONARY_H
 
 #include "../../HashTable/HashTable.h"
-#include "../../LinkedList/LinkedList.h"
 
-HashTable loadData(
+HashTable loadDictionary(
     int size, const std::string& originalDictionaryPath,
     const std::string& newDictionaryPath
 );
-Node* loadFavoriteList(const std::string& path);
 
 #endif
