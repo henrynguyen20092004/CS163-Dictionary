@@ -1,8 +1,9 @@
 #include "src/GlobalVar/GlobalVar.h"
+#include "src/API/SwitchDictionary/SwitchDictionary.h"
 
 int main(int argc, char** argv) {
-    FavoriteList test = GlobalVar::data.favoriteList;
-    test.addWord("ngài");
-    test.removeWord("hello");
+    Dictionary *test = GlobalVar::currentDictionary;
+    switchDictionary(VE);
+    Dictionary *test2 = GlobalVar::currentDictionary;
     return 0;
 }

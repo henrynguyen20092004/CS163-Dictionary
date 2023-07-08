@@ -58,12 +58,3 @@ void loadNewDictionary(
     }
 }
 
-HashTable loadDictionary(
-    int size, const std::string& originalDictionaryPath,
-    const std::string& newDictionaryPath
-) {
-    HashTable dictionary(size);
-    loadOriginalDictionary(originalDictionaryPath, dictionary);
-    loadNewDictionary(newDictionaryPath, dictionary);
-    return dictionary;
-}
