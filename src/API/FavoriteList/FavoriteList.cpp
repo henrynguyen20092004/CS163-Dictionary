@@ -1,5 +1,8 @@
 #include "FavoriteList.h"
 
+#include <QFile>
+#include <QTextStream>
+
 FavoriteList::FavoriteList() {
     QFile file(favoriteListPath.c_str());
 

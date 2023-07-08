@@ -1,5 +1,8 @@
 #include "LoadDictionary.h"
 
+#include <QFile>
+#include <QTextStream>
+
 void loadOriginalDictionary(
     const std::string& originalDictionaryPath, HashTable& dictionary
 ) {
@@ -57,4 +60,3 @@ void loadNewDictionary(
         }
     }
 }
-

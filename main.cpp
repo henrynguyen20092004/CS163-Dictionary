@@ -1,9 +1,8 @@
-#include "src/GlobalVar/GlobalVar.h"
-#include "src/API/SwitchDictionary/SwitchDictionary.h"
+#include "src/API/History/History.h"
 
-int main(int argc, char** argv) {
-    Dictionary *test = GlobalVar::currentDictionary;
-    switchDictionary(VE);
-    Dictionary *test2 = GlobalVar::currentDictionary;
+int main() {
+    History myHistory;
+    QString a = "#1";
+    myHistory.add(a);
     return 0;
 }
