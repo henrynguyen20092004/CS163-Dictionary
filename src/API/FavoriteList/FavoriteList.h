@@ -1,7 +1,7 @@
 #ifndef FAVORITE_LIST_H
 #define FAVORITE_LIST_H
 
-#include <QtCore>
+#include <QString>
 #include <string>
 
 class FavoriteList {
