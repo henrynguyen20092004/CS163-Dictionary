@@ -3,6 +3,7 @@
 
 #include "../Dictionary/Dictionary.h"
 #include "../FavoriteList/FavoriteList.h"
+#include "../History/History.h"
 
 struct Data {
     Dictionary DictEE =
@@ -18,6 +19,7 @@ struct Data {
                    41, "Data/OriginalEmoji.txt", "Data/NewEmoji.txt"
                );
     FavoriteList favoriteList;
+    History history;
 };
 
 #endif
