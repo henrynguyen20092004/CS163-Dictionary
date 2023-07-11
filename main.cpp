@@ -3,7 +3,7 @@
 
 int main(int argc, char **argv) {
     Dictionary *test = GlobalVar::currentDictionary;
-    test->removeWordFromDictionary("one");
-    test->removeWordFromDictionary("one");
+    std::vector<QString> x = {"hi", "bye"};
+    test->addWordToDictionary("hello", x);
     return 0;
 }

@@ -27,7 +27,10 @@ class Dictionary {
     int size;
 
     void resetNewDictionaryFile();
-    void saveData(int index, const QString& key, SaveMode saveMode);
+    void saveData(
+        SaveMode saveMode, int index, const QString& key,
+        const std::vector<QString>& val = {}
+    );
 
    public:
     Dictionary(
@@ -35,8 +38,9 @@ class Dictionary {
         const std::string& newDictionaryPath
     );
     std::vector<QString> getDefinition(const QString& key);
-    void resetDictionary();
+    void addWordToDictionary(const QString& key, std::vector<QString>& val);
     void removeWordFromDictionary(const QString& key);
+    void resetDictionary();
 };
 
 #endif

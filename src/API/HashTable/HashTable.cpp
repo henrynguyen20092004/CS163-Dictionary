@@ -24,22 +24,27 @@ void HashTable::insert(
     table[index] = newHead;
 }
 
-std::vector<QString>& HashTable::find(const QString& key) {
-    int index = hashFunction(key, table.size());
-
+std::vector<QString> HashTable::find(const QString& key, int index) {
     for (Node* cur = table[index]; cur; cur = cur->next) {
         if (cur->key == key) {
             return cur->val;
         }
     }
 
-    throw std::invalid_argument("Key can't be found!");
+    return {};
 }
 
 void HashTable::update(
     const QString& key, const std::vector<QString>& val, int index
 ) {
-    find(key) = val;
+    for (Node* cur = table[index]; cur; cur = cur->next) {
+        if (cur->key == key) {
+            cur->val == val;
+            return;
+        }
+    }
+
+    throw std::invalid_argument("Word can't be found!");
 }
 
 void HashTable::remove(const QString& key, int index) {
@@ -61,7 +66,7 @@ void HashTable::remove(const QString& key, int index) {
         cur = cur->next;
     }
 
-    throw std::invalid_argument("Key can't be found!");
+    throw std::invalid_argument("Word can't be found!");
 }
 
 void HashTable::clear() {
