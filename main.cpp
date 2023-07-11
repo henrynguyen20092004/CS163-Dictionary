@@ -1,8 +1,7 @@
-#include "src/API/History/History.h"
+#include "src/GlobalVar/GlobalVar.h"
 
-int main() {
-    History myHistory;
-    QString a = "#1";
-    myHistory.add(a);
+int main(int argc, char **argv) {
+    Dictionary *test = GlobalVar::currentDictionary;
+    std::vector<QString> b = test->getDefinition("xin chào");
     return 0;
 }
