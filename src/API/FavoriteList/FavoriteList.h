@@ -14,12 +14,13 @@ class FavoriteList {
     };
 
     std::string favoriteListPath = "Data/FavoriteList.txt";
-    Node *head;
 
    public:
     FavoriteList();
+    Node *head;
     void addWord(const QString &data);
     void removeWord(const QString &data);
+    bool isWordExistedInFavoriteList(const QString &data);
     void saveList();
     ~FavoriteList();
 };

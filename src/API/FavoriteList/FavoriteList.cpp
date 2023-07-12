@@ -81,6 +81,17 @@ void FavoriteList::saveList() {
     }
 }
 
+bool FavoriteList::isWordExistedInFavoriteList(const QString &data) {
+    Node *cur = head;
+    while (cur) {
+        if (cur->data == data)
+            return true;
+        else
+            cur = cur->next;
+    }
+    return false;
+}
+
 FavoriteList::~FavoriteList() {
     while (head) {
         Node *tmp = head;
