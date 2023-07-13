@@ -15,17 +15,14 @@ class HashTable {
     };
 
     std::vector<Node*> table;
-    int hashFunction(const QString& s);
-    Node* find(const QString& key);
-    Node* insert(const QString& key, const std::vector<QString>& val);
 
    public:
     HashTable(int size);
     ~HashTable();
-    bool contain(const QString& key);
-    void remove(const QString& key);
-    void clear();
-    std::vector<QString>& operator[](const QString& key);
+    void insert(const QString& key, const std::vector<QString>& val, int index);
+    std::vector<QString>& find(const QString& key);
+    void update(const QString& key, const std::vector<QString>& val, int index);
+    void remove(const QString& key, int index);
 };
 
 #endif

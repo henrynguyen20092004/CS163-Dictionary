@@ -1,11 +1,14 @@
+7514
 a
-A B C
+a b c
 The first three letters of the alphabet used for the whole alphabet
 
+6839
 u
-A cappella
+a cappella
 In church or chapel style
 Said of compositions sung in the old church style without instrument
 
+9761
 r
-A-
+a-

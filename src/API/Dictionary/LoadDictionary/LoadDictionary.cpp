@@ -16,16 +16,22 @@ void loadOriginalDictionary(
     QString line;
 
     while (!fin.atEnd()) {
-        QString key = fin.readLine().toLower();
-        std::vector<QString> val;
+        int index = fin.readLine().toInt();
         fin.readLineInto(&line);
 
         while (!line.isEmpty()) {
-            val.push_back(line);
+            QString key = line;
+            std::vector<QString> val;
+            fin.readLineInto(&line);
+
+            while (!line.isEmpty()) {
+                val.push_back(line);
+                fin.readLineInto(&line);
+            }
+
+            dictionary.insert(key, val, index);
             fin.readLineInto(&line);
         }
-
-        dictionary[key] = val;
     }
 }
 
@@ -42,11 +48,12 @@ void loadNewDictionary(
     QString line;
 
     while (!fin.atEnd()) {
-        fin.readLineInto(&line);
-        QString key = fin.readLine().toLower();
+        int index = fin.readLine().toInt();
+        QChar mode = fin.readLine()[0];
+        QString key = fin.readLine();
 
-        if (line == 'r') {
-            dictionary.remove(key);
+        if (mode == 'r') {
+            dictionary.remove(key, index);
         } else {
             std::vector<QString> val;
             fin.readLineInto(&line);
@@ -56,7 +63,11 @@ void loadNewDictionary(
                 fin.readLineInto(&line);
             }
 
-            dictionary[key] = val;
+            if (mode == 'a') {
+                dictionary.insert(key, val, index);
+            } else {
+                dictionary.update(key, val, index);
+            }
         }
     }
 }
