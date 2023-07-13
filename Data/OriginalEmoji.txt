@@ -1,173 +1,12 @@
-%-)
-User has been staring at a green screen for 15 hours straight.
-
-(-:
-User is left handed.
-
-(8-o
-It's Mr. Bill!
-
-(:I
-User is an egghead.
-
-*:o)
-And Bozo the Clown!
-
-*<:-)
-User is wearing a Santa Claus Hat.
-
-+-:-)
-User is the Pope or holds some other religious office.
-
-,-)
-Ditto...but he's winking.
-
-,:-)
-Same thing...other side.
-
--6%
-User is braindead.
-
--:-(
-Real punk rockers don't smile.
-
--:-)
-User is a punk rocker.
-
--=* :-)
-User is a TeX wizard.
-
-.-)
-User only has one eye.
-
-3:[
-Mean Pet smiley.
-
-3:]
-Pet smiley.
-
-8-)
-User is wearing sunglasses.
-
-8:-)
-User is a little girl.
-
-:'-(
-User is crying.
-
-:'-)
-User is so happy, s/he is crying.
-
-:(
-Sad.
-
-:)
-Happy.
-
-:*
-Kisses.
-
-:*)
-User is drunk.
-
+0
 :,(
 Crying.
-
-:-#
-User wears braces.
-
-:-&
-User is tongue tied.
-
-:-(
-boo hoo
-
-:-)
-ha ha
-
-:-)-8
-User is a Big girl.
-
-:-)~
-User drools.
-
-:-*
-User just ate something sour.
-
-:-/
-User is skeptical.
-
-:-0
-No Yelling!(Quiet Lab)
-
-:-7
-User juust made a wry statement.
-
-:-9
-User is licking his/her lips.
 
 :-:
 Mutant smiley; the invisible smiley.
 
-:->
-hey hey
-
-:-?
-User smokes a pipe.
-
-:-@
-User is screaming.
-
-:-C
+:-c
 User is really bummed.
-
-:-D
-User is laughing (at you!)
-
-:-E
-Bucktoothed vampire.
-
-:-F
-Bucktoothed vampire with one tooth missing.
-
-:-I
-hmmm
-
-:-O
-oops
-
-:-P
-nyahhhh!
-
-:-Q
-User is a smoker.
-
-:-S
-User just made an incoherent statement.
-
-:-X
-User's lips are sealed.
-
-:-[
-User is a vampire.
-
-:-`
-User spitting out its chewing tobacco.
-
-:-o
-Uh oh!
-
-:-{)
-User has a mustache.
-
-:-{}
-User wears lipstick.
-
-:-~)
-User has a cold.
-
-::-)
-User wears normal glasses.
 
 :<
 What?
@@ -175,62 +14,213 @@ What?
 :<)
 User is from an Ivy League School.
 
-:=)
-User has two noses.
+~~:-(
+Net.flame
 
-:>
-What?
 
-:@
-What?
+1
++-:-)
+User is the Pope or holds some other religious office.
 
-:C
-What?
+-=* :-)
+User is a TeX wizard.
 
-:D
-Laughter.
+:*
+Kisses.
 
-:I
-Hmmm...
+:*)
+User is drunk.
 
-:O
+
+2
+-6%
+User is braindead.
+
+:-[
+User is a vampire.
+
+:-{}
+User wears lipstick.
+
+<:-i
+User is a dunce.
+
+<|-)
+User is Chinese.
+
+|i
+Asleep.
+
+
+3
+:'-(
+User is crying.
+
+|-i
+User is asleep.
+
+
+4
+:-*
+User just ate something sour.
+
+:o
 Yelling.
 
-:Q
-What?
 
-:[
-Real Downer.
+5
+:-&
+User is tongue tied.
+
+:-x
+User's lips are sealed.
 
 :]
 Gleep...a friendly midget smiley who will gladly be your friend.
 
-:^)
-User has a broken nose.
+
+6
+*<:-)
+User is wearing a Santa Claus Hat.
+
+:-)~
+User drools.
+
+^_^
+Smile
+
+
+7
+:'-)
+User is so happy, s/he is crying.
+
+:-p
+nyahhhh!
+
+
+8
+^_-
+Wink
+
+
+9
+:-?
+User smokes a pipe.
+
+:>
+What?
+
+n00b
+Leetspeak for beginner
+
+
+10
+:-d
+User is laughing (at you!)
+
+
+11
+:-7
+User juust made a wry statement.
+
+:-`
+User spitting out its chewing tobacco.
+
+[:]
+User is a robot.
+
+
+12
+3:]
+Pet smiley.
+
+}:-(
+Toupee in an updraft.
+
+
+13
+:-/
+User is skeptical.
+
+:q
+What?
+
+
+14
+%-)
+User has been staring at a green screen for 15 hours straight.
+
+-:-(
+Real punk rockers don't smile.
 
 :_)
 User's nose is sliding off of his face.
 
+{:-)
+User wears a toupee.
+
+
+15
 :v)
 User has a broken nose, but it's the other way.
+
+
+16
+:-#
+User wears braces.
+
+:d
+Laughter.
+
+
+17
+,:-)
+Same thing...other side.
+
+:)
+Happy.
+
+:-q
+User is a smoker.
 
 :{
 What?
 
-:}
-What should we call these? (what?)
 
-;-)
-Winky smiley. User just made a flirtatious and/or sarcastic remark.More of a "don't hit me for what I just said" smiley.
+18
+-:-)
+User is a punk rocker.
 
-<:-I
-User is a dunce.
+:@
+What?
 
-<|-(
-User is Chinese and doesn't like these kind of jokes.
+:i
+Hmmm...
 
-<|-)
-User is Chinese.
+
+19
+*:o)
+And Bozo the Clown!
+
+:-@
+User is screaming.
+
+:-i
+hmmm
+
+^-~
+Wink
+
+d8=
+Your pet beaver is wearing goggles and a hard hat.
+
+|-)
+hee hee
+
+
+20
+:-e
+Bucktoothed vampire.
 
 =)
 Variation on a theme...
@@ -238,89 +228,177 @@ Variation on a theme...
 =))
 Full of laughing
 
-=:-)
-User is a hosehead.
 
-=W=
-Whatever
-
->:->
-User just made a really devilish remark.
+21
+,-)
+Ditto...but he's winking.
 
 >;->
 Winky and devil combined. A very lewd remark was just made.
 
->U
-Screw you!
 
+22
 ?
 Huh?
 
-?4U
-Question for you
+|-o
+User is yawning/snoring.
 
-@:-)
-User is wearing a turban.
 
-@=
-User is pro-nuclear war.
+23
+(-:
+User is left handed.
+
+.-)
+User only has one eye.
+
+:-0
+No Yelling!(Quiet Lab)
 
 [:-)
 User is wearing a walkman.
 
-[:]
-User is a robot.
 
-[]
-Hugs and ...
+24
+:-~)
+User has a cold.
 
-^-^
-Satisfied Smile
 
-^-~
-Wink
+25
+:-(
+boo hoo
 
-^_-
-Wink
+:=)
+User has two noses.
 
-^_^
-Smile
 
-^o
-Snoring.
-
-`:-)
-User shaved one of his eyebrows off this morning.
-
-d8=
-Your pet beaver is wearing goggles and a hard hat.
-
-n00b
-Leetspeak for beginner
-
-{:-)
-User wears a toupee.
-
-|-)
-hee hee
-
-|-D
-ho ho
-
-|-I
-User is asleep.
-
-|-O
-User is yawning/snoring.
-
-|I
-Asleep.
-
-}:-(
-Toupee in an updraft.
+26
+:}
+What should we call these? (what?)
 
 }:^#})
 Updrafted bushy-mustached pointy nosed smiley with a double-chin.
 
-~~:-(
-Net.flame
+
+27
+^-^
+Satisfied Smile
+
+
+28
+`:-)
+User shaved one of his eyebrows off this morning.
+
+
+29
+8:-)
+User is a little girl.
+
+
+30
+:-f
+Bucktoothed vampire with one tooth missing.
+
+:^)
+User has a broken nose.
+
+
+31
+:-9
+User is licking his/her lips.
+
+::-)
+User wears normal glasses.
+
+@=
+User is pro-nuclear war.
+
+
+32
+:c
+What?
+
+?4u
+Question for you
+
+
+33
+3:[
+Mean Pet smiley.
+
+8-)
+User is wearing sunglasses.
+
+:(
+Sad.
+
+
+34
+:-)-8
+User is a Big girl.
+
+=:-)
+User is a hosehead.
+
+
+35
+:-)
+ha ha
+
+:-{)
+User has a mustache.
+
+>u
+Screw you!
+
+|-d
+ho ho
+
+
+36
+;-)
+Winky smiley. User just made a flirtatious and/or sarcastic remark.More of a "don't hit me for what I just said" smiley.
+
+
+37
+:-s
+User just made an incoherent statement.
+
+:[
+Real Downer.
+
+>:->
+User just made a really devilish remark.
+
+@:-)
+User is wearing a turban.
+
+
+38
+(8-o
+It's Mr. Bill!
+
+:-o
+Uh oh!
+
+=w=
+Whatever
+
+[]
+Hugs and ...
+
+
+39
+(:i
+User is an egghead.
+
+<|-(
+User is Chinese and doesn't like these kind of jokes.
+
+
+40
+:->
+hey hey
+
+^o
+Snoring.

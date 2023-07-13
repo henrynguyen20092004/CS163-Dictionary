@@ -12,9 +12,5 @@ Dictionary::Dictionary(
 }
 
 std::vector<QString> Dictionary::getDefinition(const QString& key) {
-    if (!hashTable.contain(key)) {
-        throw key + " can't be found!";
-    }
-
-    return hashTable[key];
+    return hashTable.find(key);
 }

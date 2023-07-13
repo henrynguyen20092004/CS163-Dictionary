@@ -1,5 +1,7 @@
 #include "HashTable.h"
 
+#include "HashFunction/HashFunction.h"
+
 HashTable::Node::Node(const QString& key, const std::vector<QString>& val)
     : key(key), val(val) {}
 
@@ -10,33 +12,9 @@ HashTable::Node::Node(
 
 HashTable::HashTable(int size) : table(size, nullptr) {}
 
-int HashTable::hashFunction(const QString& s) {
-    int hash = 0, p = 29791, pow = 1, tableSize = table.size();
-
-    for (QChar c : s) {
-        hash = (hash + (c.unicode()) * pow) % tableSize;
-        pow = (pow * p) % tableSize;
-    }
-
-    return hash % tableSize;
-}
-
-HashTable::Node* HashTable::find(const QString& key) {
-    int index = hashFunction(key);
-
-    for (Node* cur = table[index]; cur; cur = cur->next) {
-        if (cur->key == key) {
-            return cur;
-        }
-    }
-
-    return nullptr;
-}
-
-HashTable::Node* HashTable::insert(
-    const QString& key, const std::vector<QString>& val
+void HashTable::insert(
+    const QString& key, const std::vector<QString>& val, int index
 ) {
-    int index = hashFunction(key);
     Node* newHead = new Node(key, val);
 
     if (table[index]) {
@@ -44,13 +22,27 @@ HashTable::Node* HashTable::insert(
     }
 
     table[index] = newHead;
-    return newHead;
 }
 
-bool HashTable::contain(const QString& key) { return find(key) != nullptr; }
+std::vector<QString>& HashTable::find(const QString& key) {
+    int index = hashFunction(key, table.size());
 
-void HashTable::remove(const QString& key) {
-    int index = hashFunction(key);
+    for (Node* cur = table[index]; cur; cur = cur->next) {
+        if (cur->key == key) {
+            return cur->val;
+        }
+    }
+
+    throw std::invalid_argument("Key can't be found!");
+}
+
+void HashTable::update(
+    const QString& key, const std::vector<QString>& val, int index
+) {
+    find(key) = val;
+}
+
+void HashTable::remove(const QString& key, int index) {
     Node *cur = table[index], *prev = nullptr;
 
     while (cur) {
@@ -68,9 +60,11 @@ void HashTable::remove(const QString& key) {
         prev = cur;
         cur = cur->next;
     }
+
+    throw std::invalid_argument("Key can't be found!");
 }
 
-void HashTable::clear() {
+HashTable::~HashTable() {
     for (Node*& head : table) {
         while (head) {
             Node* tmp = head;
@@ -79,10 +73,3 @@ void HashTable::clear() {
         }
     }
 }
-
-std::vector<QString>& HashTable::operator[](const QString& key) {
-    Node* result = find(key);
-    return (result ? result : insert(key, std::vector<QString>{}))->val;
-}
-
-HashTable::~HashTable() { clear(); }
