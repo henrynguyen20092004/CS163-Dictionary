@@ -64,7 +64,7 @@ void HashTable::remove(const QString& key, int index) {
     throw std::invalid_argument("Key can't be found!");
 }
 
-HashTable::~HashTable() {
+void HashTable::clear() {
     for (Node*& head : table) {
         while (head) {
             Node* tmp = head;
@@ -73,3 +73,5 @@ HashTable::~HashTable() {
         }
     }
 }
+
+HashTable::~HashTable() { clear(); }

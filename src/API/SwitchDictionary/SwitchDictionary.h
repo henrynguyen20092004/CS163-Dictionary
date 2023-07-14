@@ -1,13 +1,7 @@
 #ifndef SWITCH_DICTIONARY_H
 #define SWITCH_DICTIONARY_H
 
-enum DictionaryName {
-    EE,
-    EV,
-    VE,
-    SLANG,
-    EMOJI,
-};
+#include "../../GlobalVar/GlobalVar.h"
 
 void switchDictionary(DictionaryName dictionaryName);
 
