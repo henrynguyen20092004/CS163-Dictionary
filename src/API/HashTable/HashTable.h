@@ -23,6 +23,7 @@ class HashTable {
     std::vector<QString>& find(const QString& key);
     void update(const QString& key, const std::vector<QString>& val, int index);
     void remove(const QString& key, int index);
+    void clear();
 };
 
 #endif

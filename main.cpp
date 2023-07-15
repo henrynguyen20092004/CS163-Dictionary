@@ -1,9 +1,12 @@
-#include "src/API/SwitchDictionary/SwitchDictionary.h"
+#include "src/API/ResetDictionary/ResetDictionary.h"
 #include "src/GlobalVar/GlobalVar.h"
 
 int main(int argc, char **argv) {
-    switchDictionary(VE);
+    resetCurrentDictionary();
     Dictionary *test = GlobalVar::currentDictionary;
-    std::vector<QString> b = test->getDefinition("chào");
+    std::vector<QString> a = test->getDefinition("a-");
+    std::vector<QString> a1 = test->getDefinition("a cappella");
+    std::vector<QString> a2 = test->getDefinition("a b c");
+
     return 0;
 }
