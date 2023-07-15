@@ -81,6 +81,20 @@ void FavoriteList::saveList() {
     }
 }
 
+bool FavoriteList::contain(const QString &data) {
+    Node *cur = head;
+
+    while (cur) {
+        if (cur->data == data) {
+            return true;
+        }
+
+        cur = cur->next;
+    }
+
+    return false;
+}
+
 FavoriteList::~FavoriteList() {
     while (head) {
         Node *tmp = head;

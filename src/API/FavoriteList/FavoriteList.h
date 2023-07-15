@@ -6,6 +6,9 @@
 
 class FavoriteList {
    private:
+    std::string favoriteListPath = "Data/FavoriteList.txt";
+
+   public:
     struct Node {
         QString data;
         Node *next = nullptr;
@@ -13,13 +16,11 @@ class FavoriteList {
         Node(Node *next) : next(next) {}
     };
 
-    std::string favoriteListPath = "Data/FavoriteList.txt";
-    Node *head;
-
-   public:
     FavoriteList();
+    Node *head;
     void addWord(const QString &data);
     void removeWord(const QString &data);
+    bool contain(const QString &data);
     void saveList();
     ~FavoriteList();
 };
