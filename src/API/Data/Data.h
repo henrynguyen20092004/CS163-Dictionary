@@ -7,16 +7,16 @@
 
 struct Data {
     Dictionary DictEE =
-                   Dictionary(10007, "Data/OriginalEE.txt", "Data/NewEE.txt", EE),
+                   Dictionary(10007, "Data/OriginalEE.txt", "Data/NewEE.txt"),
                DictEV =
-                   Dictionary(5099, "Data/OriginalEV.txt", "Data/NewEV.txt", EV),
+                   Dictionary(5099, "Data/OriginalEV.txt", "Data/NewEV.txt"),
                DictVE =
-                   Dictionary(5309, "Data/OriginalVE.txt", "Data/NewVE.txt", VE),
+                   Dictionary(5309, "Data/OriginalVE.txt", "Data/NewVE.txt"),
                DictSlang = Dictionary(
-                   947, "Data/OriginalSlang.txt", "Data/NewSlang.txt", SLANG
+                   947, "Data/OriginalSlang.txt", "Data/NewSlang.txt"
                ),
                DictEmoji = Dictionary(
-                   41, "Data/OriginalEmoji.txt", "Data/NewEmoji.txt", EMOJI
+                   41, "Data/OriginalEmoji.txt", "Data/NewEmoji.txt"
                );
     FavoriteList favoriteList;
     History history;

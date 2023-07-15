@@ -3,6 +3,7 @@
 
 int main(int argc, char **argv) {
     Dictionary *test = GlobalVar::currentDictionary;
-    test->removeWordFromDictionary("one", "Data/NewEE.txt");
+    test->removeWordFromDictionary("one");
+    test->removeWordFromDictionary("one");
     return 0;
 }
