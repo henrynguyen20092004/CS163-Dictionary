@@ -18,6 +18,8 @@ class Dictionary {
    private:
     HashTable hashTable;
     std::string originalDictionaryPath, newDictionaryPath;
+    int size;
+    void saveData(const QString& key, const std::string& newDictionaryPath);
 
    public:
     DictionaryName dictionaryName;
@@ -28,6 +30,9 @@ class Dictionary {
     );
     std::vector<QString> getDefinition(const QString& key);
     void reloadDictionary();
+    void removeWordFromDictionary(
+        const QString& key, const std::string& newDictionaryPath
+    );
 };
 
 #endif
