@@ -9,7 +9,7 @@ class Page : public QWidget {
     HeaderBar *headerBar;
     QWidget *content;
     ScrollArea *scrollArea;
-    const char *mainStyle = "font-family: Inter";
+    const char *mainStyle = "font-family: Inter; font-size: 20px;";
 
    public:
     Page(const char *titleText);

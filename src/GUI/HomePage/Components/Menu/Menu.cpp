@@ -50,6 +50,8 @@ void Menu::toggle() {
     }
 }
 
+Button** Menu::getMenuButtons() { return buttons; }
+
 Menu::~Menu() {
     delete resetCurrentDictionaryButton;
     delete resetAllDictionariesButton;

@@ -23,6 +23,7 @@ struct RandomList {
     std::vector<Word> word;
     int correctOption;
 
+    RandomList(){};
     RandomList(const std::vector<Word>& word, int correctOption)
         : word(word), correctOption(correctOption) {}
 };
