@@ -1,7 +1,14 @@
-#include "src/GlobalVar/GlobalVar.h"
+#include <QApplication>
+#include <QMainWindow>
+
+#include "src/GUI/MainWindow/MainWindow.h"
 
 int main(int argc, char **argv) {
-    Dictionary *test = GlobalVar::currentDictionary;
-    std::vector<QString> v = test->getKeywordFromSubDefinition("you");
-    return 0;
-}
+    QApplication app(argc, argv);
+
+    MainWindow mainWindow;
+
+    mainWindow.show();
+
+    return app.exec();
+g}
