@@ -1,5 +1,7 @@
 #include "SwitchDictionary.h"
 
+#include "../../GlobalVar/GlobalVar.h"
+
 void switchDictionary(DictionaryName dictionaryName) {
     switch (dictionaryName) {
         case EE:

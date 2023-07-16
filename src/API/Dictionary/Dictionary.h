@@ -14,20 +14,29 @@ enum DictionaryName {
     EMOJI,
 };
 
+enum SaveMode {
+    ADD = 'a',
+    UPDATE = 'u',
+    REMOVE = 'r',
+};
+
 class Dictionary {
    private:
     HashTable hashTable;
     std::string originalDictionaryPath, newDictionaryPath;
+    int size;
+
+    void resetNewDictionaryFile();
+    void saveData(int index, const QString& key, SaveMode saveMode);
 
    public:
-    DictionaryName dictionaryName;
-
     Dictionary(
         int size, const std::string& originalDictionaryPath,
-        const std::string& newDictionaryPath, DictionaryName dictionaryName
+        const std::string& newDictionaryPath
     );
     std::vector<QString> getDefinition(const QString& key);
-    void reloadDictionary();
+    void resetDictionary();
+    void removeWordFromDictionary(const QString& key);
 };
 
 #endif

@@ -54,6 +54,7 @@ void loadNewDictionary(
 
         if (mode == 'r') {
             dictionary.remove(key, index);
+            fin.readLine();
         } else {
             std::vector<QString> val;
             fin.readLineInto(&line);
