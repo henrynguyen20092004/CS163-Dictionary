@@ -90,3 +90,33 @@ void HashTable::clear() {
 }
 
 HashTable::~HashTable() { clear(); }
+
+int randomIndex(int size) { return 1 + rand() % (size); }
+
+std::pair<QString, std::vector<QString>> HashTable::random(int index) {
+    Node* curKey = table[index];
+
+    QString key = "";
+    std::vector<QString> val;
+
+    if (curKey == nullptr) {
+        return make_pair(key, val);
+    }
+
+    int lengthOfLinkedList = 0;
+    while (curKey->next) {
+        ++lengthOfLinkedList;
+    }
+
+    int keyIndex = randomIndex(lengthOfLinkedList + 1);
+    curKey = table[index];
+    while (keyIndex != 1) {
+        curKey = curKey->next;
+        --keyIndex;
+    }
+
+    key = curKey->key;
+    val = curKey->val;
+
+    return make_pair(key, val);
+}

@@ -26,6 +26,9 @@ class HashTable {
     void update(const QString& key, const std::vector<QString>& val, int index);
     void remove(const QString& key, int index);
     void clear();
+
+    int randomIndex(int size);
+    std::pair<QString, std::vector<QString>> random(int index);
 };
 
 #endif

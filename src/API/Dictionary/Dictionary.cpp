@@ -108,3 +108,60 @@ void Dictionary::resetDictionary() {
     resetNewDictionaryFile();
     loadOriginalDictionary(originalDictionaryPath, hashTable);
 }
+
+QString Dictionary::chooseDefinition(
+    const std::vector<std::pair<QString, std::vector<QString>>> &listOfWord,
+    int option
+) {
+    switch (option) {
+        case 1: {
+            return listOfWord[0].second[0];
+        }
+        case 2: {
+            return listOfWord[1].second[0];
+        }
+        case 3: {
+            return listOfWord[2].second[0];
+        }
+        case 4: {
+            return listOfWord[3].second[0];
+        }
+    }
+}
+
+bool Dictionary::checkChoose(
+    const std::vector<std::pair<QString, std::vector<QString>>> &listOfWord,
+    const QString &chooseDefinition
+) {
+    return listOfWord[0].second[0] == chooseDefinition;
+}
+
+void Dictionary::getWord(
+    std::vector<std::pair<QString, std::vector<QString>>> &listOfWord
+) {
+    int countRadomNumber = 4;
+
+    while (countRadomNumber) {
+        int keyIndex = hashTable.randomIndex(size);
+
+        std::pair<QString, std::vector<QString>> word;
+        word = hashTable.random(keyIndex);
+
+        if (word.first == "") continue;
+
+        listOfWord.push_back(word);
+
+        --countRadomNumber;
+    }
+}
+
+bool Dictionary::randomWordWithFourDefinitions() {
+    std::vector<std::pair<QString, std::vector<QString>>> listOfWord;
+
+    getWord(listOfWord);
+
+    int option = 1;
+    QString userOption = chooseDefinition(listOfWord, option);
+
+    return checkChoose(listOfWord, userOption);
+}
