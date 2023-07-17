@@ -28,7 +28,7 @@ class HashTable {
     void clear();
 
     int randomIndex(int size);
-    std::pair<QString, std::vector<QString>> random(int index);
+    std::pair<QString, std::vector<QString>> randomWord(int index);
 };
 
 #endif

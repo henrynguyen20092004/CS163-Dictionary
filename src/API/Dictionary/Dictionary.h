@@ -38,15 +38,15 @@ class Dictionary {
 
     bool checkChoose(
         const std::vector<std::pair<QString, std::vector<QString>>>& listOfWord,
-        const QString& chooseDefinition
-    );
-
-    QString chooseDefinition(
-        const std::vector<std::pair<QString, std::vector<QString>>>& listOfWord,
         int option
     );
 
-    void getWord(
+    bool checkWordExist(
+        const QString& word,
+        const std::vector<std::pair<QString, std::vector<QString>>>& listOfWord
+    );
+
+    void getRandomWordList(
         std::vector<std::pair<QString, std::vector<QString>>>& listOfWord
     );
 

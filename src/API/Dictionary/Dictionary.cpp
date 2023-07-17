@@ -109,60 +109,52 @@ void Dictionary::resetDictionary() {
     loadOriginalDictionary(originalDictionaryPath, hashTable);
 }
 
-QString Dictionary::chooseDefinition(
-    const std::vector<std::pair<QString, std::vector<QString>>> &listOfWord,
-    int option
+bool Dictionary::checkWordExist(
+    const QString &word,
+    const std::vector<std::pair<QString, std::vector<QString>>> &listOfWord
 ) {
-    switch (option) {
-        case 1: {
-            return listOfWord[0].second[0];
-        }
-        case 2: {
-            return listOfWord[1].second[0];
-        }
-        case 3: {
-            return listOfWord[2].second[0];
-        }
-        case 4: {
-            return listOfWord[3].second[0];
+    for (int i = 0; i < listOfWord.size(); ++i) {
+        if (listOfWord[i].first == word) {
+            return true;
         }
     }
-    return "";
+    return false;
 }
 
 bool Dictionary::checkChoose(
     const std::vector<std::pair<QString, std::vector<QString>>> &listOfWord,
-    const QString &chooseDefinition
+    int option
 ) {
-    return listOfWord[0].second[0] == chooseDefinition;
+    return listOfWord[option].second[0] == listOfWord[0].second[0];
 }
 
-void Dictionary::getWord(
+void Dictionary::getRandomWordList(
     std::vector<std::pair<QString, std::vector<QString>>> &listOfWord
 ) {
-    int countRadomNumber = 4;
+    int countRandomNumber = 4;
 
-    while (countRadomNumber) {
-        int keyIndex = hashTable.randomIndex(size);
+    while (countRandomNumber && size > 0) {
+        int keyIndex = hashTable.randomIndex(size - 1);
 
         std::pair<QString, std::vector<QString>> word;
-        word = hashTable.random(keyIndex);
+        word = hashTable.randomWord(keyIndex);
 
-        if (word.first == "") continue;
+        if (word.first == "" || checkWordExist(word.first, listOfWord)) {
+            continue;
+        }
 
         listOfWord.push_back(word);
 
-        --countRadomNumber;
+        --countRandomNumber;
     }
 }
 
 bool Dictionary::randomWordWithFourDefinitions() {
     std::vector<std::pair<QString, std::vector<QString>>> listOfWord;
 
-    getWord(listOfWord);
+    getRandomWordList(listOfWord);
 
     int option = 1;
-    QString userOption = chooseDefinition(listOfWord, option);
 
-    return checkChoose(listOfWord, userOption);
+    return checkChoose(listOfWord, option);
 }
