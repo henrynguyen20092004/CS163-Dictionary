@@ -1,9 +1,9 @@
 #include "MainWindow.h"
 
 MainWindow::MainWindow(QWidget* parent) {
-    setWindowTitle("CSD");
-    setMinimumWidth(1280);
-    setMinimumHeight(720);
+    // setWindowTitle("CSD");
+    // setMinimumWidth(1280);
+    // setMinimumHeight(720);
 
     backgroundBelowHeaderBar = new QFrame(this);
     backgroundBelowHeaderBar->setGeometry(0, 0, 1280, 319);
@@ -44,8 +44,7 @@ MainWindow::MainWindow(QWidget* parent) {
 
     logoHCMUS = new QLabel(this);
     logoHCMUS->setGeometry(30, 88, 188, 150);
-    QPixmap placeholderImage("assets/logo-khtn-1.png");
-    logoHCMUS->setPixmap(placeholderImage);
+    logoHCMUS->setPixmap(QPixmap("assets/logo-khtn-1.png"));
 
     randomButton = new QPushButton(this);
     randomButton->setGeometry(1128, 96, 36, 36);
@@ -61,50 +60,57 @@ MainWindow::MainWindow(QWidget* parent) {
     EE = new QPushButton("English - English", this);
     EE->setGeometry(253, 158, 174, 42);
     EE->setStyleSheet(
-        "background-color: #09ED12; color: black; font-size: 16px; "
-        "font-family: Inter; font-weight: 500;"
+        "QPushButton {background-color: #119ECD; border-radius: 10px; color: "
+        "black; font-size: 16px; font-family: Inter; font-weight: 500;}"
+        "QPushButton::hover {background-color: #09ED12;}"
     );
 
     VE = new QPushButton("Vietnamese - English", this);
     VE->setGeometry(454, 158, 174, 42);
     VE->setStyleSheet(
-        "background-color: #119ECD; color: black; font-size: 16px; "
-        "font-family: Inter; font-weight: 500;"
+        "QPushButton {background-color: #119ECD; border-radius: 10px; color: "
+        "black; font-size: 16px; font-family: Inter; font-weight: 500;}"
+        "QPushButton::hover {background-color: #09ED12;}"
     );
 
     EV = new QPushButton("English - Vietnamese", this);
     EV->setGeometry(647, 158, 174, 42);
     EV->setStyleSheet(
-        "background-color: #119ECD; color: black; font-size: 16px; "
-        "font-family: Inter; font-weight: 500;"
+        "QPushButton {background-color: #119ECD; border-radius: 10px; color: "
+        "black; font-size: 16px; font-family: Inter; font-weight: 500;}"
+        "QPushButton::hover {background-color: #09ED12;}"
     );
 
     slangs = new QPushButton("Slangs", this);
     slangs->setGeometry(844, 158, 174, 42);
     slangs->setStyleSheet(
-        "background-color: #119ECD; color: black; font-size: 16px; "
-        "font-family: Inter; font-weight: 500;"
+        "QPushButton {background-color: #119ECD; border-radius: 10px; color: "
+        "black; font-size: 16px; font-family: Inter; font-weight: 500;}"
+        "QPushButton::hover {background-color: #09ED12;}"
     );
 
     emoji = new QPushButton("Emoji", this);
     emoji->setGeometry(1041, 158, 174, 42);
     emoji->setStyleSheet(
-        "background-color: #119ECD; color: black; font-size: 16px; "
-        "font-family: Inter; font-weight: 500;"
+        "QPushButton {background-color: #119ECD; border-radius: 10px; color: "
+        "black; font-size: 16px; font-family: Inter; font-weight: 500;}"
+        "QPushButton::hover {background-color: #09ED12;}"
     );
 
     switchFromWordToDefintion = new QPushButton("Word - Definition", this);
     switchFromWordToDefintion->setGeometry(253, 222, 174, 42);
     switchFromWordToDefintion->setStyleSheet(
-        "background-color: #09ED12; color: black; font-size: 16px; "
-        "font-family: Inter; font-weight: 500;"
+        "QPushButton {background-color: #119ECD; border-radius: 10px; color: "
+        "black; font-size: 16px; font-family: Inter; font-weight: 500;}"
+        "QPushButton::hover {background-color: #09ED12;}"
     );
 
     switchFromDefintionToWord = new QPushButton("Definition - Word", this);
     switchFromDefintionToWord->setGeometry(454, 222, 174, 42);
     switchFromDefintionToWord->setStyleSheet(
-        "background-color: #119ECD; color: black; font-size: 16px; "
-        "font-family: Inter; font-weight: 500;"
+        "QPushButton {background-color: #119ECD; border-radius: 10px; color: "
+        "black; font-size: 16px; font-family: Inter; font-weight: 500;}"
+        "QPushButton::hover {background-color: #09ED12;}"
     );
 
     menuBar = new QFrame(this);
@@ -116,43 +122,49 @@ MainWindow::MainWindow(QWidget* parent) {
     favoriteListButton = new QPushButton("Your favourite list", this);
     favoriteListButton->setGeometry(0, 64, 248, 66);
     favoriteListButton->setStyleSheet(
-        "background-color: #64CCC5; color: black; font-size: 20px; "
-        "font-family: Inter; font-weight: 500;"
+        "QPushButton {background-color: #64CCC5; border-radius: 10px; color: "
+        "black; font-size: 20px; font-family: Inter; font-weight: 500;}"
+        "QPushButton::hover {background-color: #09ED12;}"
     );
 
     historyButton = new QPushButton("Searched history", this);
     historyButton->setGeometry(0, 143, 248, 66);
     historyButton->setStyleSheet(
-        "background-color: #64CCC5; color: black; font-size: 20px; "
-        "font-family: Inter; font-weight: 500;"
+        "QPushButton {background-color: #64CCC5; border-radius: 10px; color: "
+        "black; font-size: 20px; font-family: Inter; font-weight: 500;}"
+        "QPushButton::hover {background-color: #09ED12;}"
     );
 
     definitionQuizButton = new QPushButton("Definition quiz", this);
     definitionQuizButton->setGeometry(0, 222, 248, 66);
     definitionQuizButton->setStyleSheet(
-        "background-color: #64CCC5; color: black; font-size: 20px; "
-        "font-family: Inter; font-weight: 500;"
+        "QPushButton {background-color: #64CCC5; border-radius: 10px; color: "
+        "black; font-size: 20px; font-family: Inter; font-weight: 500;}"
+        "QPushButton::hover {background-color: #09ED12;}"
     );
 
     wordQuizButton = new QPushButton("Word quiz", this);
     wordQuizButton->setGeometry(0, 301, 248, 66);
     wordQuizButton->setStyleSheet(
-        "background-color: #64CCC5; color: black; font-size: 20px; "
-        "font-family: Inter; font-weight: 500;"
+        "QPushButton {background-color: #64CCC5; border-radius: 10px; color: "
+        "black; font-size: 20px; font-family: Inter; font-weight: 500;}"
+        "QPushButton::hover {background-color: #09ED12;}"
     );
 
     addNewWordButton = new QPushButton("Add a new word", this);
     addNewWordButton->setGeometry(0, 380, 248, 66);
     addNewWordButton->setStyleSheet(
-        "background-color: #64CCC5; color: black; font-size: 20px; "
-        "font-family: Inter; font-weight: 500;"
+        "QPushButton {background-color: #64CCC5; border-radius: 10px; color: "
+        "black; font-size: 20px; font-family: Inter; font-weight: 500;}"
+        "QPushButton::hover {background-color: #09ED12;}"
     );
 
     resetButton = new QPushButton("Set to original dictionary", this);
     resetButton->setGeometry(0, 459, 248, 66);
     resetButton->setStyleSheet(
-        "background-color: #64CCC5; color: black; font-size: 20px; "
-        "font-family: Inter; font-weight: 500;"
+        "QPushButton {background-color: #64CCC5; border-radius: 10px; color: "
+        "black; font-size: 20px; font-family: Inter; font-weight: 500;}"
+        "QPushButton::hover {background-color: #09ED12;}"
     );
 
     menuBar->hide();

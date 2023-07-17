@@ -4,7 +4,6 @@
 #include <QFrame>
 #include <QtWidgets>
 
-
 class MainWindow : public QMainWindow {
     Q_OBJECT
 
@@ -13,7 +12,6 @@ class MainWindow : public QMainWindow {
     QFrame* backgroundBelowHeaderBar;
     QLabel* labelOnHeaderBar;
     QLineEdit* searchBar;
-    QPushButton* lookupButton;
     QPushButton* randomButton;
     QPushButton* cancelButton;
     QPushButton* EE;
@@ -35,8 +33,11 @@ class MainWindow : public QMainWindow {
     QPushButton* resetButton;
 
    public:
+    QPushButton* lookupButton;
+
     explicit MainWindow(QWidget* parent = nullptr);
     ~MainWindow();
+
    private slots:
     void toggleMenu();
     void toggleCancelButton();
