@@ -127,6 +127,7 @@ QString Dictionary::chooseDefinition(
             return listOfWord[3].second[0];
         }
     }
+    return "";
 }
 
 bool Dictionary::checkChoose(

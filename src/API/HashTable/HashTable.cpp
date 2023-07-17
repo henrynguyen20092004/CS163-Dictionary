@@ -91,7 +91,7 @@ void HashTable::clear() {
 
 HashTable::~HashTable() { clear(); }
 
-int randomIndex(int size) { return 1 + rand() % (size); }
+int HashTable::randomIndex(int size) { return 1 + rand() % (size); }
 
 std::pair<QString, std::vector<QString>> HashTable::random(int index) {
     Node* curKey = table[index];

@@ -41,12 +41,12 @@ class Dictionary {
         const QString& chooseDefinition
     );
 
-    QString Dictionary::chooseDefinition(
+    QString chooseDefinition(
         const std::vector<std::pair<QString, std::vector<QString>>>& listOfWord,
         int option
     );
 
-    void Dictionary::getWord(
+    void getWord(
         std::vector<std::pair<QString, std::vector<QString>>>& listOfWord
     );
 
