@@ -39,6 +39,7 @@ class Dictionary {
     );
     std::vector<QString> getDefinition(const QString& key);
     void addWordToDictionary(const QString& key, std::vector<QString>& val);
+    void editDefinitionsOfAWord(const QString& key, std::vector<QString>& val);
     void removeWordFromDictionary(const QString& key);
     void resetDictionary();
 };

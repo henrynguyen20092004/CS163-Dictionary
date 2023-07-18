@@ -73,6 +73,15 @@ void Dictionary::addWordToDictionary(
     saveData(ADD, index, key, val);
 }
 
+void Dictionary::editDefinitionsOfAWord(
+    const QString &key, std::vector<QString> &val
+) {
+    int index = hashFunction(key, size);
+
+    hashTable.update(key, val, index);
+    saveData(UPDATE, index, key, val);
+}
+
 void Dictionary::removeWordFromDictionary(const QString &key) {
     int index = hashFunction(key, size);
     hashTable.remove(key, index);
