@@ -20,7 +20,7 @@ class HashTable {
     HashTable(int size);
     ~HashTable();
     void insert(const QString& key, const std::vector<QString>& val, int index);
-    std::vector<QString>& find(const QString& key);
+    std::vector<QString> find(const QString& key, int index);
     void update(const QString& key, const std::vector<QString>& val, int index);
     void remove(const QString& key, int index);
     void clear();

@@ -28,16 +28,20 @@ void Dictionary::resetNewDictionaryFile() {
 }
 
 std::vector<QString> Dictionary::getDefinition(const QString &key) {
-    return hashTable.find(key);
+    std::vector<QString> definition =
+        hashTable.find(key, hashFunction(key, size));
+
+    if (!definition.empty()) {
+        return definition;
+    }
+
+    throw std::invalid_argument("Word can't be found!");
 }
 
-void Dictionary::resetDictionary() {
-    hashTable.clear();
-    resetNewDictionaryFile();
-    loadOriginalDictionary(originalDictionaryPath, hashTable);
-}
-
-void Dictionary::saveData(int index, const QString &key, SaveMode saveMode) {
+void Dictionary::saveData(
+    SaveMode saveMode, int index, const QString &key,
+    const std::vector<QString> &val
+) {
     QFile file(newDictionaryPath.c_str());
 
     if (!file.open(
@@ -48,10 +52,35 @@ void Dictionary::saveData(int index, const QString &key, SaveMode saveMode) {
 
     QTextStream fout(&file);
     fout << '\n' << index << '\n' << (char)saveMode << '\n' << key << '\n';
+
+    if (saveMode != 'r') {
+        for (const QString &definition : val) {
+            fout << definition << '\n';
+        }
+    }
+}
+
+void Dictionary::addWordToDictionary(
+    const QString &key, std::vector<QString> &val
+) {
+    int index = hashFunction(key, size);
+
+    if (!hashTable.find(key, index).empty()) {
+        throw std::invalid_argument("Word already exists!");
+    }
+
+    hashTable.insert(key, val, index);
+    saveData(ADD, index, key, val);
 }
 
 void Dictionary::removeWordFromDictionary(const QString &key) {
     int index = hashFunction(key, size);
     hashTable.remove(key, index);
-    saveData(index, key, REMOVE);
+    saveData(REMOVE, index, key);
+}
+
+void Dictionary::resetDictionary() {
+    hashTable.clear();
+    resetNewDictionaryFile();
+    loadOriginalDictionary(originalDictionaryPath, hashTable);
 }
