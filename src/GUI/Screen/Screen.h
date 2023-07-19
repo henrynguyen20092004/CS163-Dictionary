@@ -1,18 +1,18 @@
 #ifndef SCREEN_H
 #define SCREEN_H
 
+#include <QStackedWidget>
+
 #include "../MainWindow/MainWindow.h"
-#include "../WidgetDefinition/WidgetDefinition.h"
 
 class Screen {
    private:
     MainWindow* mainWindow;
-    WidgetDefinition* widgetDefinition;
-
-   public:
     QStackedWidget* stackedWidget;
 
+   public:
     Screen();
+    ~Screen();
     void setUpUi();
 };
 
