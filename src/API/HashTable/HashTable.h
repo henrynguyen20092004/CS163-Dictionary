@@ -9,8 +9,7 @@ class HashTable {
     struct Node {
         QString key;
         std::vector<QString> val;
-        Node* next = nullptr;
-        Node(const QString& key, const std::vector<QString>& val);
+        Node* next;
         Node(const QString& key, const std::vector<QString>& val, Node* next);
     };
 
@@ -21,6 +20,9 @@ class HashTable {
     ~HashTable();
     void insert(const QString& key, const std::vector<QString>& val, int index);
     std::vector<QString> find(const QString& key, int index);
+    std::vector<QString> findKeywordIf(
+        std::function<bool(const QString&)> definitionCheckFunction
+    );
     void update(const QString& key, const std::vector<QString>& val, int index);
     void remove(const QString& key, int index);
     void clear();

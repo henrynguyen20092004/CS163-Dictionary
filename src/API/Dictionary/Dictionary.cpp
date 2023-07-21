@@ -5,6 +5,8 @@
 #include <stdexcept>
 
 #include "../HashTable/HashFunction/HashFunction.h"
+#include "../SubstringCheck/ProcessString/ProcessString.h"
+#include "../SubstringCheck/SubstringCheck.h"
 #include "LoadDictionary/LoadDictionary.h"
 
 Dictionary::Dictionary(
@@ -25,17 +27,6 @@ void Dictionary::resetNewDictionaryFile() {
     if (!file.open(QIODevice::WriteOnly | QIODevice::Text)) {
         throw std::runtime_error(newDictionaryPath + " can't be loaded");
     }
-}
-
-std::vector<QString> Dictionary::getDefinition(const QString &key) {
-    std::vector<QString> definition =
-        hashTable.find(key, hashFunction(key, size));
-
-    if (!definition.empty()) {
-        return definition;
-    }
-
-    throw std::invalid_argument("Word can't be found!");
 }
 
 void Dictionary::saveData(
@@ -61,7 +52,7 @@ void Dictionary::saveData(
 }
 
 void Dictionary::addWordToDictionary(
-    const QString &key, std::vector<QString> &val
+    const QString &key, const std::vector<QString> &val
 ) {
     int index = hashFunction(key, size);
 
@@ -73,7 +64,31 @@ void Dictionary::addWordToDictionary(
     saveData(ADD, index, key, val);
 }
 
-void Dictionary::editDefinitionsOfAWord(
+std::vector<QString> Dictionary::getDefinition(const QString &key) {
+    std::vector<QString> definition =
+        hashTable.find(key, hashFunction(key, size));
+
+    if (!definition.empty()) {
+        return definition;
+    }
+
+    throw std::invalid_argument("Word can't be found!");
+}
+
+std::vector<QString> Dictionary::getKeywordFromSubDefinition(
+    const QString &subDefinition
+) {
+    QString newSubDefinition = processString(subDefinition);
+    CharacterTable characterTable(newSubDefinition);
+
+    return hashTable.findKeywordIf([&](const QString &definition) {
+        return substringCheck(
+            processString(definition), newSubDefinition, characterTable
+        );
+    });
+}
+
+void Dictionary::editDefinitionOfWord(
     const QString &key, std::vector<QString> &val
 ) {
     int index = hashFunction(key, size);

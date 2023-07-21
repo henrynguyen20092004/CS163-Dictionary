@@ -37,9 +37,12 @@ class Dictionary {
         int size, const std::string& originalDictionaryPath,
         const std::string& newDictionaryPath
     );
+    void addWordToDictionary(const QString& key, const std::vector<QString>& val);
     std::vector<QString> getDefinition(const QString& key);
-    void addWordToDictionary(const QString& key, std::vector<QString>& val);
-    void editDefinitionsOfAWord(const QString& key, std::vector<QString>& val);
+    std::vector<QString> getKeywordFromSubDefinition(
+        const QString& subDefinition
+    );
+    void editDefinitionOfWord(const QString& key, std::vector<QString>& val);
     void removeWordFromDictionary(const QString& key);
     void resetDictionary();
 };

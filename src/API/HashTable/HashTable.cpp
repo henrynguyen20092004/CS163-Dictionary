@@ -2,9 +2,6 @@
 
 #include "HashFunction/HashFunction.h"
 
-HashTable::Node::Node(const QString& key, const std::vector<QString>& val)
-    : key(key), val(val) {}
-
 HashTable::Node::Node(
     const QString& key, const std::vector<QString>& val, Node* next
 )
@@ -15,13 +12,7 @@ HashTable::HashTable(int size) : table(size, nullptr) {}
 void HashTable::insert(
     const QString& key, const std::vector<QString>& val, int index
 ) {
-    Node* newHead = new Node(key, val);
-
-    if (table[index]) {
-        newHead->next = table[index];
-    }
-
-    table[index] = newHead;
+    table[index] = new Node(key, val, table[index]);
 }
 
 std::vector<QString> HashTable::find(const QString& key, int index) {
@@ -32,6 +23,25 @@ std::vector<QString> HashTable::find(const QString& key, int index) {
     }
 
     return {};
+}
+
+std::vector<QString> HashTable::findKeywordIf(
+    std::function<bool(const QString&)> definitionCheckFunction
+) {
+    std::vector<QString> keywords;
+
+    for (Node* head : table) {
+        for (; head; head = head->next) {
+            for (const QString& definition : head->val) {
+                if (definitionCheckFunction(definition)) {
+                    keywords.push_back(head->key);
+                    break;
+                }
+            }
+        }
+    }
+
+    return keywords;
 }
 
 void HashTable::update(
