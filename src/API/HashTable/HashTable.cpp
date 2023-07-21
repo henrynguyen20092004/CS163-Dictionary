@@ -39,7 +39,7 @@ void HashTable::update(
 ) {
     for (Node* cur = table[index]; cur; cur = cur->next) {
         if (cur->key == key) {
-            cur->val == val;
+            cur->val = val;
             return;
         }
     }
