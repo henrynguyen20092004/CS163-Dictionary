@@ -1,11 +1,24 @@
 #ifndef MAIN_WINDOW_H
 #define MAIN_WINDOW_H
 
-#include <QtWidgets>
+#include <QMainWindow>
+
+#include "../Component/Image/Image.h"
+#include "Component/HeaderBar/HeaderBar.h"
+#include "Component/LanguageButton/LanguageButton.h"
+#include "Component/Menu/Menu.h"
+#include "Component/SearchBar/SearchBar.h"
+#include "Component/WordDefinitionButton/WordDefinitionButton.h"
 
 class MainWindow : public QMainWindow {
    private:
-    QLabel* test;
+    Frame* background;
+    HeaderBar* headerBar;
+    Image* logo;
+    SearchBar* searchBar;
+    LanguageButton* languageButton;
+    WordDefinitionButton* wordDefinitionButton;
+    Menu* menu;
 
    public:
     MainWindow(QWidget* parent = nullptr);
