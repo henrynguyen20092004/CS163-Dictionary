@@ -23,7 +23,8 @@ class HashTable {
     void insert(const QString& key, const std::vector<QString>& val, int index);
     std::vector<QString> find(const QString& key, int index);
     std::vector<QString> findKeywordIf(
-        std::function<bool(const QString&)> definitionCheckFunction
+        std::function<bool(const QString&, bool&)> checkFunction,
+        bool checkKeyword = true
     );
     Word randomWord(int index);
     void update(const QString& key, const std::vector<QString>& val, int index);

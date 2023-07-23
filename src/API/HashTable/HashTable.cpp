@@ -27,21 +27,48 @@ std::vector<QString> HashTable::find(const QString& key, int index) {
 }
 
 std::vector<QString> HashTable::findKeywordIf(
-    std::function<bool(const QString&)> definitionCheckFunction
+    std::function<bool(const QString&, bool&)> checkFunction, bool checkKeyword
 ) {
     std::vector<QString> keywords;
+    bool isExactMatch = false;
+    int exactMatchIndex = -1;
 
     for (Node* head : table) {
         for (; head; head = head->next) {
-            for (const QString& definition : head->val) {
-                if (definitionCheckFunction(definition)) {
-                    keywords.push_back(head->key);
-                    break;
+            if (!checkKeyword) {
+                for (QString& definition : head->val) {
+                    if (checkFunction(definition, isExactMatch)) {
+                        if (isExactMatch) {
+                            exactMatchIndex = keywords.size();
+                            isExactMatch = false;
+                        }
+
+                        keywords.push_back(head->key);
+                        break;
+                    }
                 }
+            } else if (checkFunction(head->key, isExactMatch)) {
+                if (isExactMatch) {
+                    exactMatchIndex = keywords.size();
+                    isExactMatch = false;
+                }
+
+                keywords.push_back(head->key);
             }
         }
     }
 
+    if (exactMatchIndex != -1) {
+        QString exactMatch = keywords[exactMatchIndex];
+
+        for (int i = exactMatchIndex; i > 0; i--) {
+            keywords[i] = keywords[i - 1];
+        }
+
+        keywords[0] = exactMatch;
+    }
+
+    std::sort(keywords.begin() + (exactMatchIndex != -1), keywords.end());
     return keywords;
 }
 
