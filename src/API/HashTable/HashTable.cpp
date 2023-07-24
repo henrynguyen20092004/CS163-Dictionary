@@ -1,5 +1,6 @@
 #include "HashTable.h"
 
+#include "../RandomIndex/RandomIndex.h"
 #include "HashFunction/HashFunction.h"
 
 HashTable::Node::Node(
@@ -42,6 +43,30 @@ std::vector<QString> HashTable::findKeywordIf(
     }
 
     return keywords;
+}
+
+Word HashTable::randomWord(int index) {
+    Node* cur = table[index];
+
+    if (!cur) {
+        return {"", ""};
+    }
+
+    int lengthOfLinkedList = 0;
+
+    while (cur->next) {
+        ++lengthOfLinkedList;
+        cur = cur->next;
+    }
+
+    cur = table[index];
+
+    for (int keyIndex = randomIndex(lengthOfLinkedList); keyIndex; --keyIndex) {
+        cur = cur->next;
+    }
+
+    int definitionIndex = randomIndex(cur->val.size());
+    return {cur->key, cur->val[definitionIndex]};
 }
 
 void HashTable::update(
@@ -90,30 +115,3 @@ void HashTable::clear() {
 }
 
 HashTable::~HashTable() { clear(); }
-
-int HashTable::randomIndex(int size) { return rand() % (size + 1); }
-
-std::pair<QString, std::vector<QString>> HashTable::randomWord(int index) {
-    Node* curKey = table[index];
-
-    std::vector<QString> val;
-
-    if (curKey == nullptr) {
-        return make_pair("", val);
-    }
-
-    int lengthOfLinkedList = 0;
-    while (curKey->next) {
-        ++lengthOfLinkedList;
-        curKey = curKey->next;
-    }
-
-    int keyIndex = randomIndex(lengthOfLinkedList);
-    curKey = table[index];
-    while (keyIndex != 0) {
-        curKey = curKey->next;
-        --keyIndex;
-    }
-
-    return make_pair(curKey->key, curKey->val);
-}

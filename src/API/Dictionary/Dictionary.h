@@ -1,10 +1,6 @@
 #ifndef DICTIONARY_H
 #define DICTIONARY_H
 
-#include <stdlib.h>
-#include <time.h>
-
-#include <QString>
 #include <string>
 
 #include "../HashTable/HashTable.h"
@@ -23,6 +19,14 @@ enum SaveMode {
     REMOVE = 'r',
 };
 
+struct RandomList {
+    std::vector<Word> word;
+    int correctOption;
+
+    RandomList(const std::vector<Word>& word, int correctOption)
+        : word(word), correctOption(correctOption) {}
+};
+
 class Dictionary {
    private:
     HashTable hashTable;
@@ -30,24 +34,12 @@ class Dictionary {
     int size;
 
     void resetNewDictionaryFile();
-
     void saveData(
         SaveMode saveMode, int index, const QString& key,
         const std::vector<QString>& val = {}
     );
-
-    bool checkChoose(
-        const std::vector<std::pair<QString, std::vector<QString>>>& listOfWord,
-        int option
-    );
-
-    bool checkWordExist(
-        const QString& word,
-        const std::vector<std::pair<QString, std::vector<QString>>>& listOfWord
-    );
-
-    void getRandomWordList(
-        std::vector<std::pair<QString, std::vector<QString>>>& listOfWord
+    bool checkWordExistInWordList(
+        const QString& word, const std::vector<Word>& wordList
     );
 
    public:
@@ -62,10 +54,12 @@ class Dictionary {
     std::vector<QString> getKeywordFromSubDefinition(
         const QString& subDefinition
     );
-    void editDefinitionOfWord(const QString& key, std::vector<QString>& val);
+    RandomList randomWordWithFourDefinitions();
+    void editDefinitionOfWord(
+        const QString& key, const std::vector<QString>& val
+    );
     void removeWordFromDictionary(const QString& key);
     void resetDictionary();
-    bool randomWordWithFourDefinitions();
 };
 
 #endif

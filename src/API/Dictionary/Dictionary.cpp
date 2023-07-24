@@ -5,9 +5,12 @@
 #include <stdexcept>
 
 #include "../HashTable/HashFunction/HashFunction.h"
+#include "../RandomIndex/RandomIndex.h"
 #include "../SubstringCheck/ProcessString/ProcessString.h"
 #include "../SubstringCheck/SubstringCheck.h"
 #include "LoadDictionary/LoadDictionary.h"
+
+#define OPTION_COUNT 4
 
 Dictionary::Dictionary(
     int size, const std::string &originalDictionaryPath,
@@ -51,6 +54,18 @@ void Dictionary::saveData(
     }
 }
 
+bool Dictionary::checkWordExistInWordList(
+    const QString &word, const std::vector<Word> &wordList
+) {
+    for (int i = 0; i < wordList.size(); ++i) {
+        if (wordList[i].first == word) {
+            return true;
+        }
+    }
+
+    return false;
+}
+
 void Dictionary::addWordToDictionary(
     const QString &key, const std::vector<QString> &val
 ) {
@@ -88,11 +103,28 @@ std::vector<QString> Dictionary::getKeywordFromSubDefinition(
     });
 }
 
+RandomList Dictionary::randomWordWithFourDefinitions() {
+    std::vector<Word> wordList(OPTION_COUNT);
+
+    for (int i = 0; i < OPTION_COUNT; i++) {
+        Word word = hashTable.randomWord(randomIndex(size));
+
+        if (word.first == "" ||
+            checkWordExistInWordList(word.first, wordList)) {
+            continue;
+        }
+
+        wordList[i] = word;
+    }
+
+    int correctOption = randomIndex(OPTION_COUNT);
+    return RandomList(wordList, correctOption);
+}
+
 void Dictionary::editDefinitionOfWord(
-    const QString &key, std::vector<QString> &val
+    const QString &key, const std::vector<QString> &val
 ) {
     int index = hashFunction(key, size);
-
     hashTable.update(key, val, index);
     saveData(UPDATE, index, key, val);
 }
@@ -107,54 +139,4 @@ void Dictionary::resetDictionary() {
     hashTable.clear();
     resetNewDictionaryFile();
     loadOriginalDictionary(originalDictionaryPath, hashTable);
-}
-
-bool Dictionary::checkWordExist(
-    const QString &word,
-    const std::vector<std::pair<QString, std::vector<QString>>> &listOfWord
-) {
-    for (int i = 0; i < listOfWord.size(); ++i) {
-        if (listOfWord[i].first == word) {
-            return true;
-        }
-    }
-    return false;
-}
-
-bool Dictionary::checkChoose(
-    const std::vector<std::pair<QString, std::vector<QString>>> &listOfWord,
-    int option
-) {
-    return listOfWord[option].second[0] == listOfWord[0].second[0];
-}
-
-void Dictionary::getRandomWordList(
-    std::vector<std::pair<QString, std::vector<QString>>> &listOfWord
-) {
-    int countRandomNumber = 4;
-
-    while (countRandomNumber && size > 0) {
-        int keyIndex = hashTable.randomIndex(size - 1);
-
-        std::pair<QString, std::vector<QString>> word;
-        word = hashTable.randomWord(keyIndex);
-
-        if (word.first == "" || checkWordExist(word.first, listOfWord)) {
-            continue;
-        }
-
-        listOfWord.push_back(word);
-
-        --countRandomNumber;
-    }
-}
-
-bool Dictionary::randomWordWithFourDefinitions() {
-    std::vector<std::pair<QString, std::vector<QString>>> listOfWord;
-
-    getRandomWordList(listOfWord);
-
-    int option = 1;
-
-    return checkChoose(listOfWord, option);
 }
