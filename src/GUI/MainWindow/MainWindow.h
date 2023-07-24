@@ -5,9 +5,9 @@
 
 #include "../Component/Image/Image.h"
 #include "Component/HeaderBar/HeaderBar.h"
-#include "Component/LanguageButton/LanguageButton.h"
 #include "Component/Menu/Menu.h"
 #include "Component/SearchBar/SearchBar.h"
+#include "Component/SwitchDictionaryButton/SwitchDictionaryButton.h"
 #include "Component/WordDefinitionButton/WordDefinitionButton.h"
 
 class MainWindow : public QMainWindow {
@@ -16,7 +16,7 @@ class MainWindow : public QMainWindow {
     HeaderBar* headerBar;
     Image* logo;
     SearchBar* searchBar;
-    LanguageButton* languageButton;
+    SwitchDictionaryButton* switchDictionaryButton;
     WordDefinitionButton* wordDefinitionButton;
     Menu* menu;
 

@@ -11,8 +11,8 @@ class Menu {
         *wordQuizButton, *addNewWordButton, *resetButton;
     const char* buttonStyle =
         "QPushButton {background-color: #64CCC5; border-radius: 10px; color: "
-        "black; font-size: 20px; font-weight: 500;}"
-        "QPushButton::hover {background-color: #09ED12;}";
+        "black; font-size: 20px; font-weight: 500;} QPushButton::hover "
+        "{background-color: #09ED12;}";
 
    public:
     Menu(QWidget* parent);

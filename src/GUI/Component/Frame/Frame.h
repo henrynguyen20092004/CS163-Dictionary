@@ -3,16 +3,12 @@
 
 #include <QFrame>
 
-class Frame {
-   private:
-    QFrame* frame;
-
+class Frame : public QFrame {
    public:
     Frame(
         QWidget* parent, int posX, int posY, int width, int height,
         const char* frameStyle
     );
-    ~Frame();
 };
 
 #endif

@@ -3,16 +3,12 @@
 
 #include <QLabel>
 
-class TextLabel {
-   private:
-    QLabel* textLabel;
-
+class TextLabel : public QLabel {
    public:
     TextLabel(
-        QWidget* parent, const char* textLabelContent,
-        const char* textLabelStyle, int posX, int posY, int width, int height
+        QWidget* parent, const char* content, const char* textLabelStyle,
+        int posX, int posY, int width, int height
     );
-    ~TextLabel();
 };
 
 #endif

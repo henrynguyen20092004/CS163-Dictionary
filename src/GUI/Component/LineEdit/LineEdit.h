@@ -3,9 +3,8 @@
 
 #include <QLineEdit>
 
-class LineEdit {
+class LineEdit: public QLineEdit {
    private:
-    QLineEdit* lineEdit;
     const char content[256] {0};
 
    public:
@@ -13,7 +12,6 @@ class LineEdit {
         QWidget* parent, int posX, int posY, int width, int height,
         const char* lineStyle
     );
-    ~LineEdit();
 };
 
 #endif

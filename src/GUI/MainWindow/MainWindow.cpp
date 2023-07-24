@@ -5,7 +5,7 @@ MainWindow::MainWindow(QWidget* parent) {
     headerBar = new HeaderBar(this);
     logo = new Image(this, 30, 88, 188, 150, "assets/UniLogo.png");
     searchBar = new SearchBar(this);
-    languageButton = new LanguageButton(this);
+    switchDictionaryButton = new SwitchDictionaryButton(this);
     wordDefinitionButton = new WordDefinitionButton(this);
     menu = new Menu(this);
 }
@@ -15,7 +15,7 @@ MainWindow::~MainWindow() {
     delete headerBar;
     delete logo;
     delete searchBar;
-    delete languageButton;
+    delete switchDictionaryButton;
     delete wordDefinitionButton;
     delete menu;
 }

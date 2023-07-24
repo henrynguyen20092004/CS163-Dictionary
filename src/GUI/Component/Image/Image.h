@@ -3,16 +3,12 @@
 
 #include <QLabel>
 
-class Image {
-   private:
-    QLabel* image;
-
+class Image : public QLabel {
    public:
     Image(
         QWidget* parent, int posX, int posY, int width, int height,
         const char* placeOnImageHolder
     );
-    ~Image();
 };
 
 #endif

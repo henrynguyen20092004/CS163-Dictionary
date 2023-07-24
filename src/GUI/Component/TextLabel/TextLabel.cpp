@@ -1,12 +1,11 @@
 #include "TextLabel.h"
 
 TextLabel::TextLabel(
-    QWidget* parent, const char* textLabelContent, const char* textLabelStyle,
-    int posX, int posY, int width, int height
+    QWidget* parent, const char* content, const char* textLabelStyle, int posX,
+    int posY, int width, int height
 ) {
-    textLabel = new QLabel(textLabelContent, parent);
-    textLabel->setGeometry(posX, posY, width, height);
-    textLabel->setStyleSheet(textLabelStyle);
+    setParent(parent);
+    setText(content);
+    setGeometry(posX, posY, width, height);
+    setStyleSheet(textLabelStyle);
 }
-
-TextLabel::~TextLabel() { delete textLabel; }

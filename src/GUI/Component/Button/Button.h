@@ -3,10 +3,10 @@
 
 #include <QPushButton>
 
-class Button {
-   private:
-    QPushButton* button;
+#define CONNECT QObject::connect
+#define CLICKED &QPushButton::clicked
 
+class Button : public QPushButton {
    public:
     Button(
         QWidget* parent, int posX, int posY, int width, int height,
@@ -21,7 +21,6 @@ class Button {
         int width, int height
     );
     void initButton(QWidget* parent, int posX, int posY, int width, int height);
-    ~Button();
 };
 
 #endif

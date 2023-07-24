@@ -3,7 +3,7 @@
 Menu::Menu(QWidget* parent) {
     menuBar = new Frame(parent, 0, 50, 248, 670, "background-color: #CBBDBD;");
     favoriteListButton =
-        new Button(parent, 0, 64, 248, 66, buttonStyle, "Your favorite list");
+        new Button(parent, 0, 64, 248, 66, buttonStyle, "Favorite list");
     historyButton =
         new Button(parent, 0, 143, 248, 66, buttonStyle, "Searched history");
     definitionQuizButton =
