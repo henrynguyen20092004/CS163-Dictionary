@@ -4,10 +4,8 @@ LineEdit::LineEdit(
     QWidget* parent, int posX, int posY, int width, int height,
     const char* lineStyle
 ) {
-    lineEdit = new QLineEdit(parent);
-    lineEdit->setText(content);
-    lineEdit->setGeometry(posX, posY, width, height);
-    lineEdit->setStyleSheet(lineStyle);
+    setParent(parent);
+    setText(content);
+    setGeometry(posX, posY, width, height);
+    setStyleSheet(lineStyle);
 }
-
-LineEdit::~LineEdit() { delete lineEdit; }

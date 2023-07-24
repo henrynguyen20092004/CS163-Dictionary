@@ -5,7 +5,7 @@ Button::Button(
     const char* buttonStyle
 ) {
     initButton(parent, posX, posY, width, height);
-    button->setStyleSheet(buttonStyle);
+    setStyleSheet(buttonStyle);
 }
 
 Button::Button(
@@ -13,8 +13,8 @@ Button::Button(
     const char* buttonStyle, const char* content
 ) {
     initButton(parent, posX, posY, width, height);
-    button->setStyleSheet(buttonStyle);
-    button->setText(content);
+    setStyleSheet(buttonStyle);
+    setText(content);
 }
 
 Button::Button(
@@ -22,15 +22,13 @@ Button::Button(
     int width, int height
 ) {
     initButton(parent, posX, posY, width, height);
-    button->setIcon(QIcon(placeOnImageHolder));
-    button->setIconSize(QSize(width, height));
+    setIcon(QIcon(placeOnImageHolder));
+    setIconSize(QSize(width, height));
 }
 
 void Button::initButton(
     QWidget* parent, int posX, int posY, int width, int height
 ) {
-    button = new QPushButton(parent);
-    button->setGeometry(posX, posY, width, height);
+    setParent(parent);
+    setGeometry(posX, posY, width, height);
 }
-
-Button::~Button() { delete button; }
