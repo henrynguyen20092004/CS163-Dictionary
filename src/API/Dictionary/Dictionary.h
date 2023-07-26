@@ -1,7 +1,6 @@
 #ifndef DICTIONARY_H
 #define DICTIONARY_H
 
-#include <QString>
 #include <string>
 
 #include "../HashTable/HashTable.h"
@@ -20,6 +19,14 @@ enum SaveMode {
     REMOVE = 'r',
 };
 
+struct RandomList {
+    std::vector<Word> word;
+    int correctOption;
+
+    RandomList(const std::vector<Word>& word, int correctOption)
+        : word(word), correctOption(correctOption) {}
+};
+
 class Dictionary {
    private:
     HashTable hashTable;
@@ -31,18 +38,26 @@ class Dictionary {
         SaveMode saveMode, int index, const QString& key,
         const std::vector<QString>& val = {}
     );
+    bool checkWordExistInWordList(
+        const QString& word, const std::vector<Word>& wordList
+    );
 
    public:
     Dictionary(
         int size, const std::string& originalDictionaryPath,
         const std::string& newDictionaryPath
     );
-    void addWordToDictionary(const QString& key, const std::vector<QString>& val);
+    void addWordToDictionary(
+        const QString& key, const std::vector<QString>& val
+    );
     std::vector<QString> getDefinition(const QString& key);
     std::vector<QString> getKeywordFromSubDefinition(
         const QString& subDefinition
     );
-    void editDefinitionOfWord(const QString& key, std::vector<QString>& val);
+    RandomList randomWordWithFourDefinitions();
+    void editDefinitionOfWord(
+        const QString& key, const std::vector<QString>& val
+    );
     void removeWordFromDictionary(const QString& key);
     void resetDictionary();
 };

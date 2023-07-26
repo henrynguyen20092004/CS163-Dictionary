@@ -1,5 +1,6 @@
 #include "HashTable.h"
 
+#include "../RandomIndex/RandomIndex.h"
 #include "HashFunction/HashFunction.h"
 
 HashTable::Node::Node(
@@ -42,6 +43,30 @@ std::vector<QString> HashTable::findKeywordIf(
     }
 
     return keywords;
+}
+
+Word HashTable::randomWord(int index) {
+    Node* cur = table[index];
+
+    if (!cur) {
+        return {"", ""};
+    }
+
+    int lengthOfLinkedList = 0;
+
+    while (cur->next) {
+        ++lengthOfLinkedList;
+        cur = cur->next;
+    }
+
+    cur = table[index];
+
+    for (int keyIndex = randomIndex(lengthOfLinkedList); keyIndex; --keyIndex) {
+        cur = cur->next;
+    }
+
+    int definitionIndex = randomIndex(cur->val.size());
+    return {cur->key, cur->val[definitionIndex]};
 }
 
 void HashTable::update(

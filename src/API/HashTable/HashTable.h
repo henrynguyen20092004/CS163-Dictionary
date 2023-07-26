@@ -4,6 +4,8 @@
 #include <QString>
 #include <vector>
 
+using Word = std::pair<QString, QString>;
+
 class HashTable {
    private:
     struct Node {
@@ -23,6 +25,7 @@ class HashTable {
     std::vector<QString> findKeywordIf(
         std::function<bool(const QString&)> definitionCheckFunction
     );
+    Word randomWord(int index);
     void update(const QString& key, const std::vector<QString>& val, int index);
     void remove(const QString& key, int index);
     void clear();
