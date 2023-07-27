@@ -103,7 +103,7 @@ std::vector<QString> Dictionary::getKeywordFromSubDefinition(
     });
 }
 
-RandomList Dictionary::randomWordWithFourDefinitions() {
+RandomList Dictionary::getFourRandomWords() {
     std::vector<Word> wordList(OPTION_COUNT);
 
     for (int i = 0; i < OPTION_COUNT; i++) {

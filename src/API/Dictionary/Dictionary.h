@@ -54,7 +54,7 @@ class Dictionary {
     std::vector<QString> getKeywordFromSubDefinition(
         const QString& subDefinition
     );
-    RandomList randomWordWithFourDefinitions();
+    RandomList getFourRandomWords();
     void editDefinitionOfWord(
         const QString& key, const std::vector<QString>& val
     );
