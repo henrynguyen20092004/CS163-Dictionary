@@ -138,11 +138,15 @@ std::vector<QString> Dictionary::getKeywordFromSubDefinition(
     );
 }
 
+Word Dictionary::getRandomWord() {
+    return hashTable.randomWord(randomIndex(size));
+}
+
 RandomList Dictionary::getFourRandomWords() {
     std::vector<Word> wordList(OPTION_COUNT);
 
     for (int i = 0; i < OPTION_COUNT; i++) {
-        Word word = hashTable.randomWord(randomIndex(size));
+        Word word = getRandomWord();
 
         if (word.first == "" ||
             checkWordExistInWordList(word.first, wordList)) {
