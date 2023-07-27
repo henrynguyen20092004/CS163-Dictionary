@@ -1,6 +1,7 @@
 #include "Dictionary.h"
 
 #include <QFile>
+#include <QRegularExpression>
 #include <QTextStream>
 #include <stdexcept>
 
@@ -90,17 +91,51 @@ std::vector<QString> Dictionary::getDefinition(const QString &key) {
     throw std::invalid_argument("Word can't be found!");
 }
 
+std::vector<QString> Dictionary::getKeywordFromSubKeyword(
+    const QString &subKeyword
+) {
+    QString newSubKeyword = subKeyword.normalized(QString::NormalizationForm_D);
+    CharacterTable characterTable(newSubKeyword);
+    bool hasDiacrtics = newSubKeyword.contains(QRegularExpression("\\p{Mn}+"));
+
+    return hashTable.findKeywordIf([&](const QString &keyword,
+                                       bool &isExactMatch) {
+        if (keyword == subKeyword) {
+            isExactMatch = true;
+            return true;
+        }
+
+        QString newKeyword = keyword.normalized(QString::NormalizationForm_D);
+
+        if (!hasDiacrtics) {
+            newKeyword.remove(QRegularExpression("\\p{Mn}+"));
+        }
+
+        return substringCheck(newKeyword, newSubKeyword, characterTable);
+    });
+}
+
 std::vector<QString> Dictionary::getKeywordFromSubDefinition(
     const QString &subDefinition
 ) {
     QString newSubDefinition = processString(subDefinition);
     CharacterTable characterTable(newSubDefinition);
 
-    return hashTable.findKeywordIf([&](const QString &definition) {
-        return substringCheck(
-            processString(definition), newSubDefinition, characterTable
-        );
-    });
+    return hashTable.findKeywordIf(
+        [&](const QString &definition, bool &isExactMatch) {
+            QString newDefinition = processString(definition);
+
+            if (newDefinition == newSubDefinition) {
+                isExactMatch = true;
+                return true;
+            }
+
+            return substringCheck(
+                newDefinition, newSubDefinition, characterTable
+            );
+        },
+        false
+    );
 }
 
 RandomList Dictionary::getFourRandomWords() {

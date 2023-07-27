@@ -51,6 +51,9 @@ class Dictionary {
         const QString& key, const std::vector<QString>& val
     );
     std::vector<QString> getDefinition(const QString& key);
+    std::vector<QString> getKeywordFromSubKeyword(
+        const QString& subKeyword
+    );
     std::vector<QString> getKeywordFromSubDefinition(
         const QString& subDefinition
     );
