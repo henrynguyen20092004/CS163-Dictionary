@@ -15,11 +15,11 @@ SwitchDictionaryButton::SwitchDictionaryButton(QWidget* parent) {
     slangButton = new Button(parent, 844, 158, 174, 42, buttonStyle, "Slang");
     emojiButton = new Button(parent, 1041, 158, 174, 42, buttonStyle, "Emoji");
 
-    CONNECT(EEButton, CLICKED, [&]() { setCurrentDictionary(EE); });
-    CONNECT(VEButton, CLICKED, [&]() { setCurrentDictionary(VE); });
-    CONNECT(EVButton, CLICKED, [&]() { setCurrentDictionary(EV); });
-    CONNECT(slangButton, CLICKED, [&]() { setCurrentDictionary(SLANG); });
-    CONNECT(emojiButton, CLICKED, [&]() { setCurrentDictionary(EMOJI); });
+    CONNECT(EEButton, CLICKED, [=]() { setCurrentDictionary(EE); });
+    CONNECT(VEButton, CLICKED, [=]() { setCurrentDictionary(VE); });
+    CONNECT(EVButton, CLICKED, [=]() { setCurrentDictionary(EV); });
+    CONNECT(slangButton, CLICKED, [=]() { setCurrentDictionary(SLANG); });
+    CONNECT(emojiButton, CLICKED, [=]() { setCurrentDictionary(EMOJI); });
 }
 
 void SwitchDictionaryButton::setCurrentDictionary(

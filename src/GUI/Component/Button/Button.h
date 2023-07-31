@@ -17,8 +17,8 @@ class Button : public QPushButton {
         const char* buttonStyle, const char* content
     );
     Button(
-        QWidget* parent, const char* placeOnImageHolder, int posX, int posY,
-        int width, int height
+        QWidget* parent, const char* imageSrc, int posX, int posY, int width,
+        int height
     );
     void initButton(QWidget* parent, int posX, int posY, int width, int height);
 };

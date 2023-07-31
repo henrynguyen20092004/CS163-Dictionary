@@ -27,7 +27,8 @@ std::vector<QString> HashTable::find(const QString& key, int index) {
 }
 
 std::vector<QString> HashTable::findKeywordIf(
-    std::function<bool(const QString&, bool&)> checkFunction, bool checkKeyword
+    const std::function<bool(const QString&, bool&)>& checkFunction,
+    bool checkKeyword
 ) {
     std::vector<QString> keywords;
     bool isExactMatch = false;

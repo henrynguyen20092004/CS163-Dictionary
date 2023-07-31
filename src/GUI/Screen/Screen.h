@@ -13,7 +13,7 @@ class Screen {
    public:
     Screen();
     ~Screen();
-    void setUpUi();
+    void setUpUI();
 };
 
 #endif
