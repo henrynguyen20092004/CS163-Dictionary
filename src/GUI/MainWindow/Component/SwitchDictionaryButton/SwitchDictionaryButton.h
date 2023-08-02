@@ -9,12 +9,12 @@ class SwitchDictionaryButton {
     Button *EEButton, *VEButton, *EVButton, *slangButton, *emojiButton;
     DictionaryName dictionaryName = EE;
     const char *buttonStyle =
-        "QPushButton {background-color: #119ECD; border-radius: 10px; color: "
-        "black; font-size: 16px; font-weight: 500;} QPushButton::hover "
+        "QPushButton {background-color: #119ECD; border-radius: 10px; "
+        "font-size: 16px; font-weight: 500;} QPushButton::hover "
         "{background-color: #09ED12;}";
     const char *activeButtonStyle =
-        "QPushButton {background-color: #09ED12; border-radius: 10px; color: "
-        "black; font-size: 16px; font-weight: 500;}";
+        "QPushButton {background-color: #09ED12; border-radius: 10px; "
+        "font-size: 16px; font-weight: 500;}";
 
    public:
     SwitchDictionaryButton(QWidget *parent);

@@ -1,22 +1,28 @@
 #ifndef MENU_H
 #define MENU_H
 
-#include "../../../Component/Button/Button.h"
-#include "../../../Component/Frame/Frame.h"
+#include "ResetButton/ResetButton.h"
 
-class Menu {
+#define BUTTON_NUMBER 5
+
+class Menu : public QWidget {
    private:
-    Frame* menuBar;
-    Button *favoriteListButton, *historyButton, *definitionQuizButton,
-        *wordQuizButton, *addNewWordButton, *resetButton;
-    const char* buttonStyle =
-        "QPushButton {background-color: #64CCC5; border-radius: 10px; color: "
-        "black; font-size: 20px; font-weight: 500;} QPushButton::hover "
-        "{background-color: #09ED12;}";
+    ResetButton *resetCurrentDictionaryButton, *resetAllDictionariesButton;
+    Button *buttons[BUTTON_NUMBER], *toggleButton;
+    const char *buttonNames[BUTTON_NUMBER]{
+        "Favorite list", "Searched history", "Definition quiz", "Word quiz",
+        "Add a new word"},
+        *buttonStyle =
+            "QPushButton {background-color: #64CCC5; border-radius: 10px; "
+            "font-size: 20px; font-weight: 500;} QPushButton::hover "
+            "{background-color: #09ED12;}",
+        *toggleOnImageSrc = "assets/ToggleMenuOn.png",
+        *toggleOffImageSrc = "assets/ToggleMenuOff.png";
 
    public:
-    Menu(QWidget* parent);
+    Menu(QWidget *parent);
     ~Menu();
+    void toggle();
 };
 
 #endif

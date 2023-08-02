@@ -5,7 +5,7 @@ Screen::Screen() {
     mainWindow = new MainWindow;
 }
 
-void Screen::setUpUi() {
+void Screen::setUpUI() {
     stackedWidget->setWindowTitle("CSD");
     stackedWidget->setFixedWidth(1280);
     stackedWidget->setFixedHeight(720);

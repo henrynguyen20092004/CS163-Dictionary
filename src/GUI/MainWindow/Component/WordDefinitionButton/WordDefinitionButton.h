@@ -7,8 +7,8 @@ class WordDefinitionButton {
    private:
     Button *wordDefinitionButton, *definitionWordButton;
     const char *buttonStyle =
-        "QPushButton {background-color: #119ECD; border-radius: 10px; color: "
-        "black; font-size: 16px; font-weight: 500;} QPushButton::hover "
+        "QPushButton {background-color: #119ECD; border-radius: 10px; "
+        "font-size: 16px; font-weight: 500;} QPushButton::hover "
         "{background-color: #09ED12;}";
 
    public:

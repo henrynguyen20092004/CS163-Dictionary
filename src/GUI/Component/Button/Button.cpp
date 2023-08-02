@@ -18,11 +18,11 @@ Button::Button(
 }
 
 Button::Button(
-    QWidget* parent, const char* placeOnImageHolder, int posX, int posY,
-    int width, int height
+    QWidget* parent, const char* imageSrc, int posX, int posY, int width,
+    int height
 ) {
     initButton(parent, posX, posY, width, height);
-    setIcon(QIcon(placeOnImageHolder));
+    setIcon(QIcon(imageSrc));
     setIconSize(QSize(width, height));
 }
 
