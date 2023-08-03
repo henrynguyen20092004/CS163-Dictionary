@@ -7,8 +7,8 @@ TextLabel::TextLabel(
     : QLabel(parent) {
     setText(content);
     setGeometry(geometry);
+    setFixedWidth(geometry.width());
     setStyleSheet(textLabelStyle);
     setWordWrap(true);
     setAlignment(Qt::AlignCenter);
-    setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Expanding);
 }

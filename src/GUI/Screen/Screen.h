@@ -5,11 +5,13 @@
 
 #include "../HomePage/HomePage.h"
 #include "../WordDefinitionPage/WordDefinitionPage.h"
+#include "../WordQuizPage/WordQuizPage.h"
 
 class Screen {
    private:
     HomePage* homePage;
     WordDefinitionPage* wordDefinitionPage;
+    WordQuizPage* wordQuizPage;
     QStackedWidget* stackedWidget;
 
    public:

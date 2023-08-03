@@ -147,5 +147,3 @@ void HashTable::clear() {
 }
 
 HashTable::~HashTable() { clear(); }
-
-int HashTable::randomIndex(int size) { return rand() % (size + 1); }

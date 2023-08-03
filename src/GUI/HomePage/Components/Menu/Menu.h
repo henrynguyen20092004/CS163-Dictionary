@@ -23,6 +23,7 @@ class Menu : public QWidget {
     Menu(QWidget *parent);
     ~Menu();
     void toggle();
+    Button **getMenuButtons();
 };
 
 #endif
