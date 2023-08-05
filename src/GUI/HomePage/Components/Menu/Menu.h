@@ -7,6 +7,7 @@
 
 class Menu : public QWidget {
    private:
+    QWidget *widget;
     ResetButton *resetCurrentDictionaryButton, *resetAllDictionariesButton;
     Button *buttons[BUTTON_NUMBER], *toggleButton;
     const char *buttonNames[BUTTON_NUMBER]{

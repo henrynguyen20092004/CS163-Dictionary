@@ -8,10 +8,12 @@
 
 class Button : public QPushButton {
    public:
+    Button(QWidget* parent, const char* buttonStyle, const char* content);
     Button(
         QWidget* parent, const char* buttonStyle, const char* content,
         const QRect& geometry = {}
     );
+    Button(QWidget* parent, const char* imageSrc);
     Button(
         QWidget* parent, const char* imageSrc, int width, int height,
         int posX = 0, int posY = 0

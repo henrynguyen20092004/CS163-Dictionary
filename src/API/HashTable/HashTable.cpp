@@ -111,7 +111,8 @@ void HashTable::update(
         }
     }
 
-    throw std::invalid_argument("Word can't be found!");
+    return;
+    // throw std::invalid_argument("Word can't be found!");
 }
 
 void HashTable::remove(const QString& key, int index) {

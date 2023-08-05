@@ -7,6 +7,9 @@
 class TextLabel : public QLabel {
    public:
     TextLabel(
+        QWidget* parent, const QString& content, const char* textLabelStyle
+    );
+    TextLabel(
         QWidget* parent, const QString& content, const QRect& geometry = {},
         const char* textLabelStyle = nullptr
     );

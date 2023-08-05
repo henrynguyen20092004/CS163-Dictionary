@@ -53,6 +53,7 @@ class Dictionary {
     void addWordToDictionary(
         const QString& key, const std::vector<QString>& val
     );
+    bool find(const QString& key);
     std::vector<QString> getDefinition(const QString& key);
     std::vector<QString> getKeywordFromSubKeyword(const QString& subKeyword);
     std::vector<QString> getKeywordFromSubDefinition(

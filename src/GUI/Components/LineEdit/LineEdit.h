@@ -8,6 +8,7 @@ class LineEdit : public QLineEdit {
     const char content[256]{0};
 
    public:
+    LineEdit(QWidget* parent, const char* lineStyle);
     LineEdit(QWidget* parent, const char* lineStyle, const QRect& geometry);
 };
 

@@ -1,5 +1,11 @@
 #include "Button.h"
 
+Button::Button(QWidget* parent, const char* buttonStyle, const char* content)
+    : QPushButton(parent) {
+    setStyleSheet(buttonStyle);
+    setText(content);
+}
+
 Button::Button(
     QWidget* parent, const char* buttonStyle, const char* content,
     const QRect& geometry
@@ -8,6 +14,10 @@ Button::Button(
     setGeometry(geometry);
     setStyleSheet(buttonStyle);
     setText(content);
+}
+
+Button::Button(QWidget* parent, const char* imageSrc) : QPushButton(parent) {
+    setIcon(QIcon(imageSrc));
 }
 
 Button::Button(

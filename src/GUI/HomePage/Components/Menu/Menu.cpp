@@ -12,8 +12,6 @@ Menu::Menu(QWidget* parent) : QWidget(parent) {
         0, HEADER_BAR_HEIGHT, BUTTON_WIDTH + BUTTON_MARGIN_X * 2,
         720 - HEADER_BAR_HEIGHT
     );
-    setStyleSheet("background-color: #CBBDBD;");
-    hide();
 
     resetCurrentDictionaryButton = new ResetButton(this, buttonStyle, CURRENT);
     resetAllDictionariesButton = new ResetButton(this, buttonStyle, ALL);
@@ -45,7 +43,7 @@ void Menu::toggle() {
         resetAllDictionariesButton->hideConfirmModal();
         toggleButton->setIcon(QIcon(toggleOnImageSrc));
     } else {
-        show();
+        widget->show();
         toggleButton->setIcon(QIcon(toggleOffImageSrc));
     }
 }

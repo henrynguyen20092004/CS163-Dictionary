@@ -7,6 +7,7 @@ Screen::Screen() {
     homePage = new HomePage;
     wordDefinitionPage = new WordDefinitionPage;
     wordQuizPage = new WordQuizPage;
+    newWordPage = new NewWordPage;
 
     BackButton::createInstance(homePage);
     stackedWidget->setWindowTitle("CSD");
@@ -24,6 +25,9 @@ Screen::Screen() {
     });
     CONNECT(homePage, &HomePage::wordQuizButtonClicked, [=]() {
         addWidget(wordQuizPage);
+    });
+    CONNECT(homePage, &HomePage::newWordButtonClicked, [=]() {
+        addWidget(newWordPage);
     });
 }
 
@@ -48,5 +52,6 @@ Screen::~Screen() {
     delete homePage;
     delete wordDefinitionPage;
     delete wordQuizPage;
+    delete newWordPage;
     delete stackedWidget;
 }
