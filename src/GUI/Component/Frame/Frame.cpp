@@ -1,10 +1,7 @@
 #include "Frame.h"
 
-Frame::Frame(
-    QWidget* parent, int posX, int posY, int width, int height,
-    const char* frameStyle
-) {
-    setParent(parent);
-    setGeometry(posX, posY, width, height);
+Frame::Frame(QWidget* parent, const char* frameStyle, const QRect& geometry)
+    : QFrame(parent) {
+    setGeometry(geometry);
     setStyleSheet(frameStyle);
 }

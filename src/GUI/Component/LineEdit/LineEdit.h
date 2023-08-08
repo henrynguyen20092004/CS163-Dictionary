@@ -3,15 +3,12 @@
 
 #include <QLineEdit>
 
-class LineEdit: public QLineEdit {
+class LineEdit : public QLineEdit {
    private:
-    const char content[256] {0};
+    const char content[256]{0};
 
    public:
-    LineEdit(
-        QWidget* parent, int posX, int posY, int width, int height,
-        const char* lineStyle
-    );
+    LineEdit(QWidget* parent, const char* lineStyle, const QRect& geometry);
 };
 
 #endif

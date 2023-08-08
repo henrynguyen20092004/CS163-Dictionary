@@ -1,28 +1,29 @@
 #ifndef FAVORITE_LIST_H
 #define FAVORITE_LIST_H
 
-#include <QString>
-#include <string>
+#include "../Dictionary/KeyWithDictName/KeyWithDictName.h"
 
 class FavoriteList {
    private:
     std::string favoriteListPath = "Data/FavoriteList.txt";
+    void saveList();
 
    public:
     struct Node {
-        QString data;
+        KeyWithDictName data;
         Node *next = nullptr;
-        Node(const QString &data) : data(data) {}
+        Node(const KeyWithDictName &data) : data(data) {}
         Node(Node *next) : next(next) {}
     };
 
-    FavoriteList();
     Node *head;
-    void addWord(const QString &data);
-    void removeWord(const QString &data);
-    bool contain(const QString &data);
-    void saveList();
+
+    FavoriteList();
     ~FavoriteList();
+    bool contain(const KeyWithDictName &data);
+    void addWord(const KeyWithDictName &data);
+    void removeWord(const KeyWithDictName &data);
+    void removeNonExistentWord(Dictionary *dictionary);
 };
 
 #endif

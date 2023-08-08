@@ -9,18 +9,10 @@
 class Button : public QPushButton {
    public:
     Button(
-        QWidget* parent, int posX, int posY, int width, int height,
-        const char* buttonStyle
+        QWidget* parent, const char* buttonStyle, const char* content,
+        const QRect& geometry = {}
     );
-    Button(
-        QWidget* parent, int posX, int posY, int width, int height,
-        const char* buttonStyle, const char* content
-    );
-    Button(
-        QWidget* parent, const char* imageSrc, int posX, int posY, int width,
-        int height
-    );
-    void initButton(QWidget* parent, int posX, int posY, int width, int height);
+    Button(QWidget* parent, const char* imageSrc, int width, int height, int posX = 0, int posY = 0);
 };
 
 #endif

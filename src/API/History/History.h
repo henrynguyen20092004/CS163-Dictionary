@@ -1,21 +1,21 @@
 #ifndef HISTORY_H
 #define HISTORY_H
 
-#include <QString>
-#include <vector>
+#include "../Dictionary/KeyWithDictName/KeyWithDictName.h"
 
 class History {
    private:
     std::string historyPath = "Data/History.txt";
+    std::vector<KeyWithDictName> wordHistory;
     int maxSize = 50;
-    std::vector<QString> wordHistory;
 
-    void saveData();
+    void saveList();
 
    public:
     History();
-    void add(const QString& key);
-    std::vector<QString> getHistory();
+    void add(const KeyWithDictName& data);
+    std::vector<KeyWithDictName> getHistory();
+    void removeNonExistentWord(Dictionary* dictionary);
 };
 
 #endif

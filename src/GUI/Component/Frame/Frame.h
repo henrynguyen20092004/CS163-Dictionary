@@ -5,10 +5,7 @@
 
 class Frame : public QFrame {
    public:
-    Frame(
-        QWidget* parent, int posX, int posY, int width, int height,
-        const char* frameStyle
-    );
+    Frame(QWidget* parent, const char* frameStyle, const QRect& geometry);
 };
 
 #endif

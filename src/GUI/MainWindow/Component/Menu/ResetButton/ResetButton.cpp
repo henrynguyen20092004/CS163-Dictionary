@@ -6,53 +6,39 @@ ResetButton::ResetButton(
     QWidget *parent, const char *buttonStyle, ResetType resetType
 ) {
     resetButton = new Button(
-        parent, 8, 416 + resetType * 80, 224, 64, buttonStyle,
-        resetType ? "Reset all dictionaries" : "Reset current dictionary"
+        parent, buttonStyle,
+        resetType ? "Reset all dictionaries" : "Reset current dictionary",
+        {8, 416 + resetType * 80, 224, 64}
     );
-    confirmModal = new Modal(parent->parentWidget(), [=]() {
-        resetType ? resetAllDictionaries() : resetCurrentDictionary();
-        confirmModal->toggle();
-        successModal->toggle();
-    });
-    successModal = new Modal(parent->parentWidget());
-    confirmText = new TextLabel(
-        confirmModal,
+    confirmModal = new ConfirmModal(
+        parent->parentWidget(),
         "Are you sure you want to reset " +
-            std::string(resetType ? "all dictionaries" : "current dictionary") +
-            '?',
-        nullptr, 24, 32, 720, 32
+            QString(resetType ? "all dictionaries" : "current dictionary") + '?'
     );
-    warningText = new TextLabel(
-        confirmModal, "(Warning: All modified data will be lost!)",
-        "color: #F30404;", 24, 80, 720, 32
-    );
-    successText = new TextLabel(
-        successModal,
-        "Dictionar" + std::string(resetType ? "ies" : "y") +
-            " successfully resetted!",
-        nullptr, 24, 80, 720, 32
+    successModal = new SuccessModal(
+        parent->parentWidget(), "Dictionar" + QString(resetType ? "ies" : "y") +
+                                    " successfully resetted!"
     );
 
     CONNECT(resetButton, CLICKED, [=]() {
         confirmModal->toggle();
-
-        if (otherConfirmModal->isVisible()) {
-            otherConfirmModal->hide();
-        }
+        emit hideOtherConfirmModal();
+    });
+    CONNECT(confirmModal, &ConfirmModal::okButtonClicked, [=]() {
+        resetType ? resetAllDictionaries() : resetCurrentDictionary();
+        confirmModal->toggle();
+        successModal->toggle();
     });
 }
 
-Modal *ResetButton::getConfirmModal() { return confirmModal; }
-
-void ResetButton::setOtherConfirmModal(Modal *otherConfirmModal) {
-    this->otherConfirmModal = otherConfirmModal;
+void ResetButton::hideConfirmModal() {
+    if (confirmModal->isVisible()) {
+        confirmModal->hide();
+    }
 }
 
 ResetButton::~ResetButton() {
     delete resetButton;
-    delete confirmText;
-    delete warningText;
-    delete successText;
     delete confirmModal;
     delete successModal;
 }

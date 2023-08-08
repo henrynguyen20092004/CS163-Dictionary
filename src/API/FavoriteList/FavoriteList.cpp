@@ -11,13 +11,13 @@ FavoriteList::FavoriteList() {
     }
 
     QTextStream fin(&file);
-    QString line;
 
     Node *cur, *newNode;
 
     while (!fin.atEnd()) {
-        QString key = fin.readLine().toLower();
-        newNode = new Node(key);
+        QString key = fin.readLine();
+        DictionaryName dictionaryName = (DictionaryName)fin.readLine().toInt();
+        newNode = new Node({key, dictionaryName});
 
         if (!head) {
             head = newNode;
@@ -26,41 +26,6 @@ FavoriteList::FavoriteList() {
         }
 
         cur = newNode;
-    }
-}
-
-void FavoriteList::addWord(const QString &data) {
-    Node *newNode = new Node(data);
-
-    if (!head || head->data > data) {
-        newNode->next = head;
-        head = newNode;
-        return;
-    }
-
-    for (Node *cur = head; cur->next; cur = cur->next) {
-        if (cur->next->data > data) {
-            newNode->next = cur->next;
-            cur->next = newNode;
-            saveList();
-            return;
-        }
-    }
-}
-
-void FavoriteList::removeWord(const QString &data) {
-    Node *dummy = new Node(head);
-
-    for (Node *cur = dummy; cur->next; cur = cur->next) {
-        if (cur->next->data == data) {
-            Node *tmp = cur->next;
-            cur->next = cur->next->next;
-            head = dummy->next;
-            delete tmp;
-            delete dummy;
-            saveList();
-            return;
-        }
     }
 }
 
@@ -76,12 +41,12 @@ void FavoriteList::saveList() {
     Node *cur = head;
 
     while (cur) {
-        fout << cur->data << '\n';
+        fout << cur->data.key << '\n' << cur->data.dictionaryName << '\n';
         cur = cur->next;
     }
 }
 
-bool FavoriteList::contain(const QString &data) {
+bool FavoriteList::contain(const KeyWithDictName &data) {
     Node *cur = head;
 
     while (cur) {
@@ -93,6 +58,61 @@ bool FavoriteList::contain(const QString &data) {
     }
 
     return false;
+}
+
+void FavoriteList::addWord(const KeyWithDictName &data) {
+    Node *newNode = new Node(data);
+
+    if (!head || head->data.key > data.key) {
+        newNode->next = head;
+        head = newNode;
+        return;
+    }
+
+    for (Node *cur = head; cur->next; cur = cur->next) {
+        if (cur->next->data.key > data.key) {
+            newNode->next = cur->next;
+            cur->next = newNode;
+            saveList();
+            return;
+        }
+    }
+}
+
+void FavoriteList::removeWord(const KeyWithDictName &data) {
+    Node *dummy = new Node(head);
+
+    for (Node *cur = dummy; cur->next; cur = cur->next) {
+        if (cur->next->data == data) {
+            Node *tmp = cur->next;
+            cur->next = tmp->next;
+            head = dummy->next;
+            delete tmp;
+            delete dummy;
+            saveList();
+            return;
+        }
+    }
+}
+
+void FavoriteList::removeNonExistentWord(Dictionary *dictionary) {
+    Node *dummy = new Node(head);
+
+    for (Node *cur = dummy; cur && cur->next; cur = cur->next) {
+        if (cur->next->data.dictionaryName == dictionary->dictionaryName) {
+            try {
+                dictionary->getDefinition(cur->next->data.key);
+            } catch (...) {
+                Node *tmp = cur->next;
+                cur->next = tmp->next;
+                delete tmp;
+            }
+        }
+    }
+
+    head = dummy->next;
+    delete dummy;
+    saveList();
 }
 
 FavoriteList::~FavoriteList() {

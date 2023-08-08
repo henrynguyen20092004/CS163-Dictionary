@@ -1,21 +1,25 @@
 #ifndef MODAL_H
 #define MODAL_H
 
-#include <functional>
-
 #include "../Button/Button.h"
+#include "../Frame/Frame.h"
 #include "../TextLabel/TextLabel.h"
 
+#define MODAL_BUTTON_SIZE 48
+#define MODAL_BUTTON_POS_Y 256
+#define MODAL_BUTTON_MARGIN_Y 8
+
 class Modal : public QWidget {
-   private:
-    Button *okButton, *cancelButton = nullptr;
-    TextLabel *okText, *cancelText = nullptr;
+   protected:
+    Frame *background;
+    TextLabel *okText;
+    Button *okButton;
 
    public:
     Modal(QWidget *parent);
-    Modal(QWidget *parent, const std::function<void()> &okButtonFunction);
     ~Modal();
-    void initModal(QWidget *parent);
+
+   public slots:
     void toggle();
 };
 

@@ -1,21 +1,28 @@
 #ifndef RESET_BUTTON_H
 #define RESET_BUTTON_H
 
-#include "../../../../Component/Modal/Modal.h"
+#include "../../../../Component/Modal/ConfirmModal/ConfirmModal.h"
+#include "../../../../Component/Modal/SuccessModal/SuccessModal.h"
 
 enum ResetType { CURRENT, ALL };
 
-class ResetButton {
+class ResetButton : public QObject {
+    Q_OBJECT
+
    private:
     Button *resetButton;
-    Modal *confirmModal, *successModal, *otherConfirmModal;
-    TextLabel *confirmText, *warningText, *successText;
+    ConfirmModal *confirmModal;
+    SuccessModal *successModal;
 
    public:
     ResetButton(QWidget *parent, const char *buttonStyle, ResetType resetType);
     ~ResetButton();
-    Modal *getConfirmModal();
-    void setOtherConfirmModal(Modal *otherConfirmModal);
+
+   public slots:
+    void hideConfirmModal();
+
+   signals:
+    void hideOtherConfirmModal();
 };
 
 #endif
