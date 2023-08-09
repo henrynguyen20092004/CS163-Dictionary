@@ -1,9 +1,8 @@
 #ifndef MAIN_WINDOW_H
 #define MAIN_WINDOW_H
 
-#include "../Component/Frame/Frame.h"
 #include "../Component/Image/Image.h"
-#include "Component/HeaderBar/HeaderBar.h"
+#include "../Component/HeaderBar/HeaderBar.h"
 #include "Component/Menu/Menu.h"
 #include "Component/SearchBar/SearchBar.h"
 #include "Component/SwitchDictionaryButton/SwitchDictionaryButton.h"

@@ -4,16 +4,17 @@
 
 SwitchDictionaryButton::SwitchDictionaryButton(QWidget* parent) {
     EEButton = new Button(
-        parent, 253, 158, 174, 42, activeButtonStyle, "English - English"
+        parent, activeButtonStyle, "English - English", {253, 158, 174, 42}
     );
     VEButton = new Button(
-        parent, 454, 158, 174, 42, buttonStyle, "Vietnamese - English"
+        parent, buttonStyle, "Vietnamese - English", {454, 158, 174, 42}
     );
     EVButton = new Button(
-        parent, 647, 158, 174, 42, buttonStyle, "English - Vietnamese"
+        parent, buttonStyle, "English - Vietnamese", {647, 158, 174, 42}
     );
-    slangButton = new Button(parent, 844, 158, 174, 42, buttonStyle, "Slang");
-    emojiButton = new Button(parent, 1041, 158, 174, 42, buttonStyle, "Emoji");
+    slangButton = new Button(parent, buttonStyle, "Slang", {844, 158, 174, 42});
+    emojiButton =
+        new Button(parent, buttonStyle, "Emoji", {1041, 158, 174, 42});
 
     CONNECT(EEButton, CLICKED, [=]() { setCurrentDictionary(EE); });
     CONNECT(VEButton, CLICKED, [=]() { setCurrentDictionary(VE); });
@@ -83,8 +84,8 @@ void SwitchDictionaryButton::setCurrentDictionary(
 
 SwitchDictionaryButton::~SwitchDictionaryButton() {
     delete EEButton;
-    delete EVButton;
     delete VEButton;
+    delete EVButton;
     delete slangButton;
     delete emojiButton;
 }

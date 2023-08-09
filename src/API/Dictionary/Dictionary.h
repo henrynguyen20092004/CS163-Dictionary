@@ -7,8 +7,8 @@
 
 enum DictionaryName {
     EE,
-    EV,
     VE,
+    EV,
     SLANG,
     EMOJI,
 };
@@ -43,9 +43,11 @@ class Dictionary {
     );
 
    public:
+    DictionaryName dictionaryName;
+
     Dictionary(
         int size, const std::string& originalDictionaryPath,
-        const std::string& newDictionaryPath
+        const std::string& newDictionaryPath, DictionaryName dictionaryName
     );
     void addWordToDictionary(
         const QString& key, const std::vector<QString>& val

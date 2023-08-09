@@ -14,11 +14,12 @@ History::History() {
 
     while (!fin.atEnd()) {
         QString key = fin.readLine();
-        wordHistory.push_back(key);
+        DictionaryName dictionaryName = (DictionaryName)fin.readLine().toInt();
+        wordHistory.push_back({key, dictionaryName});
     }
 }
 
-void History::saveData() {
+void History::saveList() {
     QFile file(historyPath.c_str());
 
     if (!file.open(QFile::WriteOnly | QFile::Text)) {
@@ -27,12 +28,12 @@ void History::saveData() {
 
     QTextStream fout(&file);
 
-    for (int i = 0; i < wordHistory.size(); ++i) {
-        fout << wordHistory[i] << '\n';
+    for (const KeyWithDictName& word : wordHistory) {
+        fout << word.key << '\n' << word.dictionaryName << '\n';
     }
 }
 
-void History::add(const QString& key) {
+void History::add(const KeyWithDictName& data) {
     if (wordHistory.size() == maxSize) {
         for (int i = 0; i < wordHistory.size() - 1; ++i) {
             wordHistory[i] = wordHistory[i + 1];
@@ -41,8 +42,30 @@ void History::add(const QString& key) {
         wordHistory.pop_back();
     }
 
-    wordHistory.push_back(key);
-    saveData();
+    wordHistory.push_back(data);
+    saveList();
 }
 
-std::vector<QString> History::getHistory() { return wordHistory; }
+std::vector<KeyWithDictName> History::getHistory() { return wordHistory; }
+
+void History::removeNonExistentWord(Dictionary* dictionary) {
+    wordHistory.erase(
+        std::remove_if(
+            wordHistory.begin(), wordHistory.end(),
+            [=](const KeyWithDictName& word) {
+                if (word.dictionaryName == dictionary->dictionaryName) {
+                    try {
+                        dictionary->getDefinition(word.key);
+                    } catch (...) {
+                        return true;
+                    }
+                }
+
+                return false;
+            }
+        ),
+        wordHistory.end()
+    );
+
+    saveList();
+}

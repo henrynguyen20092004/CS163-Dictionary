@@ -1,11 +1,10 @@
 #include "LineEdit.h"
 
 LineEdit::LineEdit(
-    QWidget* parent, int posX, int posY, int width, int height,
-    const char* lineStyle
-) {
-    setParent(parent);
+    QWidget* parent, const char* lineStyle, const QRect& geometry
+)
+    : QLineEdit(parent) {
     setText(content);
-    setGeometry(posX, posY, width, height);
+    setGeometry(geometry);
     setStyleSheet(lineStyle);
 }

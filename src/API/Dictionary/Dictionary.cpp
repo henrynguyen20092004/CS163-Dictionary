@@ -5,6 +5,7 @@
 #include <QTextStream>
 #include <stdexcept>
 
+#include "../../GlobalVar/GlobalVar.h"
 #include "../HashTable/HashFunction/HashFunction.h"
 #include "../RandomIndex/RandomIndex.h"
 #include "../SubstringCheck/ProcessString/ProcessString.h"
@@ -15,9 +16,10 @@
 
 Dictionary::Dictionary(
     int size, const std::string &originalDictionaryPath,
-    const std::string &newDictionaryPath
+    const std::string &newDictionaryPath, DictionaryName dictionaryName
 )
     : size(size),
+      dictionaryName(dictionaryName),
       hashTable(size),
       originalDictionaryPath(originalDictionaryPath),
       newDictionaryPath(newDictionaryPath) {
@@ -178,4 +180,6 @@ void Dictionary::resetDictionary() {
     hashTable.clear();
     resetNewDictionaryFile();
     loadOriginalDictionary(originalDictionaryPath, hashTable);
+    GlobalVar::data.favoriteList.removeNonExistentWord(this);
+    GlobalVar::data.history.removeNonExistentWord(this);
 }

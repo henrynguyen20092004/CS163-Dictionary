@@ -5,10 +5,7 @@
 
 class Image : public QLabel {
    public:
-    Image(
-        QWidget* parent, int posX, int posY, int width, int height,
-        const char* imageSrc
-    );
+    Image(QWidget* parent, const char* imageSrc, const QRect& geometry);
 };
 
 #endif

@@ -1,4 +1,8 @@
 hello
+0
 beautiful
+0
 girl
+0
 xin chào
+1
