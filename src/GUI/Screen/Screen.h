@@ -3,17 +3,20 @@
 
 #include <QStackedWidget>
 
-#include "../MainWindow/MainWindow.h"
+#include "../HomePage/HomePage.h"
+#include "../WordDefinitionPage/WordDefinitionPage.h"
 
 class Screen {
    private:
-    MainWindow* mainWindow;
+    HomePage* homePage;
+    WordDefinitionPage* wordDefinitionPage;
     QStackedWidget* stackedWidget;
 
    public:
     Screen();
     ~Screen();
-    void setUpUI();
+    void addWidget(QWidget* widget);
+    void removeCurrentWidget();
 };
 
 #endif

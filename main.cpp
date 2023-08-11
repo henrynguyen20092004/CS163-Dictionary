@@ -5,6 +5,5 @@
 int main(int argc, char **argv) {
     QApplication app(argc, argv);
     Screen screen;
-    screen.setUpUI();
     return app.exec();
 }
