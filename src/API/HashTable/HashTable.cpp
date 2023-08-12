@@ -87,6 +87,10 @@ Word HashTable::randomWord(int index) {
         cur = cur->next;
     }
 
+    if (!lengthOfLinkedList) {
+        return {"", ""};
+    }
+
     cur = table[index];
 
     for (int keyIndex = randomIndex(lengthOfLinkedList); keyIndex; --keyIndex) {
