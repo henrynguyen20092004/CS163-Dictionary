@@ -121,6 +121,11 @@ std::vector<QString> Dictionary::getKeywordFromSubDefinition(
     const QString &subDefinition
 ) {
     QString newSubDefinition = processString(subDefinition);
+
+    if (newSubDefinition.isEmpty()) {
+        return {};
+    }
+
     CharacterTable characterTable(newSubDefinition);
 
     return hashTable.findKeywordIf(

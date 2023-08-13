@@ -37,7 +37,7 @@ std::vector<QString> HashTable::findKeywordIf(
     for (Node* head : table) {
         for (; head; head = head->next) {
             if (!checkKeyword) {
-                for (QString& definition : head->val) {
+                for (const QString& definition : head->val) {
                     if (checkFunction(definition, isExactMatch)) {
                         if (isExactMatch) {
                             exactMatchIndex = keywords.size();
