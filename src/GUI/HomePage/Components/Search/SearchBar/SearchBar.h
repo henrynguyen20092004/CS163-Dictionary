@@ -13,6 +13,9 @@ class SearchBar : public QWidget {
     LineEdit* lineEdit;
     Button *searchButton, *randomButton;
 
+   private slots:
+    void randomWord();
+
    public:
     SearchBar(QWidget* parent);
     ~SearchBar();

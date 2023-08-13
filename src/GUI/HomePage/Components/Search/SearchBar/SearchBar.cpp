@@ -18,6 +18,7 @@ SearchBar::SearchBar(QWidget* parent) : QWidget(parent) {
 
     CONNECT(lineEdit, &QLineEdit::returnPressed, this, &SearchBar::showResults);
     CONNECT(searchButton, CLICKED, this, &SearchBar::showResults);
+    CONNECT(randomButton, CLICKED, this, &SearchBar::randomWord);
 }
 
 std::vector<QString> SearchBar::search() {
@@ -30,6 +31,10 @@ std::vector<QString> SearchBar::search() {
     return GlobalVar::currentDictionary->getKeywordFromSubKeyword(
         lineEdit->text()
     );
+}
+
+void SearchBar::randomWord() {
+    lineEdit->setText(GlobalVar::currentDictionary->getRandomWord().first);
 }
 
 LineEdit* SearchBar::getLineEdit() { return lineEdit; }

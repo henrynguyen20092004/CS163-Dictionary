@@ -146,7 +146,13 @@ std::vector<QString> Dictionary::getKeywordFromSubDefinition(
 }
 
 Word Dictionary::getRandomWord() {
-    return hashTable.randomWord(randomIndex(size));
+    Word word;
+
+    while (word.first.isEmpty()) {
+        word = hashTable.randomWord(randomIndex(size));
+    }
+
+    return word;
 }
 
 RandomList Dictionary::getFourRandomWords() {
