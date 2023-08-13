@@ -2,72 +2,46 @@
 
 #include "../../GlobalVar/GlobalVar.h"
 
-NewWordPage::NewWordPage(QWidget* parent) {
-    headerBar = new HeaderBar(this);
+NewWordPage::NewWordPage() {
+    setStyleSheet("font-family: Segoe UI; font-size: 20pt;");
+
+    headerBar = new HeaderBar(this, "NEW WORD");
     newWordArea = new NewWordArea(this);
-    saveButton = new Button(this, 527, 666, 192.37, 40, buttonStyle, "SAVE");
+    saveButton = new Button(this, saveButtonStyle, "SAVE", {527, 666, 192, 40});
+    successModal = new SuccessModal(this, "Add a new word successfully!");
+    errorText = new TextLabel(
+        this, "", {318, 664, 668, 36},
+        "color: red; font-size: 30px; font-weight: 700;"
+    );
+
     saveButton->hide();
-    successModal = new Modal(this);
-    successModal->hide();
-    successText = new TextLabel(
-        successModal, "Add a new word successfully!", {200, 150, 720, 32}
-    );
-    warningMessage = new TextLabel(
-        this, "Some of the text may be in wrong format!", {318, 664, 668, 35},
-        warningMessageStyle
-    );
-    warningMessage->hide();
+    errorText->hide();
 
     CONNECT(
-        newWordArea, &NewWordArea::textChanged, this,
-        &NewWordPage::saveButtonIsEnabled
+        newWordArea, &NewWordArea::checkWordAndDefinition, this,
+        &NewWordPage::checkWordAndDefinition
     );
-    CONNECT(
-        newWordArea, &NewWordArea::buttonClicked, this,
-        &NewWordPage::saveButtonIsEnabled
-    );
-    CONNECT(saveButton, CLICKED, this, &NewWordPage::on_saveButton_clicked);
+    CONNECT(saveButton, CLICKED, [=]() {
+        newWordArea->saveNewWord();
+        successModal->show();
+    });
 }
 
-void NewWordPage::saveButtonIsEnabled() {
-    bool isTextEditEmpty = newWordArea->isTextEditEmpty();
-    bool find =
-        GlobalVar::currentDictionary->find(newWordArea->word->text().trimmed());
-    if (isTextEditEmpty || find) {
-        if (isTextEditEmpty) {
-            warningMessage->setText("Some of the text may be in wrong format!");
-        } else {
-            warningMessage->setText("Word does exist in this dictionary!");
-        }
-        warningMessage->show();
-        saveButton->hide();
-    } else {
-        warningMessage->hide();
-        saveButton->show();
-    }
-}
+void NewWordPage::checkWordAndDefinition() {
+    bool isWrongFormat = newWordArea->isWrongFormat(),
+         containWord = newWordArea->wordExisted();
 
-void NewWordPage::on_saveButton_clicked() {
-    QString word = newWordArea->word->text().trimmed();
-    std::vector<QString> definitions;
-
-    for (DefinitionWidget* widget : newWordArea->definitions) {
-        definitions.push_back(
-            widget->getDefinitionInput()->toPlainText().trimmed()
-        );
-    }
-
-    GlobalVar::currentDictionary->addWordToDictionary(word, definitions);
-    newWordArea->clear();
-
-    successModal->show();
-    warningMessage->hide();
+    errorText->setText(
+        isWrongFormat ? "Some texts may have the wrong format!"
+                      : "Word already exists in this dictionary!"
+    );
+    errorText->setVisible(isWrongFormat || containWord);
+    saveButton->setVisible(!isWrongFormat && !containWord);
 }
 
 NewWordPage::~NewWordPage() {
     delete headerBar;
     delete newWordArea;
     delete saveButton;
-    delete successText;
     delete successModal;
 }

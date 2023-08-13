@@ -1,37 +1,51 @@
 #include "DefinitionWidget.h"
 
-DefinitionWidget::DefinitionWidget(QWidget* parent, QVBoxLayout*& layout) {
-    removeButtonLayout = new QHBoxLayout;
-    label = new TextLabel(parent, "Definition:", labelStyle);
+#include <QRegularExpression>
+
+#include "../../../../../GlobalVar/GlobalVar.h"
+
+DefinitionWidget::DefinitionWidget(QWidget* parent, QVBoxLayout* layout) {
+    removeButton = new Button(this, "assets/RemoveButton.png", {45, 45});
+    label =
+        new TextLabel(this, "Definition:", "color: white; font-weight: 700;");
+    definitionInput =
+        new TextEdit(parent, "background-color: #D9D9D9; font-weight: 400;");
+    removeButtonLayout = new QHBoxLayout(parent);
+
+    definitionInput->setFixedHeight(75);
     removeButtonLayout->addWidget(label);
-    removeButton = new Button(parent, removeOffImageSrc);
-    removeButton->setIconSize(QSize(45, 45));
     removeButtonLayout->addWidget(removeButton, 0, Qt::AlignRight);
     layout->addLayout(removeButtonLayout);
-    definition = new TextEdit(parent, definitionStyle);
-    definition->setFixedHeight(75);
-    layout->addWidget(definition);
+    layout->addWidget(definitionInput);
 
-    CONNECT(removeButton, CLICKED, parent, [=]() {
-        emit removeButtonClicked();
-    });
-    CONNECT(definition, &QTextEdit::textChanged, this, [=]() {
-        if (definition->toPlainText().length() > 256) {
-            definition->textCursor().deletePreviousChar();
+    CONNECT(definitionInput, &QTextEdit::textChanged, this, [=]() {
+        if (definitionInput->toPlainText().length() > 576) {
+            definitionInput->textCursor().deletePreviousChar();
         }
+
         emit textChanged();
     });
 }
 
-TextEdit* DefinitionWidget::getDefinitionInput() { return definition; }
+Button* DefinitionWidget::getRemoveButton() { return removeButton; }
 
-bool DefinitionWidget::isTextEditEmpty() {
-    return definition->toPlainText().trimmed().isEmpty();
+QString DefinitionWidget::getDefinition() {
+    return definitionInput->toPlainText().trimmed();
+}
+
+void DefinitionWidget::clearDefinitionInput() { definitionInput->clear(); }
+
+bool DefinitionWidget::isWrongFormat() {
+    QString definition = definitionInput->toPlainText().trimmed();
+
+    return definition.isEmpty() ||
+           (GlobalVar::currentDictionary->dictionaryName != EV &&
+            definition.contains(QRegularExpression("\\p{Mn}+")));
 }
 
 DefinitionWidget::~DefinitionWidget() {
     delete label;
     delete removeButton;
     delete removeButtonLayout;
-    delete definition;
+    delete definitionInput;
 }

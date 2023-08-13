@@ -13,25 +13,9 @@ Said of compositions sung in the old church style without instrument
 r
 a-
 
-3994
-r
-one
-
 3898
 a
 hellggfgo
-hi
-bye
-
-4921
-u
-hello
-hi
-bye
-
-4921
-u
-hello
 hi
 bye
 
@@ -41,14 +25,7 @@ halloheh
 hi
 bye
 
-4921
-u
-hydrogenize
-hi
-bye
-
-4921
-u
-hydrogenize
-hi
-bye
+9736
+a
+hhhhhh
+hhhhhhhhh

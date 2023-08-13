@@ -3,13 +3,12 @@
 LineEdit::LineEdit(QWidget* parent, const char* lineStyle) : QLineEdit(parent) {
     setText(content);
     setStyleSheet(lineStyle);
+    setMaxLength(MAX_LENGTH);
 }
 
 LineEdit::LineEdit(
     QWidget* parent, const char* lineStyle, const QRect& geometry
 )
-    : QLineEdit(parent) {
+    : LineEdit(parent, lineStyle) {
     setGeometry(geometry);
-    setText(content);
-    setStyleSheet(lineStyle);
 }

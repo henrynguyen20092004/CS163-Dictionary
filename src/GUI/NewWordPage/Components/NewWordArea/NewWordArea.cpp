@@ -1,107 +1,115 @@
 #include "NewWordArea.h"
 
-#include <algorithm>
+#include <QRegularExpression>
 
-NewWordArea::NewWordArea(QWidget* parent) {
-    mainWidget = new QWidget(parent);
-    mainWidget->setGeometry(134, 71, 1013, 581);
-    mainWidget->setStyleSheet(scrollAreaStyle);
-    mainLayout = new QVBoxLayout(mainWidget);
-    scrollArea = new QScrollArea(mainWidget);
-    scrollArea->setStyleSheet(scrollBarStyle);
-    scrollArea->setWidgetResizable(true);
-    scrollAreaWidget = new QWidget(scrollArea);
-    scrollArea->setWidget(scrollAreaWidget);
-    scrollAreaLayout = new QVBoxLayout(scrollAreaWidget);
-    mainLayout->addWidget(scrollArea);
-    firstLabel = new TextLabel(scrollAreaWidget, "New word", firstLabelStyle);
-    scrollAreaLayout->addWidget(firstLabel);
-    word = new LineEdit(scrollAreaWidget, wordStyle);
-    word->setMaxLength(64);
-    scrollAreaLayout->addWidget(word);
-    DefinitionWidget* newDefinition =
-        new DefinitionWidget(scrollAreaWidget, scrollAreaLayout);
-    definitions.push_back(newDefinition);
-    addNewWordButton =
-        new Button(scrollAreaWidget, buttonStyle, "Add a new definition");
-    mainLayout->addWidget(addNewWordButton);
+#include "../../../../GlobalVar/GlobalVar.h"
 
-    CONNECT(word, &QLineEdit::textChanged, [=]() { emit textChanged(); });
-    CONNECT(newDefinition, &DefinitionWidget::removeButtonClicked, [=]() {
-        on_removeDefinitionButton_clicked(newDefinition);
-    });
-    CONNECT(newDefinition, &DefinitionWidget::textChanged, [=]() {
-        emit textChanged();
-    });
-    CONNECT(
-        addNewWordButton, CLICKED, this,
-        &NewWordArea::on_addDefinitionButton_clicked
+NewWordArea::NewWordArea(QWidget* parent) : QWidget(parent) {
+    setStyleSheet("color: white; font-size: 27pt; font-weight: 700;");
+
+    mainBox = new VerticalLayoutBox(
+        parent, "background-color: #828799;", {134, 70, 1012, 580}
     );
+    scrollBoxLayout = new ScrollLayoutBox(mainBox);
+    firstLabel = new TextLabel(
+        scrollBoxLayout->getContainer(), "New word",
+        "font-size: 27pt; color: white;"
+    );
+    wordInput = new LineEdit(
+        scrollBoxLayout->getContainer(), "background-color: #D9D9D9;"
+    );
+    addNewWordButton = new Button(
+        scrollBoxLayout->getContainer(), addButtonStyle, "Add a new definition"
+    );
+    scrollBoxLayout->addWidget(firstLabel);
+    scrollBoxLayout->addWidget(wordInput);
+    mainBox->addWidget(scrollBoxLayout);
+    mainBox->addWidget(addNewWordButton);
+
+    addDefinitionWidget();
+
+    CONNECT(wordInput, &QLineEdit::textChanged, [=]() {
+        emit checkWordAndDefinition();
+    });
+    CONNECT(addNewWordButton, CLICKED, this, &NewWordArea::addDefinitionWidget);
 }
 
-bool NewWordArea::isTextEditEmpty() {
-    if (word->text().trimmed().isEmpty()) {
+bool NewWordArea::isWrongFormat() {
+    QString word = wordInput->text().trimmed();
+
+    if (word.isEmpty() || (GlobalVar::currentDictionary->dictionaryName != VE &&
+                           word.contains(QRegularExpression("\\p{Mn}+")))) {
         return true;
     }
-    for (DefinitionWidget*& definition : definitions) {
-        if (definition->isTextEditEmpty()) {
+
+    for (DefinitionWidget* definition : definitionList) {
+        if (definition->isWrongFormat()) {
             return true;
         }
     }
+
     return false;
 }
 
-void NewWordArea::on_addDefinitionButton_clicked() {
-    DefinitionWidget* newDefinition =
-        new DefinitionWidget(scrollAreaWidget, scrollAreaLayout);
-    definitions.push_back(newDefinition);
-    int index = definitions.size() - 1;
-
-    CONNECT(newDefinition, &DefinitionWidget::removeButtonClicked, [=]() {
-        on_removeDefinitionButton_clicked(newDefinition);
-    });
-    CONNECT(newDefinition, &DefinitionWidget::textChanged, [=]() {
-        emit textChanged();
-    });
-
-    emit buttonClicked();
+bool NewWordArea::wordExisted() {
+    return GlobalVar::currentDictionary->containWord(wordInput->text().trimmed()
+    );
 }
 
-void NewWordArea::on_removeDefinitionButton_clicked(
-    DefinitionWidget* newDefinition
-) {
-    if (definitions.size() == 1) {
-        return;
+void NewWordArea::addDefinitionWidget() {
+    DefinitionWidget* newDefinition = new DefinitionWidget(
+        scrollBoxLayout->getContainer(), scrollBoxLayout->getLayout()
+    );
+
+    definitionList.push_back(newDefinition);
+
+    CONNECT(newDefinition->getRemoveButton(), CLICKED, [=]() {
+        if (definitionList.size() == 1) {
+            return;
+        }
+
+        std::vector<DefinitionWidget*>::iterator it = std::find(
+            definitionList.begin(), definitionList.end(), newDefinition
+        );
+
+        delete *it;
+        definitionList.erase(it);
+        emit checkWordAndDefinition();
+    });
+
+    CONNECT(newDefinition, &DefinitionWidget::textChanged, [=]() {
+        emit checkWordAndDefinition();
+    });
+
+    emit checkWordAndDefinition();
+}
+
+void NewWordArea::saveNewWord() {
+    QString word = wordInput->text().trimmed();
+    std::vector<QString> definitions;
+
+    for (DefinitionWidget* definition : definitionList) {
+        definitions.push_back(definition->getDefinition());
     }
 
-    scrollAreaLayout->removeWidget(newDefinition);
-    std::vector<DefinitionWidget*>::iterator it =
-        std::find(definitions.begin(), definitions.end(), newDefinition);
-    delete *it;
-    definitions.erase(it);
-    emit buttonClicked();
-}
+    GlobalVar::currentDictionary->addWordToDictionary(word, definitions);
+    wordInput->clear();
+    definitionList[0]->clearDefinitionInput();
 
-void NewWordArea::clear() {
-    word->clear();
-    definitions[0]->getDefinitionInput()->clear();
-
-    for (int i = definitions.size() - 1; i >= 0; --i) {
-        DefinitionWidget* widget = definitions[i];
-        definitions.pop_back();
-        delete widget;
+    for (int i = definitionList.size() - 1; i > 0; --i) {
+        delete definitionList[i];
+        definitionList.pop_back();
     }
 }
 
 NewWordArea::~NewWordArea() {
     delete firstLabel;
-    delete word;
+    delete wordInput;
+    delete addNewWordButton;
 
-    for (int i = definitions.size() - 1; i >= 0; --i) {
-        DefinitionWidget* widget = definitions[i];
-        definitions.pop_back();
-        delete widget;
+    for (int i = definitionList.size() - 1; i >= 0; --i) {
+        delete definitionList[i];
     }
 
-    delete addNewWordButton;
+    delete scrollBoxLayout;
 }

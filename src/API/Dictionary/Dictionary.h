@@ -50,10 +50,10 @@ class Dictionary {
         int size, const std::string& originalDictionaryPath,
         const std::string& newDictionaryPath, DictionaryName dictionaryName
     );
+    bool containWord(const QString& key);
     void addWordToDictionary(
         const QString& key, const std::vector<QString>& val
     );
-    bool find(const QString& key);
     std::vector<QString> getDefinition(const QString& key);
     std::vector<QString> getKeywordFromSubKeyword(const QString& subKeyword);
     std::vector<QString> getKeywordFromSubDefinition(

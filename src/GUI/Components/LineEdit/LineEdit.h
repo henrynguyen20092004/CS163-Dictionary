@@ -1,11 +1,13 @@
 #ifndef LINE_EDIT_H
-#define LINE_EDIT_h
+#define LINE_EDIT_H
 
 #include <QLineEdit>
 
+#define MAX_LENGTH 64
+
 class LineEdit : public QLineEdit {
    private:
-    const char content[256]{0};
+    const char content[MAX_LENGTH]{0};
 
    public:
     LineEdit(QWidget* parent, const char* lineStyle);

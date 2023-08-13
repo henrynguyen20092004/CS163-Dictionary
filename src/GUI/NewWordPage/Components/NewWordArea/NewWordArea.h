@@ -1,55 +1,36 @@
 #ifndef NEW_WORD_AREA_H
 #define NEW_WORD_AREA_H
 
-#include <QScrollArea>
-#include <QWidget>
-
 #include "../../../Components/LineEdit/LineEdit.h"
+#include "VerticalLayoutBox/VerticalLayoutBox.h"
 #include "DefinitionWidget/DefinitionWidget.h"
+#include "ScrollLayoutBox/ScrollLayoutBox.h"
 
 class NewWordArea : public QWidget {
     Q_OBJECT
 
    private:
-    QScrollArea *scrollArea;
-    QWidget *scrollAreaWidget;
-    QVBoxLayout *scrollAreaLayout;
-    QWidget *mainWidget;
-    QVBoxLayout *mainLayout;
+    LineEdit *wordInput;
+    ScrollLayoutBox *scrollBoxLayout;
+    VerticalLayoutBox *mainBox;
     TextLabel *firstLabel;
     Button *addNewWordButton;
-    const char *scrollAreaStyle = "background-color: rgb(130, 135, 153);";
-    const char *firstLabelStyle =
-        "color: rgb(255, 255, 255); font : 700 27pt \"Segoe UI\";";
-    const char *wordStyle =
-        "background-color: rgb(217, 217, 217); color : rgb(0, 0, 0); font : "
-        "700 27pt \"Segoe UI\";";
-    const char *buttonStyle =
-        "background-color: rgb(217, 217, 217); color: rgb(0, 0, 0); font: 700 "
-        "20pt \"Segoe UI\"; QPushButton::hover { background - color : #09ED12; "
-        "}";
-    const char *scrollBarStyle =
-        "QScrollBar:vertical{border: none;background: #d1d1d1;width: "
-        "10px;margin: 0px 0px 0px 0px;}QScrollBar::handle:vertical{background: "
-        "#2b8cbe;min-height: "
-        "20px;}QScrollBar::add-line:vertical,QScrollBar::sub-line:vertical{"
-        "height: 0px;subcontrol-position: bottom;subcontrol-origin: "
-        "margin;}QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical "
-        "{background: none;}";
+    std::vector<DefinitionWidget *> definitionList;
+    const char *addButtonStyle =
+        "background-color: #D9D9D9; font-size: 24pt; QPushButton::hover { background-color : #09ED12; }";
 
-    void on_addDefinitionButton_clicked();
-    void on_removeDefinitionButton_clicked(DefinitionWidget *newDefinition);
-   signals:
-    void textChanged();
-    void buttonClicked();
+   private slots:
+    void addDefinitionWidget();
 
    public:
-    LineEdit *word;
-    std::vector<DefinitionWidget *> definitions;
-    NewWordArea(QWidget *parent = nullptr);
+    NewWordArea(QWidget *parent);
     ~NewWordArea();
-    bool isTextEditEmpty();
-    void clear();
+    bool isWrongFormat();
+    bool wordExisted();
+    void saveNewWord();
+
+   signals:
+    void checkWordAndDefinition();
 };
 
 #endif

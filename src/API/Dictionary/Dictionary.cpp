@@ -57,7 +57,7 @@ void Dictionary::saveData(
     }
 }
 
-bool Dictionary::find(const QString &key) {
+bool Dictionary::containWord(const QString &key) {
     return !hashTable.find(key, hashFunction(key, size)).empty();
 }
 
