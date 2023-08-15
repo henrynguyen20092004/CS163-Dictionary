@@ -3,11 +3,9 @@
 #include "../../GlobalVar/GlobalVar.h"
 
 WordDefinitionPage::WordDefinitionPage() : Page("") {
-    setStyleSheet("font-size: 20px;");
-
     wordLabel = new TextLabel(
         content, "", {36, 48, 720, 60},
-        "background-color: #D9D9D9; font-weight: 700;"
+        "background-color: #D9D9D9; font-size: 24px; font-weight: 700;"
     );
     addDefinitionLabel = new TextLabel(
         content, "Add a definition", {80, 0, 160, 20},

@@ -22,6 +22,10 @@ HomePage::HomePage() : QWidget(nullptr) {
         searchResult, &SearchResult::resultClicked, this,
         &HomePage::searchResultClicked
     );
+    CONNECT(
+        menu->getMenuButtons()[3], CLICKED, this,
+        &HomePage::wordQuizButtonClicked
+    );
 }
 
 void HomePage::setAllButtonsDisabled(bool disabled) {

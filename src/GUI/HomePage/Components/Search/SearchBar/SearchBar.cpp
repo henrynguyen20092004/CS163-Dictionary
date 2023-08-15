@@ -9,7 +9,7 @@ SearchBar::SearchBar(QWidget* parent) : QWidget(parent) {
 
     lineEdit = new LineEdit(
         this,
-        "background-color: #FDFDFD; color: #176B87; font-size: 20px; "
+        "background-color: #FDFDFD; color: #176B87; "
         "font-weight: 600; padding-left: 12px;",
         {0, 0, 972, 52}
     );

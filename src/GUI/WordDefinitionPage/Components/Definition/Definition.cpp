@@ -5,22 +5,28 @@
 
 Definition::Definition(QWidget *parent, const QString &definition, int index)
     : QWidget(parent) {
+    setGeometry(
+        DEFINITION_X, FIRST_DEFINITION_Y + DEFINITION_HEIGHT * index, 720,
+        DEFINITION_HEIGHT - 8
+    );
+
     definitionLabel = new TextLabel(
-        this, definition,
-        {DEFINITION_X,
-         FIRST_DEFINITION_Y + UPDATE_BUTTON_SIZE + DEFINITION_HEIGHT * index,
-         720, 96},
+        this, definition, {0, UPDATE_BUTTON_SIZE + 8, 700, 248},
         "color: white; font-weight: 500;"
     );
     updateButton = new Button(
-        this, "assets/UpdateButton.png", UPDATE_BUTTON_SIZE, UPDATE_BUTTON_SIZE,
-        DEFINITION_X, FIRST_DEFINITION_Y + DEFINITION_HEIGHT * index
+        this, "assets/UpdateButton.png", UPDATE_BUTTON_SIZE, UPDATE_BUTTON_SIZE
+    );
+    definitionScrollArea = new ScrollArea(
+        this, definitionLabel, 720, 96, 0, UPDATE_BUTTON_SIZE + 8
     );
 
     definitionLabel->setAlignment(Qt::AlignLeft);
+    definitionLabel->adjustSize();
 }
 
 Definition::~Definition() {
     delete definitionLabel;
     delete updateButton;
+    delete definitionScrollArea;
 }

@@ -15,7 +15,7 @@ SearchResult::SearchResult(QWidget* parent) : QWidget(parent) {
 
     content->setGeometry(0, 0, width() - 20, 0);
     scrollArea->setStyleSheet(
-        "background-color: #296ACC; font-size: 20px; font-weight: 500;"
+        "background-color: #296ACC; font-weight: 500;"
     );
 
     for (int i = 0; i < MAX_RESULT; ++i) {

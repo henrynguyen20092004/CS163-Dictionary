@@ -6,6 +6,7 @@ Screen::Screen() {
     stackedWidget = new QStackedWidget;
     homePage = new HomePage;
     wordDefinitionPage = new WordDefinitionPage;
+    wordQuizPage = new WordQuizPage;
 
     BackButton::createInstance(homePage);
     stackedWidget->setWindowTitle("CSD");
@@ -20,6 +21,9 @@ Screen::Screen() {
     CONNECT(homePage, &HomePage::searchResultClicked, [=](const QString& word) {
         wordDefinitionPage->setWord(word);
         addWidget(wordDefinitionPage);
+    });
+    CONNECT(homePage, &HomePage::wordQuizButtonClicked, [=]() {
+        addWidget(wordQuizPage);
     });
 }
 
@@ -43,5 +47,6 @@ Screen::~Screen() {
     BackButton::deleteInstance();
     delete homePage;
     delete wordDefinitionPage;
+    delete wordQuizPage;
     delete stackedWidget;
 }

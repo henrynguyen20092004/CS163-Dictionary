@@ -18,9 +18,9 @@ class HomePage : public QWidget {
     SwitchDictionaryButton* switchDictionaryButton;
     WordDefinitionButton* wordDefinitionButton;
     Search* search;
-    SearchResult *searchResult;
+    SearchResult* searchResult;
     Menu* menu;
-    const char* mainStyle = "font-family: Inter";
+    const char* mainStyle = "font-family: Inter; font-size: 20px;";
 
    private slots:
     void setAllButtonsDisabled(bool disabled);
@@ -31,6 +31,7 @@ class HomePage : public QWidget {
 
    signals:
     void searchResultClicked(const QString& result);
+    void wordQuizButtonClicked();
 };
 
 #endif
