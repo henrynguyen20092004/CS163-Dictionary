@@ -32,6 +32,7 @@ class HomePage : public QWidget {
    signals:
     void searchResultClicked(const QString& result);
     void wordQuizButtonClicked();
+    void definitionQuizButtonClicked();
     void newWordButtonClicked();
 };
 

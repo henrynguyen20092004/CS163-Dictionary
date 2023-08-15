@@ -10,7 +10,7 @@ class Menu : public QWidget {
     ResetButton *resetCurrentDictionaryButton, *resetAllDictionariesButton;
     Button *buttons[BUTTON_NUMBER], *toggleButton;
     const char *buttonNames[BUTTON_NUMBER]{
-        "Favorite list", "Searched history", "Definition quiz", "Word quiz",
+        "Favorite list", "Searched history", "Word quiz", "Definition quiz",
         "Add a new word"},
         *buttonStyle =
             "QPushButton {background-color: #64CCC5; border-radius: 10px; "

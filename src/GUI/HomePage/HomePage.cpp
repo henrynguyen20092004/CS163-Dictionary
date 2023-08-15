@@ -23,8 +23,12 @@ HomePage::HomePage() : QWidget(nullptr) {
         &HomePage::searchResultClicked
     );
     CONNECT(
-        menu->getMenuButtons()[3], CLICKED, this,
+        menu->getMenuButtons()[2], CLICKED, this,
         &HomePage::wordQuizButtonClicked
+    );
+    CONNECT(
+        menu->getMenuButtons()[3], CLICKED, this,
+        &HomePage::definitionQuizButtonClicked
     );
     CONNECT(
         menu->getMenuButtons()[4], CLICKED, this,

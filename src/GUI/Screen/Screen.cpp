@@ -7,6 +7,7 @@ Screen::Screen() {
     homePage = new HomePage;
     wordDefinitionPage = new WordDefinitionPage;
     wordQuizPage = new WordQuizPage;
+    definitionQuizPage = new DefinitionQuizPage;
     newWordPage = new NewWordPage;
 
     BackButton::createInstance(homePage);
@@ -25,6 +26,9 @@ Screen::Screen() {
     });
     CONNECT(homePage, &HomePage::wordQuizButtonClicked, [=]() {
         addWidget(wordQuizPage);
+    });
+    CONNECT(homePage, &HomePage::definitionQuizButtonClicked, [=]() {
+        addWidget(definitionQuizPage);
     });
     CONNECT(homePage, &HomePage::newWordButtonClicked, [=]() {
         addWidget(newWordPage);

@@ -21,5 +21,6 @@ void WordQuizPage::getNewQuiz() {
         choices[i]->setText(
             QString(char(65 + i)) + ". " + currentQuiz.word[i].second
         );
+        choices[i]->uncheck();
     }
 }

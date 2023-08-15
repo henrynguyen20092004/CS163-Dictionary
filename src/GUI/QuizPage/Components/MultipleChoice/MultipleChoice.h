@@ -22,6 +22,7 @@ class MultipleChoice : public QWidget {
     );
     ~MultipleChoice();
     void setText(const QString &text);
+    void uncheck();
     bool isSelected();
 };
 
