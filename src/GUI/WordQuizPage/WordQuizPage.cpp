@@ -2,7 +2,7 @@
 
 #include "../../GlobalVar/GlobalVar.h"
 
-WordQuizPage::WordQuizPage() : QuizPage("Word quiz") {
+WordQuizPage::WordQuizPage() : QuizPage("WORD QUIZ") {
     getNewQuiz();
     CONNECT(next, CLICKED, this, &WordQuizPage::getNewQuiz);
 }

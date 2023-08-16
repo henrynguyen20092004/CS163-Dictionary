@@ -115,6 +115,8 @@ void FavoriteList::removeNonExistentWord(Dictionary *dictionary) {
     saveList();
 }
 
+FavoriteList::Node *FavoriteList::getHead() { return head; }
+
 FavoriteList::~FavoriteList() {
     while (head) {
         Node *tmp = head;

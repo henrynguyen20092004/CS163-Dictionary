@@ -48,6 +48,7 @@ bool SearchResult::eventFilter(QObject* watchingObject, QEvent* event) {
 }
 
 void SearchResult::showNoResult() {
+    resultButtons[0]->disconnect();
     resultButtons[0]->setText("NO WORD FOUND!");
     resize(width(), RESULT_HEIGHT);
     scrollArea->resize(width(), height());

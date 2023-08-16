@@ -5,6 +5,7 @@
 
 #include "../Page/Page.h"
 #include "Components/Definition/Definition.h"
+#include "../../GlobalVar/GlobalVar.h"
 
 class WordDefinitionPage : public Page {
    private:
@@ -17,7 +18,7 @@ class WordDefinitionPage : public Page {
     ~WordDefinitionPage();
 
    public slots:
-    void setWord(const QString &word);
+    void setWord(const QString &word, Dictionary *dictionary = GlobalVar::currentDictionary);
 };
 
 #endif

@@ -3,6 +3,7 @@
 
 #include <QStackedWidget>
 
+#include "../FavoriteListPage/FavoriteListPage.h"
 #include "../DefinitionQuizPage/DefinitionQuizPage.h"
 #include "../HomePage/HomePage.h"
 #include "../WordDefinitionPage/WordDefinitionPage.h"
@@ -13,6 +14,7 @@ class Screen {
    private:
     HomePage* homePage;
     WordDefinitionPage* wordDefinitionPage;
+    FavoriteListPage* favoriteListPage;
     WordQuizPage* wordQuizPage;
     DefinitionQuizPage* definitionQuizPage;
     NewWordPage* newWordPage;

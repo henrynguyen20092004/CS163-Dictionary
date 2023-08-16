@@ -4,10 +4,6 @@
 #include "../Dictionary/KeyWithDictName/KeyWithDictName.h"
 
 class FavoriteList {
-   private:
-    std::string favoriteListPath = "Data/FavoriteList.txt";
-    void saveList();
-
    public:
     struct Node {
         KeyWithDictName data;
@@ -16,14 +12,20 @@ class FavoriteList {
         Node(Node *next) : next(next) {}
     };
 
-    Node *head;
+   private:
+    Node *head = nullptr;
+    std::string favoriteListPath = "Data/FavoriteList.txt";
 
+    void saveList();
+
+   public:
     FavoriteList();
     ~FavoriteList();
     bool contain(const KeyWithDictName &data);
     void addWord(const KeyWithDictName &data);
     void removeWord(const KeyWithDictName &data);
     void removeNonExistentWord(Dictionary *dictionary);
+    Node *getHead();
 };
 
 #endif
