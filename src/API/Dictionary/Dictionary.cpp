@@ -57,6 +57,10 @@ void Dictionary::saveData(
     }
 }
 
+bool Dictionary::containWord(const QString &key) {
+    return !hashTable.find(key, hashFunction(key, size)).empty();
+}
+
 bool Dictionary::checkWordExistInWordList(
     const QString &word, const std::vector<Word> &wordList
 ) {
@@ -73,11 +77,6 @@ void Dictionary::addWordToDictionary(
     const QString &key, const std::vector<QString> &val
 ) {
     int index = hashFunction(key, size);
-
-    if (!hashTable.find(key, index).empty()) {
-        throw std::invalid_argument("Word already exists!");
-    }
-
     hashTable.insert(key, val, index);
     saveData(ADD, index, key, val);
 }

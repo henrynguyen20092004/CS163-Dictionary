@@ -1,10 +1,14 @@
 #include "LineEdit.h"
 
+LineEdit::LineEdit(QWidget* parent, const char* lineStyle) : QLineEdit(parent) {
+    setText(content);
+    setStyleSheet(lineStyle);
+    setMaxLength(MAX_LENGTH);
+}
+
 LineEdit::LineEdit(
     QWidget* parent, const char* lineStyle, const QRect& geometry
 )
-    : QLineEdit(parent) {
-    setText(content);
+    : LineEdit(parent, lineStyle) {
     setGeometry(geometry);
-    setStyleSheet(lineStyle);
 }
