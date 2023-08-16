@@ -1,6 +1,10 @@
 #ifndef WORD_DEFINITION_PAGE_H
 #define WORD_DEFINITION_PAGE_H
 
+#include <vector>
+
+#include "../Components/Modal/ConfirmModal/ConfirmModal.h"
+#include "../Components/Modal/SuccessModal/SuccessModal.h"
 #include "../Page/Page.h"
 #include "Components/EditWord/EditWord.h"
 
@@ -10,7 +14,13 @@ class WordDefinitionPage : public Page {
    private:
     TextLabel *keyWordLabel;
     Button *deleteButton, *favoriteButton;
-    EditWord* editWord;
+    EditWord *editWord;
+    TextLabel *wordLabel, *addDefinitionLabel;
+    Button *addButton, *deleteButton, *favoriteButton;
+    ConfirmModal *confirmModal;
+    std::vector<Definition *> definitions;
+
+    void removeWord(const QString &word);
 
    public:
     WordDefinitionPage();
@@ -18,6 +28,9 @@ class WordDefinitionPage : public Page {
 
    public slots:
     void setWord(const QString &word);
+
+   signals:
+    void wordDeleted();
 };
 
 #endif
