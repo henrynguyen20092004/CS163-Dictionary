@@ -20,6 +20,7 @@ class HomePage : public QWidget {
     Search* search;
     SearchResult* searchResult;
     Menu* menu;
+    SuccessModal* successModal;
     const char* mainStyle = "font-family: Inter; font-size: 20px;";
 
    private slots:
@@ -28,6 +29,7 @@ class HomePage : public QWidget {
    public:
     HomePage();
     ~HomePage();
+    void deleteWordSuccess();
 
    signals:
     void searchResultClicked(const QString& result);
