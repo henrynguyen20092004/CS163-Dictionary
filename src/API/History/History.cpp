@@ -35,18 +35,14 @@ void History::saveList() {
 
 void History::add(const KeyWithDictName& data) {
     if (wordHistory.size() == maxSize) {
-        for (int i = 0; i < wordHistory.size() - 1; ++i) {
-            wordHistory[i] = wordHistory[i + 1];
-        }
-
         wordHistory.pop_back();
     }
 
-    wordHistory.push_back(data);
+    wordHistory.insert(wordHistory.begin(), data);
     saveList();
 }
 
-std::vector<KeyWithDictName> History::getHistory() { return wordHistory; }
+std::vector<KeyWithDictName>* History::getHistory() { return &wordHistory; }
 
 void History::removeNonExistentWord(Dictionary* dictionary) {
     wordHistory.erase(

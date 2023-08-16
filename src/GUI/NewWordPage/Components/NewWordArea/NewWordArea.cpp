@@ -36,9 +36,9 @@ NewWordArea::NewWordArea(QWidget* parent) : QWidget(parent) {
 
 bool NewWordArea::isWrongFormat() {
     QString word = wordInput->text().trimmed();
-
     if (word.isEmpty() || (GlobalVar::currentDictionary->dictionaryName != VE &&
-                           word.contains(QRegularExpression("\\p{Mn}+")))) {
+                           word.normalized(QString::NormalizationForm_D)
+                               .contains(QRegularExpression("\\p{Mn}+")))) {
         return true;
     }
 

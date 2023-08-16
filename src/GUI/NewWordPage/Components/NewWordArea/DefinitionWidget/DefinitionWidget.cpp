@@ -40,7 +40,8 @@ bool DefinitionWidget::isWrongFormat() {
 
     return definition.isEmpty() ||
            (GlobalVar::currentDictionary->dictionaryName != EV &&
-            definition.contains(QRegularExpression("\\p{Mn}+")));
+            definition.normalized(QString::NormalizationForm_D)
+                .contains(QRegularExpression("\\p{Mn}+")));
 }
 
 DefinitionWidget::~DefinitionWidget() {

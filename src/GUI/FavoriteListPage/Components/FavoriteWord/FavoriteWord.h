@@ -7,18 +7,13 @@
 #define DISTANCE 80
 
 class FavoriteWord : public QWidget {
-    Q_OBJECT
-
    private:
     Button *favoriteWordButton, *removeButton;
 
    public:
     FavoriteWord(QWidget *parent, const QString &word, int index);
     ~FavoriteWord();
-    Button* getFavoriteWordButton();
-
-   signals:
-    void favoriteWordClicked(const QString &word);
+    Button *getFavoriteWordButton();
 };
 
 #endif

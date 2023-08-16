@@ -10,6 +10,7 @@ Screen::Screen() {
     wordQuizPage = new WordQuizPage;
     definitionQuizPage = new DefinitionQuizPage;
     newWordPage = new NewWordPage;
+    historyPage = new HistoryPage;
 
     BackButton::createInstance(homePage);
     stackedWidget->setWindowTitle("CSD");
@@ -26,7 +27,12 @@ Screen::Screen() {
         addWidget(wordDefinitionPage);
     });
     CONNECT(homePage, &HomePage::favoriteListButtonClicked, [=]() {
+        favoriteListPage->reload();
         addWidget(favoriteListPage);
+    });
+    CONNECT(homePage, &HomePage::historyButtonClicked, [=]() {
+        historyPage->reload();
+        addWidget(historyPage);
     });
     CONNECT(homePage, &HomePage::wordQuizButtonClicked, [=]() {
         addWidget(wordQuizPage);
@@ -39,8 +45,15 @@ Screen::Screen() {
     });
     CONNECT(
         favoriteListPage, &FavoriteListPage::favoriteWordClicked,
-        [=](const QString& word, Dictionary* dictionary) {
-            wordDefinitionPage->setWord(word, dictionary);
+        [=](const QString& word) {
+            wordDefinitionPage->setWord(word);
+            addWidget(wordDefinitionPage);
+        }
+    );
+    CONNECT(
+        historyPage, &HistoryPage::historyWordClicked,
+        [=](const QString& word) {
+            wordDefinitionPage->setWord(word);
             addWidget(wordDefinitionPage);
         }
     );
