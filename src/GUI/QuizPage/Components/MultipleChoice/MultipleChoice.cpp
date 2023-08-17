@@ -37,6 +37,13 @@ MultipleChoice::MultipleChoice(
 void MultipleChoice::setText(const QString &text) {
     textLabel->setText(text);
     textLabel->adjustSize();
+    textLabelContainer->adjustSize();
+}
+
+void MultipleChoice::uncheck() {
+    radioButton->setAutoExclusive(false);
+    radioButton->setChecked(false);
+    radioButton->setAutoExclusive(true);
 }
 
 bool MultipleChoice::isSelected() { return radioButton->isChecked(); }

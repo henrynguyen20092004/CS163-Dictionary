@@ -3,6 +3,7 @@
 
 #include <QStackedWidget>
 
+#include "../DefinitionQuizPage/DefinitionQuizPage.h"
 #include "../HomePage/HomePage.h"
 #include "../WordDefinitionPage/WordDefinitionPage.h"
 #include "../WordQuizPage/WordQuizPage.h"
@@ -13,6 +14,7 @@ class Screen {
     HomePage* homePage;
     WordDefinitionPage* wordDefinitionPage;
     WordQuizPage* wordQuizPage;
+    DefinitionQuizPage* definitionQuizPage;
     NewWordPage* newWordPage;
     QStackedWidget* stackedWidget;
 
