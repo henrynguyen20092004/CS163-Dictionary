@@ -6,6 +6,7 @@ Screen::Screen() {
     stackedWidget = new QStackedWidget;
     homePage = new HomePage;
     wordDefinitionPage = new WordDefinitionPage;
+    favoriteListPage = new FavoriteListPage;
     wordQuizPage = new WordQuizPage;
     definitionQuizPage = new DefinitionQuizPage;
     newWordPage = new NewWordPage;
@@ -24,6 +25,9 @@ Screen::Screen() {
         wordDefinitionPage->setWord(word);
         addWidget(wordDefinitionPage);
     });
+    CONNECT(homePage, &HomePage::favoriteListButtonClicked, [=]() {
+        addWidget(favoriteListPage);
+    });
     CONNECT(homePage, &HomePage::wordQuizButtonClicked, [=]() {
         addWidget(wordQuizPage);
     });
@@ -33,6 +37,13 @@ Screen::Screen() {
     CONNECT(homePage, &HomePage::newWordButtonClicked, [=]() {
         addWidget(newWordPage);
     });
+    CONNECT(
+        favoriteListPage, &FavoriteListPage::favoriteWordClicked,
+        [=](const QString& word, Dictionary* dictionary) {
+            wordDefinitionPage->setWord(word, dictionary);
+            addWidget(wordDefinitionPage);
+        }
+    );
 }
 
 void Screen::addWidget(QWidget* widget) {
@@ -43,8 +54,10 @@ void Screen::addWidget(QWidget* widget) {
 }
 
 void Screen::removeCurrentWidget() {
+    BackButton::getInstance()->setParent(
+        stackedWidget->widget(stackedWidget->currentIndex() - 1)
+    );
     stackedWidget->removeWidget(stackedWidget->currentWidget());
-    BackButton::getInstance()->setParent(stackedWidget->currentWidget());
 
     if (stackedWidget->currentWidget() == homePage) {
         BackButton::getInstance()->hide();
@@ -55,7 +68,9 @@ Screen::~Screen() {
     BackButton::deleteInstance();
     delete homePage;
     delete wordDefinitionPage;
+    delete favoriteListPage;
     delete wordQuizPage;
+    delete definitionQuizPage;
     delete newWordPage;
     delete stackedWidget;
 }

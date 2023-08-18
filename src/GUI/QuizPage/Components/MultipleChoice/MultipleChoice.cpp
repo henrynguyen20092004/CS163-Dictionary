@@ -28,9 +28,10 @@ MultipleChoice::MultipleChoice(
     scrollArea->setStyleSheet("background-color: #D9D9D9;");
     radioButton->setGeometry(posX, posY + 16, 48, 48);
     radioButton->setStyleSheet(
-        "QRadioButton::indicator {width:50px; height:50px; image:"
-        "url(assets/Choice.png);} QRadioButton::indicator::checked {image: "
-        "url(assets/CurrentChoice.png);}"
+        "QRadioButton::indicator {width: 48px; height: 48px; image: "
+        "url(assets/RadioButtonUnchecked.png);} "
+        "QRadioButton::indicator::checked {image: "
+        "url(assets/RadioButtonChecked.png);}"
     );
 }
 

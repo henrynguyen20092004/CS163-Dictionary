@@ -5,7 +5,7 @@
 #include "../../../../../GlobalVar/GlobalVar.h"
 
 DefinitionWidget::DefinitionWidget(QWidget* parent, QVBoxLayout* layout) {
-    removeButton = new Button(this, "assets/RemoveButton.png", {45, 45});
+    removeButton = new Button(this, "assets/RemoveButton.png", QSize(45, 45));
     label =
         new TextLabel(this, "Definition:", "color: white; font-weight: 700;");
     definitionInput =

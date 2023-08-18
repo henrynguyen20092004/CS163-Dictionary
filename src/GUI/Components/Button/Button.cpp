@@ -1,13 +1,13 @@
 #include "Button.h"
 
-Button::Button(QWidget* parent, const char* buttonStyle, const char* content)
+Button::Button(QWidget* parent, const char* buttonStyle, const QString &content)
     : QPushButton(parent) {
     setStyleSheet(buttonStyle);
     setText(content);
 }
 
 Button::Button(
-    QWidget* parent, const char* buttonStyle, const char* content,
+    QWidget* parent, const char* buttonStyle, const QString &content,
     const QRect& geometry
 )
     : QPushButton(parent) {
@@ -30,6 +30,6 @@ Button::Button(
     QWidget* parent, const char* imageSrc, int width, int height, int posX,
     int posY
 )
-    : Button(parent, imageSrc, {width, height}) {
+    : Button(parent, imageSrc, QSize(width, height)) {
     setGeometry(posX, posY, width, height);
 }

@@ -8,9 +8,9 @@
 
 class Button : public QPushButton {
    public:
-    Button(QWidget* parent, const char* buttonStyle, const char* content);
+    Button(QWidget* parent, const char* buttonStyle, const QString &content);
     Button(
-        QWidget* parent, const char* buttonStyle, const char* content,
+        QWidget* parent, const char* buttonStyle, const QString &content,
         const QRect& geometry
     );
     Button(QWidget* parent, const char* imageSrc);

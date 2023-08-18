@@ -2,7 +2,7 @@
 
 #include "../../GlobalVar/GlobalVar.h"
 
-DefinitionQuizPage::DefinitionQuizPage() : QuizPage("Definition quiz") {
+DefinitionQuizPage::DefinitionQuizPage() : QuizPage("DEFINITION QUIZ") {
     getNewQuiz();
     CONNECT(next, CLICKED, this, DefinitionQuizPage::getNewQuiz);
 }
