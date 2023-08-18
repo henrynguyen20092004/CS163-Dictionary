@@ -2,9 +2,9 @@
 #define NEW_WORD_AREA_H
 
 #include "../../../Components/LineEdit/LineEdit.h"
-#include "VerticalLayoutBox/VerticalLayoutBox.h"
 #include "DefinitionWidget/DefinitionWidget.h"
-#include "ScrollLayoutBox/ScrollLayoutBox.h"
+#include "../../../Components/ScrollLayoutBox/ScrollLayoutBox.h"
+#include "../../../Components/VerticalLayoutBox/VerticalLayoutBox.h"
 
 class NewWordArea : public QWidget {
     Q_OBJECT
@@ -17,7 +17,8 @@ class NewWordArea : public QWidget {
     Button *addNewWordButton;
     std::vector<DefinitionWidget *> definitionList;
     const char *addButtonStyle =
-        "background-color: #D9D9D9; font-size: 24pt; QPushButton::hover { background-color : #09ED12; }";
+        "background-color: #D9D9D9; font-size: 24pt; font-weight: 700; "
+        "QPushButton::hover { background-color : #09ED12; }";
 
    private slots:
     void addDefinitionWidget();

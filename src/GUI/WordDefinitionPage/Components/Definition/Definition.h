@@ -1,22 +1,35 @@
 #ifndef DEFINITION_H
 #define DEFINITION_H
 
+#include <QBoxLayout>
+
+#include "../../../../GlobalVar/GlobalVar.h"
 #include "../../../Components/Button/Button.h"
-#include "../../../Components/ScrollArea/ScrollArea.h"
+#include "../../../Components/TextEdit/TextEdit.h"
 #include "../../../Components/TextLabel/TextLabel.h"
 
-#define DEFINITION_HEIGHT 136
-#define FIRST_DEFINITION_Y 136
-
 class Definition : public QWidget {
+    Q_OBJECT
+
    private:
-    TextLabel *definitionLabel;
-    Button *updateButton;
-    ScrollArea *definitionScrollArea;
+    QHBoxLayout *ButtonLayout;
+    Button *removeButton, *editButton;
+    TextEdit *definitionInput;
+    bool editState = false;
 
    public:
-    Definition(QWidget *parent, const QString &definition, int index);
+    Definition(const QString &content, QWidget *parent, QVBoxLayout *layout);
     ~Definition();
+    void changeEditState();
+
+   public slots:
+    Button *getRemoveButton();
+    QString getDefinition();
+    bool isEditStateOn();
+    bool isWrongFormat();
+
+   signals:
+    void textChanged();
 };
 
 #endif

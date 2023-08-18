@@ -67,6 +67,9 @@ void Screen::addWidget(QWidget* widget) {
 }
 
 void Screen::removeCurrentWidget() {
+    historyPage->reload();
+    favoriteListPage->reload();
+
     BackButton::getInstance()->setParent(
         stackedWidget->widget(stackedWidget->currentIndex() - 1)
     );

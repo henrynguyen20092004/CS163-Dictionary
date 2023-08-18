@@ -11,9 +11,9 @@ NewWordArea::NewWordArea(QWidget* parent) : QWidget(parent) {
         parent, "background-color: #828799;", {134, 70, 1012, 580}
     );
     scrollBoxLayout = new ScrollLayoutBox(mainBox);
-    firstLabel = new TextLabel(
+    firstLabel =  new TextLabel(
         scrollBoxLayout->getContainer(), "New word",
-        "font-size: 27pt; color: white;"
+        "font-size: 27pt; font-weight: 700; color: white;"
     );
     wordInput = new LineEdit(
         scrollBoxLayout->getContainer(), "background-color: #D9D9D9;"

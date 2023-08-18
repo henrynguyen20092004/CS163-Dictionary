@@ -10,6 +10,7 @@ class VerticalLayoutBox : public QWidget {
 
    public:
     VerticalLayoutBox(QWidget* parent, const char* widgetStyle, QRect geometry);
+    VerticalLayoutBox(QWidget* parent, const char* widgetStyle);
     ~VerticalLayoutBox();
     void addWidget(QWidget* widget);
 };

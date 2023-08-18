@@ -9,6 +9,12 @@ VerticalLayoutBox::VerticalLayoutBox(
     setGeometry(geometry);
 }
 
+VerticalLayoutBox::VerticalLayoutBox(QWidget* parent, const char* widgetStyle)
+    : QWidget(parent) {
+    layout = new QVBoxLayout(this);
+    setStyleSheet(widgetStyle);
+}
+
 void VerticalLayoutBox::addWidget(QWidget* widget) {
     layout->addWidget(widget);
 }
