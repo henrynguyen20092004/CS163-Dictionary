@@ -13,12 +13,15 @@ class FavoriteListPage : public Page {
    private:
     std::vector<FavoriteWord*> favoriteWords;
 
+    void clear();
+
    public:
     FavoriteListPage();
     ~FavoriteListPage();
+    void reload();
 
    signals:
-    void favoriteWordClicked(const QString& word, Dictionary* dictionary);
+    void favoriteWordClicked(const QString& word);
 };
 
 #endif

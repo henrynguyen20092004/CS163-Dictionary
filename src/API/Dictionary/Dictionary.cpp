@@ -95,21 +95,16 @@ std::vector<QString> Dictionary::getDefinition(const QString &key) {
 std::vector<QString> Dictionary::getKeywordFromSubKeyword(
     const QString &subKeyword
 ) {
-    QString newSubKeyword = subKeyword.normalized(QString::NormalizationForm_D);
+    QString newSubKeyword = subKeyword.toLower();
     CharacterTable characterTable(newSubKeyword);
-    bool hasDiacrtics = newSubKeyword.contains(QRegularExpression("\\p{Mn}+"));
 
     return hashTable.findKeywordIf([&](const QString &keyword,
                                        bool &isExactMatch) {
-        if (keyword == subKeyword) {
+        QString newKeyword = keyword.toLower();
+
+        if (newKeyword == newSubKeyword) {
             isExactMatch = true;
             return true;
-        }
-
-        QString newKeyword = keyword.normalized(QString::NormalizationForm_D);
-
-        if (!hasDiacrtics) {
-            newKeyword.remove(QRegularExpression("\\p{Mn}+"));
         }
 
         return substringCheck(newKeyword, newSubKeyword, characterTable);

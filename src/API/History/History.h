@@ -14,7 +14,7 @@ class History {
    public:
     History();
     void add(const KeyWithDictName& data);
-    std::vector<KeyWithDictName> getHistory();
+    std::vector<KeyWithDictName>* getHistory();
     void removeNonExistentWord(Dictionary* dictionary);
 };
 

@@ -1,5 +1,7 @@
 #include "WordDefinitionPage.h"
 
+#include "../../GlobalVar/GlobalVar.h"
+
 WordDefinitionPage::WordDefinitionPage() : Page("") {
     wordLabel = new TextLabel(
         content, "", {36, 48, 720, 60},
@@ -16,7 +18,7 @@ WordDefinitionPage::WordDefinitionPage() : Page("") {
         new Button(content, "assets/FavoriteButtonOff.png", 36, 36, 704, 60);
 }
 
-void WordDefinitionPage::setWord(const QString& word, Dictionary* dictionary) {
+void WordDefinitionPage::setWord(const QString& word) {
     headerBar->setTitle(word);
     wordLabel->setText(word);
 
@@ -26,7 +28,11 @@ void WordDefinitionPage::setWord(const QString& word, Dictionary* dictionary) {
 
     definitions.clear();
 
-    std::vector<QString> wordDefinitions = dictionary->getDefinition(word);
+    std::vector<QString> wordDefinitions =
+        GlobalVar::currentDictionary->getDefinition(word);
+    GlobalVar::data.history.add(
+        {word, GlobalVar::currentDictionary->dictionaryName}
+    );
     int n = wordDefinitions.size();
 
     for (int i = 0; i < n; ++i) {

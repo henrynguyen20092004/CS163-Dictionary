@@ -1,32 +1,39 @@
 #include "FavoriteListPage.h"
 
-#include "../../API/Dictionary/GetDictFromDictName/GetDictFromDictName.h"
 #include "../../GlobalVar/GlobalVar.h"
 
-FavoriteListPage::FavoriteListPage() : Page("FAVOURITE LIST") {
-    int index = 0;
+FavoriteListPage::FavoriteListPage() : Page("FAVORITE LIST") {}
 
-    for (FavoriteList::Node* cur = GlobalVar::data.favoriteList.getHead(); cur;
-         cur = cur->next) {
-        FavoriteWord* currentWord =
-            new FavoriteWord(content, cur->data.key, index++);
-
-        CONNECT(currentWord->getFavoriteWordButton(), CLICKED, this, [=]() {
-            emit favoriteWordClicked(
-                cur->data.key, getDictFromDictName(cur->data.dictionaryName)
-            );
-        });
-
-        favoriteWords.push_back(currentWord);
-    }
-
-    content->resize(
-        content->width(), DISTANCE * index + WORD_BUTTONS_PADDING_Y
-    );
-}
-
-FavoriteListPage::~FavoriteListPage() {
+void FavoriteListPage::clear() {
     for (FavoriteWord* word : favoriteWords) {
         delete word;
     }
+
+    favoriteWords.clear();
 }
+
+void FavoriteListPage::reload() {
+    clear();
+
+    for (FavoriteList::Node* cur = GlobalVar::data.favoriteList.getHead(); cur;
+         cur = cur->next) {
+        if (cur->data.dictionaryName ==
+            GlobalVar::currentDictionary->dictionaryName) {
+            favoriteWords.emplace_back(
+                new FavoriteWord(content, cur->data.key, favoriteWords.size())
+            );
+
+            CONNECT(
+                favoriteWords.back()->getFavoriteWordButton(), CLICKED, this,
+                [=]() { emit favoriteWordClicked(cur->data.key); }
+            );
+        }
+    }
+
+    content->resize(
+        content->width(),
+        DISTANCE * favoriteWords.size() + WORD_BUTTONS_PADDING_Y
+    );
+}
+
+FavoriteListPage::~FavoriteListPage() { clear(); }

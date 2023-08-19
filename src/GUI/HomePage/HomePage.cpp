@@ -27,6 +27,10 @@ HomePage::HomePage() : QWidget(nullptr) {
         &HomePage::favoriteListButtonClicked
     );
     CONNECT(
+        menu->getMenuButtons()[1], CLICKED, this,
+        &HomePage::historyButtonClicked
+    );
+    CONNECT(
         menu->getMenuButtons()[2], CLICKED, this,
         &HomePage::wordQuizButtonClicked
     );
