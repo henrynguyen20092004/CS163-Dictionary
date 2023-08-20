@@ -1,26 +1,26 @@
-#ifndef DEFINITION_BOX_H
-#define DEFINITION_BOX_H
+#ifndef DEFINITION_AREA_H
+#define DEFINITION_AREA_H
 
-#include "../../../Components/ScrollLayoutBox/ScrollLayoutBox.h"
-#include "../../../Components/VerticalLayoutBox/VerticalLayoutBox.h"
+#include "../../../../../Components/ScrollLayoutBox/ScrollLayoutBox.h"
+#include "../../../../../Components/VerticalLayoutBox/VerticalLayoutBox.h"
 #include "../Definition/Definition.h"
 
-class DefinitionBox : public VerticalLayoutBox {
+class DefinitionArea : public VerticalLayoutBox {
     Q_OBJECT
 
    private:
     ScrollLayoutBox* scrollLayoutBox;
     std::vector<Definition*> definitions;
 
+    void clear();
+    void connectRemoveDefinition(Definition *definition);
+
    public:
-    DefinitionBox(QWidget* parent, const char* widgetStyle);
-    ~DefinitionBox();
+    DefinitionArea(QWidget* parent);
+    ~DefinitionArea();
     void setDefinitions(const QString& word);
-    void removeDefinition();
     void addNewDefinition();
     void saveNewDefinitions(const QString& word);
-
-   public slots:
     bool isEditStateOn();
     bool isWrongFormat();
 

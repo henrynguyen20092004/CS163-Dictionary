@@ -1,33 +1,34 @@
-#include "DefinitionBox.h"
+#include "DefinitionArea.h"
 
 #include <QRegularExpression>
 
-#include "../../../../GlobalVar/GlobalVar.h"
+#include "../../../../../../GlobalVar/GlobalVar.h"
 
-DefinitionBox::DefinitionBox(QWidget* parent, const char* widgetStyle)
-    : VerticalLayoutBox(parent, widgetStyle) {
+DefinitionArea::DefinitionArea(QWidget* parent)
+    : VerticalLayoutBox(parent, "", {36, 126, 726, 400}) {
     scrollLayoutBox = new ScrollLayoutBox(parent);
     addWidget(scrollLayoutBox);
-    setGeometry({36, 126, 726, 400});
 }
 
-void DefinitionBox::setDefinitions(const QString& word) {
-    for (int i = 0; i < definitions.size(); ++i) {
-        delete definitions[i];
+void DefinitionArea::clear() {
+    for (Definition* definition : definitions) {
+        delete definition;
     }
 
     definitions.clear();
+}
 
+void DefinitionArea::setDefinitions(const QString& word) {
+    clear();
     std::vector<QString> wordDefinitions =
         GlobalVar::currentDictionary->getDefinition(word);
     GlobalVar::data.history.add(
         {word, GlobalVar::currentDictionary->dictionaryName}
     );
-    int n = wordDefinitions.size();
 
-    for (int i = 0; i < n; ++i) {
+    for (const QString& wordDefinition : wordDefinitions) {
         Definition* definition = new Definition(
-            wordDefinitions[i], scrollLayoutBox->getContainer(),
+            wordDefinition, scrollLayoutBox->getContainer(),
             scrollLayoutBox->getLayout()
         );
 
@@ -40,30 +41,11 @@ void DefinitionBox::setDefinitions(const QString& word) {
         });
 
         definitions.push_back(definition);
-    }
-
-    removeDefinition();
-}
-
-void DefinitionBox::removeDefinition() {
-    for (Definition* definition : definitions) {
-        CONNECT(definition->getRemoveButton(), CLICKED, [=]() {
-            if (definitions.size() == 1) {
-                return;
-            }
-
-            std::vector<Definition*>::iterator it =
-                std::find(definitions.begin(), definitions.end(), definition);
-
-            delete *it;
-            definitions.erase(it);
-
-            emit checkDefinition();
-        });
+        connectRemoveDefinition(definition);
     }
 }
 
-void DefinitionBox::addNewDefinition() {
+void DefinitionArea::addNewDefinition() {
     Definition* newDefinition = new Definition(
         "", scrollLayoutBox->getContainer(), scrollLayoutBox->getLayout()
     );
@@ -75,11 +57,26 @@ void DefinitionBox::addNewDefinition() {
     });
 
     definitions.push_back(newDefinition);
-
-    removeDefinition();
+    connectRemoveDefinition(newDefinition);
 }
 
-void DefinitionBox::saveNewDefinitions(const QString& word) {
+void DefinitionArea::connectRemoveDefinition(Definition* definition) {
+    CONNECT(definition->getRemoveButton(), CLICKED, [=]() {
+        if (definitions.size() == 1) {
+            return;
+        }
+
+        std::vector<Definition*>::iterator it =
+            std::find(definitions.begin(), definitions.end(), definition);
+
+        delete *it;
+        definitions.erase(it);
+
+        emit checkDefinition();
+    });
+}
+
+void DefinitionArea::saveNewDefinitions(const QString& word) {
     std::vector<QString> definitionList;
 
     for (Definition* definition : definitions) {
@@ -89,7 +86,7 @@ void DefinitionBox::saveNewDefinitions(const QString& word) {
     GlobalVar::currentDictionary->editDefinitionOfWord(word, definitionList);
 }
 
-bool DefinitionBox::isEditStateOn() {
+bool DefinitionArea::isEditStateOn() {
     for (Definition* definition : definitions) {
         if (definition->isEditStateOn()) {
             return true;
@@ -99,7 +96,7 @@ bool DefinitionBox::isEditStateOn() {
     return false;
 }
 
-bool DefinitionBox::isWrongFormat() {
+bool DefinitionArea::isWrongFormat() {
     for (Definition* definition : definitions) {
         if (definition->isWrongFormat()) {
             return true;
@@ -109,10 +106,7 @@ bool DefinitionBox::isWrongFormat() {
     return false;
 }
 
-DefinitionBox::~DefinitionBox() {
-    for (int i = definitions.size() - 1; i >= 0; --i) {
-        delete definitions[i];
-    }
-
+DefinitionArea::~DefinitionArea() {
+    clear();
     delete scrollLayoutBox;
 }

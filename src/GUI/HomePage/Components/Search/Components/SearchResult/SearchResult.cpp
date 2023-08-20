@@ -14,12 +14,10 @@ SearchResult::SearchResult(QWidget* parent) : QWidget(parent) {
     scrollArea = new ScrollArea(this, content, width(), 0);
 
     content->setGeometry(0, 0, width() - 20, 0);
-    scrollArea->setStyleSheet(
-        "background-color: #296ACC; font-weight: 500;"
-    );
+    scrollArea->setStyleSheet("background-color: #296ACC; font-weight: 500;");
 
     for (int i = 0; i < MAX_RESULT; ++i) {
-        resultButtons.push_back(new Button(
+        resultButtons.emplace_back(new Button(
             content, "text-align: left; border: none; padding-left: 16px;", "",
             {0, RESULT_HEIGHT * i, width() - 20, RESULT_HEIGHT}
         ));

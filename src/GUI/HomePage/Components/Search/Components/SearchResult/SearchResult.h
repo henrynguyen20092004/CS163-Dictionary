@@ -3,9 +3,9 @@
 
 #include <vector>
 
-#include "../../../../Components/Button/Button.h"
-#include "../../../../Components/Frame/Frame.h"
-#include "../../../../Components/ScrollArea/ScrollArea.h"
+#include "../../../../../Components/Button/Button.h"
+#include "../../../../../Components/Frame/Frame.h"
+#include "../../../../../Components/ScrollArea/ScrollArea.h"
 
 class SearchResult : public QWidget {
     Q_OBJECT

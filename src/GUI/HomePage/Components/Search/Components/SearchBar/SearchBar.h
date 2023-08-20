@@ -3,8 +3,8 @@
 
 #include <vector>
 
-#include "../../../../Components/Button/Button.h"
-#include "../../../../Components/LineEdit/LineEdit.h"
+#include "../../../../../Components/Button/Button.h"
+#include "../../../../../Components/LineEdit/LineEdit.h"
 
 class SearchBar : public QWidget {
     Q_OBJECT

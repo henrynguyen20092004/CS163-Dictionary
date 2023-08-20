@@ -3,16 +3,15 @@
 
 #include <QBoxLayout>
 
-#include "../../../../GlobalVar/GlobalVar.h"
-#include "../../../Components/Button/Button.h"
-#include "../../../Components/TextEdit/TextEdit.h"
-#include "../../../Components/TextLabel/TextLabel.h"
+#include "../../../../../Components/Button/Button.h"
+#include "../../../../../Components/TextEdit/TextEdit.h"
+#include "../../../../../Components/TextLabel/TextLabel.h"
 
 class Definition : public QWidget {
     Q_OBJECT
 
    private:
-    QHBoxLayout *ButtonLayout;
+    QHBoxLayout *buttonLayout;
     Button *removeButton, *editButton;
     TextEdit *definitionInput;
     bool editState = false;
@@ -21,8 +20,6 @@ class Definition : public QWidget {
     Definition(const QString &content, QWidget *parent, QVBoxLayout *layout);
     ~Definition();
     void changeEditState();
-
-   public slots:
     Button *getRemoveButton();
     QString getDefinition();
     bool isEditStateOn();

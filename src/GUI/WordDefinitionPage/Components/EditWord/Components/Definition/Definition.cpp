@@ -2,24 +2,25 @@
 
 #include <QRegularExpression>
 
-#include "../../../../GlobalVar/GlobalVar.h"
+#include "../../../../../../GlobalVar/GlobalVar.h"
 
 Definition::Definition(
     const QString &content, QWidget *parent, QVBoxLayout *layout
 ) {
-    ButtonLayout = new QHBoxLayout(parent);
-    removeButton = new Button(this, "assets/RemoveButton.png", QSize(45, 45));
+    buttonLayout = new QHBoxLayout(parent);
+    removeButton = new Button(this, "assets/XButton.png", QSize(45, 45));
     editButton = new Button(this, "assets/EditButtonOff.png", QSize(40, 40));
     definitionInput = new TextEdit(
-        parent, content, "background-color: #D9D9D9; font-weight: 400;"
+        parent, "background-color: #D9D9D9; font-weight: 400;", content
     );
 
-    ButtonLayout->addWidget(editButton, 0, Qt::AlignLeft);
-    ButtonLayout->addWidget(removeButton, 0, Qt::AlignRight);
+    buttonLayout->addWidget(editButton, 0, Qt::AlignLeft);
+    buttonLayout->addWidget(removeButton, 0, Qt::AlignRight);
 
     definitionInput->setFixedHeight(75);
+    definitionInput->setReadOnly(true);
 
-    layout->addLayout(ButtonLayout);
+    layout->addLayout(buttonLayout);
     layout->addWidget(definitionInput);
 
     CONNECT(definitionInput, &QTextEdit::textChanged, this, [=]() {
@@ -37,15 +38,11 @@ Definition::Definition(
 }
 
 void Definition::changeEditState() {
-    if (isEditStateOn()) {
-        editButton->setIcon(QIcon("assets/EditButtonOff.png"));
-        definitionInput->setReadOnly(true);
-        editState = false;
-    } else {
-        editButton->setIcon(QIcon("assets/EditButtonOn.png"));
-        definitionInput->setReadOnly(false);
-        editState = true;
-    }
+    editButton->setIcon(QIcon(
+        editState ? "assets/EditButtonOff.png" : "assets/EditButtonOn.png"
+    ));
+    definitionInput->setReadOnly(editState);
+    editState = !editState;
 }
 
 Button *Definition::getRemoveButton() { return removeButton; }
@@ -68,6 +65,6 @@ bool Definition::isWrongFormat() {
 Definition::~Definition() {
     delete removeButton;
     delete editButton;
-    delete ButtonLayout;
+    delete buttonLayout;
     delete definitionInput;
 }

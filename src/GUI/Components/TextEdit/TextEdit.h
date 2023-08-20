@@ -5,12 +5,7 @@
 
 class TextEdit : public QTextEdit {
    public:
-    TextEdit(QWidget* parent, const char* style);
-
-    TextEdit(
-        QWidget* parent, const QString& content,
-        const char* textLabelStyle
-    );
+    TextEdit(QWidget* parent, const char* style, const QString& content = "");
 };
 
 #endif

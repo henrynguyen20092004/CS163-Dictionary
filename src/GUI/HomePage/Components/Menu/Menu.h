@@ -1,7 +1,7 @@
 #ifndef MENU_H
 #define MENU_H
 
-#include "ResetButton/ResetButton.h"
+#include "Components/ResetButton/ResetButton.h"
 
 #define BUTTON_NUMBER 5
 

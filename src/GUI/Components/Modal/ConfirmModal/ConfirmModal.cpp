@@ -13,7 +13,7 @@ ConfirmModal::ConfirmModal(QWidget *parent, const QString &confirmText)
          96, MODAL_BUTTON_SIZE}
     );
     cancelButton = new Button(
-        this, "assets/CancelButton.png", MODAL_BUTTON_SIZE, MODAL_BUTTON_SIZE, 488,
+        this, "assets/XButton.png", MODAL_BUTTON_SIZE, MODAL_BUTTON_SIZE, 488,
         MODAL_BUTTON_POS_Y
     );
 
