@@ -1,13 +1,13 @@
-#ifndef DEFINITION_WIDGET_H
-#define DEFINITION_WIDGET_H
+#ifndef NEW_DEFINITION_H
+#define NEW_DEFINITION_H
 
 #include <QBoxLayout>
 
-#include "../../../../Components/Button/Button.h"
-#include "../../../../Components/TextEdit/TextEdit.h"
-#include "../../../../Components/TextLabel/TextLabel.h"
+#include "../../../Components/Button/Button.h"
+#include "../../../Components/TextEdit/TextEdit.h"
+#include "../../../Components/TextLabel/TextLabel.h"
 
-class DefinitionWidget : public QWidget {
+class NewDefinition : public QWidget {
     Q_OBJECT
 
    private:
@@ -17,8 +17,8 @@ class DefinitionWidget : public QWidget {
     QHBoxLayout *removeButtonLayout;
 
    public:
-    DefinitionWidget(QWidget *parent, QVBoxLayout *layout);
-    ~DefinitionWidget();
+    NewDefinition(QWidget *parent, QVBoxLayout *layout);
+    ~NewDefinition();
     Button *getRemoveButton();
     QString getDefinition();
     void clearDefinitionInput();

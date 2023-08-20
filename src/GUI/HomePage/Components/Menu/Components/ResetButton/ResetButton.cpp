@@ -1,6 +1,6 @@
 #include "ResetButton.h"
 
-#include "../../../../../API/ResetDictionary/ResetDictionary.h"
+#include "../../../../../../API/ResetDictionary/ResetDictionary.h"
 
 ResetButton::ResetButton(
     QWidget *parent, const char *buttonStyle, ResetType resetType

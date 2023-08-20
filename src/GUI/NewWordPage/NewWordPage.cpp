@@ -9,13 +9,13 @@ NewWordPage::NewWordPage() {
     newWordArea = new NewWordArea(this);
     saveButton = new Button(this, saveButtonStyle, "SAVE", {527, 666, 192, 40});
     successModal = new SuccessModal(this, "Add a new word successfully!");
-    errorText = new TextLabel(
-        this, "", {318, 664, 668, 36},
+    errorLabel = new TextLabel(
+        this, "", {320, 664, 668, 36},
         "color: red; font-size: 30px; font-weight: 700;"
     );
 
     saveButton->hide();
-    errorText->hide();
+    errorLabel->hide();
 
     CONNECT(
         newWordArea, &NewWordArea::checkWordAndDefinition, this,
@@ -31,11 +31,11 @@ void NewWordPage::checkWordAndDefinition() {
     bool isWrongFormat = newWordArea->isWrongFormat(),
          containWord = newWordArea->wordExisted();
 
-    errorText->setText(
-        isWrongFormat ? "Some texts may have the wrong format!"
+    errorLabel->setText(
+        isWrongFormat ? " Some texts may have the wrong format! "
                       : "Word already exists in this dictionary!"
     );
-    errorText->setVisible(isWrongFormat || containWord);
+    errorLabel->setVisible(isWrongFormat || containWord);
     saveButton->setVisible(!isWrongFormat && !containWord);
 }
 

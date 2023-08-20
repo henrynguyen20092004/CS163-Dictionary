@@ -1,8 +1,6 @@
 #include "VerticalLayoutBox.h"
 
-VerticalLayoutBox::VerticalLayoutBox(
-    QWidget* parent, const char* widgetStyle, QRect geometry
-)
+VerticalLayoutBox::VerticalLayoutBox(QWidget* parent, const char* widgetStyle, const QRect& geometry)
     : QWidget(parent) {
     layout = new QVBoxLayout(this);
     setStyleSheet(widgetStyle);

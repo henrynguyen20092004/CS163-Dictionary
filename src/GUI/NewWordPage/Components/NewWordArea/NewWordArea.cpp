@@ -13,36 +13,36 @@ NewWordArea::NewWordArea(QWidget* parent) : QWidget(parent) {
     scrollBoxLayout = new ScrollLayoutBox(mainBox);
     firstLabel = new TextLabel(
         scrollBoxLayout->getContainer(), "New word",
-        "font-size: 27pt; color: white;"
+        "font-size: 27pt; font-weight: 700; color: white;"
     );
-    wordInput = new LineEdit(
+    keyWordInput = new LineEdit(
         scrollBoxLayout->getContainer(), "background-color: #D9D9D9;"
     );
     addNewWordButton = new Button(
         scrollBoxLayout->getContainer(), addButtonStyle, "Add a new definition"
     );
     scrollBoxLayout->addWidget(firstLabel);
-    scrollBoxLayout->addWidget(wordInput);
+    scrollBoxLayout->addWidget(keyWordInput);
     mainBox->addWidget(scrollBoxLayout);
     mainBox->addWidget(addNewWordButton);
 
-    addDefinitionWidget();
+    addNewDefinition();
 
-    CONNECT(wordInput, &QLineEdit::textChanged, [=]() {
+    CONNECT(keyWordInput, &QLineEdit::textChanged, [=]() {
         emit checkWordAndDefinition();
     });
-    CONNECT(addNewWordButton, CLICKED, this, &NewWordArea::addDefinitionWidget);
+    CONNECT(addNewWordButton, CLICKED, this, &NewWordArea::addNewDefinition);
 }
 
 bool NewWordArea::isWrongFormat() {
-    QString word = wordInput->text().trimmed();
+    QString word = keyWordInput->text().trimmed();
     if (word.isEmpty() || (GlobalVar::currentDictionary->dictionaryName != VE &&
                            word.normalized(QString::NormalizationForm_D)
                                .contains(QRegularExpression("\\p{Mn}+")))) {
         return true;
     }
 
-    for (DefinitionWidget* definition : definitionList) {
+    for (NewDefinition* definition : definitionList) {
         if (definition->isWrongFormat()) {
             return true;
         }
@@ -52,12 +52,13 @@ bool NewWordArea::isWrongFormat() {
 }
 
 bool NewWordArea::wordExisted() {
-    return GlobalVar::currentDictionary->containWord(wordInput->text().trimmed()
+    return GlobalVar::currentDictionary->containWord(
+        keyWordInput->text().trimmed()
     );
 }
 
-void NewWordArea::addDefinitionWidget() {
-    DefinitionWidget* newDefinition = new DefinitionWidget(
+void NewWordArea::addNewDefinition() {
+    NewDefinition* newDefinition = new NewDefinition(
         scrollBoxLayout->getContainer(), scrollBoxLayout->getLayout()
     );
 
@@ -68,7 +69,7 @@ void NewWordArea::addDefinitionWidget() {
             return;
         }
 
-        std::vector<DefinitionWidget*>::iterator it = std::find(
+        std::vector<NewDefinition*>::iterator it = std::find(
             definitionList.begin(), definitionList.end(), newDefinition
         );
 
@@ -77,7 +78,7 @@ void NewWordArea::addDefinitionWidget() {
         emit checkWordAndDefinition();
     });
 
-    CONNECT(newDefinition, &DefinitionWidget::textChanged, [=]() {
+    CONNECT(newDefinition, &NewDefinition::textChanged, [=]() {
         emit checkWordAndDefinition();
     });
 
@@ -85,15 +86,15 @@ void NewWordArea::addDefinitionWidget() {
 }
 
 void NewWordArea::saveNewWord() {
-    QString word = wordInput->text().trimmed();
+    QString word = keyWordInput->text().trimmed();
     std::vector<QString> definitions;
 
-    for (DefinitionWidget* definition : definitionList) {
+    for (NewDefinition* definition : definitionList) {
         definitions.push_back(definition->getDefinition());
     }
 
     GlobalVar::currentDictionary->addWordToDictionary(word, definitions);
-    wordInput->clear();
+    keyWordInput->clear();
     definitionList[0]->clearDefinitionInput();
 
     for (int i = definitionList.size() - 1; i > 0; --i) {
@@ -104,7 +105,7 @@ void NewWordArea::saveNewWord() {
 
 NewWordArea::~NewWordArea() {
     delete firstLabel;
-    delete wordInput;
+    delete keyWordInput;
     delete addNewWordButton;
 
     for (int i = definitionList.size() - 1; i >= 0; --i) {

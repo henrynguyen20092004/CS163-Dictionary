@@ -1,8 +1,8 @@
 #include "SearchBar.h"
 
-#include "../../../../../API/Dictionary/Dictionary.h"
-#include "../../../../../GlobalVar/GlobalVar.h"
-#include "../../WordDefinitionButton/WordDefinitionButton.h"
+#include "../../../../../../API/Dictionary/Dictionary.h"
+#include "../../../../../../GlobalVar/GlobalVar.h"
+#include "../../../WordDefinitionButton/WordDefinitionButton.h"
 
 SearchBar::SearchBar(QWidget* parent) : QWidget(parent) {
     setGeometry(256, 88, 972, 52);

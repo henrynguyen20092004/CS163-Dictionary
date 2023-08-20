@@ -4,8 +4,8 @@
 #include <QTextEdit>
 
 class TextEdit : public QTextEdit {
-    public:
-    TextEdit(QWidget* parent, const char *style);
+   public:
+    TextEdit(QWidget* parent, const char* style, const QString& content = "");
 };
 
 #endif

@@ -1,11 +1,11 @@
-#include "DefinitionWidget.h"
+#include "NewDefinition.h"
 
 #include <QRegularExpression>
 
-#include "../../../../../GlobalVar/GlobalVar.h"
+#include "../../../../GlobalVar/GlobalVar.h"
 
-DefinitionWidget::DefinitionWidget(QWidget* parent, QVBoxLayout* layout) {
-    removeButton = new Button(this, "assets/RemoveButton.png", QSize(45, 45));
+NewDefinition::NewDefinition(QWidget* parent, QVBoxLayout* layout) {
+    removeButton = new Button(this, "assets/XButton.png", QSize(45, 45));
     label =
         new TextLabel(this, "Definition:", "color: white; font-weight: 700;");
     definitionInput =
@@ -27,15 +27,15 @@ DefinitionWidget::DefinitionWidget(QWidget* parent, QVBoxLayout* layout) {
     });
 }
 
-Button* DefinitionWidget::getRemoveButton() { return removeButton; }
+Button* NewDefinition::getRemoveButton() { return removeButton; }
 
-QString DefinitionWidget::getDefinition() {
+QString NewDefinition::getDefinition() {
     return definitionInput->toPlainText().trimmed();
 }
 
-void DefinitionWidget::clearDefinitionInput() { definitionInput->clear(); }
+void NewDefinition::clearDefinitionInput() { definitionInput->clear(); }
 
-bool DefinitionWidget::isWrongFormat() {
+bool NewDefinition::isWrongFormat() {
     QString definition = definitionInput->toPlainText().trimmed();
 
     return definition.isEmpty() ||
@@ -44,7 +44,7 @@ bool DefinitionWidget::isWrongFormat() {
                 .contains(QRegularExpression("\\p{Mn}+")));
 }
 
-DefinitionWidget::~DefinitionWidget() {
+NewDefinition::~NewDefinition() {
     delete label;
     delete removeButton;
     delete removeButtonLayout;

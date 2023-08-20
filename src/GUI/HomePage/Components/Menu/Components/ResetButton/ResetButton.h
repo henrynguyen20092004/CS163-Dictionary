@@ -1,8 +1,8 @@
 #ifndef RESET_BUTTON_H
 #define RESET_BUTTON_H
 
-#include "../../../../Components/Modal/ConfirmModal/ConfirmModal.h"
-#include "../../../../Components/Modal/SuccessModal/SuccessModal.h"
+#include "../../../../../Components/Modal/ConfirmModal/ConfirmModal.h"
+#include "../../../../../Components/Modal/SuccessModal/SuccessModal.h"
 
 enum ResetType { CURRENT, ALL };
 

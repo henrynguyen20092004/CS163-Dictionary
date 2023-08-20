@@ -67,14 +67,19 @@ void Screen::addWidget(QWidget* widget) {
 }
 
 void Screen::removeCurrentWidget() {
-    BackButton::getInstance()->setParent(
-        stackedWidget->widget(stackedWidget->currentIndex() - 1)
-    );
-    stackedWidget->removeWidget(stackedWidget->currentWidget());
+    QWidget* currentWidget =
+        stackedWidget->widget(stackedWidget->currentIndex() - 1);
+    BackButton::getInstance()->setParent(currentWidget);
 
-    if (stackedWidget->currentWidget() == homePage) {
+    if (currentWidget == homePage) {
         BackButton::getInstance()->hide();
+    } else if (currentWidget == favoriteListPage) {
+        favoriteListPage->reload();
+    } else if (currentWidget == historyPage) {
+        historyPage->reload();
     }
+
+    stackedWidget->removeWidget(stackedWidget->currentWidget());
 }
 
 Screen::~Screen() {

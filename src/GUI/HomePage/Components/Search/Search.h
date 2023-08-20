@@ -1,8 +1,8 @@
 #ifndef SEARCH_H
 #define SEARCH_H
 
-#include "SearchBar/SearchBar.h"
-#include "SearchResult/SearchResult.h"
+#include "Components/SearchBar/SearchBar.h"
+#include "Components/SearchResult/SearchResult.h"
 
 class Search {
    private:

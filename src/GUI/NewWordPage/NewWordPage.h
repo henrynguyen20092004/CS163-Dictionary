@@ -11,7 +11,7 @@ class NewWordPage : public QWidget {
     NewWordArea* newWordArea;
     Button* saveButton;
     SuccessModal* successModal;
-    TextLabel* errorText;
+    TextLabel* errorLabel;
     const char* saveButtonStyle =
         "QPushButton {background-color: #119ECD; border-radius: "
         "10px; color: white; font-size: 26px; font-weight: 700;} "

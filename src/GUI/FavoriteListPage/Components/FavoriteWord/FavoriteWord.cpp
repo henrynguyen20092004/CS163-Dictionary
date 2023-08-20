@@ -9,7 +9,7 @@ FavoriteWord::FavoriteWord(QWidget *parent, const QString &word, int index)
         word, {36, WORD_BUTTONS_PADDING_Y + DISTANCE * index, 648, 60}
     );
     removeButton = new Button(
-        parent, "assets/RemoveButton.png", REMOVE_BUTTON_SIZE,
+        parent, "assets/XButton.png", REMOVE_BUTTON_SIZE,
         REMOVE_BUTTON_SIZE, 704, WORD_BUTTONS_PADDING_Y + 10 + DISTANCE * index
     );
 }

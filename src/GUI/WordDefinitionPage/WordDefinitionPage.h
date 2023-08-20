@@ -1,16 +1,16 @@
 #ifndef WORD_DEFINITION_PAGE_H
 #define WORD_DEFINITION_PAGE_H
 
-#include <vector>
-
 #include "../Page/Page.h"
-#include "Components/Definition/Definition.h"
+#include "Components/EditWord/EditWord.h"
 
 class WordDefinitionPage : public Page {
+    Q_OBJECT
+
    private:
-    TextLabel *wordLabel, *addDefinitionLabel;
-    Button *addButton, *deleteButton, *favoriteButton;
-    std::vector<Definition *> definitions;
+    TextLabel *keyWordLabel;
+    Button *deleteButton, *favoriteButton;
+    EditWord* editWord;
 
    public:
     WordDefinitionPage();
