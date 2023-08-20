@@ -57,7 +57,7 @@ void HomePage::setAllButtonsDisabled(bool disabled) {
     }
 }
 
-void HomePage::deleteWordSuccess() { successModal->toggle(); }
+void HomePage::deleteWordSuccess() { successModal->show(); }
 
 HomePage::~HomePage() {
     delete background;

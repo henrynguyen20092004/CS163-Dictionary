@@ -18,9 +18,6 @@ class Modal : public QWidget {
    public:
     Modal(QWidget *parent);
     ~Modal();
-
-   public slots:
-    void toggle();
 };
 
 #endif

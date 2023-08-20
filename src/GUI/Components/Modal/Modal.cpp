@@ -8,16 +8,9 @@ Modal::Modal(QWidget* parent) : QWidget(parent) {
     background =
         new Frame(this, "background-color: #D9D9D9;", {0, 0, 768, 416});
     okText = new TextLabel(this, "OK");
-    okButton =
-        new Button(this, "assets/OKButton.png", MODAL_BUTTON_SIZE, MODAL_BUTTON_SIZE);
-}
-
-void Modal::toggle() {
-    if (isVisible()) {
-        hide();
-    } else {
-        show();
-    }
+    okButton = new Button(
+        this, "assets/OKButton.png", MODAL_BUTTON_SIZE, MODAL_BUTTON_SIZE
+    );
 }
 
 Modal::~Modal() {

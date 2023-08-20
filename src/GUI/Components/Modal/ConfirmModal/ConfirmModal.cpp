@@ -26,7 +26,7 @@ ConfirmModal::ConfirmModal(QWidget *parent, const QString &confirmText)
     );
 
     CONNECT(okButton, CLICKED, this, &ConfirmModal::okButtonClicked);
-    CONNECT(cancelButton, CLICKED, this, &Modal::toggle);
+    CONNECT(cancelButton, CLICKED, [=]() { hide(); });
 }
 
 ConfirmModal::~ConfirmModal() {

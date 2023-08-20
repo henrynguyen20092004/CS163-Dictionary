@@ -4,7 +4,6 @@
 #include <vector>
 
 #include "../Components/Modal/ConfirmModal/ConfirmModal.h"
-#include "../Components/Modal/SuccessModal/SuccessModal.h"
 #include "../Page/Page.h"
 #include "Components/EditWord/EditWord.h"
 
@@ -16,11 +15,9 @@ class WordDefinitionPage : public Page {
     Button *deleteButton, *favoriteButton;
     EditWord *editWord;
     TextLabel *wordLabel, *addDefinitionLabel;
-    Button *addButton, *deleteButton, *favoriteButton;
+    Button *addButton;
     ConfirmModal *confirmModal;
     std::vector<Definition *> definitions;
-
-    void removeWord(const QString &word);
 
    public:
     WordDefinitionPage();

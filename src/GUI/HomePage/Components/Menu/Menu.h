@@ -19,10 +19,11 @@ class Menu : public QWidget {
         *toggleOnImageSrc = "assets/ToggleMenuOnButton.png",
         *toggleOffImageSrc = "assets/ToggleMenuOffButton.png";
 
+    void toggle();
+
    public:
     Menu(QWidget *parent);
     ~Menu();
-    void toggle();
     Button **getMenuButtons();
 };
 

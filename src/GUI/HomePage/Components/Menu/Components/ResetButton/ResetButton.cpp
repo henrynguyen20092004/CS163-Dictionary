@@ -21,15 +21,15 @@ ResetButton::ResetButton(
     );
 
     CONNECT(resetButton, CLICKED, [=]() {
-        confirmModal->toggle();
+        confirmModal->show();
         emit hideOtherConfirmModal();
     });
     CONNECT(confirmModal, &ConfirmModal::okButtonClicked, [=]() {
         confirmModal->grabMouse();
         resetType ? resetAllDictionaries() : resetCurrentDictionary();
         confirmModal->releaseMouse();
-        confirmModal->toggle();
-        successModal->toggle();
+        confirmModal->hide();
+        successModal->show();
     });
 }
 
