@@ -16,7 +16,7 @@ class WordDefinitionPage : public Page {
     Button *deleteButton, *favoriteButton;
     EditWord *editWord;
     TextLabel *wordLabel, *addDefinitionLabel;
-    Button *addButton, *deleteButton, *favoriteButton;
+    Button *addButton;
     ConfirmModal *confirmModal;
     std::vector<Definition *> definitions;
 
