@@ -178,6 +178,8 @@ void Dictionary::editDefinitionOfWord(
 void Dictionary::removeWordFromDictionary(const QString &key) {
     int index = hashFunction(key, size);
     hashTable.remove(key, index);
+    GlobalVar::data.favoriteList.removeWord({key, dictionaryName});
+    GlobalVar::data.history.removeNonExistentWord(this);
     saveData(REMOVE, index, key);
 }
 

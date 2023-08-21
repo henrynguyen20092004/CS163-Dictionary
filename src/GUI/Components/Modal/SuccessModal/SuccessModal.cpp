@@ -12,7 +12,7 @@ SuccessModal::SuccessModal(QWidget *parent, const QString &successText)
         360, MODAL_BUTTON_POS_Y, MODAL_BUTTON_SIZE, MODAL_BUTTON_SIZE
     );
 
-    CONNECT(okButton, CLICKED, this, &Modal::toggle);
+    CONNECT(okButton, CLICKED, [=]() { hide(); });
 }
 
 SuccessModal::~SuccessModal() { delete successTextLabel; }
