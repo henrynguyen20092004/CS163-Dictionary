@@ -76,7 +76,7 @@ void DefinitionArea::connectRemoveDefinition(Definition* definition) {
     });
 }
 
-void DefinitionArea::saveNewDefinitions(const QString& word) {
+void DefinitionArea::saveDefinitions(const QString& word) {
     std::vector<QString> definitionList;
 
     for (Definition* definition : definitions) {

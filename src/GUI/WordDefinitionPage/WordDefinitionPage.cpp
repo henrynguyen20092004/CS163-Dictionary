@@ -7,22 +7,23 @@ WordDefinitionPage::WordDefinitionPage() : Page("") {
         content, "", {36, 48, 720, 60},
         "background-color: #FFFFFF; font-size: 24px; font-weight: 700;"
     );
-    deleteButton =
-        new Button(content, "assets/DeleteButton.png", 36, 36, 36, 8);
+    removeButton =
+        new Button(content, "assets/RemoveButton.png", 36, 36, 36, 8);
     favoriteButton =
-        new Button(content, "assets/FavoriteButtonOff.png", 36, 36, 704, 60);
+        new FavoriteButton(content, "assets/FavoriteButtonOff.png", 36, 36, 704, 60);
     editWord = new EditWord(content, this);
 
     confirmModal =
         new ConfirmModal(this, "Are you sure you want to delete this word?");
 
-    CONNECT(deleteButton, CLICKED, [=]() { confirmModal->show(); });
+    CONNECT(removeButton, CLICKED, [=]() { confirmModal->show(); });
 }
 
 void WordDefinitionPage::setWord(const QString& word) {
     headerBar->setTitle(word);
     keyWordLabel->setText(word);
     editWord->setWord(word);
+    favoriteButton->setWord(word);
     confirmModal->hide();
     confirmModal->disconnect();
 
@@ -31,13 +32,13 @@ void WordDefinitionPage::setWord(const QString& word) {
         GlobalVar::currentDictionary->removeWordFromDictionary(word);
         confirmModal->releaseMouse();
         confirmModal->hide();
-        emit wordDeleted();
+        emit wordRemoved();
     });
 }
 
 WordDefinitionPage::~WordDefinitionPage() {
     delete keyWordLabel;
-    delete deleteButton;
+    delete removeButton;
     delete favoriteButton;
     delete editWord;
     delete confirmModal;

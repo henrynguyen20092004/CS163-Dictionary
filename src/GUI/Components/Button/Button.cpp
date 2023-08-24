@@ -1,19 +1,17 @@
 #include "Button.h"
 
-Button::Button(QWidget* parent, const char* buttonStyle, const QString &content)
+Button::Button(QWidget* parent, const char* buttonStyle, const QString& content)
     : QPushButton(parent) {
     setStyleSheet(buttonStyle);
     setText(content);
 }
 
 Button::Button(
-    QWidget* parent, const char* buttonStyle, const QString &content,
+    QWidget* parent, const char* buttonStyle, const QString& content,
     const QRect& geometry
 )
-    : QPushButton(parent) {
+    : Button(parent, buttonStyle, content) {
     setGeometry(geometry);
-    setStyleSheet(buttonStyle);
-    setText(content);
 }
 
 Button::Button(QWidget* parent, const char* imageSrc) : QPushButton(parent) {

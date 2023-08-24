@@ -11,7 +11,7 @@ HomePage::HomePage() : QWidget(nullptr) {
     wordDefinitionButton = new WordDefinitionButton(this);
     search = new Search(this);
     menu = new Menu(this);
-    successModal = new SuccessModal(this, "Word deleted successfully!");
+    successModal = new SuccessModal(this, "Word removed successfully!");
     searchResult = search->getSearchResult();
 
     installEventFilter(searchResult);
@@ -57,7 +57,7 @@ void HomePage::setAllButtonsDisabled(bool disabled) {
     }
 }
 
-void HomePage::deleteWordSuccess() { successModal->show(); }
+void HomePage::removeWordSuccess() { successModal->show(); }
 
 HomePage::~HomePage() {
     delete background;

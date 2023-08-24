@@ -14,6 +14,7 @@ class FavoriteWord : public QWidget {
     FavoriteWord(QWidget *parent, const QString &word, int index);
     ~FavoriteWord();
     Button *getFavoriteWordButton();
+    Button *getRemoveButton();
 };
 
 #endif

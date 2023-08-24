@@ -29,7 +29,7 @@ class HomePage : public QWidget {
    public:
     HomePage();
     ~HomePage();
-    void deleteWordSuccess();
+    void removeWordSuccess();
 
    signals:
     void searchResultClicked(const QString& result);

@@ -66,17 +66,21 @@ void FavoriteList::addWord(const KeyWithDictName &data) {
     if (!head || head->data.key > data.key) {
         newNode->next = head;
         head = newNode;
+        saveList();
         return;
     }
 
-    for (Node *cur = head; cur->next; cur = cur->next) {
+    Node *cur;
+
+    for (cur = head; cur->next; cur = cur->next) {
         if (cur->next->data.key > data.key) {
             newNode->next = cur->next;
-            cur->next = newNode;
-            saveList();
-            return;
+            break;
         }
     }
+
+    cur->next = newNode;
+    saveList();
 }
 
 void FavoriteList::removeWord(const KeyWithDictName &data) {
