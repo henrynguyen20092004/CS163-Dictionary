@@ -4,18 +4,24 @@
 #include "../Modal.h"
 
 class ConfirmModal : public Modal {
-    Q_OBJECT
-
    private:
-    TextLabel *confirmTextLabel, *warningText, *cancelText;
+    TextLabel *confirmTextLabel, *warningTextLabel, *cancelTextLabel;
     Button *cancelButton;
+    static ConfirmModal *instance;
 
-   public:
-    ConfirmModal(QWidget *parent, const QString &confirmText);
+    ConfirmModal(QWidget *parent);
     ~ConfirmModal();
 
-   signals:
-    void okButtonClicked();
+   public:
+    static void createInstance(QWidget *parent);
+    static ConfirmModal *getInstance();
+    static Button *getInstanceOkButton();
+    static QString getInstanceConfirmText();
+    static void setInstanceConfirmText(const QString &confirmText);
+    static void showInstance();
+    static void hideInstance();
+    static void disconnectInstanceOkButton();
+    static void deleteInstance();
 };
 
 #endif

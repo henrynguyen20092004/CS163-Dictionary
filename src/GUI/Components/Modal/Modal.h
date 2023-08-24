@@ -15,9 +15,13 @@ class Modal : public QWidget {
     TextLabel *okText;
     Button *okButton;
 
-   public:
     Modal(QWidget *parent);
     ~Modal();
+    void setOtherWidgetsDisabled(bool disabled);
+
+   public:
+    Modal(Modal &other) = delete;
+    void operator=(const Modal &) = delete;
 };
 
 #endif

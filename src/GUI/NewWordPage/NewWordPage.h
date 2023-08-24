@@ -2,7 +2,6 @@
 #define NEW_WORD_PAGE_H
 
 #include "../Components/HeaderBar/HeaderBar.h"
-#include "../Components/Modal/SuccessModal/SuccessModal.h"
 #include "Components/NewWordArea/NewWordArea.h"
 
 class NewWordPage : public QWidget {
@@ -10,7 +9,6 @@ class NewWordPage : public QWidget {
     HeaderBar* headerBar;
     NewWordArea* newWordArea;
     Button* saveButton;
-    SuccessModal* successModal;
     TextLabel* errorLabel;
     const char* saveButtonStyle =
         "QPushButton {background-color: #119ECD; border-radius: "

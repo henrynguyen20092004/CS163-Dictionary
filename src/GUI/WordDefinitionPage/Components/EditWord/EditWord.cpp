@@ -1,5 +1,7 @@
 #include "EditWord.h"
 
+#include "../../../Components/Modal/SuccessModal/SuccessModal.h"
+
 EditWord::EditWord(QWidget* parent, QWidget* page) {
     addDefinitionLabel = new TextLabel(
         parent, "Add a definition", {62, 524, 180, 36},
@@ -14,7 +16,6 @@ EditWord::EditWord(QWidget* parent, QWidget* page) {
     discardButton =
         new Button(parent, "assets/DiscardButton.png", 32, 32, 384, 524);
     definitionArea = new DefinitionArea(parent);
-    successModal = new SuccessModal(page, "Word successfully updated!");
 
     saveButton->hide();
     discardButton->hide();
@@ -57,9 +58,9 @@ void EditWord::setWord(const QString& word) {
 
     CONNECT(saveButton, CLICKED, [=]() {
         definitionArea->saveDefinitions(word);
-        successModal->show();
         saveButton->hide();
         discardButton->hide();
+        SuccessModal::setInstanceSuccessText("Word successfully updated!");
     });
     CONNECT(discardButton, CLICKED, [=]() {
         definitionArea->setDefinitions(word);
@@ -75,6 +76,5 @@ EditWord::~EditWord() {
     delete addButton;
     delete saveButton;
     delete discardButton;
-    delete successModal;
     delete definitionArea;
 }

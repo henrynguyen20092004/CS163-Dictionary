@@ -1,14 +1,12 @@
 #ifndef EDIT_WORD_H
 #define EDIT_WORD_H
 
-#include "../../../Components/Modal/SuccessModal/SuccessModal.h"
 #include "Components/DefinitionArea/DefinitionArea.h"
 
 class EditWord {
    private:
     TextLabel *addDefinitionLabel, *errorLabel;
     Button *addButton, *saveButton, *discardButton;
-    SuccessModal *successModal;
     DefinitionArea *definitionArea;
     const char *saveButtonStyle =
         "QPushButton {background-color: #119ECD; border-radius: "

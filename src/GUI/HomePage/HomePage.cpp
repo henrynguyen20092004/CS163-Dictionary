@@ -1,5 +1,7 @@
 #include "HomePage.h"
 
+#include "../Components/Modal/SuccessModal/SuccessModal.h"
+
 HomePage::HomePage() : QWidget(nullptr) {
     setStyleSheet(mainStyle);
 
@@ -11,10 +13,10 @@ HomePage::HomePage() : QWidget(nullptr) {
     wordDefinitionButton = new WordDefinitionButton(this);
     search = new Search(this);
     menu = new Menu(this);
-    successModal = new SuccessModal(this, "Word removed successfully!");
-    searchResult = search->getSearchResult();
 
+    searchResult = search->getSearchResult();
     installEventFilter(searchResult);
+
     CONNECT(
         searchResult, &SearchResult::changeVisibility, this,
         &HomePage::setAllButtonsDisabled
@@ -57,8 +59,6 @@ void HomePage::setAllButtonsDisabled(bool disabled) {
     }
 }
 
-void HomePage::removeWordSuccess() { successModal->show(); }
-
 HomePage::~HomePage() {
     delete background;
     delete headerBar;
@@ -66,6 +66,5 @@ HomePage::~HomePage() {
     delete switchDictionaryButton;
     delete wordDefinitionButton;
     delete search;
-    delete successModal;
     delete menu;
 }

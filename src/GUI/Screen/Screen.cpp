@@ -1,6 +1,8 @@
 #include "Screen.h"
 
 #include "../Components/BackButton/BackButton.h"
+#include "../Components/Modal/ConfirmModal/ConfirmModal.h"
+#include "../Components/Modal/SuccessModal/SuccessModal.h"
 
 Screen::Screen() {
     stackedWidget = new QStackedWidget;
@@ -13,9 +15,11 @@ Screen::Screen() {
     historyPage = new HistoryPage;
 
     BackButton::createInstance(homePage);
+    ConfirmModal::createInstance(homePage);
+    SuccessModal::createInstance(homePage);
+
     stackedWidget->setWindowTitle("CSD");
-    stackedWidget->setFixedWidth(1280);
-    stackedWidget->setFixedHeight(720);
+    stackedWidget->setFixedSize(1280, 720);
     stackedWidget->addWidget(homePage);
     stackedWidget->show();
 
@@ -24,7 +28,7 @@ Screen::Screen() {
     });
     CONNECT(wordDefinitionPage, &WordDefinitionPage::wordRemoved, [=]() {
         removeCurrentWidget();
-        homePage->removeWordSuccess();
+        SuccessModal::setInstanceSuccessText("Word successfully removed!");
     });
     CONNECT(homePage, &HomePage::searchResultClicked, [=](const QString& word) {
         wordDefinitionPage->setWord(word);
@@ -39,9 +43,11 @@ Screen::Screen() {
         addWidget(historyPage);
     });
     CONNECT(homePage, &HomePage::wordQuizButtonClicked, [=]() {
+        wordQuizPage->getNewQuiz();
         addWidget(wordQuizPage);
     });
     CONNECT(homePage, &HomePage::definitionQuizButtonClicked, [=]() {
+        definitionQuizPage->getNewQuiz();
         addWidget(definitionQuizPage);
     });
     CONNECT(homePage, &HomePage::newWordButtonClicked, [=]() {
@@ -66,7 +72,10 @@ Screen::Screen() {
 void Screen::addWidget(QWidget* widget) {
     stackedWidget->addWidget(widget);
     stackedWidget->setCurrentWidget(widget);
+
     BackButton::getInstance()->setParent(widget);
+    ConfirmModal::getInstance()->setParent(widget);
+    SuccessModal::getInstance()->setParent(widget);
     BackButton::getInstance()->show();
 }
 
@@ -74,6 +83,8 @@ void Screen::removeCurrentWidget() {
     QWidget* currentWidget =
         stackedWidget->widget(stackedWidget->currentIndex() - 1);
     BackButton::getInstance()->setParent(currentWidget);
+    ConfirmModal::getInstance()->setParent(currentWidget);
+    SuccessModal::getInstance()->setParent(currentWidget);
 
     if (currentWidget == homePage) {
         BackButton::getInstance()->hide();
@@ -88,6 +99,9 @@ void Screen::removeCurrentWidget() {
 
 Screen::~Screen() {
     BackButton::deleteInstance();
+    ConfirmModal::deleteInstance();
+    SuccessModal::deleteInstance();
+
     delete homePage;
     delete wordDefinitionPage;
     delete favoriteListPage;
