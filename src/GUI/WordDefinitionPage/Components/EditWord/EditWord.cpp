@@ -51,9 +51,12 @@ void EditWord::setWord(const QString& word) {
     definitionArea->setDefinitions(word);
     saveButton->disconnect();
     discardButton->disconnect();
+    saveButton->hide();
+    errorLabel->hide();
+    discardButton->hide();
 
     CONNECT(saveButton, CLICKED, [=]() {
-        definitionArea->saveNewDefinitions(word);
+        definitionArea->saveDefinitions(word);
         successModal->show();
         saveButton->hide();
         discardButton->hide();

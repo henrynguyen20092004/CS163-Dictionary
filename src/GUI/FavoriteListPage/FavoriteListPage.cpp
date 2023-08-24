@@ -19,14 +19,29 @@ void FavoriteListPage::reload() {
          cur = cur->next) {
         if (cur->data.dictionaryName ==
             GlobalVar::currentDictionary->dictionaryName) {
-            favoriteWords.emplace_back(
-                new FavoriteWord(content, cur->data.key, favoriteWords.size())
-            );
+            FavoriteWord* favoriteWord =
+                new FavoriteWord(content, cur->data.key, favoriteWords.size());
+            favoriteWords.push_back(favoriteWord);
 
             CONNECT(
-                favoriteWords.back()->getFavoriteWordButton(), CLICKED, this,
+                favoriteWord->getFavoriteWordButton(), CLICKED, this,
                 [=]() { emit favoriteWordClicked(cur->data.key); }
             );
+            CONNECT(favoriteWord->getRemoveButton(), CLICKED, this, [=]() {
+                GlobalVar::data.favoriteList.removeWord(cur->data);
+
+                std::vector<FavoriteWord*>::iterator it = std::find(
+                    favoriteWords.begin(), favoriteWords.end(), favoriteWord
+                );
+
+                for (std::vector<FavoriteWord*>::iterator i = it + 1;
+                     i != favoriteWords.end(); ++i) {
+                    (*i)->move((*i)->x(), (*i)->y() - DISTANCE);
+                }
+
+                delete *it;
+                favoriteWords.erase(it);
+            });
         }
     }
 

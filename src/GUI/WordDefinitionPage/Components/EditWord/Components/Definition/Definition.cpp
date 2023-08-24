@@ -57,7 +57,7 @@ bool Definition::isWrongFormat() {
     QString definition = definitionInput->toPlainText().trimmed();
 
     return definition.isEmpty() ||
-           (GlobalVar::currentDictionary->dictionaryName != VE &&
+           (GlobalVar::currentDictionary->dictionaryName != EV &&
             definition.normalized(QString::NormalizationForm_D)
                 .contains(QRegularExpression("\\p{Mn}+")));
 }

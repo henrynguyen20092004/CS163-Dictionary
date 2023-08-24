@@ -20,7 +20,7 @@ class DefinitionArea : public VerticalLayoutBox {
     ~DefinitionArea();
     void setDefinitions(const QString& word);
     void addNewDefinition();
-    void saveNewDefinitions(const QString& word);
+    void saveDefinitions(const QString& word);
     bool isEditStateOn();
     bool isWrongFormat();
 

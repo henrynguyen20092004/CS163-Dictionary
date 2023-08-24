@@ -48,7 +48,12 @@ void Dictionary::saveData(
     }
 
     QTextStream fout(&file);
-    fout << '\n' << index << '\n' << (char)saveMode << '\n' << key << '\n';
+
+    if (file.size()) {
+        fout << '\n';
+    }
+
+    fout << index << '\n' << (char)saveMode << '\n' << key << '\n';
 
     if (saveMode != 'r') {
         for (const QString &definition : val) {

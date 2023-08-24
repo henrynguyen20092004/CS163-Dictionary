@@ -22,9 +22,9 @@ Screen::Screen() {
     CONNECT(BackButton::getInstance(), CLICKED, [=]() {
         removeCurrentWidget();
     });
-    CONNECT(wordDefinitionPage, &WordDefinitionPage::wordDeleted, [=]() {
+    CONNECT(wordDefinitionPage, &WordDefinitionPage::wordRemoved, [=]() {
         removeCurrentWidget();
-        homePage->deleteWordSuccess();
+        homePage->removeWordSuccess();
     });
     CONNECT(homePage, &HomePage::searchResultClicked, [=](const QString& word) {
         wordDefinitionPage->setWord(word);

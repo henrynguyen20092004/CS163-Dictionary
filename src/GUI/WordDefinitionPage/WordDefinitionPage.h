@@ -6,16 +6,16 @@
 #include "../Components/Modal/ConfirmModal/ConfirmModal.h"
 #include "../Page/Page.h"
 #include "Components/EditWord/EditWord.h"
+#include "Components/FavoriteButton/FavoriteButton.h"
 
 class WordDefinitionPage : public Page {
     Q_OBJECT
 
    private:
     TextLabel *keyWordLabel;
-    Button *deleteButton, *favoriteButton;
+    Button *removeButton;
+    FavoriteButton* favoriteButton;
     EditWord *editWord;
-    TextLabel *wordLabel, *addDefinitionLabel;
-    Button *addButton;
     ConfirmModal *confirmModal;
     std::vector<Definition *> definitions;
 
@@ -27,7 +27,7 @@ class WordDefinitionPage : public Page {
     void setWord(const QString &word);
 
    signals:
-    void wordDeleted();
+    void wordRemoved();
 };
 
 #endif
