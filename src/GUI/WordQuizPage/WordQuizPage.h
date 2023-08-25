@@ -4,11 +4,9 @@
 #include "../QuizPage/QuizPage.h"
 
 class WordQuizPage : public QuizPage {
-   private:
-    void getNewQuiz();
-
    public:
     WordQuizPage();
+    void getNewQuiz() override;
 };
 
 #endif

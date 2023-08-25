@@ -1,6 +1,7 @@
 #include "Menu.h"
 
 #include "../../../Components/HeaderBar/HeaderBar.h"
+#include "../../../Components/Modal/ConfirmModal/ConfirmModal.h"
 
 #define BUTTON_WIDTH 224
 #define BUTTON_HEIGHT 64
@@ -28,21 +29,11 @@ Menu::Menu(QWidget* parent) : QWidget(parent) {
     }
 
     CONNECT(toggleButton, CLICKED, [=]() { toggle(); });
-    CONNECT(
-        resetCurrentDictionaryButton, &ResetButton::hideOtherConfirmModal,
-        [=]() { resetAllDictionariesButton->hideConfirmModal(); }
-    );
-    CONNECT(
-        resetAllDictionariesButton, &ResetButton::hideOtherConfirmModal,
-        [=]() { resetCurrentDictionaryButton->hideConfirmModal(); }
-    );
 }
 
 void Menu::toggle() {
     if (isVisible()) {
         hide();
-        resetCurrentDictionaryButton->hideConfirmModal();
-        resetAllDictionariesButton->hideConfirmModal();
         toggleButton->setIcon(QIcon(toggleOnImageSrc));
     } else {
         show();

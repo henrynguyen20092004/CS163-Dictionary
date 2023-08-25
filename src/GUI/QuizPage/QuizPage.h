@@ -21,6 +21,8 @@ class QuizPage : public Page {
     MultipleChoice *choices[4];
     RandomList currentQuiz;
 
+    virtual void getNewQuiz();
+
    public:
     QuizPage(const char *titleText);
     ~QuizPage();

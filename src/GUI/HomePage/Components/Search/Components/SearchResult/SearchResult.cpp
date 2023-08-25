@@ -31,8 +31,7 @@ bool SearchResult::isWatching(QObject* watchingObject) {
         }
     }
 
-    return watchingObject == this || watchingObject == content ||
-           watchingObject == scrollArea;
+    return false;
 }
 
 bool SearchResult::eventFilter(QObject* watchingObject, QEvent* event) {

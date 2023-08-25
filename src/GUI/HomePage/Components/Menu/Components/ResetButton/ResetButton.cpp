@@ -1,46 +1,38 @@
 #include "ResetButton.h"
 
 #include "../../../../../../API/ResetDictionary/ResetDictionary.h"
+#include "../../../../../Components/Modal/ConfirmModal/ConfirmModal.h"
+#include "../../../../../Components/Modal/SuccessModal/SuccessModal.h"
 
 ResetButton::ResetButton(
     QWidget *parent, const char *buttonStyle, ResetType resetType
 ) {
+    QString confirmText =
+        "Are you sure you want to reset " +
+        QString(resetType ? "all dictionaries" : "current dictionary") + '?';
     resetButton = new Button(
         parent, buttonStyle,
         resetType ? "Reset all dictionaries" : "Reset current dictionary",
         {8, 416 + resetType * 80, 224, 64}
     );
-    confirmModal = new ConfirmModal(
-        parent->parentWidget(),
-        "Are you sure you want to reset " +
-            QString(resetType ? "all dictionaries" : "current dictionary") + '?'
-    );
-    successModal = new SuccessModal(
-        parent->parentWidget(), "Dictionar" + QString(resetType ? "ies" : "y") +
-                                    " successfully resetted!"
-    );
 
     CONNECT(resetButton, CLICKED, [=]() {
-        confirmModal->show();
-        emit hideOtherConfirmModal();
+        ConfirmModal::setInstanceConfirmText(confirmText);
+        connectConfirmModal(resetType);
     });
-    CONNECT(confirmModal, &ConfirmModal::okButtonClicked, [=]() {
-        confirmModal->grabMouse();
+}
+
+void ResetButton::connectConfirmModal(ResetType resetType) {
+    ConfirmModal::disconnectInstanceOkButton();
+
+    CONNECT(ConfirmModal::getInstanceOkButton(), CLICKED, [=]() {
         resetType ? resetAllDictionaries() : resetCurrentDictionary();
-        confirmModal->releaseMouse();
-        confirmModal->hide();
-        successModal->show();
+        ConfirmModal::hideInstance();
+        SuccessModal::setInstanceSuccessText(
+            "Dictionar" + QString(resetType ? "ies" : "y") +
+            " successfully reset!"
+        );
     });
 }
 
-void ResetButton::hideConfirmModal() {
-    if (confirmModal->isVisible()) {
-        confirmModal->hide();
-    }
-}
-
-ResetButton::~ResetButton() {
-    delete resetButton;
-    delete confirmModal;
-    delete successModal;
-}
+ResetButton::~ResetButton() { delete resetButton; }

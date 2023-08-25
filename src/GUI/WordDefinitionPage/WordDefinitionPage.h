@@ -3,7 +3,6 @@
 
 #include <vector>
 
-#include "../Components/Modal/ConfirmModal/ConfirmModal.h"
 #include "../Page/Page.h"
 #include "Components/EditWord/EditWord.h"
 #include "Components/FavoriteButton/FavoriteButton.h"
@@ -16,7 +15,6 @@ class WordDefinitionPage : public Page {
     Button *removeButton;
     FavoriteButton* favoriteButton;
     EditWord *editWord;
-    ConfirmModal *confirmModal;
     std::vector<Definition *> definitions;
 
    public:

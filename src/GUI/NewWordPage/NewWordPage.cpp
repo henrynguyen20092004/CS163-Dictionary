@@ -1,6 +1,7 @@
 #include "NewWordPage.h"
 
 #include "../../GlobalVar/GlobalVar.h"
+#include "../Components/Modal/SuccessModal/SuccessModal.h"
 
 NewWordPage::NewWordPage() {
     setStyleSheet("font-family: Segoe UI; font-size: 20pt;");
@@ -8,7 +9,6 @@ NewWordPage::NewWordPage() {
     headerBar = new HeaderBar(this, "NEW WORD");
     newWordArea = new NewWordArea(this);
     saveButton = new Button(this, saveButtonStyle, "SAVE", {527, 666, 192, 40});
-    successModal = new SuccessModal(this, "Add a new word successfully!");
     errorLabel = new TextLabel(
         this, "", {320, 664, 668, 36},
         "color: red; font-size: 30px; font-weight: 700;"
@@ -23,7 +23,7 @@ NewWordPage::NewWordPage() {
     );
     CONNECT(saveButton, CLICKED, [=]() {
         newWordArea->saveNewWord();
-        successModal->show();
+        SuccessModal::setInstanceSuccessText("New word successfully added!");
     });
 }
 
@@ -43,5 +43,4 @@ NewWordPage::~NewWordPage() {
     delete headerBar;
     delete newWordArea;
     delete saveButton;
-    delete successModal;
 }

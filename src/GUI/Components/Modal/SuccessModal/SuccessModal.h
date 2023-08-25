@@ -6,10 +6,18 @@
 class SuccessModal : public Modal {
    private:
     TextLabel *successTextLabel;
+    static SuccessModal *instance;
+
+    SuccessModal(QWidget *parent);
+    ~SuccessModal();
 
    public:
-    SuccessModal(QWidget *parent, const QString &successText);
-    ~SuccessModal();
+    static void createInstance(QWidget *parent);
+    static SuccessModal *getInstance();
+    static void setInstanceSuccessText(const QString &successText);
+    static void showInstance();
+    static void hideInstance();
+    static void deleteInstance();
 };
 
 #endif

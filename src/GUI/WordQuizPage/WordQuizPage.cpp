@@ -2,14 +2,10 @@
 
 #include "../../GlobalVar/GlobalVar.h"
 
-WordQuizPage::WordQuizPage() : QuizPage("WORD QUIZ") {
-    getNewQuiz();
-    CONNECT(next, CLICKED, this, &WordQuizPage::getNewQuiz);
-}
+WordQuizPage::WordQuizPage() : QuizPage("WORD QUIZ") {}
 
 void WordQuizPage::getNewQuiz() {
-    result->hide();
-    currentQuiz = GlobalVar::currentDictionary->getFourRandomWords();
+    QuizPage::getNewQuiz();
 
     question->setText(
         "Choose the correct definition for: " +

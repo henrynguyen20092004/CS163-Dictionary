@@ -1,12 +1,16 @@
 #include "QuizPage.h"
 
+#include "../../GlobalVar/GlobalVar.h"
+
 QuizPage::QuizPage(const char *titleText) : Page(titleText) {
     question = new TextLabel(
         content, "", {20, 40, 744, 248}, "font-size: 25px; font-weight: 500;"
     );
     result = new TextLabel(content, "", {232, 508, 316, 28});
     submit = new Button(
-        content, "background-color: #00B0F0; color:white; font-size: 25px",
+        content,
+        "background-color: #00B0F0; color:white; font-size: 22px; "
+        "border-radius: 10px;",
         "SUBMIT", {304, 540, 172, 50}
     );
     next = new Button(
@@ -19,6 +23,7 @@ QuizPage::QuizPage(const char *titleText) : Page(titleText) {
     }
 
     CONNECT(submit, CLICKED, this, &QuizPage::checkAnswer);
+    CONNECT(next, CLICKED, this, [=]() { getNewQuiz(); });
 }
 
 void QuizPage::checkAnswer() {
@@ -39,6 +44,11 @@ void QuizPage::checkAnswer() {
     }
 
     result->setText("Please choose an option!");
+}
+
+void QuizPage::getNewQuiz() {
+    result->hide();
+    currentQuiz = GlobalVar::currentDictionary->getFourRandomWords();
 }
 
 QuizPage::~QuizPage() {
